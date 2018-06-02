@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 try:
     import setuptools
     from setuptools import setup, find_packages

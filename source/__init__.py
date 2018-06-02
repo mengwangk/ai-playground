@@ -1,1 +1,8 @@
-__import__('pkg_resources').declare_namespace(__name__)
+"""
+Finance source package
+
+Author: Koh Meng Wang
+
+"""
+
+from source.yahoofinance import *

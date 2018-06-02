@@ -2,4 +2,4 @@
 
 ## Overview
 
-Libraries to get the databases, clean and prepare the data for analysis.
+Libraries to get the datasets, clean and prepare the them for analysis.
