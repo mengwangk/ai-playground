@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/source_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/source_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/yahoofinance.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/yahoofinance.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="yahoofinance.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="yahoofinance.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="120">
+              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+              <folding>
+                <element signature="e#93#102#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,8 +30,11 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="380" column="6" selection-start-line="380" selection-start-column="6" selection-end-line="380" selection-end-column="6" />
+            <state relative-caret-position="136">
+              <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+              <folding>
+                <element signature="e#1836#1846#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,29 +42,11 @@
       <file leaf-file-name="source_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/source_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="358">
+              <caret line="36" column="91" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
               <folding>
                 <element signature="e#38#53#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -79,6 +65,10 @@
       <find>KLS</find>
       <find>self.ticker</find>
       <find>get_current</find>
+      <find>dividends</find>
+      <find>report_name</find>
+      <find>up_ticker</find>
+      <find>dividend</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,14 +82,15 @@
         <option value="$PROJECT_DIR$/source/googlefinance.py" />
         <option value="$PROJECT_DIR$/run_test.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/source/yahoofinance.py" />
-        <option value="$PROJECT_DIR$/source/source_test.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/source/__init__.py" />
+        <option value="$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py" />
+        <option value="$PROJECT_DIR$/source/source_test.py" />
+        <option value="$PROJECT_DIR$/source/yahoofinance.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -223,63 +214,96 @@
       <option name="project" value="LOCAL" />
       <updated>1527421900395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated files">
+      <created>1527908327490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527908327490</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated files">
+      <created>1528001142723</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528001142723</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_source_test_py - 2018.06.02 at 02h 00m 04s.xml">
+    <history-entry file="Unittests_in_source_test_py - 2018.06.03 at 12h 44m 44s.xml">
       <configuration name="Unittests in source_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_source_test_py - 2018.06.02 at 02h 02m 30s.xml">
+    <history-entry file="Unittests_in_source_test_py - 2018.06.03 at 12h 45m 17s.xml">
       <configuration name="Unittests in source_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_source_test_py - 2018.06.02 at 02h 03m 55s.xml">
+    <history-entry file="Unittests_in_source_test_py - 2018.06.03 at 12h 57m 27s.xml">
       <configuration name="Unittests in source_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_source_test_py - 2018.06.02 at 02h 05m 41s.xml">
+    <history-entry file="Unittests_in_source_test_py - 2018.06.03 at 12h 58m 22s.xml">
       <configuration name="Unittests in source_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_source_test_py - 2018.06.02 at 02h 06m 24s.xml">
+    <history-entry file="Unittests_in_source_test_py - 2018.06.03 at 12h 59m 08s.xml">
       <configuration name="Unittests in source_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_source_test_py - 2018.06.02 at 02h 10m 43s.xml">
+    <history-entry file="Unittests_in_source_test_py - 2018.06.03 at 12h 59m 53s.xml">
       <configuration name="Unittests in source_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_source_test_py - 2018.06.02 at 02h 13m 42s.xml">
+    <history-entry file="Unittests_in_source_test_py - 2018.06.03 at 13h 05m 32s.xml">
       <configuration name="Unittests in source_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_source_test_py - 2018.06.02 at 02h 13m 57s.xml">
+    <history-entry file="Unittests_in_source_test_py - 2018.06.03 at 13h 07m 33s.xml">
       <configuration name="Unittests in source_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_source_test_py - 2018.06.02 at 02h 14m 19s.xml">
+    <history-entry file="Unittests_in_source_test_py - 2018.06.03 at 13h 10m 48s.xml">
       <configuration name="Unittests in source_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_source_test_py - 2018.06.02 at 02h 16m 22s.xml">
+    <history-entry file="Unittests_in_source_test_py - 2018.06.03 at 13h 13m 10s.xml">
       <configuration name="Unittests in source_test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17986111" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.15856236" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44103774" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.307783" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37333333" />
+      <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3378882" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26545453" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.15902779" />
+      <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" visible="true" weight="0.15902779" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4068396" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44103774" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3378882" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -288,11 +312,19 @@
     <MESSAGE value="Updated files" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated files" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="e#93#102#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -300,11 +332,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5700">
           <caret line="380" column="6" selection-start-line="380" selection-start-column="6" selection-end-line="380" selection-end-column="6" />
+          <folding>
+            <element signature="e#1836#1846#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#93#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/source_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -320,11 +361,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+          <folding>
+            <element signature="e#1836#1846#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#93#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/source_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -340,11 +390,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+          <folding>
+            <element signature="e#1836#1846#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#93#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/source_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -360,6 +419,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+          <folding>
+            <element signature="e#1836#1846#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -397,20 +459,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/source_test.py">
+    <entry file="file://$PROJECT_DIR$/source/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#38#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="380" column="6" selection-start-line="380" selection-start-column="6" selection-end-line="380" selection-end-column="6" />
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -421,17 +473,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
+    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1266310093/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="206">
+          <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/__init__.py">
+    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="136">
+          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+          <folding>
+            <element signature="e#1836#1846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/source_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="36" column="91" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="e#93#102#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

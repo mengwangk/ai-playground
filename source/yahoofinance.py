@@ -35,7 +35,6 @@ class YahooFinanceSource(YahooFinancials):
     def _clean_historical_div_data(self, hist_data):
         data = {}
         for k, v in hist_data.items():
-            print('k {} v {}'.format(k,v))
             if 'date' in k.lower():
                 cleaned_date = self.format_date(v, 'standard')
                 dict_ent = {k: {u'' + 'formatted_date': cleaned_date, 'date': v}}
@@ -43,8 +42,10 @@ class YahooFinanceSource(YahooFinancials):
             elif isinstance(v, list):
                 sub_dict_list = []
                 for sub_dict in v:
-                    sub_dict[u'' + 'formatted_date'] = self.format_date(sub_dict['date'], 'standard')
-                    sub_dict_list.append(sub_dict)
+                    type = sub_dict.get('type', '')
+                    if (type.upper() == 'DIVIDEND'):
+                        sub_dict[u'' + 'formatted_date'] = self.format_date(sub_dict['date'], 'standard')
+                        sub_dict_list.append(sub_dict)
                 dict_ent = {k: sub_dict_list}
                 data.update(dict_ent)
             else:
@@ -65,7 +66,6 @@ class YahooFinanceSource(YahooFinancials):
     def _create_dict_ent_div(self, ticker, statement_type, tech_type, report_name, hist_obj):
         up_ticker = ticker.upper()
         YAHOO_URL = self._build_historical_dividend_url(up_ticker, hist_obj)
-        print(YAHOO_URL)
         re_data = self._scrape_dividend_data(YAHOO_URL, tech_type, statement_type)
         cleaned_re_data = self._clean_historical_div_data(re_data)
         dict_ent = {up_ticker: cleaned_re_data}
@@ -78,7 +78,8 @@ class YahooFinanceSource(YahooFinancials):
         start = self.format_date(start_date, 'unixstamp')
         end = self.format_date(end_date, 'unixstamp')
         hist_obj = {'start': start, 'end': end, 'interval': interval_code}
-        data = self.get_stock_data('history', hist_obj=hist_obj)
+        data = self.get_stock_dividend_data('history', hist_obj=hist_obj)
+        return data
 
 
     # Public Method to get stock data
