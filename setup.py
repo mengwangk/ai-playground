@@ -20,6 +20,6 @@ setup(name='myInvestor-toolkit',
       author='Koh Meng Wang',
       packages=find_packages(),
       url='https://mengwangk.github.io/',
-      install_requires=['pytest', 'pylint', 'yahoofinancials'],
+      install_requires=['pytest', 'pylint', 'yahoofinancials', 'pandas'],
       test_suite='setup.myInvestor_toolkit_test_suite'
       )
