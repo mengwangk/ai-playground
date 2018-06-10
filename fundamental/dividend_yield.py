@@ -10,11 +10,13 @@ class DividendYield():
     Fundamental analysis using dividend yield.
     """
 
-    # Default to current year
-    _END_DATE = dt.datetime.today().strftime('%Y-%m-%d')
-
     # Default to last 5 years
     _YEAR_INTERVAL = 5
+
+    _START_DATE = dt.date(dt.date.today().year - _YEAR_INTERVAL, 1, 1).strftime('%Y-%m-%d')
+
+    # Default to current year
+    _END_DATE = dt.datetime.today().strftime('%Y-%m-%d')
 
     # Default dataset directory
     _DATA_DIR = 'dataset'
@@ -22,14 +24,12 @@ class DividendYield():
     # Default generated file name
     _FILE_NAME = 'dividend_yield'
 
-    def __init__(self, ticker, year_interval = _YEAR_INTERVAL):
+    def __init__(self, ticker):
         """
         Constructor
         :param ticker: Symbol or list of symbols.
         """
         self.ticker = ticker
-        self._START_DATE = dt.date(dt.date.today().year - year_interval, 1, 1).strftime('%Y-%m-%d')
-
 
     def _file_path(self, file_name, base_dir):
         """
@@ -47,7 +47,7 @@ class DividendYield():
 
         :param start_date: History start date.
         :param end_date: History end date.
-        :param time_interval: Interval.
+        :param time_interval: Time interval.
         :return: Historical dividend data
         """
         yahooFinanceSource = YahooFinanceSource(self.ticker)
@@ -62,7 +62,7 @@ class DividendYield():
         :param base_dir: Base directory.
         :param start_date: History start date.
         :param end_date: History end date.
-        :param time_interval: Interval.
+        :param time_interval: Time interval.
         :return: Absolute path to the generated file.
         """
         abs_file_name = self._file_path(file_name, base_dir)
