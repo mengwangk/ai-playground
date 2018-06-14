@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/fundamental/dividend_yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamental/dividend_yield.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/KLS_dividend_yields.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/KLS_dividend_yields.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,38 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KLS_dividend_yields.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/KLS_dividend_yields.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39175">
-              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ticker.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/ticker.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2030">
-              <caret line="3772" column="31" lean-forward="true" selection-start-line="3772" selection-start-column="31" selection-end-line="3772" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stock.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="69" column="11" lean-forward="true" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-              <folding>
-                <element signature="e#111#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,6 +43,7 @@
       <find>None</find>
       <find>and</find>
       <find>0095.kl</find>
+      <find>5008.K</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,11 +92,6 @@
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
               <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
@@ -307,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528552747101</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated files">
+      <created>1528618413381</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528618413381</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated files">
+      <created>1528618470606</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1528618470606</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -541,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -719,27 +689,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLS_dividend_yields.csv">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39175">
-          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/ticker.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2030">
-          <caret line="3772" column="31" lean-forward="true" selection-start-line="3772" selection-start-column="31" selection-end-line="3772" selection-end-column="31" />
+        <state relative-caret-position="-640">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="69" column="11" lean-forward="true" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+        <state relative-caret-position="871">
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
           <folding>
             <element signature="e#111#130#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/ticker.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="3916" column="18" lean-forward="true" selection-start-line="3916" selection-start-column="18" selection-end-line="3916" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/KLS_dividend_yields.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1200">
+          <caret line="24" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
