@@ -17,6 +17,8 @@ class StockAnalysis:
 
     _TICKER_FILE = 'dataset/ticker.csv'
 
+    _CURRENT_PRICE_FILE = 'dataset/current_price.csv'
+
     def fund_update_dividend_yields_for_exchange(self, exchange):
         """
         Update existing dividend yield file.
@@ -27,7 +29,6 @@ class StockAnalysis:
 
         print('Updating dividend yields for {}'.format(exchange))
         df_dividend_data = pd.read_csv('dataset/{}_dividend_yields.csv'.format(exchange), dtype=str)
-
         # Check if dividend file exists
 
     def fund_get_dividend_yields_for_exchange(self, exchange, skip_if_exist=True):
@@ -36,7 +37,7 @@ class StockAnalysis:
 
         :param exchange: Exchange symbol.
         :param skip_if_exist: Skip if the dividend yields already in the file.
-        :return: None
+        :return: True on success, otherwise return False.
         """
         df_stocks = pd.read_csv(self._TICKER_FILE, dtype=str)
         df_stocks = df_stocks.loc[df_stocks['Exchange'] == exchange]
@@ -85,6 +86,24 @@ class StockAnalysis:
             except Exception as e:
                 print('Ooops...error with {} - {}'.format(ticker, str(e)))
                 continue
+
+            return True
+
+        return False
+
+    def get_current_prices(self, ticker, file_name=_CURRENT_PRICE_FILE):
+        """
+        Getting current prices into a file.
+
+        :param ticker: Ticket or a list of tickers
+        :param file_name: Output file name
+        :return: True on success, otherwise return False.
+        """
+        if isinstance(ticker, str):
+            print("Getting current for {}".format(ticker))
+        else:
+            for tick in ticker:
+
 
 
 def main():
