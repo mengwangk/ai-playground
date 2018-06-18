@@ -1,5 +1,5 @@
 """
-Fundamental analysis - dividend yield
+Fundamental analysis.
 
 Author: Koh Meng Wang
 

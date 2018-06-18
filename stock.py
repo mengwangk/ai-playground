@@ -17,7 +17,27 @@ class StockAnalysis:
 
     _TICKER_FILE = 'dataset/ticker.csv'
 
+    def fund_update_dividend_yields_for_exchange(self, exchange):
+        """
+        Update existing dividend yield file.
+
+        :param exchange: Exchange symbol.
+        :return: None
+        """
+
+        print('Updating dividend yields for {}'.format(exchange))
+        df_dividend_data = pd.read_csv('dataset/{}_dividend_yields.csv'.format(exchange), dtype=str)
+
+        # Check if dividend file exists
+
     def fund_get_dividend_yields_for_exchange(self, exchange, skip_if_exist=True):
+        """
+        Get dividends yields for the exchange.
+
+        :param exchange: Exchange symbol.
+        :param skip_if_exist: Skip if the dividend yields already in the file.
+        :return: None
+        """
         df_stocks = pd.read_csv(self._TICKER_FILE, dtype=str)
         df_stocks = df_stocks.loc[df_stocks['Exchange'] == exchange]
         df_stocks = df_stocks.set_index(['Ticker'])
@@ -29,10 +49,10 @@ class StockAnalysis:
 
         dividend_file = 'dataset/{}_dividend_yields.csv'.format(exchange)
         if (os.path.exists(dividend_file)):
-            dividend_data = pd.read_csv(dividend_file)
-            dividend_data = dividend_data.set_index(['symbol', 'date'])
+            df_dividend_data = pd.read_csv(dividend_file)
+            df_dividend_data = df_dividend_data.set_index(['symbol', 'date'])
         else:
-            dividend_data = pd.DataFrame()
+            df_dividend_data = pd.DataFrame()
 
         for ticker, row in df_stocks.iterrows():
             print('{} / {} - Getting dividend yields for {}'.format(index, count, ticker))
@@ -40,7 +60,7 @@ class StockAnalysis:
 
             # Skip if already exist
             if (skip_if_exist):
-                if not dividend_data.empty and ticker in dividend_data.index:
+                if not df_dividend_data.empty and ticker in df_dividend_data.index:
                     print('Skipping {}'.format(ticker))
                     continue
 
@@ -57,11 +77,11 @@ class StockAnalysis:
                         df_dividend = pd.DataFrame(dividend_list)
                         df_dividend['symbol'] = symbol
                         df_dividend = df_dividend.set_index(['symbol', 'date'])
-                        if (dividend_data.empty):
-                            dividend_data = df_dividend
+                        if (df_dividend_data.empty):
+                            df_dividend_data = df_dividend
                         else:
-                            dividend_data = dividend_data.combine_first(df_dividend)
-                        dividend_data.to_csv(dividend_file, encoding='utf-8')
+                            df_dividend_data = df_dividend_data.combine_first(df_dividend)
+                        df_dividend_data.to_csv(dividend_file, encoding='utf-8')
             except Exception as e:
                 print('Ooops...error with {} - {}'.format(ticker, str(e)))
                 continue
