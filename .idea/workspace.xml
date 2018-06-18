@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/KLS_selected_equities.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fundamental/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamental/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +18,20 @@
       <file leaf-file-name="stock.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
+            <state relative-caret-position="205">
               <caret line="85" column="57" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="57" />
               <folding>
                 <element signature="e#111#130#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KLS_selected_equities.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataset/KLS_selected_equities.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="365" column="41" lean-forward="true" selection-start-line="365" selection-start-column="41" selection-end-line="365" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -40,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KLS_dividend_yields.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KLS_dividend_yields.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataset/KLS_dividend_yields.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="272">
+              <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="150" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -94,7 +102,7 @@
       <find>malaysia</find>
       <find>KLS</find>
       <find>kls</find>
-      <find />
+      <find>df = df.set_index(['symbol', 'date'])</find>
       <find>6599.kl</find>
       <find>df_stocks</find>
       <find>1370912400</find>
@@ -102,6 +110,11 @@
       <find>and</find>
       <find>0095.kl</find>
       <find>5008.K</find>
+      <find>0011.KL</find>
+      <find>format</find>
+      <find>0090.KL</find>
+      <find>2018</find>
+      <find>tasek</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -348,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528618470606</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated files">
+      <created>1529325149715</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1529325149715</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -395,7 +415,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.12966879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.21705426" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23974359" />
@@ -720,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
+        <state relative-caret-position="205">
           <caret line="85" column="57" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="57" />
           <folding>
             <element signature="e#111#130#0" expanded="true" />
@@ -730,8 +750,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset/KLS_dividend_yields.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="272">
+          <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="150" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/KLS_selected_equities.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="365" column="41" lean-forward="true" selection-start-line="365" selection-start-column="41" selection-end-line="365" selection-end-column="41" />
         </state>
       </provider>
     </entry>

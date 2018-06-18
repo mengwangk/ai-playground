@@ -1,0 +1,1281 @@
+symbol,name,amount,year
+0008.KL,WILLOWGLEN MSC BHD,0.02,2015
+0008.KL,WILLOWGLEN MSC BHD,0.02,2016
+0008.KL,WILLOWGLEN MSC BHD,0.02,2017
+0011.KL,BRITE-TECH BHD,0.0189,2015
+0011.KL,BRITE-TECH BHD,0.0136,2016
+0011.KL,BRITE-TECH BHD,0.016,2017
+0012.KL,THREE-A RESOURCES BHD,0.014,2015
+0012.KL,THREE-A RESOURCES BHD,0.018,2016
+0012.KL,THREE-A RESOURCES BHD,0.018,2017
+0023.KL,IFCA MSC BHD,0.01,2015
+0023.KL,IFCA MSC BHD,0.01,2016
+0023.KL,IFCA MSC BHD,0.005,2017
+0035.KL,OPCOM HOLDINGS BHD,0.015,2015
+0035.KL,OPCOM HOLDINGS BHD,0.02,2016
+0035.KL,OPCOM HOLDINGS BHD,0.02,2017
+0037.KL,RGB INTERNATIONAL BHD,0.002,2015
+0037.KL,RGB INTERNATIONAL BHD,0.005,2016
+0037.KL,RGB INTERNATIONAL BHD,0.006,2017
+0049.KL,OCEANCASH PACIFIC BHD,0.007,2015
+0049.KL,OCEANCASH PACIFIC BHD,0.007,2016
+0049.KL,OCEANCASH PACIFIC BHD,0.008,2017
+0050.KL,SYSTECH BHD,0.006,2015
+0050.KL,SYSTECH BHD,0.002,2016
+0050.KL,SYSTECH BHD,0.003,2017
+0054.KL,KARYON INDUSTRIES BHD,0.004,2015
+0054.KL,KARYON INDUSTRIES BHD,0.003,2016
+0054.KL,KARYON INDUSTRIES BHD,0.003,2017
+0058.KL,JCBNEXT BERHAD,0.06875,2015
+0058.KL,JCBNEXT BERHAD,0.01625,2016
+0058.KL,JCBNEXT BERHAD,0.02,2017
+0065.KL,EXCEL FORCE MSC BHD,0.03,2015
+0065.KL,EXCEL FORCE MSC BHD,0.02,2016
+0065.KL,EXCEL FORCE MSC BHD,0.025,2017
+0078.KL,GD EXPRESS CARRIER BHD,0.01125,2015
+0078.KL,GD EXPRESS CARRIER BHD,0.01,2016
+0078.KL,GD EXPRESS CARRIER BHD,0.01,2017
+0078.KL,GD EXPRESS CARRIER BHD,0.0025,2018
+0089.KL,TEX CYCLE TECHNOLOGY (M) BHD,0.0075,2015
+0089.KL,TEX CYCLE TECHNOLOGY (M) BHD,0.005,2016
+0089.KL,TEX CYCLE TECHNOLOGY (M) BHD,0.011,2017
+0090.KL,ELSOFT RESEARCH BHD,0.09,2015
+0090.KL,ELSOFT RESEARCH BHD,0.1,2016
+0090.KL,ELSOFT RESEARCH BHD,0.07,2017
+0097.KL,VITROX CORPORATION BHD,0.02,2015
+0097.KL,VITROX CORPORATION BHD,0.03,2016
+0097.KL,VITROX CORPORATION BHD,0.055,2017
+0099.KL,SCICOM (MSC) BHD,0.08,2015
+0099.KL,SCICOM (MSC) BHD,0.09,2016
+0099.KL,SCICOM (MSC) BHD,0.07,2017
+0101.KL,TMC LIFE SCIENCES BHD,0.0014,2015
+0101.KL,TMC LIFE SCIENCES BHD,0.00154,2017
+0101.KL,TMC LIFE SCIENCES BHD,0.00167,2018
+0105.KL,ASIA POLY HOLDINGS BHD,0.005,2015
+0105.KL,ASIA POLY HOLDINGS BHD,0.005,2016
+0105.KL,ASIA POLY HOLDINGS BHD,0.005,2017
+0106.KL,REXIT BHD,0.015,2015
+0106.KL,REXIT BHD,0.05,2016
+0106.KL,REXIT BHD,0.03,2017
+0108.KL,N2N CONNECT BHD,0.01,2015
+0108.KL,N2N CONNECT BHD,0.02,2016
+0108.KL,N2N CONNECT BHD,0.01,2017
+0112.KL,MIKRO MSC BERHAD,0.01,2015
+0112.KL,MIKRO MSC BERHAD,0.011,2016
+0112.KL,MIKRO MSC BERHAD,0.016,2017
+0113.KL,MMS VENTURES BHD,0.02,2015
+0113.KL,MMS VENTURES BHD,0.02,2016
+0113.KL,MMS VENTURES BHD,0.03,2017
+0138.KL,MY E.G. SERVICES BHD,0.025,2015
+0138.KL,MY E.G. SERVICES BHD,0.032,2016
+0138.KL,MY E.G. SERVICES BHD,0.01,2017
+0138.KL,MY E.G. SERVICES BHD,0.012,2018
+0146.KL,JF TECHNOLOGY BHD,0.01,2015
+0146.KL,JF TECHNOLOGY BHD,0.005,2016
+0146.KL,JF TECHNOLOGY BHD,0.02,2017
+0149.KL,FIBON BERHAD,0.021,2015
+0149.KL,FIBON BERHAD,0.0125,2016
+0149.KL,FIBON BERHAD,0.011,2017
+0158.KL,SCC HOLDINGS BERHAD,0.05,2015
+0158.KL,SCC HOLDINGS BERHAD,0.05,2016
+0158.KL,SCC HOLDINGS BERHAD,0.116,2017
+0166.KL,INARI AMERTRON BERHAD,0.085,2015
+0166.KL,INARI AMERTRON BERHAD,0.079,2016
+0166.KL,INARI AMERTRON BERHAD,0.086,2017
+0168.KL,BOILERMECH HOLDINGS BHD,0.0175,2015
+0168.KL,BOILERMECH HOLDINGS BHD,0.015,2016
+0168.KL,BOILERMECH HOLDINGS BHD,0.015,2017
+0171.KL,PETERLABS HOLDINGS BHD,0.005,2015
+0171.KL,PETERLABS HOLDINGS BHD,0.014,2016
+0171.KL,PETERLABS HOLDINGS BHD,0.006,2018
+0820EA.KL,FTSE Bursa Malaysia KLCI ETF,0,2015
+0820EA.KL,FTSE Bursa Malaysia KLCI ETF,0.033,2016
+0820EA.KL,FTSE Bursa Malaysia KLCI ETF,0.033,2017
+0821EA.KL,DJIM25,0.033,2015
+0821EA.KL,DJIM25,0.0237,2016
+0821EA.KL,DJIM25,0.0223,2017
+0821EA.KL,DJIM25,0.0239,2018
+0822EA.KL,CIMB FTSE Asean 40 Malaysia Fund,0,2015
+0822EA.KL,CIMB FTSE Asean 40 Malaysia Fund,0.0656,2016
+0822EA.KL,CIMB FTSE Asean 40 Malaysia Fund,0.0739,2017
+0824EA.KL,MyETF MSCI Malaysia Islamic Dividend,0.0315,2016
+0824EA.KL,MyETF MSCI Malaysia Islamic Dividend,0.0152,2017
+0824EA.KL,MyETF MSCI Malaysia Islamic Dividend,0.0281,2018
+0825EA.KL,MyETF MSCI SEA ISLAMIC DIVIDEND,0.0215,2016
+0825EA.KL,MyETF MSCI SEA ISLAMIC DIVIDEND,0.0234,2017
+0825EA.KL,MyETF MSCI SEA ISLAMIC DIVIDEND,0.0151,2018
+1007.KL,Amcorp Properties Berhad,0.03,2015
+1007.KL,Amcorp Properties Berhad,0.03,2016
+1007.KL,Amcorp Properties Berhad,0.03,2017
+1007PA.KL,Amcorp Properties Berhad,0.02,2015
+1007PA.KL,Amcorp Properties Berhad,0.02,2016
+1007PA.KL,Amcorp Properties Berhad,0.02,2017
+1015.KL,AMMB Holdings Berhad,0.203,2015
+1015.KL,AMMB Holdings Berhad,0.155,2016
+1015.KL,AMMB Holdings Berhad,0.176,2017
+1023.KL,CIMB Group Holdings Berhad,0.08,2015
+1023.KL,CIMB Group Holdings Berhad,0.19,2016
+1023.KL,CIMB Group Holdings Berhad,0.25,2017
+1058.KL,Manulife Holdings Berhad,0.1,2015
+1058.KL,Manulife Holdings Berhad,0.09,2016
+1058.KL,Manulife Holdings Berhad,0.105,2017
+1066.KL,RHB Capital Berhad,0.06,2015
+1066.KL,RHB Capital Berhad,0.17,2016
+1066.KL,RHB Capital Berhad,0.12,2017
+1082.KL,Hong Leong Financial Group Berhad,0.38,2015
+1082.KL,Hong Leong Financial Group Berhad,0.38,2016
+1082.KL,Hong Leong Financial Group Berhad,0.38,2017
+1155.KL,Malayan Banking Berhad,0.57,2015
+1155.KL,Malayan Banking Berhad,0.5,2016
+1155.KL,Malayan Banking Berhad,0.45,2017
+1163.KL,Allianz Malaysia Berhad,0.05,2015
+1163.KL,Allianz Malaysia Berhad,0.065,2016
+1163.KL,Allianz Malaysia Berhad,0.09,2017
+1163.KL,Allianz Malaysia Berhad,0.12,2018
+1163PA.KL,Allianz Malaysia Berhad,0.06,2015
+1163PA.KL,Allianz Malaysia Berhad,0.078,2016
+1163PA.KL,Allianz Malaysia Berhad,0.108,2017
+1163PA.KL,Allianz Malaysia Berhad,0.144,2018
+1171.KL,Malaysia Building Society Bhd,0.1,2015
+1171.KL,Malaysia Building Society Bhd,0.03,2016
+1171.KL,Malaysia Building Society Bhd,0.03,2017
+1198.KL,MAA Group Berhad,0.06,2015
+1198.KL,MAA Group Berhad,0.06,2016
+1198.KL,MAA Group Berhad,0.09,2017
+1295.KL,Public Bank Berhad,0.55,2015
+1295.KL,Public Bank Berhad,0.58,2016
+1295.KL,Public Bank Berhad,0.59,2017
+1368.KL,UEM Edgenta Berhad,0.05,2015
+1368.KL,UEM Edgenta Berhad,0.15,2016
+1368.KL,UEM Edgenta Berhad,0.15,2017
+1481.KL,Advance Synergy Berhad,0.0025,2015
+1481.KL,Advance Synergy Berhad,0.0025,2016
+1481.KL,Advance Synergy Berhad,0.0025,2017
+1503.KL,GuocoLand (Malaysia) Berhad,0.02,2015
+1503.KL,GuocoLand (Malaysia) Berhad,0.02,2016
+1503.KL,GuocoLand (Malaysia) Berhad,0.02,2017
+1538.KL,Symphony Life Berhad,0.05,2015
+1538.KL,Symphony Life Berhad,0.02,2016
+1538.KL,Symphony Life Berhad,0.06,2017
+1562.KL,Berjaya Sports Toto Berhad,0.185,2015
+1562.KL,Berjaya Sports Toto Berhad,0.18,2016
+1562.KL,Berjaya Sports Toto Berhad,0.14,2017
+1562.KL,Berjaya Sports Toto Berhad,0.04,2018
+1619.KL,DRB-HICOM Berhad,0.06,2015
+1619.KL,DRB-HICOM Berhad,0.02,2016
+1619.KL,DRB-HICOM Berhad,0.01,2017
+1651.KL,Malaysian Resources Corporation Berhad,0.025,2015
+1651.KL,Malaysian Resources Corporation Berhad,0.025,2016
+1651.KL,Malaysian Resources Corporation Berhad,0.055,2017
+1724.KL,Paramount Corporation Berhad,0.075,2015
+1724.KL,Paramount Corporation Berhad,0.0825,2016
+1724.KL,Paramount Corporation Berhad,0.085,2017
+1783.KL,Selangor Properties Bhd,0.12,2015
+1783.KL,Selangor Properties Bhd,0.12,2016
+1783.KL,Selangor Properties Bhd,0.12,2017
+1818.KL,Bursa Malaysia Berhad,0.345,2015
+1818.KL,Bursa Malaysia Berhad,0.35,2016
+1818.KL,Bursa Malaysia Berhad,0.37,2017
+1899.KL,Batu Kawan Berhad,1.05,2015
+1899.KL,Batu Kawan Berhad,0.5,2016
+1899.KL,Batu Kawan Berhad,0.55,2017
+1899.KL,Batu Kawan Berhad,0.45,2018
+1929.KL,Chin Teck Plantations Berhad,0.16,2015
+1929.KL,Chin Teck Plantations Berhad,0.16,2016
+1929.KL,Chin Teck Plantations Berhad,0.19,2017
+1929.KL,Chin Teck Plantations Berhad,0.1,2018
+1961.KL,IOI Corp.Bhd,0.09,2015
+1961.KL,IOI Corp.Bhd,0.08,2016
+1961.KL,IOI Corp.Bhd,0.095,2017
+2038.KL,Negri Sembilan Oil Palms Berhad,0.06,2015
+2038.KL,Negri Sembilan Oil Palms Berhad,0.06,2016
+2038.KL,Negri Sembilan Oil Palms Berhad,0.06,2017
+2054.KL,TDM Berhad,0.015,2015
+2054.KL,TDM Berhad,0.012,2016
+2054.KL,TDM Berhad,0.004545,2017
+2062.KL,Harbour-Link Group Berhad,0.055,2015
+2062.KL,Harbour-Link Group Berhad,0.02,2016
+2062.KL,Harbour-Link Group Berhad,0.015,2017
+2089.KL,United Plantations Bhd,0.4,2015
+2089.KL,United Plantations Bhd,0.4,2016
+2089.KL,United Plantations Bhd,0.4,2017
+2135.KL,Gopeng Bhd,0.03,2015
+2135.KL,Gopeng Bhd,0.04,2016
+2135.KL,Gopeng Bhd,0.04,2017
+2186.KL,Kuchai Development Bhd,0.001,2015
+2186.KL,Kuchai Development Bhd,0.001,2016
+2186.KL,Kuchai Development Bhd,0.0097,2017
+2194.KL,MMC Corporation Bhd,0.035,2015
+2194.KL,MMC Corporation Bhd,0.038,2016
+2194.KL,MMC Corporation Bhd,0.04,2017
+2216.KL,IJM Plantations Berhad,0.06,2015
+2216.KL,IJM Plantations Berhad,0.05,2016
+2216.KL,IJM Plantations Berhad,0.07,2017
+2224.KL,Selangor Dredging Bhd,0.03,2015
+2224.KL,Selangor Dredging Bhd,0.025,2016
+2224.KL,Selangor Dredging Bhd,0.025,2017
+2291.KL,Genting Plantations Berhad,0.065,2015
+2291.KL,Genting Plantations Berhad,0.05,2016
+2291.KL,Genting Plantations Berhad,0.215,2017
+2305.KL,TAHPS Group Berhad,0.32,2015
+2305.KL,TAHPS Group Berhad,0.1,2016
+2305.KL,TAHPS Group Berhad,0.05,2017
+2445.KL,Kuala Lumpur Kepong Berhad,0.55,2015
+2445.KL,Kuala Lumpur Kepong Berhad,0.45,2016
+2445.KL,Kuala Lumpur Kepong Berhad,0.5,2017
+2445.KL,Kuala Lumpur Kepong Berhad,0.35,2018
+2453.KL,Kluang Rubber Co. Malaya Bhd,0.01,2015
+2453.KL,Kluang Rubber Co. Malaya Bhd,0.01,2016
+2453.KL,Kluang Rubber Co. Malaya Bhd,0.01,2017
+2488.KL,Alliance Financial Group Berhad.,0.144,2015
+2488.KL,Alliance Financial Group Berhad.,0.15,2016
+2488.KL,Alliance Financial Group Berhad.,0.16,2017
+2569.KL,Sungei Bagan Rubber Co. Malaya Bhd,0.02,2015
+2569.KL,Sungei Bagan Rubber Co. Malaya Bhd,0.02,2016
+2569.KL,Sungei Bagan Rubber Co. Malaya Bhd,0.02,2017
+2593.KL,United Malacca Berhad,0.16,2015
+2593.KL,United Malacca Berhad,0.16,2016
+2593.KL,United Malacca Berhad,0.2,2017
+2593.KL,United Malacca Berhad,0.06,2018
+2607.KL,Inch Kenneth Kajang Rubber Public Limited Company,0.002,2015
+2607.KL,Inch Kenneth Kajang Rubber Public Limited Company,0.002,2016
+2607.KL,Inch Kenneth Kajang Rubber Public Limited Company,0.002,2017
+2658.KL,Ajinomoto Malaysia Bhd,0.2,2015
+2658.KL,Ajinomoto Malaysia Bhd,0.3375,2016
+2658.KL,Ajinomoto Malaysia Bhd,0.42,2017
+2771.KL,Boustead Holdings Bhd,0.21,2015
+2771.KL,Boustead Holdings Bhd,0.18,2016
+2771.KL,Boustead Holdings Bhd,0.12,2017
+2836.KL,Carlsberg Brewery Malaysia Bhd,0.05,2015
+2836.KL,Carlsberg Brewery Malaysia Bhd,0.05,2016
+2836.KL,Carlsberg Brewery Malaysia Bhd,0.1,2017
+2852.KL,Cahya Mata Sarawak Bhd,0.085,2015
+2852.KL,Cahya Mata Sarawak Bhd,0.03,2016
+2852.KL,Cahya Mata Sarawak Bhd,0.063,2017
+2879.KL,Chemical Co. of Malaysia Bhd,0.025,2015
+2879.KL,Chemical Co. of Malaysia Bhd,0.05,2016
+2879.KL,Chemical Co. of Malaysia Bhd,0.025,2017
+2984.KL,FACB Industries Inc. Bhd,0.025,2015
+2984.KL,FACB Industries Inc. Bhd,0.025,2017
+2984.KL,FACB Industries Inc. Bhd,0.04,2018
+3026.KL,Dutch Lady Milk Industries Bhd,1,2015
+3026.KL,Dutch Lady Milk Industries Bhd,1,2016
+3026.KL,Dutch Lady Milk Industries Bhd,1,2017
+3034.KL,Hap Seng Consolidated Berhad,0.2,2015
+3034.KL,Hap Seng Consolidated Berhad,0.35,2016
+3034.KL,Hap Seng Consolidated Berhad,0.35,2017
+3069.KL,Mega First Corp. Bhd,0.08,2015
+3069.KL,Mega First Corp. Bhd,0.07,2016
+3069.KL,Mega First Corp. Bhd,0.05,2017
+3107.KL,Fima Corp. Bhd,0.125,2015
+3107.KL,Fima Corp. Bhd,0.125,2016
+3107.KL,Fima Corp. Bhd,0.125,2017
+3182.KL,Genting Berhad,0.03,2015
+3182.KL,Genting Berhad,0.035,2016
+3182.KL,Genting Berhad,0.145,2017
+3204.KL,George Kent (Malaysia) Berhad,0.056,2015
+3204.KL,George Kent (Malaysia) Berhad,0.085,2016
+3204.KL,George Kent (Malaysia) Berhad,0.095,2017
+3255.KL,Heineken Malaysia Berhad,0.71,2015
+3255.KL,Heineken Malaysia Berhad,0.55,2016
+3255.KL,Heineken Malaysia Berhad,1.6,2017
+3298.KL,Hexza Corporation Berhad,0.045,2015
+3298.KL,Hexza Corporation Berhad,0.045,2016
+3298.KL,Hexza Corporation Berhad,0.05,2017
+3301.KL,Hong Leong Industries Berhad,0.3,2015
+3301.KL,Hong Leong Industries Berhad,0.34,2016
+3301.KL,Hong Leong Industries Berhad,0.35,2017
+3336.KL,IJM Corporation Berhad,0.14,2015
+3336.KL,IJM Corporation Berhad,0.07,2016
+3336.KL,IJM Corporation Berhad,0.075,2017
+3379.KL,Insas Berhad,0.010175,2015
+3379.KL,Insas Berhad,0.01,2016
+3379.KL,Insas Berhad,0.01,2017
+3379.KL,Insas Berhad,0.01,2018
+3379PA.KL,Insas Berhad,0.06,2015
+3379PA.KL,Insas Berhad,0.04,2016
+3379PA.KL,Insas Berhad,0.04,2017
+3476.KL,Keck Seng Malaysia Bhd,0.1,2015
+3476.KL,Keck Seng Malaysia Bhd,0.1,2016
+3476.KL,Keck Seng Malaysia Bhd,0.1,2017
+3514.KL,Marco Holdings Berhad,0.002,2015
+3514.KL,Marco Holdings Berhad,0.007,2016
+3514.KL,Marco Holdings Berhad,0.005,2017
+3662.KL,Malayan Flour Mills Bhd,0.055,2015
+3662.KL,Malayan Flour Mills Bhd,0.05,2016
+3662.KL,Malayan Flour Mills Bhd,0.065,2017
+3689.KL,Fraser & Neave Holdings Bhd,0.55,2015
+3689.KL,Fraser & Neave Holdings Bhd,0.625,2016
+3689.KL,Fraser & Neave Holdings Bhd,0.575,2017
+3689.KL,Fraser & Neave Holdings Bhd,0.305,2018
+3719.KL,Panasonic Manufacturing Malaysia Berhad,0.5,2015
+3719.KL,Panasonic Manufacturing Malaysia Berhad,1.39,2016
+3719.KL,Panasonic Manufacturing Malaysia Berhad,1.17,2017
+3816.KL,MISC Berhad,0.135,2015
+3816.KL,MISC Berhad,0.325,2016
+3816.KL,MISC Berhad,0.41,2017
+3859.KL,Magnum Berhad,0.175,2015
+3859.KL,Magnum Berhad,0.135,2016
+3859.KL,Magnum Berhad,0.1,2017
+3867.KL,Malaysian Pacific Industries Berhad,0.21,2015
+3867.KL,Malaysian Pacific Industries Berhad,0.23,2016
+3867.KL,Malaysian Pacific Industries Berhad,0.29,2017
+3883.KL,Muda Holdings Berhad,0.03,2015
+3883.KL,Muda Holdings Berhad,0.03,2016
+3883.KL,Muda Holdings Berhad,0.03,2017
+3921.KL,MWE Holdings Bhd,0.02,2015
+3921.KL,MWE Holdings Bhd,0.02,2016
+3921.KL,MWE Holdings Bhd,0.02,2017
+4006.KL,Oriental Holdings Bhd,0.18,2015
+4006.KL,Oriental Holdings Bhd,0.18,2016
+4006.KL,Oriental Holdings Bhd,0.2,2017
+4065.KL,PPB Group Berhad,0.24,2015
+4065.KL,PPB Group Berhad,0.25,2016
+4065.KL,PPB Group Berhad,0.25,2017
+4162.KL,British American Tobacco Malaysia Bhd,3.12,2015
+4162.KL,British American Tobacco Malaysia Bhd,2.33,2016
+4162.KL,British American Tobacco Malaysia Bhd,2.03,2017
+4197.KL,Sime Darby Berhad,0.25,2015
+4197.KL,Sime Darby Berhad,0.27,2016
+4197.KL,Sime Darby Berhad,0.23,2017
+4243.KL,WTK Holdings Bhd,0.0183,2015
+4243.KL,WTK Holdings Bhd,0.0249,2016
+4243.KL,WTK Holdings Bhd,0.02,2017
+4251.KL,I-Berhad,0.0151,2015
+4251.KL,I-Berhad,0.013,2016
+4251.KL,I-Berhad,0.0188,2017
+4383.KL,Jaya Tiasa Holdings Berhad,0.01,2015
+4383.KL,Jaya Tiasa Holdings Berhad,0.013,2016
+4383.KL,Jaya Tiasa Holdings Berhad,0.005,2017
+4405.KL,Tan Chong Motor Holdings Bhd,0.05,2015
+4405.KL,Tan Chong Motor Holdings Bhd,0.04,2016
+4405.KL,Tan Chong Motor Holdings Bhd,0.02,2017
+4448.KL,Tasek Corporation Berhad,0.9,2015
+4448.KL,Tasek Corporation Berhad,0.8,2016
+4448.KL,Tasek Corporation Berhad,0.6,2017
+4502.KL,Media Prima Bhd,0.1,2015
+4502.KL,Media Prima Bhd,0.09,2016
+4502.KL,Media Prima Bhd,0.04,2017
+4634.KL,Pos Malaysia Berhad,0.131,2015
+4634.KL,Pos Malaysia Berhad,0.117,2016
+4634.KL,Pos Malaysia Berhad,0.107,2017
+4677.KL,YTL Corporation Berhad,0.095,2015
+4677.KL,YTL Corporation Berhad,0.095,2016
+4677.KL,YTL Corporation Berhad,0.04902,2017
+4707.KL,Nestlé (Malaysia) Berhad,3.05,2015
+4707.KL,Nestlé (Malaysia) Berhad,2.5,2016
+4707.KL,Nestlé (Malaysia) Berhad,2.7,2017
+4715.KL,Genting Malaysia Berhad,0.063,2015
+4715.KL,Genting Malaysia Berhad,0.073,2016
+4715.KL,Genting Malaysia Berhad,0.102,2017
+4731.KL,Scientex Berhad,0.22,2015
+4731.KL,Scientex Berhad,0.35,2016
+4731.KL,Scientex Berhad,0.16,2017
+4863.KL,Telekom Malaysia Berhad,0.227,2015
+4863.KL,Telekom Malaysia Berhad,0.214,2016
+4863.KL,Telekom Malaysia Berhad,0.216,2017
+4898.KL,TA Enterprise Berhad,0.018,2015
+4898.KL,TA Enterprise Berhad,0.004,2016
+4898.KL,TA Enterprise Berhad,0.017,2017
+4944.KL,Nylex (Malaysia) Berhad,0.02,2015
+4944.KL,Nylex (Malaysia) Berhad,0.02,2016
+4944.KL,Nylex (Malaysia) Berhad,0.02,2017
+4952.KL,Amanah Harta Tanah PNB,0.072,2015
+4952.KL,Amanah Harta Tanah PNB,0.065,2016
+4952.KL,Amanah Harta Tanah PNB,0.015,2017
+4952.KL,Amanah Harta Tanah PNB,0.025,2018
+5000.KL,Hume Industries Berhad,0.03,2015
+5000.KL,Hume Industries Berhad,0.03,2016
+5000.KL,Hume Industries Berhad,0.02,2017
+5005.KL,Unisem (M) Berhad,0.1,2015
+5005.KL,Unisem (M) Berhad,0.11,2016
+5005.KL,Unisem (M) Berhad,0.075,2017
+5007.KL,Chin Well Holdings Berhad,0.0584,2015
+5007.KL,Chin Well Holdings Berhad,0.085,2016
+5007.KL,Chin Well Holdings Berhad,0.068,2017
+5008.KL,Harrisons Holdings (Malaysia) Berhad,0.3,2015
+5008.KL,Harrisons Holdings (Malaysia) Berhad,0.15,2016
+5008.KL,Harrisons Holdings (Malaysia) Berhad,0.25,2017
+5009.KL,White Horse Bhd,0.1,2015
+5009.KL,White Horse Bhd,0.1,2016
+5009.KL,White Horse Bhd,0.05,2017
+5010.KL,Tong Herr Resources Bhd,0.06,2015
+5010.KL,Tong Herr Resources Bhd,0.2,2016
+5010.KL,Tong Herr Resources Bhd,0.38,2017
+5012.KL,TA Ann Holdings Bhd,0.2,2015
+5012.KL,TA Ann Holdings Bhd,0.15,2016
+5012.KL,TA Ann Holdings Bhd,0.1,2017
+5014.KL,Malaysia Airports Holdings Bhd,0.076,2015
+5014.KL,Malaysia Airports Holdings Bhd,0.085,2016
+5014.KL,Malaysia Airports Holdings Bhd,0.11,2017
+5015.KL,APM Automotive Holdings Berhad,0.195,2015
+5015.KL,APM Automotive Holdings Berhad,0.17,2016
+5015.KL,APM Automotive Holdings Berhad,0.145,2017
+5016.KL,Warisan TC Holdings Bhd,0.07,2015
+5016.KL,Warisan TC Holdings Bhd,0.065,2016
+5016.KL,Warisan TC Holdings Bhd,0.03,2017
+5020.KL,Glomac Berhad,0.0425,2015
+5020.KL,Glomac Berhad,0.04,2016
+5020.KL,Glomac Berhad,0.03,2017
+5022.KL,Paos Holdings Berhad,0.025,2015
+5022.KL,Paos Holdings Berhad,0.025,2016
+5022.KL,Paos Holdings Berhad,0.016,2017
+5024.KL,Hup Seng Industries Bhd,0.035,2015
+5024.KL,Hup Seng Industries Bhd,0.04,2016
+5024.KL,Hup Seng Industries Bhd,0.06,2017
+5026.KL,MHC Plantations Bhd,0.02,2015
+5026.KL,MHC Plantations Bhd,0.015,2016
+5026.KL,MHC Plantations Bhd,0.015,2017
+5027.KL,Kim Loong Resources Berhad,0.13,2015
+5027.KL,Kim Loong Resources Berhad,0.13,2016
+5027.KL,Kim Loong Resources Berhad,0.17,2017
+5029.KL,Far East Holdings Bhd,0.3,2015
+5029.KL,Far East Holdings Bhd,0.25,2016
+5029.KL,Far East Holdings Bhd,0.5,2017
+5031.KL,Time Dotcom Bhd.,0.056,2015
+5031.KL,Time Dotcom Bhd.,0.067,2016
+5031.KL,Time Dotcom Bhd.,0.066,2017
+5032.KL,Bintulu Port Holdings Bhd,0.22,2015
+5032.KL,Bintulu Port Holdings Bhd,0.24,2016
+5032.KL,Bintulu Port Holdings Bhd,0.21,2017
+5041.KL,PBA Holdings Bhd,0.0375,2015
+5041.KL,PBA Holdings Bhd,0.0375,2016
+5041.KL,PBA Holdings Bhd,0.04,2017
+5047.KL,NPC Resources Bhd,0.01,2015
+5047.KL,NPC Resources Bhd,0.01,2016
+5047.KL,NPC Resources Bhd,0.01,2017
+5049.KL,Country View Bhd,0.13,2015
+5049.KL,Country View Bhd,0.1,2016
+5049.KL,Country View Bhd,0.05,2017
+5053.KL,OSK Holdings Berhad,0.075,2015
+5053.KL,OSK Holdings Berhad,0.05,2016
+5053.KL,OSK Holdings Berhad,0.075,2017
+5054.KL,TRC Synergy Bhd,0.0018,2015
+5054.KL,TRC Synergy Bhd,0.0065,2016
+5054.KL,TRC Synergy Bhd,0.019,2017
+5056.KL,Engtex Group Bhd,0.01,2015
+5056.KL,Engtex Group Bhd,0.0075,2016
+5056.KL,Engtex Group Bhd,0.0275,2017
+5062.KL,Hua Yang Bhd,0.13,2015
+5062.KL,Hua Yang Bhd,0.05,2016
+5062.KL,Hua Yang Bhd,0.04,2017
+5065.KL,Ornapaper Bhd,0.025,2015
+5065.KL,Ornapaper Bhd,0.03,2016
+5065.KL,Ornapaper Bhd,0.025,2017
+5066.KL,NTPM Holdings Berhad,0.00725,2015
+5066.KL,NTPM Holdings Berhad,0.032,2016
+5066.KL,NTPM Holdings Berhad,0.016,2017
+5069.KL,Bld Plantation Bhd,0.04,2015
+5069.KL,Bld Plantation Bhd,0.02,2016
+5069.KL,Bld Plantation Bhd,0.04,2017
+5070.KL,Protasco Bhd,0.08,2015
+5070.KL,Protasco Bhd,0.05,2016
+5070.KL,Protasco Bhd,0.06,2017
+5070.KL,Protasco Bhd,0.03,2018
+5071.KL,Coastal Contracts Bhd,0.058,2015
+5071.KL,Coastal Contracts Bhd,0.03,2016
+5071.KL,Coastal Contracts Bhd,0.02,2017
+5072.KL,Hiap Teck Venture Bhd,0.006,2015
+5072.KL,Hiap Teck Venture Bhd,0.003,2016
+5072.KL,Hiap Teck Venture Bhd,0.003,2017
+5075.KL,Plenitude Berhad,0.045,2015
+5075.KL,Plenitude Berhad,0.045,2016
+5075.KL,Plenitude Berhad,0.045,2017
+5080.KL,Poh Kong Holdings Bhd,0.01,2015
+5080.KL,Poh Kong Holdings Bhd,0.01,2016
+5080.KL,Poh Kong Holdings Bhd,0.01,2017
+5080.KL,Poh Kong Holdings Bhd,0.01,2018
+5084.KL,Ibraco Berhad,0.035,2015
+5084.KL,Ibraco Berhad,0.035,2016
+5084.KL,Ibraco Berhad,0.02,2018
+5088.KL,Apex Equity Holdings Berhad,0.12,2015
+5088.KL,Apex Equity Holdings Berhad,0.05,2016
+5088.KL,Apex Equity Holdings Berhad,0.05,2017
+5090.KL,Media Chinese International Limited,0.07753,2015
+5090.KL,Media Chinese International Limited,0.07434,2016
+5090.KL,Media Chinese International Limited,0.0584,2017
+5092.KL,LCTH Corp. Bhd,0.01,2015
+5092.KL,LCTH Corp. Bhd,0.04,2016
+5092.KL,LCTH Corp. Bhd,0.025,2017
+5094.KL,CSC Steel Holdings Bhd,0.03,2015
+5094.KL,CSC Steel Holdings Bhd,0.08,2016
+5094.KL,CSC Steel Holdings Bhd,0.1,2017
+5095.KL,HeveaBoard Bhd,0.05,2015
+5095.KL,HeveaBoard Bhd,0.0435,2016
+5095.KL,HeveaBoard Bhd,0.077,2017
+5099.KL,AirAsia Berhad,0.03,2015
+5099.KL,AirAsia Berhad,0.04,2016
+5099.KL,AirAsia Berhad,0.24,2017
+5100.KL,BP Plastics Holding Bhd,0.06,2015
+5100.KL,BP Plastics Holding Bhd,0.09,2016
+5100.KL,BP Plastics Holding Bhd,0.06,2017
+5105.KL,Can-One Berhad,0.05,2015
+5105.KL,Can-One Berhad,0.04,2016
+5105.KL,Can-One Berhad,0.04,2017
+5106.KL,Axis Real Estate Investment Trust,0.1205,2015
+5106.KL,Axis Real Estate Investment Trust,0.0815,2016
+5106.KL,Axis Real Estate Investment Trust,0.0919,2017
+5106.KL,Axis Real Estate Investment Trust,0.0092,2018
+5107.KL,IQ Group Holdings Berhad,0.08,2015
+5107.KL,IQ Group Holdings Berhad,0.11,2016
+5107.KL,IQ Group Holdings Berhad,0.11,2017
+5109.KL,YTL Hospitality REIT,0.072287,2015
+5109.KL,YTL Hospitality REIT,0.006549,2016
+5109.KL,YTL Hospitality REIT,0.058836,2017
+5110.KL,Uoa Real Estate Investment,0.015,2015
+5110.KL,Uoa Real Estate Investment,0.009,2016
+5110.KL,Uoa Real Estate Investment,0.0442,2017
+5110.KL,Uoa Real Estate Investment,0.0437,2018
+5111.KL,Tower Real Estate Investment Trust,0.0323,2015
+5111.KL,Tower Real Estate Investment Trust,0.034,2016
+5111.KL,Tower Real Estate Investment Trust,0.0327,2017
+5116.KL,Al-'Aqar Healthcare REIT,0.075,2015
+5116.KL,Al-'Aqar Healthcare REIT,0.035,2016
+5116.KL,Al-'Aqar Healthcare REIT,0.0755,2017
+5116.KL,Al-'Aqar Healthcare REIT,0.0395,2018
+5120.KL,AmFirst Real Estate Investment Trust,0.0002,2015
+5120.KL,AmFirst Real Estate Investment Trust,0.0214,2016
+5120.KL,AmFirst Real Estate Investment Trust,0.0396,2017
+5121.KL,Hektar Real Estate Investment Trust,0.105,2015
+5121.KL,Hektar Real Estate Investment Trust,0.105,2016
+5121.KL,Hektar Real Estate Investment Trust,0.09,2017
+5123.KL,MRCB-Quill REIT,0.02,2015
+5123.KL,MRCB-Quill REIT,0.0016,2016
+5123.KL,MRCB-Quill REIT,0.0415,2017
+5123.KL,MRCB-Quill REIT,0.0416,2018
+5125.KL,Pantech Group Holdings Bhd,0.02195,2015
+5125.KL,Pantech Group Holdings Bhd,0.01995,2016
+5125.KL,Pantech Group Holdings Bhd,0.018,2017
+5125.KL,Pantech Group Holdings Bhd,0.005,2018
+5126.KL,Sarawak Oil Palms Bhd,0.05,2015
+5126.KL,Sarawak Oil Palms Bhd,0.05,2016
+5126.KL,Sarawak Oil Palms Bhd,0.05,2017
+5127.KL,AmanahRaya Real Estate Investment Trust,0.06297,2015
+5127.KL,AmanahRaya Real Estate Investment Trust,0.062835,2016
+5127.KL,AmanahRaya Real Estate Investment Trust,0.055312,2017
+5129.KL,Melati Ehsan Holdings Berhad,0.0275,2015
+5129.KL,Melati Ehsan Holdings Berhad,0.0175,2016
+5129.KL,Melati Ehsan Holdings Berhad,0.0175,2017
+5129.KL,Melati Ehsan Holdings Berhad,0.01,2018
+5130.KL,Atrium Real Estate Investment Trust,0.0875,2015
+5130.KL,Atrium Real Estate Investment Trust,0.056,2016
+5130.KL,Atrium Real Estate Investment Trust,0.0715,2017
+5131.KL,Zhulian Corporation Berhad,0.065,2015
+5131.KL,Zhulian Corporation Berhad,0.06,2016
+5131.KL,Zhulian Corporation Berhad,0.06,2017
+5131.KL,Zhulian Corporation Berhad,0.015,2018
+5132.KL,Deleum Berhad,0.07,2015
+5132.KL,Deleum Berhad,0.0475,2016
+5132.KL,Deleum Berhad,0.0325,2017
+5133.KL,Petra Energy Berhad,0.02,2015
+5133.KL,Petra Energy Berhad,0.05,2016
+5133.KL,Petra Energy Berhad,0.02,2017
+5134.KL,Southern Acids M Bhd,0.05,2015
+5134.KL,Southern Acids M Bhd,0.05,2016
+5134.KL,Southern Acids M Bhd,0.05,2017
+5138.KL,Hap Seng Plantations Holdings Bhd,0.08,2015
+5138.KL,Hap Seng Plantations Holdings Bhd,0.08,2016
+5138.KL,Hap Seng Plantations Holdings Bhd,0.13,2017
+5139.KL,Aeon Credit Service M Bhd,0.5945,2015
+5139.KL,Aeon Credit Service M Bhd,0.601,2016
+5139.KL,Aeon Credit Service M Bhd,0.5363,2017
+5140.KL,TASCO Berhad,0.09,2015
+5140.KL,TASCO Berhad,0.045,2016
+5140.KL,TASCO Berhad,0.045,2017
+5143.KL,Luxchem Corporation Bhd,0.08,2015
+5143.KL,Luxchem Corporation Bhd,0.07,2016
+5143.KL,Luxchem Corporation Bhd,0.07,2017
+5147.KL,Samchem Holdings Bhd,0.045,2015
+5147.KL,Samchem Holdings Bhd,0.06,2016
+5147.KL,Samchem Holdings Bhd,0.03,2017
+5152.KL,Muar Ban Lee Group Berhad,0.03,2015
+5152.KL,Muar Ban Lee Group Berhad,0.02,2016
+5152.KL,Muar Ban Lee Group Berhad,0.02,2017
+5158.KL,TA Global Berhad,0.01,2015
+5158.KL,TA Global Berhad,0.0025,2016
+5158.KL,TA Global Berhad,0.004,2017
+5159.KL,Yoong Onn Corporation Berhad,0.04,2015
+5159.KL,Yoong Onn Corporation Berhad,0.06,2016
+5159.KL,Yoong Onn Corporation Berhad,0.05,2017
+5160.KL,Homeritz Corporation Berhad,0.046,2015
+5160.KL,Homeritz Corporation Berhad,0.045,2016
+5160.KL,Homeritz Corporation Berhad,0.05,2017
+5160.KL,Homeritz Corporation Berhad,0.022,2018
+5161.KL,JCY International Berhad,0.0675,2015
+5161.KL,JCY International Berhad,0.05,2016
+5161.KL,JCY International Berhad,0.0375,2017
+5162.KL,ECS ICT Berhad,0.06,2015
+5162.KL,ECS ICT Berhad,0.06,2016
+5162.KL,ECS ICT Berhad,0.055,2017
+5168.KL,Hartalega Holdings Berhad,0.12,2015
+5168.KL,Hartalega Holdings Berhad,0.08,2016
+5168.KL,Hartalega Holdings Berhad,0.1,2017
+5170.KL,Sarawak Cable Berhad,0.035,2015
+5170.KL,Sarawak Cable Berhad,0.05,2016
+5170.KL,Sarawak Cable Berhad,0.03,2017
+5171.KL,Kimlun Corporation Berhad,0.038,2015
+5171.KL,Kimlun Corporation Berhad,0.058,2016
+5171.KL,Kimlun Corporation Berhad,0.065,2017
+5176.KL,Sunway Real Estate Investment Trust,0.0195,2015
+5176.KL,Sunway Real Estate Investment Trust,0.0226,2016
+5176.KL,Sunway Real Estate Investment Trust,0.0912,2017
+5180.KL,CapitaLand Malaysia Mall Trust,0.0899,2015
+5180.KL,CapitaLand Malaysia Mall Trust,0.0819,2016
+5180.KL,CapitaLand Malaysia Mall Trust,0.0821,2017
+5180.KL,CapitaLand Malaysia Mall Trust,0.0408,2018
+5181.KL,SIG Gases Berhad,0.007,2015
+5181.KL,SIG Gases Berhad,0.012,2016
+5181.KL,SIG Gases Berhad,0.012,2017
+5183.KL,Petronas Chemicals Group Berhad,0.16,2015
+5183.KL,Petronas Chemicals Group Berhad,0.17,2016
+5183.KL,Petronas Chemicals Group Berhad,0.24,2017
+5184.KL,Cypark Resources Berhad,0.05,2015
+5184.KL,Cypark Resources Berhad,0.05,2016
+5184.KL,Cypark Resources Berhad,0.052,2017
+5185.KL,Affin Holdings Bhd,0.0299,2015
+5185.KL,Affin Holdings Bhd,0.08,2016
+5185.KL,Affin Holdings Bhd,0.07,2017
+5190.KL,Benalec Holdings Berhad,0.003,2015
+5190.KL,Benalec Holdings Berhad,0.003,2016
+5190.KL,Benalec Holdings Berhad,0.007,2017
+5190.KL,Benalec Holdings Berhad,0.004,2018
+5191.KL,Tambun Indah Land Berhad,0.097,2015
+5191.KL,Tambun Indah Land Berhad,0.09,2016
+5191.KL,Tambun Indah Land Berhad,0.1,2017
+5191.KL,Tambun Indah Land Berhad,0.03,2018
+5192.KL,K.Seng Seng Corporation Bhd.,0.02,2015
+5192.KL,K.Seng Seng Corporation Bhd.,0.008,2016
+5192.KL,K.Seng Seng Corporation Bhd.,0.015,2017
+5196.KL,Berjaya Food Berhad,0.0675,2015
+5196.KL,Berjaya Food Berhad,0.0375,2016
+5196.KL,Berjaya Food Berhad,0.04,2017
+5196.KL,Berjaya Food Berhad,0.01,2018
+5200.KL,UOA Development Bhd,0.13,2015
+5200.KL,UOA Development Bhd,0.15,2016
+5200.KL,UOA Development Bhd,0.15,2017
+5202.KL,MSM Malaysia Holdings Berhad,0.26,2015
+5202.KL,MSM Malaysia Holdings Berhad,0.24,2016
+5202.KL,MSM Malaysia Holdings Berhad,0.04,2017
+5204.KL,Prestariang Berhad,0.0325,2015
+5204.KL,Prestariang Berhad,0.0325,2016
+5204.KL,Prestariang Berhad,0.03,2017
+5208.KL,EITA Resources Berhad,0.04,2015
+5208.KL,EITA Resources Berhad,0.04,2016
+5208.KL,EITA Resources Berhad,0.04,2017
+5208.KL,EITA Resources Berhad,0.03,2018
+5209.KL,Gas Malaysia Berhad,0.1156,2015
+5209.KL,Gas Malaysia Berhad,0.0877,2016
+5209.KL,Gas Malaysia Berhad,0.1286,2017
+5211.KL,Sunway Berhad,0.11,2015
+5211.KL,Sunway Berhad,0.11,2016
+5211.KL,Sunway Berhad,0.07,2017
+5212.KL,Pavilion Real Estate Investment Trust,0.002,2015
+5212.KL,Pavilion Real Estate Investment Trust,0.0023,2016
+5212.KL,Pavilion Real Estate Investment Trust,0.0398,2017
+5212.KL,Pavilion Real Estate Investment Trust,0.0428,2018
+5216.KL,Datasonic Group Berhad,0.02,2015
+5216.KL,Datasonic Group Berhad,0.04,2016
+5216.KL,Datasonic Group Berhad,0.04,2017
+5222.KL,Felda Global Ventures Holdings Berhad,0.06,2015
+5222.KL,Felda Global Ventures Holdings Berhad,0.02,2016
+5222.KL,Felda Global Ventures Holdings Berhad,0.06,2017
+5225.KL,IHH Healthcare Berhad,0.03,2015
+5225.KL,IHH Healthcare Berhad,0.03,2016
+5225.KL,IHH Healthcare Berhad,0.03,2017
+5227.KL,IGB Real Estate Investment Trust,0.0015,2015
+5227.KL,IGB Real Estate Investment Trust,0.0021,2016
+5227.KL,IGB Real Estate Investment Trust,0.0442,2017
+5227.KL,IGB Real Estate Investment Trust,0.049,2018
+5228.KL,ELK-Desa Resources Berhad,0.075,2015
+5228.KL,ELK-Desa Resources Berhad,0.0675,2016
+5228.KL,ELK-Desa Resources Berhad,0.0675,2017
+5228.KL,ELK-Desa Resources Berhad,0.0325,2018
+5230.KL,Tune Protect Group Berhad,0.0404,2015
+5230.KL,Tune Protect Group Berhad,0.05,2016
+5230.KL,Tune Protect Group Berhad,0.052,2017
+5232.KL,Leon Fuat Berhad,0.02,2015
+5232.KL,Leon Fuat Berhad,0.015,2016
+5232.KL,Leon Fuat Berhad,0.015,2017
+5235SS.KL,KLCC Real Estate Investment Trust,0.2546,2015
+5235SS.KL,KLCC Real Estate Investment Trust,0.2209,2016
+5235SS.KL,KLCC Real Estate Investment Trust,0.2997,2017
+5235SS.KL,KLCC Real Estate Investment Trust,0.1035,2018
+5236.KL,Matrix Concepts Holdings Berhad,0.165,2015
+5236.KL,Matrix Concepts Holdings Berhad,0.1465,2016
+5236.KL,Matrix Concepts Holdings Berhad,0.1375,2017
+5239.KL,Titijaya Land Berhad,0.045,2015
+5239.KL,Titijaya Land Berhad,0.005,2016
+5239.KL,Titijaya Land Berhad,0.005,2017
+5242.KL,Solid Automotive Berhad,0.03,2015
+5242.KL,Solid Automotive Berhad,0.016,2016
+5242.KL,Solid Automotive Berhad,0.008,2017
+5245.KL,Caring Pharmacy Group Berhad,0.02,2015
+5245.KL,Caring Pharmacy Group Berhad,0.015,2016
+5245.KL,Caring Pharmacy Group Berhad,0.03,2017
+5246.KL,Westports Holdings Berhad,0.1147,2015
+5246.KL,Westports Holdings Berhad,0.1308,2016
+5246.KL,Westports Holdings Berhad,0.13072,2017
+5247.KL,Karex Berhad,0.025,2015
+5247.KL,Karex Berhad,0.02,2016
+5247.KL,Karex Berhad,0.01,2017
+5248.KL,Berjaya Auto Berhad,0.116,2015
+5248.KL,Berjaya Auto Berhad,0.1015,2016
+5248.KL,Berjaya Auto Berhad,0.1015,2017
+5248.KL,Berjaya Auto Berhad,0.016,2018
+5249.KL,IOI Properties Group Berhad,0.06,2015
+5249.KL,IOI Properties Group Berhad,0.08,2016
+5249.KL,IOI Properties Group Berhad,0.06,2017
+5250.KL,7-Eleven Malaysia Holdings Berhad,0.025,2015
+5250.KL,7-Eleven Malaysia Holdings Berhad,0.023,2016
+5250.KL,7-Eleven Malaysia Holdings Berhad,0.023,2017
+5250.KL,7-Eleven Malaysia Holdings Berhad,0.026557,2018
+5252.KL,Sasbadi Holdings Berhad,0.03,2015
+5252.KL,Sasbadi Holdings Berhad,0.03,2016
+5252.KL,Sasbadi Holdings Berhad,0.0225,2017
+5253.KL,Econpile Holdings Berhad,0.025,2015
+5253.KL,Econpile Holdings Berhad,0.04,2016
+5253.KL,Econpile Holdings Berhad,0.045,2017
+5254.KL,Boustead Plantations Berhad,0.12,2015
+5254.KL,Boustead Plantations Berhad,0.14,2016
+5254.KL,Boustead Plantations Berhad,0.12,2017
+5258.KL,BIMB Holdings Berhad,0.122,2015
+5258.KL,BIMB Holdings Berhad,0.13,2016
+5258.KL,BIMB Holdings Berhad,0.14,2017
+5264.KL,MALAKOFF CORPORATION BERHAD,0.05,2015
+5264.KL,MALAKOFF CORPORATION BERHAD,0.055,2016
+5264.KL,MALAKOFF CORPORATION BERHAD,0.06,2017
+5269.KL,AL-SALAM REAL ESTATE INVESTMENT,0.0143,2016
+5269.KL,AL-SALAM REAL ESTATE INVESTMENT,0.0307,2017
+5269.KL,AL-SALAM REAL ESTATE INVESTMENT,0.0315,2018
+5272.KL,RANHILL HOLDINGS BERHAD,0.018,2016
+5272.KL,RANHILL HOLDINGS BERHAD,0.07,2017
+5272.KL,RANHILL HOLDINGS BERHAD,0.02,2018
+5347.KL,Tenaga Nasional Berhad,0.29,2015
+5347.KL,Tenaga Nasional Berhad,0.32,2016
+5347.KL,Tenaga Nasional Berhad,0.61,2017
+5355.KL,Daiman Development Bhd,0.05,2015
+5355.KL,Daiman Development Bhd,0.05,2016
+5355.KL,Daiman Development Bhd,0.055,2017
+5371.KL,Kim Hin Industry Bhd,0.03,2015
+5371.KL,Kim Hin Industry Bhd,0.09,2016
+5371.KL,Kim Hin Industry Bhd,0.06,2017
+5398.KL,Gamuda Bhd,0.12,2015
+5398.KL,Gamuda Bhd,0.12,2016
+5398.KL,Gamuda Bhd,0.12,2017
+5398.KL,Gamuda Bhd,0.06,2018
+5401.KL,Tropicana Corporation Berhad,0.05,2015
+5401.KL,Tropicana Corporation Berhad,0.02,2016
+5401.KL,Tropicana Corporation Berhad,0.045,2017
+5401.KL,Tropicana Corporation Berhad,0.016,2018
+5436.KL,Perusahaan Sadur Timah Malaysia (Perstima) Bhd,0.38,2015
+5436.KL,Perusahaan Sadur Timah Malaysia (Perstima) Bhd,0.4,2016
+5436.KL,Perusahaan Sadur Timah Malaysia (Perstima) Bhd,0.2,2017
+5517.KL,Shangri-La Hotels Malaysia Bhd,0.12,2015
+5517.KL,Shangri-La Hotels Malaysia Bhd,0.14,2016
+5517.KL,Shangri-La Hotels Malaysia Bhd,0.14,2017
+5533.KL,OCB Bhd,0.02,2015
+5533.KL,OCB Bhd,0.01,2016
+5533.KL,OCB Bhd,0.01,2017
+5568.KL,APB Resources Berhad,0.065,2015
+5568.KL,APB Resources Berhad,0.065,2016
+5568.KL,APB Resources Berhad,0.03,2017
+5568.KL,APB Resources Berhad,0.03,2018
+5584.KL,Yee Lee Corporation Bhd,0.06,2015
+5584.KL,Yee Lee Corporation Bhd,0.035,2016
+5584.KL,Yee Lee Corporation Bhd,0.045,2017
+5592.KL,Grand Central Enterprises Bhd,0.02,2015
+5592.KL,Grand Central Enterprises Bhd,0.02,2016
+5592.KL,Grand Central Enterprises Bhd,0.02,2017
+5606.KL,Goldis Berhad,0.02,2015
+5606.KL,Goldis Berhad,0.02,2016
+5606.KL,Goldis Berhad,0.02,2017
+5606PA.KL,Goldis Berhad,0.0002,2015
+5606PA.KL,Goldis Berhad,0.0004,2016
+5606PA.KL,Goldis Berhad,0.0004,2017
+5681.KL,Petronas Dagangan Bhd,0.4,2015
+5681.KL,Petronas Dagangan Bhd,0.6,2016
+5681.KL,Petronas Dagangan Bhd,0.78,2017
+5789.KL,LBS Bina Group Bhd,0.0325,2015
+5789.KL,LBS Bina Group Bhd,0.035,2016
+5789.KL,LBS Bina Group Bhd,0.04,2017
+5797.KL,Choo Bee Metal Industries Bhd,0.06,2015
+5797.KL,Choo Bee Metal Industries Bhd,0.04,2016
+5797.KL,Choo Bee Metal Industries Bhd,0.06,2017
+5819.KL,Hong Leong Bank Berhad,0.41,2015
+5819.KL,Hong Leong Bank Berhad,0.41,2016
+5819.KL,Hong Leong Bank Berhad,0.45,2017
+5827.KL,Oriental Interest Bhd,0.12,2015
+5827.KL,Oriental Interest Bhd,0.08,2016
+5827.KL,Oriental Interest Bhd,0.07,2017
+5843.KL,Kumpulan Perangsang Selangor Bhd,0.04,2015
+5843.KL,Kumpulan Perangsang Selangor Bhd,0.02,2016
+5843.KL,Kumpulan Perangsang Selangor Bhd,0.0425,2017
+5878.KL,KPJ Healthcare Bhd,0.0785,2015
+5878.KL,KPJ Healthcare Bhd,0.0655,2016
+5878.KL,KPJ Healthcare Bhd,0.059,2017
+5886.KL,Mintye Industries Bhd,0.03,2015
+5886.KL,Mintye Industries Bhd,0.05,2016
+5886.KL,Mintye Industries Bhd,0.03,2017
+5908.KL,DKSH Holdings (Malaysia) Berhad,0.095,2015
+5908.KL,DKSH Holdings (Malaysia) Berhad,0.095,2016
+5908.KL,DKSH Holdings (Malaysia) Berhad,0.095,2017
+5983.KL,MBM Resources Bhd,0.08,2015
+5983.KL,MBM Resources Bhd,0.06,2016
+5983.KL,MBM Resources Bhd,0.045,2017
+6009.KL,Pacific & Orient Bhd,0.107,2015
+6009.KL,Pacific & Orient Bhd,0.065,2016
+6009.KL,Pacific & Orient Bhd,0.06,2017
+6009.KL,Pacific & Orient Bhd,0.01,2018
+6012.KL,Maxis Berhad,0.31,2015
+6012.KL,Maxis Berhad,0.2,2016
+6012.KL,Maxis Berhad,0.2,2017
+6017.KL,SHL Consolidated Bhd,0.25,2015
+6017.KL,SHL Consolidated Bhd,0.19,2016
+6017.KL,SHL Consolidated Bhd,0.12,2017
+6033.KL,Petronas Gas Bhd,0.58,2015
+6033.KL,Petronas Gas Bhd,0.6,2016
+6033.KL,Petronas Gas Bhd,0.66,2017
+6041.KL,Farlim Group Malaysia Bhd,0.05,2015
+6041.KL,Farlim Group Malaysia Bhd,0.02,2016
+6041.KL,Farlim Group Malaysia Bhd,0.02,2017
+6084.KL,Star Media Group Berhad,0.15,2015
+6084.KL,Star Media Group Berhad,0.18,2016
+6084.KL,Star Media Group Berhad,0.15,2017
+6114.KL,MKH Berhad,0.07,2015
+6114.KL,MKH Berhad,0.07,2016
+6114.KL,MKH Berhad,0.05,2017
+6139.KL,Syarikat Takaful Malaysia Bhd,0.35,2015
+6139.KL,Syarikat Takaful Malaysia Bhd,0.0735,2016
+6139.KL,Syarikat Takaful Malaysia Bhd,0.12,2017
+6139.KL,Syarikat Takaful Malaysia Bhd,0.15,2018
+6149.KL,Metrod Holdings Berhad,0.06,2015
+6149.KL,Metrod Holdings Berhad,0.06,2016
+6149.KL,Metrod Holdings Berhad,0.06,2017
+6173.KL,Bina Darulaman Bhd,0.035,2015
+6173.KL,Bina Darulaman Bhd,0.04,2016
+6173.KL,Bina Darulaman Bhd,0.045,2017
+6181.KL,Malton Bhd,0.03,2015
+6181.KL,Malton Bhd,0.025,2016
+6181.KL,Malton Bhd,0.025,2017
+6238.KL,Hock Seng Lee Bhd,0.026,2015
+6238.KL,Hock Seng Lee Bhd,0.024,2016
+6238.KL,Hock Seng Lee Bhd,0.024,2017
+6351.KL,Amway (Malaysia) Holdings Berhad,0.4,2015
+6351.KL,Amway (Malaysia) Holdings Berhad,0.25,2016
+6351.KL,Amway (Malaysia) Holdings Berhad,0.2,2017
+6399.KL,Astro Malaysia Holdings Berhad,0.125,2015
+6399.KL,Astro Malaysia Holdings Berhad,0.0975,2016
+6399.KL,Astro Malaysia Holdings Berhad,0.125,2017
+6432.KL,Apollo Food Holdings Berhad,0.25,2015
+6432.KL,Apollo Food Holdings Berhad,0.3,2016
+6432.KL,Apollo Food Holdings Berhad,0.25,2017
+6491.KL,Kumpulan Fima Bhd,0.085,2015
+6491.KL,Kumpulan Fima Bhd,0.09,2016
+6491.KL,Kumpulan Fima Bhd,0.09,2017
+6599.KL,Aeon Co. (M) Bhd,0.05,2015
+6599.KL,Aeon Co. (M) Bhd,0.04,2016
+6599.KL,Aeon Co. (M) Bhd,0.03,2017
+6645.KL,Lingkaran Trans Kota Holdings Berhad,0.25,2015
+6645.KL,Lingkaran Trans Kota Holdings Berhad,0.2,2016
+6645.KL,Lingkaran Trans Kota Holdings Berhad,0.3,2017
+6718.KL,Crescendo Corporation Berhad,0.07,2015
+6718.KL,Crescendo Corporation Berhad,0.05,2016
+6718.KL,Crescendo Corporation Berhad,0.06,2017
+6742.KL,YTL Power International Berhad,0.1,2015
+6742.KL,YTL Power International Berhad,0.1,2016
+6742.KL,YTL Power International Berhad,0.04902,2017
+6769.KL,JKG Land Berhad,0.002,2015
+6769.KL,JKG Land Berhad,0.003,2016
+6769.KL,JKG Land Berhad,0.003,2017
+6888.KL,Axiata Group Berhad,0.22,2015
+6888.KL,Axiata Group Berhad,0.17,2016
+6888.KL,Axiata Group Berhad,0.08,2017
+6939.KL,Fiamma Holdings Bhd,0.06,2015
+6939.KL,Fiamma Holdings Bhd,0.075,2016
+6939.KL,Fiamma Holdings Bhd,0.015,2017
+6939.KL,Fiamma Holdings Bhd,0.0175,2018
+6947.KL,DiGi.Com Berhad,0.243,2015
+6947.KL,DiGi.Com Berhad,0.21,2016
+6947.KL,DiGi.Com Berhad,0.19,2017
+6947.KL,DiGi.Com Berhad,0.046,2018
+6963.KL,VS Industry Berhad,0.167,2015
+6963.KL,VS Industry Berhad,0.051,2016
+6963.KL,VS Industry Berhad,0.057,2017
+6963.KL,VS Industry Berhad,0.025,2018
+7022.KL,Globetronics Technology Bhd,0.09,2015
+7022.KL,Globetronics Technology Bhd,0.06,2016
+7022.KL,Globetronics Technology Bhd,0.06,2017
+7029.KL,Master-Pack Group Berhad,0.025,2015
+7029.KL,Master-Pack Group Berhad,0.01,2016
+7029.KL,Master-Pack Group Berhad,0.01,2017
+7033.KL,Kumpulan H & L High-Tech Berhad,0.05,2015
+7033.KL,Kumpulan H & L High-Tech Berhad,0.02,2016
+7033.KL,Kumpulan H & L High-Tech Berhad,0.05,2017
+7034.KL,Thong Guan Industries Bhd,0.04,2015
+7034.KL,Thong Guan Industries Bhd,0.15,2016
+7034.KL,Thong Guan Industries Bhd,0.06,2017
+7035.KL,CCK Consolidated Holdings Bhd,0.02,2015
+7035.KL,CCK Consolidated Holdings Bhd,0.03,2016
+7035.KL,CCK Consolidated Holdings Bhd,0.02,2017
+7047.KL,Fajarbaru Builder Group Bhd.,0.025,2015
+7047.KL,Fajarbaru Builder Group Bhd.,0.0125,2016
+7047.KL,Fajarbaru Builder Group Bhd.,0.015,2017
+7048.KL,Atlan Holdings Bhd,0.275,2015
+7048.KL,Atlan Holdings Bhd,0.125,2016
+7048.KL,Atlan Holdings Bhd,0.21,2017
+7048.KL,Atlan Holdings Bhd,0.1,2018
+7052.KL,Padini Holdings Berhad,0.1,2015
+7052.KL,Padini Holdings Berhad,0.1,2016
+7052.KL,Padini Holdings Berhad,0.1,2017
+7055.KL,PLB Engineering Bhd,0.1,2015
+7055.KL,PLB Engineering Bhd,0.05,2016
+7055.KL,PLB Engineering Bhd,0.01,2017
+7060.KL,New Hoong Fatt Holdings Bhd,0.1,2015
+7060.KL,New Hoong Fatt Holdings Bhd,0.11,2016
+7060.KL,New Hoong Fatt Holdings Bhd,0.11,2017
+7062.KL,Khind Holdings Bhd,0.07,2015
+7062.KL,Khind Holdings Bhd,0.1,2016
+7062.KL,Khind Holdings Bhd,0.01,2018
+7076.KL,CB Industrial Product Holding Bhd,0.09,2015
+7076.KL,CB Industrial Product Holding Bhd,0.03,2016
+7076.KL,CB Industrial Product Holding Bhd,0.06,2017
+7076.KL,CB Industrial Product Holding Bhd,0.03,2018
+7078.KL,Ahmad Zaki Resources Berhad,0.02,2015
+7078.KL,Ahmad Zaki Resources Berhad,0.02,2016
+7078.KL,Ahmad Zaki Resources Berhad,0.015,2017
+7081.KL,Pharmaniaga Bhd,0.35,2015
+7081.KL,Pharmaniaga Bhd,0.2,2016
+7081.KL,Pharmaniaga Bhd,0.16,2017
+7083.KL,Analabs Resources Berhad,0.03,2015
+7083.KL,Analabs Resources Berhad,0.03,2016
+7083.KL,Analabs Resources Berhad,0.0325,2017
+7084.KL,QL Resources Berhad,0.0425,2015
+7084.KL,QL Resources Berhad,0.0425,2016
+7084.KL,QL Resources Berhad,0.032692,2017
+7085.KL,LTKM Bhd,0.125,2015
+7085.KL,LTKM Bhd,0.04,2016
+7085.KL,LTKM Bhd,0.03,2017
+7087.KL,Magni-Tech Industries Bhd,0.08,2015
+7087.KL,Magni-Tech Industries Bhd,0.16,2016
+7087.KL,Magni-Tech Industries Bhd,0.11,2017
+7088.KL,Poh Huat Resources Holdings Bhd,0.14,2015
+7088.KL,Poh Huat Resources Holdings Bhd,0.08,2016
+7088.KL,Poh Huat Resources Holdings Bhd,0.06,2017
+7089.KL,Lii Hen Industries Berhad,0.2,2015
+7089.KL,Lii Hen Industries Berhad,0.16,2016
+7089.KL,Lii Hen Industries Berhad,0.16,2017
+7090.KL,Apex Healthcare Berhad,0.11,2015
+7090.KL,Apex Healthcare Berhad,0.115,2016
+7090.KL,Apex Healthcare Berhad,0.115,2017
+7091.KL,Unimech Group Bhd,0.045,2015
+7091.KL,Unimech Group Bhd,0.035,2016
+7091.KL,Unimech Group Bhd,0.03,2017
+7095.KL,PIE Industrial Bhd,0.12,2015
+7095.KL,PIE Industrial Bhd,0.12,2016
+7095.KL,PIE Industrial Bhd,0.024,2017
+7100.KL,Uchi Technologies Berhad,0.1,2015
+7100.KL,Uchi Technologies Berhad,0.11,2016
+7100.KL,Uchi Technologies Berhad,0.07,2017
+7103.KL,Spritzer Bhd.,0.05,2015
+7103.KL,Spritzer Bhd.,0.055,2016
+7103.KL,Spritzer Bhd.,0.035,2017
+7106.KL,Supermax Corporation Berhad,0.05,2015
+7106.KL,Supermax Corporation Berhad,0.06,2016
+7106.KL,Supermax Corporation Berhad,0.055,2017
+7107.KL,Oriental Food Industries Holdings Bhd,0.135,2015
+7107.KL,Oriental Food Industries Holdings Bhd,0.05,2016
+7107.KL,Oriental Food Industries Holdings Bhd,0.04,2017
+7111.KL,Weida (M) Bhd.,0.03,2015
+7111.KL,Weida (M) Bhd.,0.03,2016
+7111.KL,Weida (M) Bhd.,0.03,2017
+7113.KL,Top Glove Corporation Berhad,0.17,2015
+7113.KL,Top Glove Corporation Berhad,0.18,2016
+7113.KL,Top Glove Corporation Berhad,0.145,2017
+7113.KL,Top Glove Corporation Berhad,0.085,2018
+7117.KL,Century Logistics Holdings Bhd,0.065,2015
+7117.KL,Century Logistics Holdings Bhd,0.04,2016
+7117.KL,Century Logistics Holdings Bhd,0.01,2017
+7119.KL,Degem Bhd,0.015,2015
+7119.KL,Degem Bhd,0.035,2016
+7119.KL,Degem Bhd,0.015,2017
+7129.KL,Asia File Corporation Bhd.,0.15,2015
+7129.KL,Asia File Corporation Bhd.,0.19,2016
+7129.KL,Asia File Corporation Bhd.,0.13,2017
+7129.KL,Asia File Corporation Bhd.,0.03,2018
+7133.KL,United U-LI Corporation Berhad,0.12,2015
+7133.KL,United U-LI Corporation Berhad,0.15,2016
+7133.KL,United U-LI Corporation Berhad,0.03,2017
+7134.KL,PWF Consolidated Berhad,0.08,2015
+7134.KL,PWF Consolidated Berhad,0.087212,2016
+7134.KL,PWF Consolidated Berhad,0.02,2017
+7134.KL,PWF Consolidated Berhad,0.015,2018
+7137.KL,UMS Holdings Berhad,0.06,2015
+7137.KL,UMS Holdings Berhad,0.06,2016
+7137.KL,UMS Holdings Berhad,0.06,2017
+7137.KL,UMS Holdings Berhad,0.06,2018
+7140.KL,Oka Corp. Bhd,0.03,2015
+7140.KL,Oka Corp. Bhd,0.05,2016
+7140.KL,Oka Corp. Bhd,0.055,2017
+7148.KL,CCM Duopharma Biotech Berhad,0.185,2015
+7148.KL,CCM Duopharma Biotech Berhad,0.08,2016
+7148.KL,CCM Duopharma Biotech Berhad,0.065,2017
+7149.KL,Eng Kah Corporation Berhad,0.065,2015
+7149.KL,Eng Kah Corporation Berhad,0.065,2016
+7149.KL,Eng Kah Corporation Berhad,0.04,2017
+7152.KL,Jaycorp Berhad,0.04,2015
+7152.KL,Jaycorp Berhad,0.1,2016
+7152.KL,Jaycorp Berhad,0.11,2017
+7153.KL,Kossan Rubber Industries Bhd,0.1,2015
+7153.KL,Kossan Rubber Industries Bhd,0.115,2016
+7153.KL,Kossan Rubber Industries Bhd,0.11,2017
+7154.KL,Caely Holdings Bhd,0.01,2015
+7154.KL,Caely Holdings Bhd,0.01,2016
+7154.KL,Caely Holdings Bhd,0.01,2017
+7155.KL,SKP Resources Bhd,0.0196,2015
+7155.KL,SKP Resources Bhd,0.035,2016
+7155.KL,SKP Resources Bhd,0.0415,2017
+7157.KL,CYL Corp. Bhd,0.05,2015
+7157.KL,CYL Corp. Bhd,0.06,2016
+7157.KL,CYL Corp. Bhd,0.04,2017
+7157.KL,CYL Corp. Bhd,0.02,2018
+7162.KL,Astino Berhad,0.0291,2015
+7162.KL,Astino Berhad,0.0195,2016
+7162.KL,Astino Berhad,0.01,2017
+7162.KL,Astino Berhad,0.01,2018
+7167.KL,Johore Tin Bhd,0.035,2015
+7167.KL,Johore Tin Bhd,0.04,2016
+7167.KL,Johore Tin Bhd,0.03,2017
+7168.KL,PRG Holdings Berhad,0.01,2015
+7168.KL,PRG Holdings Berhad,0.01,2016
+7168.KL,PRG Holdings Berhad,0.005,2017
+7169.KL,Dominant Enterprise Berhad,0.048333,2015
+7169.KL,Dominant Enterprise Berhad,0.035,2016
+7169.KL,Dominant Enterprise Berhad,0.06,2017
+7172.KL,PMB Technology Bhd,0.04,2015
+7172.KL,PMB Technology Bhd,0.04,2016
+7172.KL,PMB Technology Bhd,0.05,2017
+7178.KL,Y.S.P. Southeast Asia Holding Berhad,0.065,2015
+7178.KL,Y.S.P. Southeast Asia Holding Berhad,0.065,2016
+7178.KL,Y.S.P. Southeast Asia Holding Berhad,0.07,2017
+7190.KL,Pelangi Publishing Group Bhd,0.02,2015
+7190.KL,Pelangi Publishing Group Bhd,0.0125,2016
+7190.KL,Pelangi Publishing Group Bhd,0.0138,2017
+7190.KL,Pelangi Publishing Group Bhd,0.02,2018
+7199.KL,Kein Hing International Bhd,0.01,2015
+7199.KL,Kein Hing International Bhd,0.015,2016
+7199.KL,Kein Hing International Bhd,0.015,2017
+7200.KL,Tek Seng Holdings Bhd,0.01,2015
+7200.KL,Tek Seng Holdings Bhd,0.05,2016
+7200.KL,Tek Seng Holdings Bhd,0.01,2017
+7201.KL,Progressive Impact Corp. Bhd,0.0038,2015
+7201.KL,Progressive Impact Corp. Bhd,0.0023,2016
+7201.KL,Progressive Impact Corp. Bhd,0.0061,2017
+7202.KL,Classic Scenic Bhd,0.08,2015
+7202.KL,Classic Scenic Bhd,0.12,2016
+7202.KL,Classic Scenic Bhd,0.1,2017
+7203.KL,Wang-Zheng Berhad,0.025,2015
+7203.KL,Wang-Zheng Berhad,0.04,2016
+7203.KL,Wang-Zheng Berhad,0.03,2017
+7205.KL,Cocoaland Holdings Bhd,0.075,2015
+7205.KL,Cocoaland Holdings Bhd,0.03,2016
+7205.KL,Cocoaland Holdings Bhd,0.1,2017
+7207.KL,Success Transformer Corporation Berhad,0.04,2015
+7207.KL,Success Transformer Corporation Berhad,0.09,2016
+7207.KL,Success Transformer Corporation Berhad,0.05,2017
+7209.KL,Cheetah Holdings Berhad,0.0075,2015
+7209.KL,Cheetah Holdings Berhad,0.0075,2016
+7209.KL,Cheetah Holdings Berhad,0.006,2017
+7210.KL,Freight Management Holdings Bhd,0.05,2015
+7210.KL,Freight Management Holdings Bhd,0.05,2016
+7210.KL,Freight Management Holdings Bhd,0.05,2017
+7214.KL,A-Rank Berhad,0.0225,2015
+7214.KL,A-Rank Berhad,0.03,2016
+7214.KL,A-Rank Berhad,0.0325,2017
+7216.KL,Kawan Food Bhd,0.02,2015
+7216.KL,Kawan Food Bhd,0.025,2016
+7216.KL,Kawan Food Bhd,0.025,2017
+7222.KL,Imaspro Corporation Berhad,0.035,2015
+7222.KL,Imaspro Corporation Berhad,0.07,2016
+7222.KL,Imaspro Corporation Berhad,0.035,2017
+7227.KL,Ums-Neiken Group Berhad,0.025,2015
+7227.KL,Ums-Neiken Group Berhad,0.03,2016
+7227.KL,Ums-Neiken Group Berhad,0.03,2017
+7229.KL,Favelle Favco Berhad,0.12,2015
+7229.KL,Favelle Favco Berhad,0.15,2016
+7229.KL,Favelle Favco Berhad,0.15,2017
+7231.KL,Wellcall Holdings Bhd,0.069,2015
+7231.KL,Wellcall Holdings Bhd,0.069,2016
+7231.KL,Wellcall Holdings Bhd,0.0615,2017
+7235.KL,Superlon Holdings Berhad,0.04,2015
+7235.KL,Superlon Holdings Berhad,0.08,2016
+7235.KL,Superlon Holdings Berhad,0.015,2017
+7235.KL,Superlon Holdings Berhad,0.01,2018
+7237.KL,Power Root Berhad,0.1,2015
+7237.KL,Power Root Berhad,0.1,2016
+7237.KL,Power Root Berhad,0.115,2017
+7245.KL,WZ Satu Berhad,0.02,2016
+7245.KL,WZ Satu Berhad,0.02,2017
+7245.KL,WZ Satu Berhad,0.02,2018
+7246.KL,Signature International Berhad,0.1,2015
+7246.KL,Signature International Berhad,0.02,2016
+7246.KL,Signature International Berhad,0.025,2017
+7247.KL,SCGM Bhd,0.19,2015
+7247.KL,SCGM Bhd,0.08,2016
+7247.KL,SCGM Bhd,0.07,2017
+7248.KL,SLP Resources Berhad,0.025,2015
+7248.KL,SLP Resources Berhad,0.045,2016
+7248.KL,SLP Resources Berhad,0.045,2017
+7249.KL,Ewein Berhad,0.01,2015
+7249.KL,Ewein Berhad,0.005,2016
+7249.KL,Ewein Berhad,0.005,2017
+7277.KL,Dialog Group Berhad,0.022,2015
+7277.KL,Dialog Group Berhad,0.022,2016
+7277.KL,Dialog Group Berhad,0.0265,2017
+7285.KL,Tomypak Holdings Bhd,0.08,2015
+7285.KL,Tomypak Holdings Bhd,0.09,2016
+7285.KL,Tomypak Holdings Bhd,0.056,2017
+7293.KL,Yinson Holdings Berhad,0.015,2015
+7293.KL,Yinson Holdings Berhad,0.02,2016
+7293.KL,Yinson Holdings Berhad,0.06,2017
+7323.KL,Ken Holdings Bhd,0.03,2015
+7323.KL,Ken Holdings Bhd,0.03,2016
+7323.KL,Ken Holdings Bhd,0.025,2017
+7374.KL,Tien Wah Press Holdings Bhd,0.08,2015
+7374.KL,Tien Wah Press Holdings Bhd,0.18,2016
+7374.KL,Tien Wah Press Holdings Bhd,0.1,2017
+7412.KL,SHH Resources Holdings Bhd,0.1,2015
+7412.KL,SHH Resources Holdings Bhd,0.1,2016
+7412.KL,SHH Resources Holdings Bhd,0.05,2017
+7528.KL,DKLS Industries Bhd,0.03,2015
+7528.KL,DKLS Industries Bhd,0.03,2016
+7528.KL,DKLS Industries Bhd,0.03,2017
+7609.KL,Ajiya Berhad,0.03,2015
+7609.KL,Ajiya Berhad,0.05,2016
+7609.KL,Ajiya Berhad,0.02,2017
+7617.KL,Magna Prima Bhd,0.05,2015
+7617.KL,Magna Prima Bhd,0.03,2016
+7617.KL,Magna Prima Bhd,0.03,2017
+7668.KL,Hai-O Enterprise Bhd,0.15,2015
+7668.KL,Hai-O Enterprise Bhd,0.15,2016
+7668.KL,Hai-O Enterprise Bhd,0.16,2017
+7668.KL,Hai-O Enterprise Bhd,0.06,2018
+7757.KL,UPA Corporation Berhad,0.08,2015
+7757.KL,UPA Corporation Berhad,0.09,2016
+7757.KL,UPA Corporation Berhad,0.08,2017
+7803.KL,Rubberex Corp. M Bhd,0.03,2015
+7803.KL,Rubberex Corp. M Bhd,0.02,2016
+7803.KL,Rubberex Corp. M Bhd,0.0075,2017
+7811.KL,Sapura Industrial Bhd,0.06,2015
+7811.KL,Sapura Industrial Bhd,0.06,2016
+7811.KL,Sapura Industrial Bhd,0.05,2017
+8125.KL,Daibochi Plastic & Packaging Industry Bhd,0.145,2015
+8125.KL,Daibochi Plastic & Packaging Industry Bhd,0.054,2016
+8125.KL,Daibochi Plastic & Packaging Industry Bhd,0.0479,2017
+8311.KL,Pesona Metro Holdings Berhad,0.01,2015
+8311.KL,Pesona Metro Holdings Berhad,0.02,2016
+8311.KL,Pesona Metro Holdings Berhad,0.01,2017
+8397.KL,Tiong Nam Logistics Holdings Bhd,0.04,2015
+8397.KL,Tiong Nam Logistics Holdings Bhd,0.05,2016
+8397.KL,Tiong Nam Logistics Holdings Bhd,0.02,2017
+8419.KL,Pansar Bhd,0.0225,2015
+8419.KL,Pansar Bhd,0.02,2016
+8419.KL,Pansar Bhd,0.01,2017
+8443.KL,HIL Industries Bhd,0.015,2015
+8443.KL,HIL Industries Bhd,0.015,2016
+8443.KL,HIL Industries Bhd,0.015,2017
+8494.KL,LBI Capital Bhd,0.05,2015
+8494.KL,LBI Capital Bhd,0.07,2016
+8494.KL,LBI Capital Bhd,0.07,2017
+8524.KL,Taliworks Corporation Berhad,0.17,2015
+8524.KL,Taliworks Corporation Berhad,0.08,2016
+8524.KL,Taliworks Corporation Berhad,0.08,2017
+8583.KL,Mah Sing Group Bhd,0.065,2015
+8583.KL,Mah Sing Group Bhd,0.065,2016
+8583.KL,Mah Sing Group Bhd,0.065,2017
+8591.KL,Crest Builder Holdings Bhd,0.0375,2015
+8591.KL,Crest Builder Holdings Bhd,0.04,2016
+8591.KL,Crest Builder Holdings Bhd,0.04,2017
+8621.KL,LPI Capital Bhd,0.75,2015
+8621.KL,LPI Capital Bhd,0.75,2016
+8621.KL,LPI Capital Bhd,0.82,2017
+8621.KL,LPI Capital Bhd,0.45,2018
+8648.KL,Jasa Kita Bhd,0.003,2015
+8648.KL,Jasa Kita Bhd,0.003,2016
+8648.KL,Jasa Kita Bhd,0.01,2017
+8664.KL,S P Setia Berhad,0.097,2015
+8664.KL,S P Setia Berhad,0.23,2016
+8664.KL,S P Setia Berhad,0.2,2017
+8702.KL,Texchem Resources Bhd,0.25,2015
+8702.KL,Texchem Resources Bhd,0.1,2016
+8702.KL,Texchem Resources Bhd,0.1,2017
+8869.KL,Press Metal Bhd,0.09,2015
+8869.KL,Press Metal Bhd,0.095,2016
+8869.KL,Press Metal Bhd,0.06,2017
+8877.KL,Ekovest Berhad,0.02,2015
+8877.KL,Ekovest Berhad,0.02,2016
+8877.KL,Ekovest Berhad,0.05,2017
+8966.KL,Prolexus Bhd,0.042,2015
+8966.KL,Prolexus Bhd,0.0325,2016
+8966.KL,Prolexus Bhd,0.0125,2017
+8966.KL,Prolexus Bhd,0.01,2018
+8982.KL,Cepatwawasan Group Bhd,0.02,2015
+8982.KL,Cepatwawasan Group Bhd,0.015,2016
+8982.KL,Cepatwawasan Group Bhd,0.03,2017
+9059.KL,TSH Resources Berhad,0.025,2015
+9059.KL,TSH Resources Berhad,0.02,2016
+9059.KL,TSH Resources Berhad,0.02,2017
+9148.KL,Advanced Packaging Technology M Bhd,0.12,2015
+9148.KL,Advanced Packaging Technology M Bhd,0.12,2016
+9148.KL,Advanced Packaging Technology M Bhd,0.12,2017
+9172.KL,Formosa Prosonic Industries Berhad,0.03,2015
+9172.KL,Formosa Prosonic Industries Berhad,0.07,2016
+9172.KL,Formosa Prosonic Industries Berhad,0.06,2017
+9261.KL,Gadang Holdings Berhad,0.05,2015
+9261.KL,Gadang Holdings Berhad,0.07,2016
+9261.KL,Gadang Holdings Berhad,0.03,2017
+9288.KL,Bonia Corporation Berhad,0.0125,2015
+9288.KL,Bonia Corporation Berhad,0.0125,2016
+9288.KL,Bonia Corporation Berhad,0.0125,2017
+9296.KL,RCE Capital Berhad,0.015,2015
+9296.KL,RCE Capital Berhad,0.035,2016
+9296.KL,RCE Capital Berhad,0.03,2017
+9296.KL,RCE Capital Berhad,0.03,2018
+9326.KL,LB Aluminium Bhd,0.02,2015
+9326.KL,LB Aluminium Bhd,0.02,2016
+9326.KL,LB Aluminium Bhd,0.025,2017
+9334.KL,KESM Industries Bhd,0.03,2015
+9334.KL,KESM Industries Bhd,0.03,2016
+9334.KL,KESM Industries Bhd,0.095,2017
+9369.KL,Teo Guan Lee Corp. Bhd,0.075,2015
+9369.KL,Teo Guan Lee Corp. Bhd,0.075,2016
+9369.KL,Teo Guan Lee Corp. Bhd,0.05,2017
+9423.KL,Chee Wah Corp. Bhd,0.02,2015
+9423.KL,Chee Wah Corp. Bhd,0.035,2016
+9423.KL,Chee Wah Corp. Bhd,0.015,2017
+9431.KL,Seni Jaya Corporation Berhad,0.01,2015
+9431.KL,Seni Jaya Corporation Berhad,0.01,2016
+9431.KL,Seni Jaya Corporation Berhad,0.01,2017
+9571.KL,Mitrajaya Holdings Bhd,0.033333,2015
+9571.KL,Mitrajaya Holdings Bhd,0.05,2016
+9571.KL,Mitrajaya Holdings Bhd,0.05,2017
+9598.KL,Pintaras Jaya Bhd,0.18,2015
+9598.KL,Pintaras Jaya Bhd,0.2,2016
+9598.KL,Pintaras Jaya Bhd,0.2,2017
+9792.KL,SEG International Bhd,0.07,2015
+9792.KL,SEG International Bhd,0.06,2016
+9792.KL,SEG International Bhd,0.035,2017
+9822.KL,SAM Engineering & Equipment (M) Berhad,0.1194,2015
+9822.KL,SAM Engineering & Equipment (M) Berhad,0.1496,2016
+9822.KL,SAM Engineering & Equipment (M) Berhad,0.1028,2017
+9865.KL,Suiwah Corp. Bhd,0.06,2015
+9865.KL,Suiwah Corp. Bhd,0.035,2016
+9865.KL,Suiwah Corp. Bhd,0.01,2017
+9873.KL,Prestar Resources Bhd,0.02,2015
+9873.KL,Prestar Resources Bhd,0.02,2016
+9873.KL,Prestar Resources Bhd,0.05,2017
+9962.KL,Gromutual Bhd,0.02,2015
+9962.KL,Gromutual Bhd,0.01,2016
+9962.KL,Gromutual Bhd,0.02,2017
+9997.KL,Pensonic Holdings Bhd,0.035,2015
+9997.KL,Pensonic Holdings Bhd,0.03,2016
+9997.KL,Pensonic Holdings Bhd,0.02,2017
