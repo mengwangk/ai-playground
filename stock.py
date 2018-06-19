@@ -8,6 +8,7 @@ import pandas as pd
 import os
 
 from fundamental import DividendYield
+from source import YahooFinanceSource
 
 
 class StockAnalysis:
@@ -91,20 +92,28 @@ class StockAnalysis:
 
         return False
 
-    def get_current_prices(self, ticker, file_name=_CURRENT_PRICE_FILE):
+    def get_current_prices(self, ticker_file, price_file_name=_CURRENT_PRICE_FILE):
         """
         Getting current prices into a file.
 
-        :param ticker: Ticket or a list of tickers
-        :param file_name: Output file name
+        :param ticker_file: Ticket file.
+        :param price_file_name: Output price file name.
         :return: True on success, otherwise return False.
         """
-        if isinstance(ticker, str):
-            print("Getting current for {}".format(ticker))
-        else:
-            for tick in ticker:
 
+        df_stocks = pd.read_csv(ticker_file, dtype=str)
+        tickers = df_stocks.symbol.unique()
+        current = 1
+        for ticker in tickers:
+            print('{} - Getting current info for {}.'.format(current, ticker))
+            current = current + 1
 
+            yahoo_finance_source = YahooFinanceSource(ticker)
+            pe_ratio = yahoo_finance_source.get_pe_ratio()
+            dividend_rate = yahoo_finance_source.get_dividend_rate()
+            dividend_yield = yahoo_finance_source.get_dividend_yield()
+            payout_ratio = yahoo_finance_source.get_payout_ratio()
+            current_price = yahoo_finance_source.get_current_price()
 
 def main():
     """
@@ -112,7 +121,10 @@ def main():
     """
 
     stock_analysis = StockAnalysis()
-    stock_analysis.fund_get_dividend_yields_for_exchange('KLS')
+
+    # stock_analysis.fund_get_dividend_yields_for_exchange('KLS')
+
+    stock_analysis.get_current_prices(ticker_file='dataset/KLS_selected_equities.csv')
 
 
 if __name__ == "__main__":
