@@ -92,7 +92,7 @@ class StockAnalysis:
 
         return False
 
-    def get_current_prices(self, ticker_file, price_file_name=_CURRENT_PRICE_FILE):
+    def fund_get_stock_financials(self, ticker_file, price_file_name=_CURRENT_PRICE_FILE):
         """
         Getting current prices into a file.
 
@@ -104,16 +104,22 @@ class StockAnalysis:
         df_stocks = pd.read_csv(ticker_file, dtype=str)
         tickers = df_stocks.symbol.unique()
         current = 1
+        df_all_stocks_summaries = pd.DataFrame()
         for ticker in tickers:
             print('{} - Getting current info for {}.'.format(current, ticker))
             current = current + 1
 
             yahoo_finance_source = YahooFinanceSource(ticker)
-            pe_ratio = yahoo_finance_source.get_pe_ratio()
-            dividend_rate = yahoo_finance_source.get_dividend_rate()
-            dividend_yield = yahoo_finance_source.get_dividend_yield()
-            payout_ratio = yahoo_finance_source.get_payout_ratio()
-            current_price = yahoo_finance_source.get_current_price()
+            stock_summary_data = yahoo_finance_source.get_stock_summary_data()
+            stock_summary_data[ticker]['symbol'] = ticker
+            df_stock_summary = pd.DataFrame([pd.Series(stock_summary_data[ticker])])
+            if (df_all_stocks_summaries.empty):
+                df_all_stocks_summaries = df_stock_summary
+            else:
+                df_all_stocks_summaries = df_all_stocks_summaries.append(df_stock_summary)
+
+            df_all_stocks_summaries.to_csv(price_file_name, encoding='utf-8', index=False)
+
 
 def main():
     """
@@ -124,7 +130,7 @@ def main():
 
     # stock_analysis.fund_get_dividend_yields_for_exchange('KLS')
 
-    stock_analysis.get_current_prices(ticker_file='dataset/KLS_selected_equities.csv')
+    stock_analysis.fund_get_stock_financials(ticker_file='dataset/KLS_selected_equities.csv', price_file_name='dataset/KLS_current_price.csv')
 
 
 if __name__ == "__main__":
