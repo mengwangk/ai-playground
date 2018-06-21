@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/notebook/adspy_shared_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical/momentum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical/others.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical/trend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical/volatility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical/volume.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,89 +24,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stock.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stock.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technical/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="132" column="140" selection-start-line="132" selection-start-column="140" selection-end-line="132" selection-end-column="140" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#111#130#0" expanded="true" />
+                <element signature="e#259#281#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KLS_current_price.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataset/KLS_current_price.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret column="553" selection-start-column="547" selection-end-column="553" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="frame.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/pandas/core/frame.py">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technical/utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="4138" column="8" selection-start-line="4138" selection-start-column="8" selection-end-line="4138" selection-end-column="8" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py">
+      <file leaf-file-name="wrapper.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/technical/wrapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="376" column="13" selection-start-line="376" selection-start-column="13" selection-end-line="376" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dividend_yield.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fundamental/dividend_yield.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="-1688">
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#24#43#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KLS_dividend_yields.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/KLS_dividend_yields.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2220">
-              <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="150" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KLS_selected_equities.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/KLS_selected_equities.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3160">
-              <caret line="158" column="38" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yahoofinance.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1266310093/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -138,10 +93,10 @@
       <find>format</find>
       <find>0090.KL</find>
       <find>media</find>
-      <find>2018</find>
       <find>trailingpe</find>
       <find>print</find>
       <find>symbol</find>
+      <find>2018</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,10 +126,13 @@
         <option value="$PROJECT_DIR$/dataset/KLS_dividend_yields.csv" />
         <option value="$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py" />
         <option value="$PROJECT_DIR$/stock.py" />
+        <option value="$PROJECT_DIR$/learn/__init__.py" />
+        <option value="$PROJECT_DIR$/technical/__init__.py" />
+        <option value="$PROJECT_DIR$/technical/utils.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -195,7 +153,7 @@
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
               <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="technical" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
@@ -416,7 +374,21 @@
       <option name="project" value="LOCAL" />
       <updated>1529414231534</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated files">
+      <created>1529512785605</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1529512785606</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated files">
+      <created>1529512806798</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1529512806798</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -461,7 +433,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.18040873" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
@@ -472,7 +444,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39615384" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.20897436" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -528,23 +500,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
-          <folding>
-            <element signature="e#111#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5700">
@@ -629,9 +584,6 @@
           <caret line="109" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -807,27 +759,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/KLS_current_price.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret column="553" selection-start-column="547" selection-end-column="553" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4138" column="8" selection-start-line="4138" selection-start-column="8" selection-end-line="4138" selection-end-column="8" />
+        <state relative-caret-position="262">
+          <caret line="1483" column="28" lean-forward="true" selection-start-line="1483" selection-start-column="28" selection-end-line="1483" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="132" column="140" selection-start-line="132" selection-start-column="140" selection-end-line="132" selection-end-column="140" />
+        <state relative-caret-position="388">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="e#111#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLS_current_price.csv">
+    <entry file="file://$PROJECT_DIR$/technical/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret column="553" selection-start-column="547" selection-end-column="553" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#259#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical/wrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1688">
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
