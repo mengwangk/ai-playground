@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/predict/test_strategy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trade.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/KLS_clustered_equities.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/KLS_clustered_equities.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/KLS_current_price.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/KLS_stock_financials.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/momentum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/others.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/trend.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/volatility.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/volume.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +18,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="stock.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1569">
+              <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+              <folding>
+                <element signature="e#111#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trade.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trade.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,8 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>self.ticker</find>
-      <find>get_current</find>
       <find>dividends</find>
       <find>report_name</find>
       <find>up_ticker</find>
@@ -62,6 +79,8 @@
       <find>print</find>
       <find>symbol</find>
       <find>2018</find>
+      <find>bs4</find>
+      <find>plot_labell</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,7 +109,6 @@
         <option value="$PROJECT_DIR$/dataset/ticker.csv" />
         <option value="$PROJECT_DIR$/dataset/KLS_dividend_yields.csv" />
         <option value="$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py" />
-        <option value="$PROJECT_DIR$/stock.py" />
         <option value="$PROJECT_DIR$/learn/__init__.py" />
         <option value="$PROJECT_DIR$/technical/utils.py" />
         <option value="$PROJECT_DIR$/technical/__init__.py" />
@@ -101,6 +119,14 @@
         <option value="$PROJECT_DIR$/lib/ta/trend.py" />
         <option value="$PROJECT_DIR$/lib/ta/volatility.py" />
         <option value="$PROJECT_DIR$/lib/ta/volume.py" />
+        <option value="$PROJECT_DIR$/lib/ta/momentum.py" />
+        <option value="$PROJECT_DIR$/predict/SampleStrategy.py" />
+        <option value="$PROJECT_DIR$/predict/teststrategy.py" />
+        <option value="$PROJECT_DIR$/predict/test_strategy.py" />
+        <option value="$PROJECT_DIR$/stock.py" />
+        <option value="$PROJECT_DIR$/build/back_test.py" />
+        <option value="$PROJECT_DIR$/auto_trader.py" />
+        <option value="$PROJECT_DIR$/trade.py" />
       </list>
     </option>
   </component>
@@ -121,6 +147,11 @@
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
               <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
@@ -166,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.stock">
+  <component name="RunManager" selected="Python.trade">
     <configuration name="stock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myInvestor-toolkit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,6 +211,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="trade" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myInvestor-toolkit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trade.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,9 +280,11 @@
       <item itemvalue="Python tests.Unittests in source_test.py" />
       <item itemvalue="Python tests.Unittests in fundamental_test.py" />
       <item itemvalue="Python.stock" />
+      <item itemvalue="Python.trade" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.trade" />
         <item itemvalue="Python.stock" />
         <item itemvalue="Python tests.Unittests in source_test.py" />
         <item itemvalue="Python tests.Unittests in fundamental_test.py" />
@@ -410,23 +461,23 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.18040873" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.1888654" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.43974358" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2846154" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20897436" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30384615" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.43974358" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -471,116 +522,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/googlefinance.py" />
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/requests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generate_dividend_history.py" />
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/setuptools/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lotto.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fundamental/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="610" selection-start-line="610" selection-end-line="610" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/pandas/core/reshape/merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/pandas/core/indexes/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="3197" selection-start-line="3197" selection-end-line="3197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3362">
-          <caret line="346" column="22" selection-start-line="346" selection-start-column="22" selection-end-line="346" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/pandas/io/parsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="716" selection-start-line="716" selection-end-line="716" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset/dividend_yield.csv" />
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/pandas/core/generic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-215">
@@ -609,16 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/source_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#38#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1266310093/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -633,31 +569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLS_dividend_yields.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="150" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="376" column="13" selection-start-line="376" selection-start-column="13" selection-end-line="376" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLS_current_price.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret column="553" selection-start-column="547" selection-end-column="553" />
         </state>
       </provider>
     </entry>
@@ -668,70 +583,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-          <folding>
-            <element signature="e#111#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/indicator/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technical/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLS_clustered_equities.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/indicator/others.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/indicator/wrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/indicator/volatility.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/indicator/trend.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/indicator/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/indicator/momentum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ta/others.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/indicator/utils.py" />
+    <entry file="file://$PROJECT_DIR$/technical/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/lib/indicator/others.py" />
+    <entry file="file://$PROJECT_DIR$/lib/indicator/wrapper.py" />
+    <entry file="file://$PROJECT_DIR$/lib/indicator/volatility.py" />
+    <entry file="file://$PROJECT_DIR$/lib/indicator/trend.py" />
+    <entry file="file://$PROJECT_DIR$/lib/indicator/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/lib/indicator/momentum.py" />
     <entry file="file://$PROJECT_DIR$/lib/ta/volatility.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -743,9 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,18 +629,167 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lotto.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/matplotlib/colors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="1256" column="8" selection-start-line="1256" selection-start-column="8" selection-end-line="1256" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebook/adspy_shared_utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/dispatcher.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/technical/bollinger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/technical/rsi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/technical/ma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441">
+          <folding>
+            <element signature="e#703#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/technical/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-812" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/barfeed/yahoofeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2066" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/technical/ratio.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/technical/macd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/strategy/position.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/source_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fundamental/dividend_yield.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/predict/__init__.py">
+    <entry file="file://$PROJECT_DIR$/lib/algo/bar.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ta/others.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict/test_strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#25#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/back_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/KLS_stock_financials.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="553" selection-start-column="547" selection-end-column="553" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ta/momentum.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1569">
+          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+          <folding>
+            <element signature="e#111#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/KLS_clustered_equities.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/KLS_dividend_yields.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="150" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

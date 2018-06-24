@@ -130,7 +130,7 @@ def main():
 
     # stock_analysis.fund_get_dividend_yields_for_exchange('KLS')
 
-    stock_analysis.fund_get_stock_financials(ticker_file='dataset/KLS_selected_equities.csv', price_file_name='dataset/KLS_current_price.csv')
+    stock_analysis.fund_get_stock_financials(ticker_file='dataset/KLS_selected_equities.csv', price_file_name='dataset/KLS_stock_financials.csv')
 
 
 if __name__ == "__main__":
