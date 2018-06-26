@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/predict/test_strategy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLS_clustered_equities.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/KLS_clustered_equities.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLS_current_price.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/KLS_stock_financials.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamental/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamental/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/algo/observer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/algo/observer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/algo/plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/algo/plotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade.py" beforeDir="false" afterPath="$PROJECT_DIR$/trade.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,23 +16,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="stock.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stock.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/algo/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1569">
-              <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
-                <element signature="e#111#130#0" expanded="true" />
+                <element signature="e#726#744#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trade.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trade.py">
+      <file leaf-file-name="bar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/algo/bar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="418">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatcher.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/algo/dispatcher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#703#729#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatchprio.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/algo/dispatchprio.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="eventprofiler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/algo/eventprofiler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+              <folding>
+                <element signature="e#703#734#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/algo/logger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1194">
+              <folding>
+                <element signature="e#703#717#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="marketsession.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/algo/marketsession.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="observer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/algo/observer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1665">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#703#713#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plotter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/algo/plotter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1266310093/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="4158" column="8" selection-start-line="4158" selection-start-column="8" selection-end-line="4158" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -51,16 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dividends</find>
-      <find>report_name</find>
-      <find>up_ticker</find>
-      <find>dividend</find>
-      <find>1155</find>
-      <find>prices</find>
-      <find>1506646800</find>
-      <find>data_dir</find>
-      <find>malaysia</find>
-      <find>KLS</find>
       <find>kls</find>
       <find>df = df.set_index(['symbol', 'date'])</find>
       <find>6599.kl</find>
@@ -81,6 +147,16 @@
       <find>2018</find>
       <find>bs4</find>
       <find>plot_labell</find>
+      <find>cvs</find>
+      <find>logger</find>
+      <find>logger.</find>
+      <find>pyalgo</find>
+      <find>pyalgotrade.bar</find>
+      <find>frequencey</find>
+      <find>algobar</find>
+      <find>slippage</find>
+      <find>bar.</find>
+      <find>slippa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/notebook/myInvestor-toolkit.ipynb" />
-        <option value="$PROJECT_DIR$/source/yahoo.py" />
         <option value="$PROJECT_DIR$/source/googlefinance.py" />
         <option value="$PROJECT_DIR$/run_test.py" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -127,6 +201,21 @@
         <option value="$PROJECT_DIR$/build/back_test.py" />
         <option value="$PROJECT_DIR$/auto_trader.py" />
         <option value="$PROJECT_DIR$/trade.py" />
+        <option value="$PROJECT_DIR$/lib/algo/tools/yahoofinance.py" />
+        <option value="$PROJECT_DIR$/fundamental/__init__.py" />
+        <option value="$PROJECT_DIR$/lib/algo/__init__.py" />
+        <option value="$PROJECT_DIR$/lib/algo/tools/googlefinance.py" />
+        <option value="$PROJECT_DIR$/lib/algo/tools/__init__.py" />
+        <option value="$PROJECT_DIR$/lib/algo/strategy/__init__.py" />
+        <option value="$PROJECT_DIR$/lib/algo/broker/backtesting.py" />
+        <option value="$PROJECT_DIR$/lib/algo/broker/__init__.py" />
+        <option value="$PROJECT_DIR$/lib/algo/broker/fillstrategy.py" />
+        <option value="$PROJECT_DIR$/lib/algo/bar.py" />
+        <option value="$PROJECT_DIR$/lib/algo/dispatcher.py" />
+        <option value="$PROJECT_DIR$/lib/algo/dispatchprio.py" />
+        <option value="$PROJECT_DIR$/lib/algo/eventprofiler.py" />
+        <option value="$PROJECT_DIR$/lib/algo/observer.py" />
+        <option value="$PROJECT_DIR$/lib/algo/plotter.py" />
       </list>
     </option>
   </component>
@@ -151,7 +240,13 @@
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
               <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
@@ -414,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529587083728</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated files">
+      <created>1529850019980</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1529850019980</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -460,13 +562,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.1888654" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2846154" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10128205" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -522,96 +625,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataset/dividend_yield.csv" />
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="1077" column="8" selection-start-line="1077" selection-start-column="8" selection-end-line="1077" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/ticker.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="3916" column="18" lean-forward="true" selection-start-line="3916" selection-start-column="18" selection-end-line="3916" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1266310093/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLS_selected_equities.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3160">
-          <caret line="158" column="38" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="376" column="13" selection-start-line="376" selection-start-column="13" selection-end-line="376" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="1483" column="28" lean-forward="true" selection-start-line="1483" selection-start-column="28" selection-end-line="1483" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/indicator/utils.py" />
-    <entry file="file://$PROJECT_DIR$/technical/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/lib/indicator/others.py" />
-    <entry file="file://$PROJECT_DIR$/lib/indicator/wrapper.py" />
-    <entry file="file://$PROJECT_DIR$/lib/indicator/volatility.py" />
-    <entry file="file://$PROJECT_DIR$/lib/indicator/trend.py" />
-    <entry file="file://$PROJECT_DIR$/lib/indicator/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/lib/indicator/momentum.py" />
-    <entry file="file://$PROJECT_DIR$/lib/ta/volatility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ta/wrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ta/volume.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ta/utils.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -655,9 +672,6 @@
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/algo/dispatcher.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/algo/technical/bollinger.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -710,19 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fundamental/dividend_yield.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/algo/bar.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ta/others.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -740,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/back_test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -759,16 +753,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ta/momentum.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1569">
-          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-          <folding>
-            <element signature="e#111#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset/KLS_clustered_equities.csv">
       <provider selected="true" editor-type-id="text-editor">
@@ -784,10 +768,214 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/technical/atr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <element signature="e#703#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamental/dividend_yield.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1108">
+          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+          <folding>
+            <element signature="e#111#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamental/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/tools/yahoofinance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trade.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/tools/googlefinance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1441">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="17" />
+          <folding>
+            <element signature="e#779#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#704#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/barfeed/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1926">
+          <folding>
+            <element signature="e#703#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/strategy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/broker/backtesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7690">
+          <caret line="405" column="65" selection-start-line="405" selection-start-column="61" selection-end-line="405" selection-end-column="65" />
+          <folding>
+            <element signature="e#704#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/broker/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/abc.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/broker/fillstrategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="117" column="37" lean-forward="true" selection-start-line="117" selection-start-column="37" selection-end-line="117" selection-end-column="37" />
+          <folding>
+            <element signature="e#704#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/broker/slippage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#726#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/bar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/dispatcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#703#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1266310093/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="4158" column="8" selection-start-line="4158" selection-start-column="8" selection-end-line="4158" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/dispatchprio.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/eventprofiler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+          <folding>
+            <element signature="e#703#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1194">
+          <folding>
+            <element signature="e#703#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/marketsession.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/observer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1665">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/algo/plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>
