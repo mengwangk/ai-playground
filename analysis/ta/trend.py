@@ -4,8 +4,8 @@
    :synopsis: Trend Indicators.
 
 """
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 
 def macd(close, n_fast=12, n_slow=26, fillna=False):
@@ -165,7 +165,7 @@ def adx(high, low, close, n=14, fillna=False):
     dip = 100 * pos.rolling(n).sum() / trs
     din = 100 * neg.rolling(n).sum() / trs
 
-    dx = 100 * np.abs((dip - din)/(dip + din))
+    dx = 100 * np.abs((dip - din) / (dip + din))
     adx = dx.ewm(n).mean()
 
     if fillna:
@@ -387,14 +387,14 @@ def trix(close, n=15, fillna=False):
     Returns:
         pandas.Series: New feature generated.
     """
-    ema1 = close.ewm(span=n, min_periods=n-1).mean()
-    ema2 = ema1.ewm(span=n, min_periods=n-1).mean()
-    ema3 = ema2.ewm(span=n, min_periods=n-1).mean()
+    ema1 = close.ewm(span=n, min_periods=n - 1).mean()
+    ema2 = ema1.ewm(span=n, min_periods=n - 1).mean()
+    ema3 = ema2.ewm(span=n, min_periods=n - 1).mean()
     trix = (ema3 - ema3.shift(1)) / ema3.shift(1)
     trix *= 100
     if fillna:
         trix = trix.fillna(0)
-    return pd.Series(trix, name='trix_'+str(n))
+    return pd.Series(trix, name='trix_' + str(n))
 
 
 def mass_index(high, low, n=9, n2=25, fillna=False):
@@ -418,13 +418,13 @@ def mass_index(high, low, n=9, n2=25, fillna=False):
 
     """
     amplitude = high - low
-    ema1 = amplitude.ewm(span=n, min_periods=n-1).mean()
-    ema2 = ema1.ewm(span=n, min_periods=n-1).mean()
-    mass = ema1/ema2
+    ema1 = amplitude.ewm(span=n, min_periods=n - 1).mean()
+    ema2 = ema1.ewm(span=n, min_periods=n - 1).mean()
+    mass = ema1 / ema2
     mass = mass.rolling(n2).sum()
     if fillna:
         mass = mass.fillna(n2)
-    return pd.Series(mass, name='mass_index_'+str(n))
+    return pd.Series(mass, name='mass_index_' + str(n))
 
 
 def cci(high, low, close, n=20, c=0.015, fillna=False):
@@ -450,9 +450,9 @@ def cci(high, low, close, n=20, c=0.015, fillna=False):
         pandas.Series: New feature generated.
 
     """
-    pp = (high+low+close)/3
-    cci = (pp-pp.rolling(n).mean())/pp.rolling(n).std()
-    cci = 1/c * cci
+    pp = (high + low + close) / 3
+    cci = (pp - pp.rolling(n).mean()) / pp.rolling(n).std()
+    cci = 1 / c * cci
     if fillna:
         cci = cci.fillna(0)
     return pd.Series(cci, name='cci')
@@ -474,10 +474,10 @@ def dpo(close, n=20, fillna=False):
     Returns:
         pandas.Series: New feature generated.
     """
-    dpo = close.shift(int(n/(2+1))) - close.rolling(n).mean()
+    dpo = close.shift(int(n / (2 + 1))) - close.rolling(n).mean()
     if fillna:
         dpo = dpo.fillna(0)
-    return pd.Series(dpo, name='dpo_'+str(n))
+    return pd.Series(dpo, name='dpo_' + str(n))
 
 
 def kst(close, r1=10, r2=15, r3=20, r4=30, n1=10, n2=10, n3=10, n4=15, fillna=False):
@@ -509,7 +509,7 @@ def kst(close, r1=10, r2=15, r3=20, r4=30, n1=10, n2=10, n3=10, n4=15, fillna=Fa
     rocma2 = ((close - close.shift(r2)) / close.shift(r2)).rolling(n2).mean()
     rocma3 = ((close - close.shift(r3)) / close.shift(r3)).rolling(n3).mean()
     rocma4 = ((close - close.shift(r4)) / close.shift(r4)).rolling(n4).mean()
-    kst = 100*(rocma1 + 2*rocma2 + 3*rocma3 + 4*rocma4)
+    kst = 100 * (rocma1 + 2 * rocma2 + 3 * rocma3 + 4 * rocma4)
     if fillna:
         kst = kst.fillna(0)
     return pd.Series(kst, name='kst')
@@ -545,7 +545,7 @@ def kst_sig(close, r1=10, r2=15, r3=20, r4=30, n1=10, n2=10, n3=10, n4=15, nsig=
     rocma2 = ((close - close.shift(r2)) / close.shift(r2)).rolling(n2).mean()
     rocma3 = ((close - close.shift(r3)) / close.shift(r3)).rolling(n3).mean()
     rocma4 = ((close - close.shift(r4)) / close.shift(r4)).rolling(n4).mean()
-    kst = 100*(rocma1 + 2*rocma2 + 3*rocma3 + 4*rocma4)
+    kst = 100 * (rocma1 + 2 * rocma2 + 3 * rocma3 + 4 * rocma4)
     kst_sig = kst.rolling(nsig).mean()
     if fillna:
         kst_sig = kst_sig.fillna(0)
@@ -576,7 +576,7 @@ def ichimoku_a(high, low, n1=9, n2=26, fillna=False):
     spana = spana.shift(n2)
     if fillna:
         spana = spana.fillna(method='backfill')
-    return pd.Series(spana, name='ichimoku_a_'+str(n2))
+    return pd.Series(spana, name='ichimoku_a_' + str(n2))
 
 
 def ichimoku_b(high, low, n2=26, n3=52, fillna=False):
@@ -600,4 +600,4 @@ def ichimoku_b(high, low, n2=26, n3=52, fillna=False):
     spanb = spanb.shift(n2)
     if fillna:
         spanb = spanb.fillna(method='backfill')
-    return pd.Series(spanb, name='ichimoku_b_'+str(n2))
+    return pd.Series(spanb, name='ichimoku_b_' + str(n2))

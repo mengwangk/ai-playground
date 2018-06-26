@@ -4,11 +4,12 @@ myInvestor-toolkit startup script
 =================================
 """
 
-import pandas as pd
 import os
 
-from fundamental import DividendYield
+import pandas as pd
+
 from source import YahooFinanceSource
+from .analysis.fundamental import DividendYield
 
 
 class StockAnalysis:
@@ -130,7 +131,8 @@ def main():
 
     # stock_analysis.fund_get_dividend_yields_for_exchange('KLS')
 
-    stock_analysis.fund_get_stock_financials(ticker_file='dataset/KLS_selected_equities.csv', price_file_name='dataset/KLS_stock_financials.csv')
+    stock_analysis.fund_get_stock_financials(ticker_file='dataset/KLS_selected_equities.csv',
+                                             price_file_name='dataset/KLS_stock_financials.csv')
 
 
 if __name__ == "__main__":

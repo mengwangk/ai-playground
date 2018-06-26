@@ -26,7 +26,7 @@ def acc_dist_index(high, low, close, volume, fillna=False):
         pandas.Series: New feature generated.
     """
     clv = ((close - low) - (high - close)) / (high - low)
-    clv = clv.fillna(0.0) # float division by zero
+    clv = clv.fillna(0.0)  # float division by zero
     ad = clv * volume
     ad = ad + ad.shift(1)
     if fillna:
@@ -113,7 +113,7 @@ def chaikin_money_flow(high, low, close, volume, n=20, fillna=False):
         pandas.Series: New feature generated.
     """
     mfv = ((close - low) - (high - close)) / (high - low)
-    mfv = mfv.fillna(0.0) # float division by zero
+    mfv = mfv.fillna(0.0)  # float division by zero
     mfv *= volume
     cmf = mfv.rolling(n).sum() / volume.rolling(n).sum()
     if fillna:
@@ -142,7 +142,7 @@ def force_index(close, volume, n=2, fillna=False):
     fi = close.diff(n) * volume.diff(n)
     if fillna:
         fi = fi.fillna(0)
-    return pd.Series(fi, name='fi_'+str(n))
+    return pd.Series(fi, name='fi_' + str(n))
 
 
 def ease_of_movement(high, low, close, volume, n=20, fillna=False):

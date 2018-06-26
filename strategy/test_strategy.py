@@ -3,6 +3,6 @@ Test strategy.
 
 """
 
-from ..lib.algo import strategy
-from ..lib.algo.barfeed import yahoofeed
+from ..analysis.algo import strategy
+from ..analysis.algo.barfeed import yahoofeed
 
