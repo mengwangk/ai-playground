@@ -20,11 +20,11 @@
 
 import collections
 
-import .broker
-from . import warninghelpers
-
+import broker
 import matplotlib.pyplot as plt
 from matplotlib import ticker
+
+from . import warninghelpers
 
 
 def get_last_value(dataSeries):
@@ -283,6 +283,7 @@ class Subplot(object):
 
 class InstrumentSubplot(Subplot):
     """A Subplot responsible for plotting an instrument."""
+
     def __init__(self, instrument, plotBuySell):
         super(InstrumentSubplot, self).__init__()
         self.__instrument = instrument
@@ -301,7 +302,8 @@ class InstrumentSubplot(Subplot):
 
     def onOrderEvent(self, broker_, orderEvent):
         order = orderEvent.getOrder()
-        if self.__plotBuySell and orderEvent.getEventType() in (broker.OrderEvent.Type.PARTIALLY_FILLED, broker.OrderEvent.Type.FILLED) and order.getInstrument() == self.__instrument:
+        if self.__plotBuySell and orderEvent.getEventType() in (broker.OrderEvent.Type.PARTIALLY_FILLED,
+                                                                broker.OrderEvent.Type.FILLED) and order.getInstrument() == self.__instrument:
             action = order.getAction()
             execInfo = orderEvent.getEventInfo()
             if action in [broker.Order.Action.BUY, broker.Order.Action.BUY_TO_COVER]:
@@ -425,7 +427,8 @@ class StrategyPlotter(object):
 
     def buildFigure(self, fromDateTime=None, toDateTime=None):
         # Deprecated in v0.18.
-        warninghelpers.deprecation_warning("buildFigure will be deprecated in the next version. Use buildFigureAndSubplots.", stacklevel=2)
+        warninghelpers.deprecation_warning(
+            "buildFigure will be deprecated in the next version. Use buildFigureAndSubplots.", stacklevel=2)
 
         fig, _ = self.buildFigureAndSubplots(fromDateTime, toDateTime)
         return fig

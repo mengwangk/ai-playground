@@ -18,8 +18,8 @@
 import abc
 import datetime
 
-from pyalgotrade.utils import dt
-from pyalgotrade import bar
+from . import bar
+from .utils import dt
 
 
 class TimeRange(object):
