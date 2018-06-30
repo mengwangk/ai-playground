@@ -18,12 +18,12 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import barfeed
-from pyalgotrade import bar
-from pyalgotrade.barfeed import csvfeed
-from pyalgotrade.utils import dt
-
 import datetime
+
+from .. import bar
+from .. import barfeed
+from ..barfeed import csvfeed
+from ..utils import dt
 
 
 def to_utc_if_naive(dateTime):

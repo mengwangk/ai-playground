@@ -19,7 +19,7 @@
 """
 
 
-from pyalgotrade.bitstamp import livefeed
+from . import livefeed
 
 
 LiveTradeFeed = livefeed.LiveTradeFeed

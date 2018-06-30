@@ -19,11 +19,11 @@
 """
 
 import datetime
+import queue
 import threading
 
-import Queue
-from pyalgotrade.bitstamp import common
-from pyalgotrade.websocket import pusher
+from . import common
+from ..websocket import pusher
 
 
 def get_current_datetime():
@@ -104,7 +104,7 @@ class WebSocketClient(pusher.WebSocketClient):
 
     def __init__(self):
         super(WebSocketClient, self).__init__(WebSocketClient.PUSHER_APP_KEY, 5)
-        self.__queue = Queue.Queue()
+        self.__queue = queue.Queue()
 
     def getQueue(self):
         return self.__queue

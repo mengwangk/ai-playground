@@ -18,17 +18,18 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-import time
 import datetime
-import hmac
 import hashlib
-import requests
-import threading
-
-from pyalgotrade.utils import dt
-from pyalgotrade.bitstamp import common
-
+import hmac
 import logging
+import threading
+import time
+
+import requests
+
+from . import common
+from ..utils import dt
+
 logging.getLogger("requests").setLevel(logging.ERROR)
 
 

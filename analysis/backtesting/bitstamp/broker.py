@@ -18,14 +18,13 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-
-from pyalgotrade import broker
-from pyalgotrade.broker import backtesting
-from pyalgotrade.bitstamp import common
-from pyalgotrade.bitstamp import livebroker
-
+from . import common
+from . import livebroker
+from .. import broker
+from ..broker import backtesting
 
 LiveBroker = livebroker.LiveBroker
+
 
 # In a backtesting or paper-trading scenario the BacktestingBroker dispatches events while processing events from the
 # BarFeed.
@@ -41,7 +40,7 @@ class BacktestingBroker(backtesting.Broker):
     :param cash: The initial amount of cash.
     :type cash: int/float.
     :param barFeed: The bar feed that will provide the bars.
-    :type barFeed: :class:`pyalgotrade.barfeed.BarFeed`
+    :type barFeed: :class:`..barfeed.BarFeed`
     :param fee: The fee percentage for each order. Defaults to 0.25%.
     :type fee: float.
 
@@ -109,7 +108,7 @@ class PaperTradingBroker(BacktestingBroker):
     :param cash: The initial amount of cash.
     :type cash: int/float.
     :param barFeed: The bar feed that will provide the bars.
-    :type barFeed: :class:`pyalgotrade.barfeed.BarFeed`
+    :type barFeed: :class:`..barfeed.BarFeed`
     :param fee: The fee percentage for each order. Defaults to 0.5%.
     :type fee: float.
 

@@ -18,8 +18,8 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade.barfeed import csvfeed
-from pyalgotrade import bar
+from .. import bar
+from ..barfeed import csvfeed
 
 
 class Feed(csvfeed.GenericBarFeed):

@@ -21,10 +21,11 @@
 import threading
 import time
 
-import Queue
-from pyalgotrade import broker
-from pyalgotrade.bitstamp import common
-from pyalgotrade.bitstamp import httpclient
+import queue
+
+from . import common
+from . import httpclient
+from .. import broker
 
 
 def build_order_from_open_order(openOrder, instrumentTraits):
@@ -51,7 +52,7 @@ class TradeMonitor(threading.Thread):
         super(TradeMonitor, self).__init__()
         self.__lastTradeId = -1
         self.__httpClient = httpClient
-        self.__queue = Queue.Queue()
+        self.__queue = queue.Queue()
         self.__stop = False
 
     def _getNewTrades(self):

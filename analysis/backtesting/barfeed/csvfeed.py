@@ -22,7 +22,7 @@ import datetime
 
 import pytz
 
-from . import bar
+from .. import bar
 from ..barfeed import membf
 from ..utils import csvutils
 from ..utils import dt

@@ -18,13 +18,13 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade.barfeed import dbfeed
-from pyalgotrade.barfeed import membf
-from pyalgotrade import bar
-from pyalgotrade.utils import dt
-
-import sqlite3
 import os
+import sqlite3
+
+from .. import bar
+from ..barfeed import dbfeed
+from ..barfeed import membf
+from ..utils import dt
 
 
 def normalize_instrument(instrument):
