@@ -21,10 +21,9 @@
 import json
 import time
 
-from ws4py.client import tornadoclient
-import tornado
 import pyalgotrade.logger
-
+import tornado
+from ws4py.client import tornadoclient
 
 logger = pyalgotrade.logger.getLogger("websocket.client")
 
@@ -125,7 +124,7 @@ class WebSocketClientBase(tornadoclient.TornadoWebSocketClient):
                     return
 
             self.onMessage(msg)
-        except Exception, e:
+        except Exception as e:
             self.onUnhandledException(e)
 
     def opened(self):
@@ -157,7 +156,7 @@ class WebSocketClientBase(tornadoclient.TornadoWebSocketClient):
             if self.__connected:
                 self.close()
             self.close_connection()
-        except Exception, e:
+        except Exception as e:
             logger.warning("Failed to close connection: %s" % (e))
 
     ######################################################################
@@ -165,7 +164,7 @@ class WebSocketClientBase(tornadoclient.TornadoWebSocketClient):
 
     def onUnhandledException(self, exception):
         logger.critical("Unhandled exception", exc_info=exception)
-        raise
+        raise exception
 
     def onOpened(self):
         pass

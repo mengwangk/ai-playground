@@ -18,14 +18,13 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-import Queue
-import threading
 import json
+import threading
 
-from pyalgotrade import observer
+import Queue
 import pyalgotrade.logger
-
 import tweepy
+from pyalgotrade import observer
 from tweepy import streaming
 
 logger = pyalgotrade.logger.getLogger("twitter")
@@ -143,13 +142,13 @@ class TwitterFeed(observer.Subject):
             if self.__thread is not None and self.__thread.is_alive():
                 logger.info("Shutting down client.")
                 self.__stream.disconnect()
-        except Exception, e:
+        except Exception as e:
             logger.error("Error disconnecting stream: %s." % (str(e)))
 
     def join(self):
         if self.__thread is not None:
             self.__thread.join()
-        assert(not self.__running)
+        assert (not self.__running)
 
     def eof(self):
         return not self.__running

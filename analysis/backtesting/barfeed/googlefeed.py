@@ -20,12 +20,12 @@
 .. moduleauthor:: Maciej Żok <maciek.zok@gmail.com>
 """
 
-from pyalgotrade.barfeed import csvfeed
-from pyalgotrade.barfeed import common
-from pyalgotrade.utils import dt
-from pyalgotrade import bar
-
 import datetime
+
+from .. import bar
+from ..barfeed import common
+from ..barfeed import csvfeed
+from ..utils import dt
 
 
 ######################################################################

@@ -20,8 +20,8 @@
 
 import datetime
 import time
-import Queue
 
+import Queue
 from pyalgotrade import bar
 from pyalgotrade import barfeed
 from pyalgotrade import observer
@@ -94,7 +94,6 @@ class TradeBar(bar.Bar):
 
 
 class LiveTradeFeed(barfeed.BaseBarFeed):
-
     """A real-time BarFeed that builds bars from live trades.
 
     :param maxLen: The maximum number of values that the :class:`pyalgotrade.dataseries.bards.BarDataSeries` will hold.
@@ -137,7 +136,7 @@ class LiveTradeFeed(barfeed.BaseBarFeed):
             # Start the thread that runs the client.
             self.__thread = self.buildWebSocketClientThread()
             self.__thread.start()
-        except Exception, e:
+        except Exception as e:
             self.__initializationOk = False
             common.logger.error("Error connecting : %s" % str(e))
 
@@ -200,7 +199,7 @@ class LiveTradeFeed(barfeed.BaseBarFeed):
         # Build a bar for each trade.
         barDict = {
             common.btc_symbol: TradeBar(self.__getTradeDateTime(trade), trade)
-            }
+        }
         self.__barDicts.append(barDict)
 
     def barsHaveAdjClose(self):

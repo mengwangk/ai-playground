@@ -20,11 +20,11 @@
 
 import threading
 import time
-import Queue
 
+import Queue
 from pyalgotrade import broker
-from pyalgotrade.bitstamp import httpclient
 from pyalgotrade.bitstamp import common
+from pyalgotrade.bitstamp import httpclient
 
 
 def build_order_from_open_order(openOrder, instrumentTraits):
@@ -88,7 +88,7 @@ class TradeMonitor(threading.Thread):
                     self.__lastTradeId = trades[-1].getId()
                     common.logger.info("%d new trade/s found" % (len(trades)))
                     self.__queue.put((TradeMonitor.ON_USER_TRADE, trades))
-            except Exception, e:
+            except Exception as e:
                 common.logger.critical("Error retrieving user transactions", exc_info=e)
 
             time.sleep(TradeMonitor.POLL_FREQUENCY)
@@ -135,13 +135,13 @@ class LiveBroker(broker.Broker):
         self.__activeOrders = {}
 
     def _registerOrder(self, order):
-        assert(order.getId() not in self.__activeOrders)
-        assert(order.getId() is not None)
+        assert (order.getId() not in self.__activeOrders)
+        assert (order.getId() is not None)
         self.__activeOrders[order.getId()] = order
 
     def _unregisterOrder(self, order):
-        assert(order.getId() in self.__activeOrders)
-        assert(order.getId() is not None)
+        assert (order.getId() in self.__activeOrders)
+        assert (order.getId() is not None)
         del self.__activeOrders[order.getId()]
 
     # Factory method for testing purposes.
@@ -207,7 +207,8 @@ class LiveBroker(broker.Broker):
                     eventType = broker.OrderEvent.Type.PARTIALLY_FILLED
                 self.notifyOrderEvent(broker.OrderEvent(order, eventType, orderExecutionInfo))
             else:
-                common.logger.info("Trade %d refered to order %d that is not active" % (trade.getId(), trade.getOrderId()))
+                common.logger.info(
+                    "Trade %d refered to order %d that is not active" % (trade.getId(), trade.getOrderId()))
 
     # BEGIN observer.Subject interface
     def start(self):

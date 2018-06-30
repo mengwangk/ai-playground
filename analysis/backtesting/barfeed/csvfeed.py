@@ -18,13 +18,14 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade.utils import dt
-from pyalgotrade.utils import csvutils
-from pyalgotrade.barfeed import membf
-from pyalgotrade import bar
-
 import datetime
+
 import pytz
+
+from . import bar
+from ..barfeed import membf
+from ..utils import csvutils
+from ..utils import dt
 
 
 # Interface for csv row parsers.
@@ -115,7 +116,8 @@ class BarFeed(membf.BarFeed):
     def addBarsFromCSV(self, instrument, path, rowParser):
         # Load the csv file
         loadedBars = []
-        reader = csvutils.FastDictReader(open(path, "r"), fieldnames=rowParser.getFieldNames(), delimiter=rowParser.getDelimiter())
+        reader = csvutils.FastDictReader(open(path, "r"), fieldnames=rowParser.getFieldNames(),
+                                         delimiter=rowParser.getDelimiter())
         for row in reader:
             bar_ = rowParser.parseBar(row)
             if bar_ is not None and (self.__barFilter is None or self.__barFilter.includeBar(bar_)):

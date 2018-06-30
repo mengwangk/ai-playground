@@ -18,14 +18,14 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-import xmlrpclib
-import pickle
-import time
-import socket
-import random
 import multiprocessing
+import pickle
+import random
+import socket
+import time
 
 import pyalgotrade.logger
+import xmlrpclib
 from pyalgotrade import barfeed
 
 
@@ -93,7 +93,7 @@ class Worker(object):
             result = None
             try:
                 result = self.runStrategy(feed, *parameters)
-            except Exception, e:
+            except Exception as e:
                 self.getLogger().exception("Error running strategy with parameters %s: %s" % (str(parameters), e))
             self.getLogger().info("Result %s" % result)
             if bestResult is None or result > bestResult:
@@ -102,7 +102,7 @@ class Worker(object):
             # Run with the next set of parameters.
             parameters = job.getNextParameters()
 
-        assert(bestParams is not None)
+        assert (bestParams is not None)
         self.pushJobResults(job.getId(), bestResult, bestParams)
 
     # Run the strategy and return the result.
@@ -122,7 +122,7 @@ class Worker(object):
                 self.__processJob(job, barsFreq, instruments, bars)
                 job = self.getNextJob()
             self.getLogger().info("Finished running")
-        except Exception, e:
+        except Exception as e:
             self.getLogger().exception("Finished running with errors: %s" % (e))
 
 
@@ -152,7 +152,7 @@ def run(strategyClass, address, port, workerCount=None, workerName=None):
     :type workerName: string.
     """
 
-    assert(workerCount is None or workerCount > 0)
+    assert (workerCount is None or workerCount > 0)
     if workerCount is None:
         workerCount = multiprocessing.cpu_count()
 

@@ -55,7 +55,7 @@ def worker_process(strategyClass, port, logLevel):
         w = Worker("localhost", port, name)
         w.getLogger().setLevel(logLevel)
         w.run()
-    except Exception, e:
+    except Exception as e:
         w.getLogger().exception("Failed to run worker: %s" % (e))
 
 
@@ -92,7 +92,7 @@ def run(strategyClass, barFeed, strategyParameters, workerCount=None, logLevel=l
     :rtype: A :class:`Results` instance with the best results found.
     """
 
-    assert(workerCount is None or workerCount > 0)
+    assert (workerCount is None or workerCount > 0)
     if workerCount is None:
         workerCount = multiprocessing.cpu_count()
 

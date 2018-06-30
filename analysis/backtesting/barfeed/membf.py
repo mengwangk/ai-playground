@@ -18,9 +18,9 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import barfeed
-from pyalgotrade import bar
-from pyalgotrade import utils
+from .. import bar
+from .. import barfeed
+from .. import utils
 
 
 # A non real-time BarFeed responsible for:
@@ -68,7 +68,7 @@ class BarFeed(barfeed.BaseBarFeed):
 
         # Add and sort the bars
         self.__bars[instrument].extend(bars)
-        barCmp = lambda x, y: cmp(x.getDateTime(), y.getDateTime())
+        barCmp = lambda x, y: (x.getDateTime() > y.getDateTime()) - (x.getDateTime() < y.getDateTime())
         self.__bars[instrument].sort(barCmp)
 
         self.registerInstrument(instrument)

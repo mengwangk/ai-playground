@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/myInvestor-toolkit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myInvestor-toolkit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/barfeed/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/backtesting/plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/plotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/backtesting/resamplebase.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/resamplebase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/backtesting/warninghelpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/warninghelpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/csvfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/barfeed/csvfeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/googlefeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/barfeed/googlefeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/membf.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/barfeed/membf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/ninjatraderfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/barfeed/ninjatraderfeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/websocket/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/websocket/client.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +20,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="googlefeed.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/googlefeed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+              <folding>
+                <element signature="e#779#794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/analysis/backtesting/websocket/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="166" column="23" selection-start-line="166" selection-start-column="23" selection-end-line="166" selection-end-column="23" />
+              <folding>
+                <element signature="e#703#714#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,7 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>6599.kl</find>
       <find>df_stocks</find>
       <find>1370912400</find>
       <find>None</find>
@@ -58,6 +85,7 @@
       <find>slippa</find>
       <find>broker</find>
       <find>broker.</find>
+      <find>barfeed</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -66,11 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/generate.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/lotto.py" />
-        <option value="$PROJECT_DIR$/fundamental/fundamental_test.py" />
-        <option value="$PROJECT_DIR$/fundamental/dividend_yield.py" />
         <option value="$PROJECT_DIR$/dataset/ticker.csv" />
         <option value="$PROJECT_DIR$/dataset/KLS_dividend_yields.csv" />
         <option value="$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py" />
@@ -117,11 +140,16 @@
         <option value="$PROJECT_DIR$/analysis/backtesting/resamplebase.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/warninghelpers.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/barfeed/__init__.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/barfeed/csvfeed.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/barfeed/googlefeed.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/barfeed/ninjatraderfeed.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/barfeed/membf.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/websocket/client.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="203" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -130,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,10 +185,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -462,25 +491,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.1888654" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.1888654" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.32948717" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.43974358" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.10128205" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.10128205" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30384615" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.43974358" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -529,33 +560,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/back_test.py" />
-    <entry file="file://$PROJECT_DIR$/dataset/KLS_stock_financials.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="553" selection-start-column="547" selection-end-column="553" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ta/momentum.py" />
-    <entry file="file://$PROJECT_DIR$/dataset/KLS_clustered_equities.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLS_dividend_yields.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="148" column="21" lean-forward="true" selection-start-line="148" selection-start-column="21" selection-end-line="150" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/algo/technical/atr.py" />
-    <entry file="file://$PROJECT_DIR$/fundamental/dividend_yield.py" />
-    <entry file="file://$PROJECT_DIR$/fundamental/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/tools/yahoofinance.py" />
     <entry file="file://$PROJECT_DIR$/lib/algo/tools/googlefinance.py" />
     <entry file="file://$PROJECT_DIR$/lib/algo/tools/__init__.py" />
     <entry file="file://$PROJECT_DIR$/lib/algo/barfeed/__init__.py" />
@@ -636,9 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#726#744#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#111#120#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#25#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,9 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#703#713#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,23 +677,10 @@
     <entry file="file://$PROJECT_DIR$/analysis/backtesting/broker/backtesting.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#703#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/analysis/backtesting/resamplebase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="e#615#625#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,9 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="304" column="75" selection-start-line="304" selection-start-column="75" selection-end-line="304" selection-end-column="75" />
-          <folding>
-            <element signature="e#703#721#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,8 +698,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="461" column="6" selection-start-line="461" selection-start-column="6" selection-end-line="461" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/sqlitefeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#703#729#0" expanded="true" />
+            <element signature="e#703#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/csvfeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/dbfeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtesting/bar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/membf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+          <folding>
+            <element signature="e#703#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/ninjatraderfeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+          <folding>
+            <element signature="e#703#718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/googlefeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+          <folding>
+            <element signature="e#779#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtesting/websocket/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="166" column="23" selection-start-line="166" selection-start-column="23" selection-end-line="166" selection-end-column="23" />
+          <folding>
+            <element signature="e#703#714#0" expanded="true" />
           </folding>
         </state>
       </provider>

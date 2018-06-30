@@ -18,14 +18,13 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-import pyalgotrade.barfeed
-from pyalgotrade.barfeed import csvfeed
-from pyalgotrade import bar
-from pyalgotrade.utils import dt
+import datetime
 
 import pytz
 
-import datetime
+from .. import bar
+from ..barfeed import csvfeed
+from ..utils import dt
 
 
 ######################################################################
@@ -54,8 +53,8 @@ def parse_datetime(dateTime):
 
 
 class Frequency(object):
-    MINUTE = pyalgotrade.bar.Frequency.MINUTE
-    DAILY = pyalgotrade.bar.Frequency.DAY
+    MINUTE = bar.Frequency.MINUTE
+    DAILY = bar.Frequency.DAY
 
 
 class RowParser(csvfeed.RowParser):
@@ -66,9 +65,9 @@ class RowParser(csvfeed.RowParser):
 
     def __parseDateTime(self, dateTime):
         ret = None
-        if self.__frequency == pyalgotrade.bar.Frequency.MINUTE:
+        if self.__frequency == bar.Frequency.MINUTE:
             ret = parse_datetime(dateTime)
-        elif self.__frequency == pyalgotrade.bar.Frequency.DAY:
+        elif self.__frequency == bar.Frequency.DAY:
             ret = datetime.datetime.strptime(dateTime, "%Y%m%d")
             # Time on CSV files is empty. If told to set one, do it.
             if self.__dailyBarTime is not None:

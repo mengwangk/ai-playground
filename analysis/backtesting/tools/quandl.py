@@ -20,12 +20,12 @@
 
 import datetime
 import os
+
+import pyalgotrade.logger
 from pyalgotrade import bar
 from pyalgotrade.barfeed import quandlfeed
-
-from pyalgotrade.utils import dt
 from pyalgotrade.utils import csvutils
-import pyalgotrade.logger
+from pyalgotrade.utils import dt
 
 
 # http://www.quandl.com/help/api
@@ -58,7 +58,8 @@ def download_daily_bars(sourceCode, tableCode, year, csvFile, authToken=None):
     :type authToken: string.
     """
 
-    bars = download_csv(sourceCode, tableCode, datetime.date(year, 1, 1), datetime.date(year, 12, 31), "daily", authToken)
+    bars = download_csv(sourceCode, tableCode, datetime.date(year, 1, 1), datetime.date(year, 12, 31), "daily",
+                        authToken)
     f = open(csvFile, "w")
     f.write(bars)
     f.close()
@@ -141,7 +142,7 @@ def build_feed(sourceCode, tableCodes, fromYear, toYear, storage, frequency=bar.
         logger.info("Creating %s directory" % (storage))
         os.mkdir(storage)
 
-    for year in range(fromYear, toYear+1):
+    for year in range(fromYear, toYear + 1):
         for tableCode in tableCodes:
             fileName = os.path.join(storage, "%s-%s-%d-quandl.csv" % (sourceCode, tableCode, year))
             if not os.path.exists(fileName) or forceDownload:
@@ -153,7 +154,7 @@ def build_feed(sourceCode, tableCodes, fromYear, toYear, storage, frequency=bar.
                         download_weekly_bars(sourceCode, tableCode, year, fileName, authToken)
                     else:
                         raise Exception("Invalid frequency")
-                except Exception, e:
+                except Exception as e:
                     if skipErrors:
                         logger.error(str(e))
                         continue
