@@ -18,7 +18,7 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import technical
+from .. import technical
 
 
 # RSI = 100 - 100 / (1 + RS)

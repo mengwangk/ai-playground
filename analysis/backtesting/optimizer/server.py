@@ -18,11 +18,11 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-import pyalgotrade.logger
-from pyalgotrade.optimizer import base
-from pyalgotrade.optimizer import xmlrpcserver
+from .. import logger
+from . import base
+from . import xmlrpcserver
 
-logger = pyalgotrade.logger.getLogger(__name__)
+logger = logger.getLogger(__name__)
 
 
 class Results(object):

@@ -18,9 +18,9 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import dataseries
-from pyalgotrade.technical import ma
-from pyalgotrade.technical import stats
+from .. import dataseries
+from ..technical import ma
+from ..technical import stats
 
 
 class BollingerBands(object):

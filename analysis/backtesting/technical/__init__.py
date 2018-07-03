@@ -18,8 +18,8 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade.utils import collections
-from pyalgotrade import dataseries
+from .. import dataseries
+from ..utils import collections
 
 
 class EventWindow(object):

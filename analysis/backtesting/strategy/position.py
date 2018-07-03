@@ -18,11 +18,11 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade.stratanalyzer import returns
-from pyalgotrade import warninghelpers
-from pyalgotrade import broker
-
 import datetime
+
+from .. import broker
+from .. import warninghelpers
+from ..stratanalyzer import returns
 
 
 class PositionState(object):

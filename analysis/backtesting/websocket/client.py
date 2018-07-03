@@ -21,19 +21,20 @@
 import json
 import time
 
-import pyalgotrade.logger
 import tornado
 from ws4py.client import tornadoclient
 
-logger = pyalgotrade.logger.getLogger("websocket.client")
+from .. import logger
+
+log = logger.getLogger("websocket.client")
 
 
 # This class is responsible for sending keep alive messages and detecting disconnections
 # from the server.
 class KeepAliveMgr(object):
     def __init__(self, wsClient, maxInactivity, responseTimeout):
-        assert(maxInactivity > 0)
-        assert(responseTimeout > 0)
+        assert (maxInactivity > 0)
+        assert (responseTimeout > 0)
         self.__callback = None
         self.__wsClient = wsClient
         self.__activityTimeout = maxInactivity
@@ -157,13 +158,13 @@ class WebSocketClientBase(tornadoclient.TornadoWebSocketClient):
                 self.close()
             self.close_connection()
         except Exception as e:
-            logger.warning("Failed to close connection: %s" % (e))
+            log.warning("Failed to close connection: %s" % (e))
 
     ######################################################################
     # Overrides
 
     def onUnhandledException(self, exception):
-        logger.critical("Unhandled exception", exc_info=exception)
+        log.critical("Unhandled exception", exc_info=exception)
         raise exception
 
     def onOpened(self):

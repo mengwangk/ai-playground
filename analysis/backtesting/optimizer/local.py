@@ -25,10 +25,10 @@ import random
 import socket
 import threading
 
-from pyalgotrade.optimizer import base
-from pyalgotrade.optimizer import server
-from pyalgotrade.optimizer import worker
-from pyalgotrade.optimizer import xmlrpcserver
+from . import base
+from . import server
+from . import worker
+from . import xmlrpcserver
 
 logger = logging.getLogger(__name__)
 

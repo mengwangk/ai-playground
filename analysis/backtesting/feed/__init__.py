@@ -20,8 +20,8 @@
 
 import abc
 
-from pyalgotrade import observer
-from pyalgotrade import dataseries
+from .. import dataseries
+from .. import observer
 
 
 def feed_iterator(feed):

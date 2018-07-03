@@ -20,9 +20,9 @@
 
 import math
 
-from pyalgotrade import stratanalyzer
-from pyalgotrade import observer
-from pyalgotrade import dataseries
+from .. import stratanalyzer
+from .. import observer
+from .. import dataseries
 
 
 # Helper class to calculate time-weighted returns in a portfolio.

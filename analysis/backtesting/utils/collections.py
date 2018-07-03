@@ -92,7 +92,7 @@ class NumPyDeque(object):
         # Create empty, copy last values and swap.
         values = np.empty(maxLen, dtype=self.__values.dtype)
         lastValues = self.__values[0:self.__nextPos]
-        values[0:min(maxLen, len(lastValues))] = lastValues[-1*min(maxLen, len(lastValues)):]
+        values[0:min(maxLen, len(lastValues))] = lastValues[-1 * min(maxLen, len(lastValues)):]
         self.__values = values
 
         self.__maxLen = maxLen
@@ -132,7 +132,7 @@ class ListDeque(object):
         assert maxLen > 0, "Invalid maximum length"
 
         self.__maxLen = maxLen
-        self.__values = self.__values[-1*maxLen:]
+        self.__values = self.__values[-1 * maxLen:]
 
     def __len__(self):
         return len(self.__values)

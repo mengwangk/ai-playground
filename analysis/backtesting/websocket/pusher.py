@@ -21,12 +21,11 @@
 import json
 import urllib
 
-import pyalgotrade
-from pyalgotrade.websocket import client
-import pyalgotrade.logger
+from .. import __version__
+from .. import logger
+from ..websocket import client
 
-
-logger = pyalgotrade.logger.getLogger("pusher")
+log = logger.getLogger("pusher")
 
 
 # Pusher protocol reference: http://pusher.com/docs/pusher_protocol
@@ -58,14 +57,14 @@ class PingKeepAliveMgr(client.KeepAliveMgr):
 
     # Override to send the keep alive msg.
     def sendKeepAlive(self):
-        logger.debug("Sending pusher:ping.")
+        log.debug("Sending pusher:ping.")
         self.getWSClient().sendPing()
 
     # Return True if the response belongs to a keep alive message, False otherwise.
     def handleResponse(self, msg):
         ret = msg.get("event") == "pusher:pong"
         if ret:
-            logger.debug("Received pusher:pong.")
+            log.debug("Received pusher:pong.")
         return ret
 
 
@@ -74,7 +73,7 @@ class WebSocketClient(client.WebSocketClientBase):
         params = {
             "protocol": protocol,
             "client": "Python-PyAlgoTrade",
-            "version": pyalgotrade.__version__
+            "version": __version__
             }
         url = "ws://ws.pusherapp.com/app/%s?%s" % (appKey, urllib.urlencode(params))
         super(WebSocketClient, self).__init__(url)

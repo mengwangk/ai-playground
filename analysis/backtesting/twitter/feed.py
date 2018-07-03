@@ -19,35 +19,36 @@
 """
 
 import json
+import queue
 import threading
 
-import Queue
-import pyalgotrade.logger
 import tweepy
-from pyalgotrade import observer
 from tweepy import streaming
 
-logger = pyalgotrade.logger.getLogger("twitter")
+from .. import logger
+from .. import observer
+
+log = logger.getLogger("twitter")
 
 
 # This listener just pushs data into a queue.
 class Listener(streaming.StreamListener):
-    def __init__(self, queue):
+    def __init__(self, _queue):
         super(Listener, self).__init__()
-        self.__queue = queue
+        self.__queue = _queue
 
     def on_connect(self):
-        logger.info("Connected.")
+        log.info("Connected.")
 
     def on_timeout(self):
-        logger.error("Timeout.")
+        log.error("Timeout.")
 
     def on_data(self, data):
         self.__queue.put(data)
         return True
 
     def on_error(self, status):
-        logger.error(status)
+        log.error(status)
         return False
 
 
@@ -91,7 +92,7 @@ class TwitterFeed(observer.Subject):
         super(TwitterFeed, self).__init__()
 
         self.__event = observer.Event()
-        self.__queue = Queue.Queue()
+        self.__queue = queue.Queue()
         self.__thread = None
         self.__running = False
 
@@ -105,10 +106,10 @@ class TwitterFeed(observer.Subject):
 
     def __threadMain(self):
         try:
-            logger.info("Initializing client.")
+            log.info("Initializing client.")
             self.__stream.filter(track=self.__track, follow=self.__follow, languages=self.__languages)
         finally:
-            logger.info("Client finished.")
+            log.info("Client finished.")
             self.__running = False
 
     def __dispatchImpl(self):
@@ -117,7 +118,7 @@ class TwitterFeed(observer.Subject):
             nextTweet = json.loads(self.__queue.get(True, TwitterFeed.QUEUE_TIMEOUT))
             ret = True
             self.__event.emit(nextTweet)
-        except Queue.Empty:
+        except queue.Empty:
             pass
         return ret
 
@@ -140,10 +141,10 @@ class TwitterFeed(observer.Subject):
     def stop(self):
         try:
             if self.__thread is not None and self.__thread.is_alive():
-                logger.info("Shutting down client.")
+                log.info("Shutting down client.")
                 self.__stream.disconnect()
         except Exception as e:
-            logger.error("Error disconnecting stream: %s." % (str(e)))
+            log.error("Error disconnecting stream: %s." % (str(e)))
 
     def join(self):
         if self.__thread is not None:

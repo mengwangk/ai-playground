@@ -23,10 +23,10 @@ import pickle
 import random
 import socket
 import time
+from xmlrpc.client import ServerProxy
 
-import pyalgotrade.logger
-import xmlrpclib
-from pyalgotrade import barfeed
+from .. import barfeed
+from .. import logger
 
 
 def call_function(function, *args, **kwargs):
@@ -49,8 +49,8 @@ def call_and_retry_on_network_error(function, retryCount, *args, **kwargs):
 class Worker(object):
     def __init__(self, address, port, workerName=None):
         url = "http://%s:%s/PyAlgoTradeRPC" % (address, port)
-        self.__server = xmlrpclib.ServerProxy(url, allow_none=True)
-        self.__logger = pyalgotrade.logger.getLogger(workerName)
+        self.__server = ServerProxy(url, allow_none=True)
+        self.__logger = logger.getLogger(workerName)
         if workerName is None:
             self.__workerName = socket.gethostname()
         else:

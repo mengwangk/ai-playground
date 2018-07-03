@@ -18,8 +18,8 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import technical
-from pyalgotrade.dataseries import bards
+from .. import technical
+from ..dataseries import bards
 
 
 class VWAPEventWindow(technical.EventWindow):

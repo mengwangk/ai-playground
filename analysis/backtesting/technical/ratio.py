@@ -18,8 +18,8 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import technical
-from pyalgotrade import utils
+from .. import technical
+from .. import utils
 
 
 class RatioEventWindow(technical.EventWindow):

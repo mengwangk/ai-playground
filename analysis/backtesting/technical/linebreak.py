@@ -18,8 +18,8 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import dataseries
-from pyalgotrade.dataseries import bards
+from .. import dataseries
+from ..dataseries import bards
 
 
 class Line(object):

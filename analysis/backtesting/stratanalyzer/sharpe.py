@@ -18,11 +18,11 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import stratanalyzer
-from pyalgotrade.stratanalyzer import returns
-from pyalgotrade.utils import stats
-
 import math
+
+from .. import stratanalyzer
+from ..stratanalyzer import returns
+from ..utils import stats
 
 
 def days_traded(begin, end):

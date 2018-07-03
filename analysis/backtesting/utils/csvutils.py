@@ -22,6 +22,7 @@ import csv
 import requests
 
 import logging
+
 logging.getLogger("requests").setLevel(logging.ERROR)
 
 
@@ -47,7 +48,7 @@ class FastDictReader(object):
         assert(len(self.__fieldNames) == len(row))
 
         # Copy the row values into the dict.
-        for i in xrange(len(self.__fieldNames)):
+        for i in range(len(self.__fieldNames)):
             self.__dict[self.__fieldNames[i]] = row[i]
 
         return self.__dict

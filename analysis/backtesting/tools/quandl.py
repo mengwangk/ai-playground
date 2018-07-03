@@ -21,11 +21,11 @@
 import datetime
 import os
 
-import pyalgotrade.logger
-from pyalgotrade import bar
-from pyalgotrade.barfeed import quandlfeed
-from pyalgotrade.utils import csvutils
-from pyalgotrade.utils import dt
+from .. import bar
+from .. import logger
+from ..barfeed import quandlfeed
+from ..utils import csvutils
+from ..utils import dt
 
 
 # http://www.quandl.com/help/api
@@ -129,7 +129,7 @@ def build_feed(sourceCode, tableCodes, fromYear, toYear, storage, frequency=bar.
     :rtype: :class:`pyalgotrade.barfeed.quandlfeed.Feed`.
     """
 
-    logger = pyalgotrade.logger.getLogger("quandl")
+    log = logger.getLogger("quandl")
     ret = quandlfeed.Feed(frequency, timezone)
     if noAdjClose:
         ret.setNoAdjClose()
@@ -139,14 +139,14 @@ def build_feed(sourceCode, tableCodes, fromYear, toYear, storage, frequency=bar.
         ret.setColumnName(col, name)
 
     if not os.path.exists(storage):
-        logger.info("Creating %s directory" % (storage))
+        log.info("Creating %s directory" % (storage))
         os.mkdir(storage)
 
     for year in range(fromYear, toYear + 1):
         for tableCode in tableCodes:
             fileName = os.path.join(storage, "%s-%s-%d-quandl.csv" % (sourceCode, tableCode, year))
             if not os.path.exists(fileName) or forceDownload:
-                logger.info("Downloading %s %d to %s" % (tableCode, year, fileName))
+                log.info("Downloading %s %d to %s" % (tableCode, year, fileName))
                 try:
                     if frequency == bar.Frequency.DAY:
                         download_daily_bars(sourceCode, tableCode, year, fileName, authToken)
@@ -156,7 +156,7 @@ def build_feed(sourceCode, tableCodes, fromYear, toYear, storage, frequency=bar.
                         raise Exception("Invalid frequency")
                 except Exception as e:
                     if skipErrors:
-                        logger.error(str(e))
+                        log.error(str(e))
                         continue
                     else:
                         raise e

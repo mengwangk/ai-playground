@@ -23,7 +23,7 @@ import abc
 from .. import bar
 from .. import broker
 from .. import logger
-from ..broker import fillstrategy
+from . import fillstrategy
 
 
 ######################################################################

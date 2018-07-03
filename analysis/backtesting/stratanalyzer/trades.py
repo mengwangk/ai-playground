@@ -18,9 +18,9 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import stratanalyzer
-from pyalgotrade import broker
-from pyalgotrade.stratanalyzer import returns
+from .. import stratanalyzer
+from .. import broker
+from ..stratanalyzer import returns
 
 import numpy as np
 

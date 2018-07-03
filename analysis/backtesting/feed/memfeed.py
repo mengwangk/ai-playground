@@ -18,8 +18,8 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import feed
-from pyalgotrade import dataseries
+from .. import dataseries
+from .. import feed
 
 
 class MemFeed(feed.BaseFeed):
@@ -36,7 +36,7 @@ class MemFeed(feed.BaseFeed):
     def start(self):
         super(MemFeed, self).start()
         # Now that all the data is in place, sort it to dispatch it in order.
-        cmpFun = lambda x, y: cmp(x[0], y[0])
+        cmpFun = lambda x, y: (x[0] > y[0]) - (x[0] < y[0])
         self.__values.sort(cmpFun)
 
     def stop(self):

@@ -18,12 +18,12 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import technical
-from pyalgotrade.utils import collections
-from pyalgotrade.utils import dt
-
 import numpy as np
 from scipy import stats
+
+from .. import technical
+from ..utils import collections
+from ..utils import dt
 
 
 # Using scipy.stats.linregress instead of numpy.linalg.lstsq because of this:

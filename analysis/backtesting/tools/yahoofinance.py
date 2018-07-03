@@ -21,11 +21,10 @@
 import datetime
 import os
 
-import pyalgotrade.logger
-from pyalgotrade import bar
-from pyalgotrade.barfeed import yahoofeed
-from pyalgotrade.utils import csvutils
-from pyalgotrade.utils import dt
+from .. import bar, logger
+from ..barfeed import yahoofeed
+from ..utils import csvutils
+from ..utils import dt
 
 
 def __adjust_month(month):
@@ -99,18 +98,18 @@ def build_feed(instruments, fromYear, toYear, storage, frequency=bar.Frequency.D
     :rtype: :class:`pyalgotrade.barfeed.yahoofeed.Feed`.
     """
 
-    logger = pyalgotrade.logger.getLogger("yahoofinance")
+    log = logger.getLogger("yahoofinance")
     ret = yahoofeed.Feed(frequency, timezone)
 
     if not os.path.exists(storage):
-        logger.info("Creating %s directory" % (storage))
+        log.info("Creating %s directory" % (storage))
         os.mkdir(storage)
 
     for year in range(fromYear, toYear + 1):
         for instrument in instruments:
             fileName = os.path.join(storage, "%s-%d-yahoofinance.csv" % (instrument, year))
             if not os.path.exists(fileName):
-                logger.info("Downloading %s %d to %s" % (instrument, year, fileName))
+                log.info("Downloading %s %d to %s" % (instrument, year, fileName))
                 try:
                     if frequency == bar.Frequency.DAY:
                         download_daily_bars(instrument, year, fileName)
@@ -120,7 +119,7 @@ def build_feed(instruments, fromYear, toYear, storage, frequency=bar.Frequency.D
                         raise Exception("Invalid frequency")
                 except Exception as e:
                     if skipErrors:
-                        logger.error(str(e))
+                        log.error(str(e))
                         continue
                     else:
                         raise e

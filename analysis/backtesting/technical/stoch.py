@@ -18,9 +18,9 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import technical
-from pyalgotrade.dataseries import bards
-from pyalgotrade.technical import ma
+from .. import technical
+from ..dataseries import bards
+from ..technical import ma
 
 
 def get_low_high_values(useAdjusted, bars):

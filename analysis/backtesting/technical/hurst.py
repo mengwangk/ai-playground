@@ -20,7 +20,7 @@
 
 import numpy as np
 
-from pyalgotrade import technical
+from .. import technical
 
 
 # Code Tom Starke for the Hurst Exponent.

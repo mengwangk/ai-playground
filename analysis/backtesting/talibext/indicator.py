@@ -18,8 +18,8 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-import talib
 import numpy
+import talib
 
 
 # Returns the last values of a dataseries as a numpy.array, or None if not enough values could be retrieved from the dataseries.

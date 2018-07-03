@@ -16,10 +16,10 @@
 
 import abc
 
-from pyalgotrade import dataseries
-from pyalgotrade.dataseries import bards
-from pyalgotrade import bar
-from pyalgotrade import resamplebase
+from .. import dataseries
+from ..dataseries import bards
+from .. import bar
+from .. import resamplebase
 
 
 class AggFunGrouper(resamplebase.Grouper):

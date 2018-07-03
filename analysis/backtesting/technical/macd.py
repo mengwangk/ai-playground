@@ -18,8 +18,8 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade.technical import ma
-from pyalgotrade import dataseries
+from .. import dataseries
+from ..technical import ma
 
 
 class MACD(dataseries.SequenceDataSeries):

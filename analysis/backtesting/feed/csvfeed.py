@@ -21,14 +21,13 @@
 import abc
 import datetime
 
-from pyalgotrade.utils import dt
-from pyalgotrade.utils import csvutils
-from pyalgotrade.feed import memfeed
+from ..feed import memfeed
+from ..utils import csvutils
+from ..utils import dt
 
 
 # Interface for csv row parsers.
 class RowParser(object):
-
     __metaclass__ = abc.ABCMeta
 
     # Parses a row and returns a tuple with with two elements:
@@ -51,7 +50,6 @@ class RowParser(object):
 
 # Interface for bar filters.
 class RowFilter(object):
-
     __metaclass__ = abc.ABCMeta
 
     @abc.abstractmethod
@@ -85,7 +83,8 @@ class BaseFeed(memfeed.MemFeed):
     def addValuesFromCSV(self, path):
         # Load the values from the csv file
         values = []
-        reader = csvutils.FastDictReader(open(path, "r"), fieldnames=self.__rowParser.getFieldNames(), delimiter=self.__rowParser.getDelimiter())
+        reader = csvutils.FastDictReader(open(path, "r"), fieldnames=self.__rowParser.getFieldNames(),
+                                         delimiter=self.__rowParser.getDelimiter())
         for row in reader:
             dateTime, rowValues = self.__rowParser.parseRow(row)
             if dateTime is not None and (self.__rowFilter is None or self.__rowFilter.includeRow(dateTime, rowValues)):

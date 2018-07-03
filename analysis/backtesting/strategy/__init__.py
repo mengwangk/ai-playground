@@ -21,13 +21,12 @@
 import abc
 import logging
 
-import pyalgotrade.broker
-from pyalgotrade.broker import backtesting
-from pyalgotrade import observer
-from pyalgotrade import dispatcher
-import pyalgotrade.strategy.position
-from pyalgotrade import logger
-from pyalgotrade.barfeed import resampled
+from .. import dispatcher
+from .. import logger
+from .. import observer
+from ..barfeed import resampled
+from ..broker import backtesting, Broker, Order
+from ..strategy import position
 
 
 class BaseStrategy(object):
@@ -164,9 +163,9 @@ class BaseStrategy(object):
 
         ret = None
         if quantity > 0:
-            ret = self.getBroker().createMarketOrder(pyalgotrade.broker.Order.Action.BUY, instrument, quantity, onClose)
+            ret = self.getBroker().createMarketOrder(Order.Action.BUY, instrument, quantity, onClose)
         elif quantity < 0:
-            ret = self.getBroker().createMarketOrder(pyalgotrade.broker.Order.Action.SELL, instrument, quantity*-1, onClose)
+            ret = self.getBroker().createMarketOrder(Order.Action.SELL, instrument, quantity*-1, onClose)
         if ret:
             ret.setGoodTillCanceled(goodTillCanceled)
             ret.setAllOrNone(allOrNone)
@@ -191,9 +190,9 @@ class BaseStrategy(object):
 
         ret = None
         if quantity > 0:
-            ret = self.getBroker().createLimitOrder(pyalgotrade.broker.Order.Action.BUY, instrument, limitPrice, quantity)
+            ret = self.getBroker().createLimitOrder(Order.Action.BUY, instrument, limitPrice, quantity)
         elif quantity < 0:
-            ret = self.getBroker().createLimitOrder(pyalgotrade.broker.Order.Action.SELL, instrument, limitPrice, quantity*-1)
+            ret = self.getBroker().createLimitOrder(Order.Action.SELL, instrument, limitPrice, quantity*-1)
         if ret:
             ret.setGoodTillCanceled(goodTillCanceled)
             ret.setAllOrNone(allOrNone)
@@ -218,9 +217,9 @@ class BaseStrategy(object):
 
         ret = None
         if quantity > 0:
-            ret = self.getBroker().createStopOrder(pyalgotrade.broker.Order.Action.BUY, instrument, stopPrice, quantity)
+            ret = self.getBroker().createStopOrder(Order.Action.BUY, instrument, stopPrice, quantity)
         elif quantity < 0:
-            ret = self.getBroker().createStopOrder(pyalgotrade.broker.Order.Action.SELL, instrument, stopPrice, quantity*-1)
+            ret = self.getBroker().createStopOrder(Order.Action.SELL, instrument, stopPrice, quantity*-1)
         if ret:
             ret.setGoodTillCanceled(goodTillCanceled)
             ret.setAllOrNone(allOrNone)
@@ -247,9 +246,9 @@ class BaseStrategy(object):
 
         ret = None
         if quantity > 0:
-            ret = self.getBroker().createStopLimitOrder(pyalgotrade.broker.Order.Action.BUY, instrument, stopPrice, limitPrice, quantity)
+            ret = self.getBroker().createStopLimitOrder(Order.Action.BUY, instrument, stopPrice, limitPrice, quantity)
         elif quantity < 0:
-            ret = self.getBroker().createStopLimitOrder(pyalgotrade.broker.Order.Action.SELL, instrument, stopPrice, limitPrice, quantity*-1)
+            ret = self.getBroker().createStopLimitOrder(Order.Action.SELL, instrument, stopPrice, limitPrice, quantity*-1)
         if ret:
             ret.setGoodTillCanceled(goodTillCanceled)
             ret.setAllOrNone(allOrNone)
@@ -270,7 +269,7 @@ class BaseStrategy(object):
         :rtype: The :class:`pyalgotrade.strategy.position.Position` entered.
         """
 
-        return pyalgotrade.strategy.position.LongPosition(self, instrument, None, None, quantity, goodTillCanceled, allOrNone)
+        return position.LongPosition(self, instrument, None, None, quantity, goodTillCanceled, allOrNone)
 
     def enterShort(self, instrument, quantity, goodTillCanceled=False, allOrNone=False):
         """Generates a sell short :class:`pyalgotrade.broker.MarketOrder` to enter a short position.
@@ -286,7 +285,7 @@ class BaseStrategy(object):
         :rtype: The :class:`pyalgotrade.strategy.position.Position` entered.
         """
 
-        return pyalgotrade.strategy.position.ShortPosition(self, instrument, None, None, quantity, goodTillCanceled, allOrNone)
+        return position.ShortPosition(self, instrument, None, None, quantity, goodTillCanceled, allOrNone)
 
     def enterLongLimit(self, instrument, limitPrice, quantity, goodTillCanceled=False, allOrNone=False):
         """Generates a buy :class:`pyalgotrade.broker.LimitOrder` to enter a long position.
@@ -304,7 +303,7 @@ class BaseStrategy(object):
         :rtype: The :class:`pyalgotrade.strategy.position.Position` entered.
         """
 
-        return pyalgotrade.strategy.position.LongPosition(self, instrument, None, limitPrice, quantity, goodTillCanceled, allOrNone)
+        return position.LongPosition(self, instrument, None, limitPrice, quantity, goodTillCanceled, allOrNone)
 
     def enterShortLimit(self, instrument, limitPrice, quantity, goodTillCanceled=False, allOrNone=False):
         """Generates a sell short :class:`pyalgotrade.broker.LimitOrder` to enter a short position.
@@ -322,7 +321,7 @@ class BaseStrategy(object):
         :rtype: The :class:`pyalgotrade.strategy.position.Position` entered.
         """
 
-        return pyalgotrade.strategy.position.ShortPosition(self, instrument, None, limitPrice, quantity, goodTillCanceled, allOrNone)
+        return position.ShortPosition(self, instrument, None, limitPrice, quantity, goodTillCanceled, allOrNone)
 
     def enterLongStop(self, instrument, stopPrice, quantity, goodTillCanceled=False, allOrNone=False):
         """Generates a buy :class:`pyalgotrade.broker.StopOrder` to enter a long position.
@@ -340,7 +339,7 @@ class BaseStrategy(object):
         :rtype: The :class:`pyalgotrade.strategy.position.Position` entered.
         """
 
-        return pyalgotrade.strategy.position.LongPosition(self, instrument, stopPrice, None, quantity, goodTillCanceled, allOrNone)
+        return position.LongPosition(self, instrument, stopPrice, None, quantity, goodTillCanceled, allOrNone)
 
     def enterShortStop(self, instrument, stopPrice, quantity, goodTillCanceled=False, allOrNone=False):
         """Generates a sell short :class:`pyalgotrade.broker.StopOrder` to enter a short position.
@@ -358,7 +357,7 @@ class BaseStrategy(object):
         :rtype: The :class:`pyalgotrade.strategy.position.Position` entered.
         """
 
-        return pyalgotrade.strategy.position.ShortPosition(self, instrument, stopPrice, None, quantity, goodTillCanceled, allOrNone)
+        return position.ShortPosition(self, instrument, stopPrice, None, quantity, goodTillCanceled, allOrNone)
 
     def enterLongStopLimit(self, instrument, stopPrice, limitPrice, quantity, goodTillCanceled=False, allOrNone=False):
         """Generates a buy :class:`pyalgotrade.broker.StopLimitOrder` order to enter a long position.
@@ -378,7 +377,7 @@ class BaseStrategy(object):
         :rtype: The :class:`pyalgotrade.strategy.position.Position` entered.
         """
 
-        return pyalgotrade.strategy.position.LongPosition(self, instrument, stopPrice, limitPrice, quantity, goodTillCanceled, allOrNone)
+        return position.LongPosition(self, instrument, stopPrice, limitPrice, quantity, goodTillCanceled, allOrNone)
 
     def enterShortStopLimit(self, instrument, stopPrice, limitPrice, quantity, goodTillCanceled=False, allOrNone=False):
         """Generates a sell short :class:`pyalgotrade.broker.StopLimitOrder` order to enter a short position.
@@ -398,7 +397,7 @@ class BaseStrategy(object):
         :rtype: The :class:`pyalgotrade.strategy.position.Position` entered.
         """
 
-        return pyalgotrade.strategy.position.ShortPosition(self, instrument, stopPrice, limitPrice, quantity, goodTillCanceled, allOrNone)
+        return position.ShortPosition(self, instrument, stopPrice, limitPrice, quantity, goodTillCanceled, allOrNone)
 
     def onEnterOk(self, position):
         """Override (optional) to get notified when the order submitted to enter a position was filled. The default implementation is empty.
@@ -578,7 +577,7 @@ class BacktestingStrategy(BaseStrategy):
         # The broker should subscribe to barFeed events before the strategy.
         # This is to avoid executing orders submitted in the current tick.
 
-        if isinstance(cash_or_brk, pyalgotrade.broker.Broker):
+        if isinstance(cash_or_brk, Broker):
             broker = cash_or_brk
         else:
             broker = backtesting.Broker(cash_or_brk, barFeed)

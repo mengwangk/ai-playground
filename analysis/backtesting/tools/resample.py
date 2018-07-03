@@ -20,8 +20,8 @@
 
 import os
 
-from pyalgotrade import dispatcher
-from pyalgotrade.dataseries import resampled
+from .. import dispatcher
+from ..dataseries import resampled
 
 
 datetime_format = "%Y-%m-%d %H:%M:%S"

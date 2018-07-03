@@ -18,15 +18,15 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-import SimpleXMLRPCServer
 import pickle
 import threading
 import time
+from xmlrpc.server import SimpleXMLRPCServer, SimpleXMLRPCRequestHandler
 
-import pyalgotrade.logger
-from pyalgotrade.optimizer import base
+from .. import logger
+from ..optimizer import base
 
-logger = pyalgotrade.logger.getLogger(__name__)
+logger = logger.getLogger(__name__)
 
 
 class AutoStopThread(threading.Thread):
@@ -58,15 +58,16 @@ class Job(object):
 
 
 # Restrict to a particular path.
-class RequestHandler(SimpleXMLRPCServer.SimpleXMLRPCRequestHandler):
+class RequestHandler(SimpleXMLRPCRequestHandler):
     rpc_paths = ('/PyAlgoTradeRPC',)
 
 
-class Server(SimpleXMLRPCServer.SimpleXMLRPCServer):
+class Server(SimpleXMLRPCServer):
     defaultBatchSize = 200
 
     def __init__(self, paramSource, resultSinc, barFeed, address, port, autoStop=True):
-        SimpleXMLRPCServer.SimpleXMLRPCServer.__init__(self, (address, port), requestHandler=RequestHandler, logRequests=False, allow_none=True)
+        SimpleXMLRPCServer.__init__(self, (address, port), requestHandler=RequestHandler, logRequests=False,
+                                    allow_none=True)
         # super(Server, self).__init__((address, port), requestHandler=RequestHandler, logRequests=False, allow_none=True)
 
         self.__paramSource = paramSource

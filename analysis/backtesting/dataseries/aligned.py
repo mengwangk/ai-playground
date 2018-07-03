@@ -18,7 +18,7 @@
 .. moduleauthor:: Gabriel Martin Becedillas Ruiz <gabriel.becedillas@gmail.com>
 """
 
-from pyalgotrade import dataseries
+from .. import dataseries
 
 
 def datetime_aligned(ds1, ds2, maxLen=None):

@@ -20,8 +20,8 @@
 
 import abc
 
-from pyalgotrade import observer
-from pyalgotrade.utils import collections
+from .. import observer
+from ..utils import collections
 
 DEFAULT_MAX_LEN = 1024
 
@@ -54,7 +54,7 @@ class DataSeries(object):
         """Returns the value at a given position/slice. It raises IndexError if the position is invalid,
         or TypeError if the key type is invalid."""
         if isinstance(key, slice):
-            return [self[i] for i in xrange(*key.indices(len(self)))]
+            return [self[i] for i in range(*key.indices(len(self)))]
         elif isinstance(key, int):
             if key < 0:
                 key += len(self)
@@ -135,7 +135,7 @@ class SequenceDataSeries(DataSeries):
         if dateTime is not None and len(self.__dateTimes) != 0 and self.__dateTimes[-1] >= dateTime:
             raise Exception("Invalid datetime. It must be bigger than that last one")
 
-        assert(len(self.__values) == len(self.__dateTimes))
+        assert (len(self.__values) == len(self.__dateTimes))
         self.__dateTimes.append(dateTime)
         self.__values.append(value)
 
