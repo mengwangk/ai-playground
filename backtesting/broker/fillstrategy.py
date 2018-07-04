@@ -20,10 +20,10 @@
 
 import abc
 
-import slippage
 
 from .. import broker
 from ..bar import Frequency
+from . import slippage
 
 
 # Returns the trigger price for a Limit or StopLimit order, or None if the limit price was not yet penetrated.

@@ -9,7 +9,7 @@ import os
 import pandas as pd
 
 from source import YahooFinanceSource
-from .analysis.fundamental import DividendYield
+from analysis.fundamental import DividendYield
 
 
 class StockAnalysis:
@@ -132,7 +132,11 @@ def main():
     # stock_analysis.fund_get_dividend_yields_for_exchange('KLS')
 
     stock_analysis.fund_get_stock_financials(ticker_file='dataset/KLS_selected_equities.csv',
-                                             price_file_name='dataset/KLS_stock_financials.csv')
+                                            price_file_name='dataset/KLS_stock_financials.csv')
+
+    # yahoo_finance_source = YahooFinanceSource("6742.KL")
+    # stock_summary_data = yahoo_finance_source.get_stock_summary_data()
+    # print(stock_summary_data)
 
 
 if __name__ == "__main__":

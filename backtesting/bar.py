@@ -256,7 +256,7 @@ class Bars(object):
         # Check that bar datetimes are in sync
         firstDateTime = None
         firstInstrument = None
-        for instrument, currentBar in barDict.iteritems():
+        for instrument, currentBar in barDict.items():
             if firstDateTime is None:
                 firstDateTime = currentBar.getDateTime()
                 firstInstrument = instrument

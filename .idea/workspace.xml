@@ -5,12 +5,115 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myInvestor-toolkit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myInvestor-toolkit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/csvfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/barfeed/csvfeed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/googlefeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/barfeed/googlefeed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/membf.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/barfeed/membf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/ninjatraderfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/barfeed/ninjatraderfeed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/backtesting/websocket/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtesting/websocket/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/bar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/barfeed/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/barfeed/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/csvfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/barfeed/csvfeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/dbfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/barfeed/dbfeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/googlefeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/barfeed/googlefeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/membf.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/barfeed/membf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/ninjatraderfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/barfeed/ninjatraderfeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/quandlfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/barfeed/quandlfeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/resampled.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/barfeed/resampled.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/sqlitefeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/barfeed/sqlitefeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/barfeed/yahoofeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/barfeed/yahoofeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/bitcoincharts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/bitcoincharts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/bitcoincharts/barfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/bitcoincharts/barfeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/bitstamp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/bitstamp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/bitstamp/barfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/bitstamp/barfeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/bitstamp/broker.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/bitstamp/broker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/bitstamp/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/bitstamp/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/bitstamp/httpclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/bitstamp/httpclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/bitstamp/livebroker.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/bitstamp/livebroker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/bitstamp/livefeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/bitstamp/livefeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/bitstamp/wsclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/bitstamp/wsclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/broker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/broker/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/broker/backtesting.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/broker/backtesting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/broker/fillstrategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/broker/fillstrategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/broker/slippage.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/broker/slippage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/dataseries/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/dataseries/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/dataseries/aligned.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/dataseries/aligned.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/dataseries/bards.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/dataseries/bards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/dataseries/resampled.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/dataseries/resampled.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/dispatcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/dispatcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/dispatchprio.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/dispatchprio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/eventprofiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/eventprofiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/feed/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/feed/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/feed/csvfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/feed/csvfeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/feed/memfeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/feed/memfeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/marketsession.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/marketsession.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/observer.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/observer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/optimizer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/optimizer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/optimizer/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/optimizer/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/optimizer/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/optimizer/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/optimizer/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/optimizer/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/optimizer/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/optimizer/worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/optimizer/xmlrpcserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/optimizer/xmlrpcserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/plotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/resamplebase.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/resamplebase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/stratanalyzer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/stratanalyzer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/stratanalyzer/drawdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/stratanalyzer/drawdown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/stratanalyzer/returns.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/stratanalyzer/returns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/stratanalyzer/sharpe.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/stratanalyzer/sharpe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/stratanalyzer/trades.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/stratanalyzer/trades.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/strategy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/strategy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/strategy/position.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/strategy/position.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/talibext/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/talibext/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/talibext/indicator.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/talibext/indicator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/atr.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/atr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/bollinger.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/bollinger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/cross.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/cross.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/cumret.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/cumret.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/highlow.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/highlow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/hurst.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/hurst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/linebreak.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/linebreak.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/linreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/linreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/ma.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/ma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/macd.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/macd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/ratio.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/ratio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/roc.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/roc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/rsi.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/rsi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/stoch.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/stoch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/technical/vwap.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/vwap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/tools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/tools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/tools/googlefinance.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/tools/googlefinance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/tools/quandl.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/tools/quandl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/tools/resample.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/tools/resample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/tools/yahoofinance.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/tools/yahoofinance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/twitter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/twitter/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/twitter/feed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/twitter/feed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/utils/collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/utils/collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/utils/csvutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/utils/csvutils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/utils/dt.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/utils/dt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/utils/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/utils/stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/warninghelpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/warninghelpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/websocket/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/websocket/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/websocket/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/websocket/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtesting/websocket/pusher.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/websocket/pusher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/fundamental/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamental/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/fundamental/dividend_yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamental/dividend_yield.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/fundamental/fundamental_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/fundamental/fundamental_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/technical/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/technical/momentum.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical/momentum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/technical/others.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical/others.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/technical/trend.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical/trend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/technical/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/technical/volatility.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical/volatility.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/technical/volume.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical/volume.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/technical/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/technical/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/test_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/test_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade.py" beforeDir="false" afterPath="$PROJECT_DIR$/trade.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,26 +123,77 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="googlefeed.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/googlefeed.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="trade.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trade.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
-                <element signature="e#779#794#0" expanded="true" />
+                <element signature="e#38#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/analysis/backtesting/websocket/client.py">
+      <file leaf-file-name="yahoofeed.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backtesting/barfeed/yahoofeed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="166" column="23" selection-start-line="166" selection-start-column="23" selection-end-line="166" selection-end-column="23" />
+            <state relative-caret-position="307">
+              <caret line="154" selection-start-line="154" selection-end-line="154" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6742.KL.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/6742.KL.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="291" column="20" lean-forward="true" selection-start-line="291" selection-start-column="20" selection-end-line="291" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csvfeed.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backtesting/barfeed/csvfeed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
               <folding>
-                <element signature="e#703#714#0" expanded="true" />
+                <element signature="e#703#718#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="membf.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backtesting/barfeed/membf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csvutils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backtesting/utils/csvutils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#703#713#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backtesting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backtesting/broker/backtesting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
+              <folding>
+                <element signature="e#704#714#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,36 +210,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>df_stocks</find>
-      <find>1370912400</find>
-      <find>None</find>
-      <find>and</find>
-      <find>0095.kl</find>
-      <find>5008.K</find>
-      <find>0011.KL</find>
-      <find>tasek</find>
-      <find>format</find>
-      <find>0090.KL</find>
-      <find>media</find>
-      <find>trailingpe</find>
-      <find>print</find>
-      <find>symbol</find>
-      <find>2018</find>
-      <find>bs4</find>
-      <find>plot_labell</find>
-      <find>cvs</find>
-      <find>logger</find>
-      <find>logger.</find>
-      <find>pyalgo</find>
-      <find>pyalgotrade.bar</find>
-      <find>frequencey</find>
-      <find>algobar</find>
-      <find>slippage</find>
-      <find>bar.</find>
-      <find>slippa</find>
-      <find>broker</find>
-      <find>broker.</find>
       <find>barfeed</find>
+      <find>Queue</find>
+      <find>queue.</find>
+      <find>slippage</find>
+      <find>queue</find>
+      <find>dataseries</find>
+      <find>xmlrpc</find>
+      <find>xmlrp</find>
+      <find>serverprox</find>
+      <find>simplexml</find>
+      <find>simple</find>
+      <find>SimpleXMLRPCRequestHandler</find>
+      <find>fillstra</find>
+      <find>pyalgotrade.broker</find>
+      <find>broker</find>
+      <find>pyalgotrade.strat</find>
+      <find>position</find>
+      <find>position.</find>
+      <find>logger.</find>
+      <find>Queue.</find>
+      <find>logger</find>
+      <find>logge</find>
+      <find>trailingpe</find>
+      <find>6742.kl</find>
+      <find>broker.</find>
+      <find>broker.</find>
+      <find>marketorder</find>
+      <find>__</find>
+      <find>nul</find>
+      <find>.sort</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,62 +248,62 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dataset/ticker.csv" />
-        <option value="$PROJECT_DIR$/dataset/KLS_dividend_yields.csv" />
-        <option value="$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py" />
-        <option value="$PROJECT_DIR$/learn/__init__.py" />
-        <option value="$PROJECT_DIR$/technical/utils.py" />
-        <option value="$PROJECT_DIR$/technical/__init__.py" />
-        <option value="$PROJECT_DIR$/technical/indicator/__init__.py" />
-        <option value="$PROJECT_DIR$/lib/indicator/__init__.py" />
-        <option value="$PROJECT_DIR$/lib/indicator/momentum.py" />
-        <option value="$PROJECT_DIR$/lib/ta/others.py" />
-        <option value="$PROJECT_DIR$/lib/ta/trend.py" />
-        <option value="$PROJECT_DIR$/lib/ta/volatility.py" />
-        <option value="$PROJECT_DIR$/lib/ta/volume.py" />
-        <option value="$PROJECT_DIR$/lib/ta/momentum.py" />
-        <option value="$PROJECT_DIR$/predict/SampleStrategy.py" />
-        <option value="$PROJECT_DIR$/predict/teststrategy.py" />
-        <option value="$PROJECT_DIR$/predict/test_strategy.py" />
-        <option value="$PROJECT_DIR$/build/back_test.py" />
-        <option value="$PROJECT_DIR$/auto_trader.py" />
-        <option value="$PROJECT_DIR$/trade.py" />
-        <option value="$PROJECT_DIR$/lib/algo/tools/yahoofinance.py" />
-        <option value="$PROJECT_DIR$/fundamental/__init__.py" />
-        <option value="$PROJECT_DIR$/lib/algo/__init__.py" />
-        <option value="$PROJECT_DIR$/lib/algo/tools/googlefinance.py" />
-        <option value="$PROJECT_DIR$/lib/algo/tools/__init__.py" />
-        <option value="$PROJECT_DIR$/lib/algo/strategy/__init__.py" />
-        <option value="$PROJECT_DIR$/lib/algo/broker/backtesting.py" />
-        <option value="$PROJECT_DIR$/lib/algo/broker/fillstrategy.py" />
-        <option value="$PROJECT_DIR$/lib/algo/bar.py" />
-        <option value="$PROJECT_DIR$/lib/algo/dispatcher.py" />
-        <option value="$PROJECT_DIR$/lib/algo/dispatchprio.py" />
-        <option value="$PROJECT_DIR$/lib/algo/eventprofiler.py" />
-        <option value="$PROJECT_DIR$/lib/algo/observer.py" />
-        <option value="$PROJECT_DIR$/lib/algo/broker/__init__.py" />
-        <option value="$PROJECT_DIR$/lib/algo/plotter.py" />
-        <option value="$PROJECT_DIR$/stock.py" />
-        <option value="$PROJECT_DIR$/strategy/test_strategy.py" />
-        <option value="$PROJECT_DIR$/analysis/ta/utils.py" />
-        <option value="$PROJECT_DIR$/analysis/ta/volatility.py" />
-        <option value="$PROJECT_DIR$/analysis/ta/volume.py" />
-        <option value="$PROJECT_DIR$/analysis/ta/wrapper.py" />
-        <option value="$PROJECT_DIR$/analysis/ta/trend.py" />
-        <option value="$PROJECT_DIR$/analysis/backtesting/plotter.py" />
-        <option value="$PROJECT_DIR$/analysis/backtesting/resamplebase.py" />
-        <option value="$PROJECT_DIR$/analysis/backtesting/warninghelpers.py" />
-        <option value="$PROJECT_DIR$/analysis/backtesting/barfeed/__init__.py" />
-        <option value="$PROJECT_DIR$/analysis/backtesting/barfeed/csvfeed.py" />
-        <option value="$PROJECT_DIR$/analysis/backtesting/barfeed/googlefeed.py" />
-        <option value="$PROJECT_DIR$/analysis/backtesting/barfeed/ninjatraderfeed.py" />
-        <option value="$PROJECT_DIR$/analysis/backtesting/barfeed/membf.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/optimizer/local.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/optimizer/server.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/optimizer/worker.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/optimizer/xmlrpcserver.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/optimizer/base.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/stratanalyzer/drawdown.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/stratanalyzer/returns.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/stratanalyzer/sharpe.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/stratanalyzer/trades.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/broker/__init__.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/strategy/position.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/talibext/indicator.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/__init__.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/atr.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/bollinger.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/cumret.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/highlow.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/hurst.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/linebreak.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/linreg.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/ma.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/macd.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/ratio.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/roc.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/rsi.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/stats.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/stoch.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/technical/vwap.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/tools/quandl.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/tools/resample.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/tools/yahoofinance.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/utils/__init__.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/twitter/feed.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/utils/collections.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/utils/csvutils.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/websocket/client.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/websocket/pusher.py" />
+        <option value="$PROJECT_DIR$/stock.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/plotter.py" />
+        <option value="$PROJECT_DIR$/strategy/__init__.py" />
+        <option value="$PROJECT_DIR$/source/__init__.py" />
+        <option value="$PROJECT_DIR$/analysis/backtesting/strategy/__init__.py" />
+        <option value="$PROJECT_DIR$/strategy/test_strategy.py" />
+        <option value="$PROJECT_DIR$/backtesting/__init__.py" />
+        <option value="$PROJECT_DIR$/backtesting/broker/fillstrategy.py" />
+        <option value="$PROJECT_DIR$/backtesting/broker/__init__.py" />
+        <option value="$PROJECT_DIR$/trade.py" />
+        <option value="$PROJECT_DIR$/backtesting/barfeed/csvfeed.py" />
+        <option value="$PROJECT_DIR$/backtesting/utils/csvutils.py" />
+        <option value="$PROJECT_DIR$/backtesting/barfeed/yahoofeed.py" />
+        <option value="$PROJECT_DIR$/backtesting/barfeed/membf.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="203" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -169,17 +323,12 @@
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
               <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
               <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="backtesting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +338,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -201,13 +350,13 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/technical/indicator" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/source" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/technical/indicator" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,7 +424,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="Unittests in /Users/mengwangk/workspace/development/myInvestor-toolkit/fundamental/fundamental_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in fundamental_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="myInvestor-toolkit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,7 +452,7 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in source_test.py" />
-      <item itemvalue="Python tests.Unittests in /Users/mengwangk/workspace/development/myInvestor-toolkit/fundamental/fundamental_test.py" />
+      <item itemvalue="Python tests.Unittests in fundamental_test.py" />
       <item itemvalue="Python.stock" />
       <item itemvalue="Python.trade" />
     </list>
@@ -312,7 +461,7 @@
         <item itemvalue="Python.trade" />
         <item itemvalue="Python.stock" />
         <item itemvalue="Python tests.Unittests in source_test.py" />
-        <item itemvalue="Python tests.Unittests in /Users/mengwangk/workspace/development/myInvestor-toolkit/fundamental/fundamental_test.py" />
+        <item itemvalue="Python tests.Unittests in fundamental_test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +595,28 @@
       <option name="project" value="LOCAL" />
       <updated>1529850019980</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated files">
+      <created>1530338574704</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1530338574704</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated files">
+      <created>1530369354249</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1530369354249</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updated files">
+      <created>1530632328374</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1530632328374</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -494,43 +664,43 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.1888654" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.1952079" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43974358" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.10128205" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3820513" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30384615" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32948717" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.1448718" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.15902779" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" visible="true" weight="0.15902779" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4068396" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44103774" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3378882" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.44103774" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -548,6 +718,11 @@
           <line>556</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtesting/technical/ratio.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -556,239 +731,364 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/algo/tools/googlefinance.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/tools/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/barfeed/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/strategy/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/broker/backtesting.py" />
-    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/abc.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/algo/broker/fillstrategy.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/broker/slippage.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/bar.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/dispatcher.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/dispatchprio.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/eventprofiler.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/logger.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/marketsession.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/observer.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/broker/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/lib/algo/plotter.py" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1266310093/builtins.py">
+    <entry file="file://$PROJECT_DIR$/backtesting/tools/quandl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="4158" column="8" selection-start-line="4158" selection-start-column="8" selection-end-line="4158" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/technical/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/technical/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/technical/volatility.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/technical/volume.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/technical/wrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/technical/momentum.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/technical/others.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/technical/trend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lotto.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/test_strategy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/marketsession.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/observer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/broker/backtesting.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/resamplebase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/warninghelpers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="304" column="75" selection-start-line="304" selection-start-column="75" selection-end-line="304" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/broker/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="461" column="6" selection-start-line="461" selection-start-column="6" selection-end-line="461" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/sqlitefeed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#703#741#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#703#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/csvfeed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="198">
+          <caret line="91" column="74" selection-start-line="91" selection-start-column="74" selection-end-line="91" selection-end-column="74" />
           <folding>
             <element signature="e#703#718#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/dbfeed.py">
+    <entry file="file://$PROJECT_DIR$/backtesting/tools/resample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="345">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/bar.py">
+    <entry file="file://$PROJECT_DIR$/backtesting/tools/yahoofinance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        <state relative-caret-position="142">
+          <caret line="111" column="19" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
+          <folding>
+            <element signature="e#703#718#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/membf.py">
+    <entry file="file://$PROJECT_DIR$/backtesting/twitter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        <state relative-caret-position="214">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/twitter/feed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1705">
+          <caret line="117" column="12" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
+          <folding>
+            <element signature="e#703#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/utils/dt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/utils/stats.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/websocket/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/websocket/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/websocket/pusher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding>
+            <element signature="e#703#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/yahoofinancials/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6225">
+          <caret line="423" column="8" selection-start-line="423" selection-start-column="8" selection-end-line="423" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="313" selection-start-line="313" selection-end-line="313" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/functools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/python/lib/python3.6/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/KLS_stock_financials.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1033">
+          <caret line="283" lean-forward="true" selection-start-line="282" selection-end-line="283" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/utils/collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/dispatcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/dispatchprio.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/marketsession.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/resamplebase.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="246" selection-start-line="246" selection-end-line="246" />
           <folding>
             <element signature="e#703#721#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/ninjatraderfeed.py">
+    <entry file="file://$PROJECT_DIR$/stock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        <state relative-caret-position="2010">
+          <caret line="134" column="4" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
+          <folding>
+            <element signature="e#111#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamental/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/yahoofinance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#93#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/source_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/bar.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/eventprofiler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/observer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/strategy/position.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/strategy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#703#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/test_strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/broker/fillstrategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/broker/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/-1597858252/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="323" column="4" selection-start-line="323" selection-start-column="4" selection-end-line="323" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/-1597858252/_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/broker/backtesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#704#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/utils/csvutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#703#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/6742.KL.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="291" column="20" lean-forward="true" selection-start-line="291" selection-start-column="20" selection-end-line="291" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/barfeed/yahoofeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/barfeed/csvfeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="e#703#718#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/barfeed/googlefeed.py">
+    <entry file="file://$PROJECT_DIR$/backtesting/barfeed/membf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-          <folding>
-            <element signature="e#779#794#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtesting/websocket/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="166" column="23" selection-start-line="166" selection-start-column="23" selection-end-line="166" selection-end-column="23" />
-          <folding>
-            <element signature="e#703#714#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>

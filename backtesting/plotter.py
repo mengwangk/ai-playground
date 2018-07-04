@@ -20,9 +20,9 @@
 
 import collections
 
-import broker
 import matplotlib.pyplot as plt
 from matplotlib import ticker
+from .broker import OrderEvent, Order
 
 from . import warninghelpers
 
@@ -302,13 +302,13 @@ class InstrumentSubplot(Subplot):
 
     def onOrderEvent(self, broker_, orderEvent):
         order = orderEvent.getOrder()
-        if self.__plotBuySell and orderEvent.getEventType() in (broker.OrderEvent.Type.PARTIALLY_FILLED,
-                                                                broker.OrderEvent.Type.FILLED) and order.getInstrument() == self.__instrument:
+        if self.__plotBuySell and orderEvent.getEventType() in (OrderEvent.Type.PARTIALLY_FILLED,
+                                                                OrderEvent.Type.FILLED) and order.getInstrument() == self.__instrument:
             action = order.getAction()
             execInfo = orderEvent.getEventInfo()
-            if action in [broker.Order.Action.BUY, broker.Order.Action.BUY_TO_COVER]:
+            if action in [Order.Action.BUY, Order.Action.BUY_TO_COVER]:
                 self.getSeries("Buy", BuyMarker).addValue(execInfo.getDateTime(), execInfo.getPrice())
-            elif action in [broker.Order.Action.SELL, broker.Order.Action.SELL_SHORT]:
+            elif action in [Order.Action.SELL, Order.Action.SELL_SHORT]:
                 self.getSeries("Sell", SellMarker).addValue(execInfo.getDateTime(), execInfo.getPrice())
 
 

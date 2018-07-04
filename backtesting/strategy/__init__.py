@@ -26,7 +26,7 @@ from .. import logger
 from .. import observer
 from ..barfeed import resampled
 from ..broker import backtesting, Broker, Order
-from ..strategy import position
+from . import position
 
 
 class BaseStrategy(object):

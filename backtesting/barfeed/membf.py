@@ -68,15 +68,16 @@ class BarFeed(barfeed.BaseBarFeed):
 
         # Add and sort the bars
         self.__bars[instrument].extend(bars)
-        barCmp = lambda x, y: (x.getDateTime() > y.getDateTime()) - (x.getDateTime() < y.getDateTime())
-        self.__bars[instrument].sort(barCmp)
+        # barCmp = lambda x, y: (x.getDateTime() > y.getDateTime()) - (x.getDateTime() < y.getDateTime())
+        # self.__bars[instrument].sort(key=barCmp)
+        self.__bars[instrument].sort(key=lambda t: t.getDateTime())
 
         self.registerInstrument(instrument)
 
     def eof(self):
         ret = True
         # Check if there is at least one more bar to return.
-        for instrument, bars in self.__bars.iteritems():
+        for instrument, bars in self.__bars.items():
             nextPos = self.__nextPos[instrument]
             if nextPos < len(bars):
                 ret = False
@@ -86,7 +87,7 @@ class BarFeed(barfeed.BaseBarFeed):
     def peekDateTime(self):
         ret = None
 
-        for instrument, bars in self.__bars.iteritems():
+        for instrument, bars in self.__bars.items():
             nextPos = self.__nextPos[instrument]
             if nextPos < len(bars):
                 ret = utils.safe_min(ret, bars[nextPos].getDateTime())
@@ -101,7 +102,7 @@ class BarFeed(barfeed.BaseBarFeed):
 
         # Make a second pass to get all the bars that had the smallest datetime.
         ret = {}
-        for instrument, bars in self.__bars.iteritems():
+        for instrument, bars in self.__bars.items():
             nextPos = self.__nextPos[instrument]
             if nextPos < len(bars) and bars[nextPos].getDateTime() == smallestDateTime:
                 ret[instrument] = bars[nextPos]
