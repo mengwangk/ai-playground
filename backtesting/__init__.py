@@ -31,5 +31,4 @@ from .observer import *
 from .plotter import *
 from .resamplebase import *
 from .warninghelpers import *
-
 from .strategy import *

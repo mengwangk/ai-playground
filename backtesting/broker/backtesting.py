@@ -234,7 +234,7 @@ class Broker(broker.Broker):
         ret = self.__cash
         if not includeShort and self.__barFeed.getCurrentBars() is not None:
             bars = self.__barFeed.getCurrentBars()
-            for instrument, shares in self.__shares.iteritems():
+            for instrument, shares in self.__shares.items():
                 if shares < 0:
                     instrumentPrice = self._getBar(bars, instrument).getClose(self.getUseAdjustedValues())
                     ret += instrumentPrice * shares
@@ -296,12 +296,12 @@ class Broker(broker.Broker):
         return self.__shares
 
     def getActiveInstruments(self):
-        return [instrument for instrument, shares in self.__shares.iteritems() if shares != 0]
+        return [instrument for instrument, shares in self.__shares.items() if shares != 0]
 
     def __getEquityWithBars(self, bars):
         ret = self.getCash()
         if bars is not None:
-            for instrument, shares in self.__shares.iteritems():
+            for instrument, shares in self.__shares.items():
                 instrumentPrice = self._getBar(bars, instrument).getClose(self.getUseAdjustedValues())
                 ret += instrumentPrice * shares
         return ret

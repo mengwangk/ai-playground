@@ -67,7 +67,7 @@ class DrawDown(stratanalyzer.StrategyAnalyzer):
     def calculateEquity(self, strat):
         return strat.getBroker().getEquity()
         # ret = strat.getBroker().getCash()
-        # for instrument, shares in strat.getBroker().getPositions().iteritems():
+        # for instrument, shares in strat.getBroker().getPositions().items():
         #     _bar = strat.getFeed().getLastBar(instrument)
         #     if shares > 0:
         #         ret += strat.getBroker().getBarLow(_bar) * shares

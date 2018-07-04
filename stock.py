@@ -9,7 +9,7 @@ import os
 import pandas as pd
 
 from source import YahooFinanceSource
-from analysis.fundamental import DividendYield
+from fundamental import DividendYield
 
 
 class StockAnalysis:
