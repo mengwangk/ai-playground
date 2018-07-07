@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dataset/6742.KL.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ytlpowr.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/i3investor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/mixed_strategy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/trading_strategy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/trend_strategy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/scrapy.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/broker/backtesting.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/broker/backtesting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/rsi.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtesting/technical/rsi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLS_stock_financials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/KLS_stock_financials.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade.py" beforeDir="false" afterPath="$PROJECT_DIR$/trade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/i3investor.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/i3investor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/source_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/source_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,22 +26,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="trend_strategy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategy/trend_strategy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trading_strategy.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/strategy/trading_strategy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-            </state>
-          </provider>
+      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/scrapy.cfg">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -98,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/analysis/backtesting/technical/atr.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/technical/bollinger.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/technical/cumret.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/technical/highlow.py" />
@@ -123,7 +107,6 @@
         <option value="$PROJECT_DIR$/analysis/backtesting/websocket/client.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/websocket/pusher.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/plotter.py" />
-        <option value="$PROJECT_DIR$/source/__init__.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/strategy/__init__.py" />
         <option value="$PROJECT_DIR$/backtesting/broker/fillstrategy.py" />
         <option value="$PROJECT_DIR$/backtesting/broker/__init__.py" />
@@ -143,18 +126,20 @@
         <option value="$PROJECT_DIR$/strategy/mixed_strategy.py" />
         <option value="$PROJECT_DIR$/backtesting/technical/rsi.py" />
         <option value="$PROJECT_DIR$/stock.py" />
-        <option value="$PROJECT_DIR$/source/i3investor.py" />
         <option value="$PROJECT_DIR$/strategy/__init__.py" />
         <option value="$PROJECT_DIR$/trade.py" />
         <option value="$PROJECT_DIR$/strategy/trading_strategy.py" />
         <option value="$PROJECT_DIR$/backtesting/broker/backtesting.py" />
         <option value="$PROJECT_DIR$/dataset/6742.KL.csv" />
+        <option value="$PROJECT_DIR$/source/__init__.py" />
+        <option value="$PROJECT_DIR$/source/source_test.py" />
+        <option value="$PROJECT_DIR$/source/i3investor.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
-    <option name="y" value="23" />
+    <option name="y" value="203" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -174,7 +159,20 @@
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
               <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="klse" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.trade">
+  <component name="RunManager" selected="Python tests.Unittests in source_test.py">
     <configuration name="stock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myInvestor-toolkit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,9 +302,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in source_test.py" />
         <item itemvalue="Python.trade" />
         <item itemvalue="Python.stock" />
-        <item itemvalue="Python tests.Unittests in source_test.py" />
         <item itemvalue="Python tests.Unittests in fundamental_test.py" />
       </list>
     </recent_temporary>
@@ -476,16 +474,17 @@
       <option name="project" value="LOCAL" />
       <updated>1530716546635</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Updated files">
+      <created>1530933035894</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1530933035894</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_fundamental_test_py - 2018.06.09 at 21h 27m 24s.xml">
-      <configuration name="Unittests in fundamental_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_fundamental_test_py - 2018.06.09 at 21h 27m 35s.xml">
-      <configuration name="Unittests in fundamental_test.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_fundamental_test_py - 2018.06.09 at 21h 27m 48s.xml">
       <configuration name="Unittests in fundamental_test.py" configurationId="tests" />
     </history-entry>
@@ -510,6 +509,12 @@
     <history-entry file="Unittests_in_source_test_py - 2018.06.17 at 11h 32m 29s.xml">
       <configuration name="Unittests in source_test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_source_test_py - 2018.07.07 at 14h 33m 33s.xml">
+      <configuration name="Unittests in source_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_source_test_py - 2018.07.07 at 14h 34m 01s.xml">
+      <configuration name="Unittests in source_test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,14 +526,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="1" y="23" width="1440" height="877" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.1952079" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2948718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40641025" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -595,43 +600,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fundamental/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtesting/eventprofiler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtesting/broker/fillstrategy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtesting/broker/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/-1597858252/_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backtesting/utils/csvutils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -690,13 +658,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backtesting/stratanalyzer/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backtesting/strategy/position.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -810,20 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/ytlpowr.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/source_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/venv/myInvestor-toolkit/lib/python3.6/site-packages/yahoofinancials/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
@@ -848,13 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/i3investor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -951,10 +891,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/strategy/trading_strategy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="-661">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#74#126#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#56#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/source_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/quotes.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/i3investor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/myInvestor/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/myInvestor/myInvestor/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/myInvestor/myInvestor/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/myInvestor/myInvestor/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/myInvestor/myInvestor/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/ytlpowr.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3507">
+          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

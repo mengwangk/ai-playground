@@ -9,15 +9,18 @@ Extract KLSE stock information from i3investor.
 
 import scrapy
 
-class KLSESource(scrapy.Spider):
-    """Getting KLSE market information"""
 
-    start_urls = ['https://klse.i3investor.com/jsp/stocks.jsp']
-    name = 'KLSE source'
+class QuoteExtractor(scrapy.Spider):
+    name = "stock quotes extractor"
+    start_urls = [
+        'https://klse.i3investor.com/jsp/stocks.jsp?g=S&m=int&s=Y',
+    ]
 
     def parse(self, response):
-        for title in response.css('h2.entry-title'):
-            yield {'title': title.css('a ::text').extract_first()}
+        print("parsing----------------")
+        for quote in response.css('#tablebody > tr.odd'):
+            print("-----------------" + quote)
 
-        for next_page in response.css('div.prev-post > a'):
-            yield response.follow(next_page, self.parse)
+        # next_page = response.css('li.next a::attr("href")').extract_first()
+        # if next_page is not None:
+        #    yield response.follow(next_page, self.parse)
