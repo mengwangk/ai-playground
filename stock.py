@@ -4,12 +4,13 @@ myInvestor-toolkit startup script
 =================================
 """
 
+import datetime as dt
 import os
 
 import pandas as pd
 
-from source import YahooFinanceSource
 from fundamental import DividendYield
+from source import YahooFinanceSource
 
 
 class StockAnalysis:
@@ -121,6 +122,13 @@ class StockAnalysis:
 
             df_all_stocks_summaries.to_csv(price_file_name, encoding='utf-8', index=False)
 
+    def download_stock_history_to_csv(self, ticker, start_date, end_date, csv_file_name):
+        yahoo_finance_source = YahooFinanceSource(ticker)
+        historical_stock_prices = yahoo_finance_source.get_historical_stock_data(start_date, end_date, 'daily')
+        print(historical_stock_prices)
+        #df_stock_prices = pd.DataFrame([pd.Series(historical_stock_prices[ticker]['prices'])])
+        #print(df_stock_prices.head(10))
+
 
 def main():
     """
@@ -131,12 +139,18 @@ def main():
 
     # stock_analysis.fund_get_dividend_yields_for_exchange('KLS')
 
-    stock_analysis.fund_get_stock_financials(ticker_file='dataset/KLS_selected_equities.csv',
-                                            price_file_name='dataset/KLS_stock_financials.csv')
+    # stock_analysis.fund_get_stock_financials(ticker_file='dataset/KLS_selected_equities.csv',
+    #                                        price_file_name='dataset/KLS_stock_financials.csv')
 
     # yahoo_finance_source = YahooFinanceSource("6742.KL")
     # stock_summary_data = yahoo_finance_source.get_stock_summary_data()
     # print(stock_summary_data)
+
+    year_interval = 1
+    start_date = dt.date(dt.date.today().year - year_interval, 1, 1).strftime('%Y-%m-%d')
+    end_date = dt.datetime.today().strftime('%Y-%m-%d')
+
+    stock_analysis.download_stock_history_to_csv("6742.KL", start_date, end_date, "dataset/6742.KL")
 
 
 if __name__ == "__main__":

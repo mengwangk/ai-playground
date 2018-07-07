@@ -60,7 +60,7 @@ def avg_gain_loss(values, begin, end):
 
     gain = 0
     loss = 0
-    for i in xrange(begin+1, end):
+    for i in range(begin+1, end):
         currGain, currLoss = gain_loss_one(values[i-1], values[i])
         gain += currGain
         loss += currLoss

@@ -449,7 +449,7 @@ class Broker(broker.Broker):
         # and processed on this very same event.
         ordersToProcess = self.__activeOrders.values()
 
-        for order in ordersToProcess:
+        for order in list(ordersToProcess):
             # This may trigger orders to be added/removed from __activeOrders.
             self.__onBarsImpl(order, bars)
 

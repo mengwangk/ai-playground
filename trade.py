@@ -3,8 +3,10 @@ Algorithmic trading testing.
 
 """
 import pandas as pd
+
 import strategy
 from backtesting.barfeed import yahoofeed
+
 
 def show_clustered_equities(exchange):
     """
@@ -20,19 +22,25 @@ def get_equities_by_cluster(df_equities, cluster):
     print("Get equities by clusters")
 
 
+def run_strategy(smaPeriod):
+    # Load the yahoo feed from the CSV file
+    feed = yahoofeed.Feed()
+    feed.addBarsFromCSV("ytlpowr", "dataset/6742.kl.csv")
+
+    # Evaluate the strategy with the feed's bars.
+    myStrategy = strategy.SmaTradingStrategy(feed, "ytlpowr", smaPeriod)
+    myStrategy.run()
+    print("Final portfolio value: $%.2f" % myStrategy.getBroker().getEquity())
+
+
 def main():
     """
     Main script.
     """
     # show_clustered_equities('KLS')
 
-    # Load the yahoo feed from the CSV file
-    feed = yahoofeed.Feed()
-    feed.addBarsFromCSV("ytlpowr", "dataset/6742.KL.csv")
+    run_strategy(15)
 
-    # Evaluate the strategy with the feed's bars.
-    myStrategy = strategy.TestStrategy(feed, "ytlpowr")
-    myStrategy.run()
 
 
 if __name__ == "__main__":
