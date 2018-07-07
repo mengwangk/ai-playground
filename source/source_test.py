@@ -13,7 +13,6 @@ import unittest
 import datetime as dt
 
 from source import YahooFinanceSource
-from source import i3investor
 
 class SourceTest(unittest.TestCase):
 
@@ -45,7 +44,3 @@ class SourceTest(unittest.TestCase):
         print("Getting historical dividends")
         dividend_data = self._YAHOO_FINANCE_SOURCE.get_historical_stock_dividend_data('2010-05-15', self._TODAY, 'daily')
         print(dividend_data)
-
-    def test_i3investor_get_stock_quotes(self):
-        print("Getting KLSE stock quotes from i3investor")
-

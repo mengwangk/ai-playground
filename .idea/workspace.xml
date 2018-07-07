@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/scrapy.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/i3investor.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/i3investor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/i3investor.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/source/source_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/source_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +19,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/scrapy/klse/scrapy.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -131,9 +147,9 @@
         <option value="$PROJECT_DIR$/strategy/trading_strategy.py" />
         <option value="$PROJECT_DIR$/backtesting/broker/backtesting.py" />
         <option value="$PROJECT_DIR$/dataset/6742.KL.csv" />
+        <option value="$PROJECT_DIR$/source/i3investor.py" />
         <option value="$PROJECT_DIR$/source/__init__.py" />
         <option value="$PROJECT_DIR$/source/source_test.py" />
-        <option value="$PROJECT_DIR$/source/i3investor.py" />
       </list>
     </option>
   </component>
@@ -166,13 +182,6 @@
               <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="klse" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -481,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530933035894</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Scrapy project">
+      <created>1530947010097</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1530947010097</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -533,9 +549,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40641025" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31153846" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26794872" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5153846" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -573,7 +589,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated files" />
+    <MESSAGE value="Scrapy project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scrapy project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,34 +617,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backtesting/utils/csvutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtesting/barfeed/yahoofeed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtesting/dataseries/bards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtesting/bar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="258" column="46" lean-forward="true" selection-start-line="258" selection-start-column="46" selection-end-line="258" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backtesting/barfeed/membf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -899,31 +888,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#56#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/source_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/quotes.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/i3investor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/scrapy/myInvestor/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor" />
@@ -947,8 +913,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/scrapy.cfg">
+    <entry file="file://$PROJECT_DIR$/source/i3investor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/items.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/source_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#115#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1501" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
