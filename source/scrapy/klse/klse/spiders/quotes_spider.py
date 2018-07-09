@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-# Get the stock qutoes
 #
-#
+# Get the stock quotes
 
 import os
 import string
