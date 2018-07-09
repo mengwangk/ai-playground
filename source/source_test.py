@@ -11,6 +11,7 @@ Supported sources
 
 import unittest
 import datetime as dt
+import string
 
 from source import YahooFinanceSource
 
@@ -44,3 +45,8 @@ class SourceTest(unittest.TestCase):
         print("Getting historical dividends")
         dividend_data = self._YAHOO_FINANCE_SOURCE.get_historical_stock_dividend_data('2010-05-15', self._TODAY, 'daily')
         print(dividend_data)
+
+
+    def test_genereate_a_toz(self):
+        for c in string.ascii_uppercase:
+            print(c)
