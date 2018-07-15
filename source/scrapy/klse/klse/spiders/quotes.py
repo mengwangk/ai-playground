@@ -50,7 +50,6 @@ class QuotesSpider(scrapy.Spider):
         #print('-----------------------')
         #pprint(stock_listing)
 
-
         df = pd.DataFrame(stock_listing, columns=["symbol", "name", "code"])
         df.set_index(['symbol'])
 

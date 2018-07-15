@@ -1,18 +1,19 @@
 # -*- coding: utf-8 -*-
 #
-# Get stocks financial
+# Get stocks financial information
 
 import scrapy
 
 
 class FinancialsSpider(scrapy.Spider):
+    """Stock financials scraper"""
+
     name = "financials"
 
+    _URL_BASE = "https://klse.i3investor.com/servlets/stk/{}.jsp"
+
     def start_requests(self):
-        urls = [
-            'http://quotes.toscrape.com/page/1/',
-            'http://quotes.toscrape.com/page/2/',
-        ]
+        urls = []
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 

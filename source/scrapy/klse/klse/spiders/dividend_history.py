@@ -2,24 +2,29 @@
 #
 # Get stocks dividend histories
 
+import csv
+
 import scrapy
 
 
 class DividendHistorySpider(scrapy.Spider):
-    """ Dividend history scraper s"""
+    """ Dividend history scraper """
     name = "dividend_history"
 
+    _URL_BASE = "https://klse.i3investor.com/servlets/stk/annent/{}.jsp"
+    _TICKER_FILE = "KLSE.csv"
+
     def start_requests(self):
-        urls = [
-            'http://quotes.toscrape.com/page/1/',
-            'http://quotes.toscrape.com/page/2/',
-        ]
+        with open(self._TICKER_FILE, 'r') as f:
+            reader = csv.reader(f)
+            stock_list = list(reader)
+
+        urls = []
+        for stock in stock_list:
+            urls.append(self._URL_BASE.format(stock[2]))
+
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-        page = response.url.split("/")[-2]
-        filename = 'quotes-%s.html' % page
-        with open(filename, 'wb') as f:
-            f.write(response.body)
-        self.log('Saved file %s' % filename)
+        print("parsing response")
