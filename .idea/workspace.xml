@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financials.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history_spider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financial_spider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/KLSE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +21,20 @@
       <file leaf-file-name="quotes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+            <state relative-caret-position="372">
+              <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
               <folding>
                 <element signature="e#50#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KLSE.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25683">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -62,7 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>position</find>
       <find>position.</find>
       <find>logger.</find>
       <find>Queue.</find>
@@ -92,6 +97,7 @@
       <find>maybank</find>
       <find>innity</find>
       <find>public</find>
+      <find>list(</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/backtesting</dir>
@@ -103,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/analysis/backtesting/technical/macd.py" />
-        <option value="$PROJECT_DIR$/analysis/backtesting/technical/ratio.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/technical/roc.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/technical/rsi.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/technical/stats.py" />
@@ -154,6 +158,8 @@
         <option value="$PROJECT_DIR$/source/scrapy/klse/README.md" />
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financials.py" />
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history.py" />
+        <option value="$PROJECT_DIR$/source/scrapy/klse/KLSE.csv" />
+        <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes.py" />
       </list>
     </option>
   </component>
@@ -558,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531576752888</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Updated files">
+      <created>1531636179807</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1531636179807</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -604,10 +617,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.19661734" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.43878788" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43974358" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
@@ -622,7 +637,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.43974358" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -889,13 +903,6 @@
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/middlewares.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9885">
-          <caret line="659" column="11" selection-start-line="659" selection-start-column="5" selection-end-line="659" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/crawl.py" />
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
@@ -913,13 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financials.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -927,10 +927,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financials.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25683">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        <state relative-caret-position="372">
+          <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
           <folding>
             <element signature="e#50#59#0" expanded="true" />
           </folding>

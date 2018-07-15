@@ -39,15 +39,25 @@ class QuotesSpider(scrapy.Spider):
             df_symbols = pd.DataFrame()
 
         stock_listing = response.css('.left a::text').extract()
-        df = pd.DataFrame(list(self._chunks(stock_listing, 2)), columns=["symbol", "name"])
+        stock_listing = list(self._chunks(stock_listing, 2))
+
+        stock_urls = response.css('.left a[href]:link').extract()
+        stock_urls = list(self._chunks(stock_urls, 2))
+
+        for idx, stock in enumerate(stock_listing):
+            stock.append(stock_urls[idx][0].split('/')[3].split('.')[0])
+
+        #print('-----------------------')
+        #pprint(stock_listing)
+
+
+        df = pd.DataFrame(stock_listing, columns=["symbol", "name", "code"])
         df.set_index(['symbol'])
 
         if (df_symbols.empty):
             df_symbols = df
         else:
-            print(df)
+            # print(df)
             df_symbols = df_symbols.append(df)
 
         df_symbols.to_csv(self._TICKER_FILE, encoding='utf-8', index=False)
-
-        # pprint.pprint(list(self._chunks(stock_listing, 2)))
