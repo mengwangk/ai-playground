@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financials.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history_spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financial_spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,29 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dividend_history_spider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history_spider.py">
+      <file leaf-file-name="quotes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="financial_spider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financial_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quotes_spider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="551">
+              <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
               <folding>
                 <element signature="e#50#59#0" expanded="true" />
               </folding>
@@ -47,23 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/settings.py">
+      <file leaf-file-name="financials.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financials.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+            <state relative-caret-position="528">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="dividend_history.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -120,8 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/analysis/backtesting/technical/linreg.py" />
-        <option value="$PROJECT_DIR$/analysis/backtesting/technical/ma.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/technical/macd.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/technical/ratio.py" />
         <option value="$PROJECT_DIR$/analysis/backtesting/technical/roc.py" />
@@ -171,11 +152,14 @@
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history_spider.py" />
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financial_spider.py" />
         <option value="$PROJECT_DIR$/source/scrapy/klse/README.md" />
+        <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financials.py" />
+        <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-9" />
+    <option name="y" value="62" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -184,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,7 +220,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531148952267</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Updated files">
+      <created>1531576752888</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1531576752888</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -612,7 +603,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.19661734" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
@@ -687,35 +678,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/technical/momentum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technical/trend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/sma_strategy.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/technical/rsi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtesting/strategy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="515" selection-start-line="515" selection-end-line="515" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backtesting/barfeed/csvfeed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -824,9 +786,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/i3investor.py" />
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/quotes-1.html" />
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/quotes-2.html" />
     <entry file="file://$USER_HOME$/venv/myInvestor-toolkit/lib/python3.6/site-packages/scrapy/spiders/__init__.py">
@@ -846,16 +805,6 @@
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/pprint.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -870,9 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="105" column="17" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="17" />
-          <folding>
-            <element signature="e#111#132#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,54 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financial_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="659" column="11" selection-start-line="659" selection-start-column="5" selection-end-line="659" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#50#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -966,6 +864,76 @@
             <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history_spider.py" />
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financial_spider.py" />
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9885">
+          <caret line="659" column="11" selection-start-line="659" selection-start-column="5" selection-end-line="659" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/crawl.py" />
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/tester.py" />
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/testerspider.py" />
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financials.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <folding>
+            <element signature="e#50#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
