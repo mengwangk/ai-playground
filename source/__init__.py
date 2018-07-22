@@ -1,2 +1,2 @@
 
-from .yahoofinance import *
+from .yahoo_finance import *

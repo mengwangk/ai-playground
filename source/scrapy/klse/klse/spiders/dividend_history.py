@@ -41,7 +41,7 @@ class DividendHistorySpider(scrapy.Spider):
         dividends = [[code] + list(d) for d in zip(ann_dates, ex_dates, payment_dates, dividend_type, subject, amount)]
         file_exists = os.path.isfile(self._DIVIDENDS_FILE)
 
-        with open('KLSE_dividends.csv', 'a') as f:
+        with open(self._DIVIDENDS_FILE, 'a') as f:
             writer = csv.writer(f)
             if not file_exists:
                 writer.writerow(['code', 'ann_date', 'ex_date', 'payment_date', 'dividend_type', 'subject', 'amount'])
