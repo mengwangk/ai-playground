@@ -5,7 +5,7 @@ Algorithmic trading testing.
 import pandas as pd
 
 import strategy
-from backtesting.barfeed import yahoofeed
+from backtesting.barfeed import googlefeed
 
 
 def show_clustered_equities(exchange):
@@ -23,8 +23,8 @@ def get_equities_by_cluster(df_equities, cluster):
 
 
 def run_strategy(smaPeriod):
-    # Load the yahoo feed from the CSV file
-    feed = yahoofeed.Feed()
+    # Load the Google feed from the CSV file
+    feed = googlefeed.Feed()
     feed.addBarsFromCSV("ytlpowr", "dataset/6742.kl.csv")
 
     # Evaluate the strategy with the feed's bars.

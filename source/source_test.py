@@ -8,19 +8,22 @@ Supported sources
 
 """
 
-
-import unittest
 import datetime as dt
 import string
+import unittest
 
-from source import YahooFinanceSource
+from source import YahooFinanceSource, GoogleFinanceSource
+
 
 class SourceTest(unittest.TestCase):
+    _TEST_YAHOO_FINANCE_SYMBOL = '6742.KL'
+    _YAHOO_FINANCE_SOURCE = YahooFinanceSource(_TEST_YAHOO_FINANCE_SYMBOL)
 
-    _TEST_SYMBOL = '6742.KL'
 
-    _YAHOO_FINANCE_SOURCE = YahooFinanceSource(_TEST_SYMBOL)
-    _TODAY  = dt.datetime.today().strftime('%Y-%m-%d')
+    _TEST_GOOGLE_FINANCE_SYMBOL = "ytlpowr"
+    _GOOGLE_FINANCE_SOURCE = GoogleFinanceSource(_TEST_GOOGLE_FINANCE_SYMBOL)
+
+    _TODAY = dt.datetime.today().strftime('%Y-%m-%d')
 
     @unittest.skip
     def test_yahoo_get_stock_prices(self):
@@ -35,7 +38,6 @@ class SourceTest(unittest.TestCase):
         # for price in prices:
         #     print(price.get('close', None))
 
-
         # Get current price
         # current_price = yahoo_finance_source.get_current_price()
         # print(current_price)
@@ -43,10 +45,16 @@ class SourceTest(unittest.TestCase):
     @unittest.skip
     def test_yahoo_get_dividend_history(self):
         print("Getting historical dividends")
-        dividend_data = self._YAHOO_FINANCE_SOURCE.get_historical_stock_dividend_data('2010-05-15', self._TODAY, 'daily')
+        dividend_data = self._YAHOO_FINANCE_SOURCE.get_historical_stock_dividend_data('2010-05-15', self._TODAY,
+                                                                                      'daily')
         print(dividend_data)
 
-
-    def test_genereate_a_toz(self):
+    @unittest.skip
+    def test_genereate_a_to_z(self):
         for c in string.ascii_uppercase:
             print(c)
+
+    def test_google_finance_get_stock_prices(self):
+        print("Getting historical prices")
+        historical_prices = self._GOOGLE_FINANCE_SOURCE.get_stock_historical_prices("2010-05-15", self._TODAY)
+        print(historical_prices)
