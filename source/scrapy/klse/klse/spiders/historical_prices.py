@@ -8,12 +8,12 @@ import os
 import scrapy
 
 
-class DividendHistorySpider(scrapy.Spider):
-    """ Dividend history scraper """
-    name = "dividend_history"
+class HistoricalPricesScraper(scrapy.Spider):
+    """ Historical prices scraper """
+    name = "historical_prices"
 
-    _URL_BASE = "https://klse.i3investor.com/servlets/stk/annent/{}.jsp"
-    _DIVIDENDS_FILE = "KLSE_dividends.csv"
+    _URL_BASE = "https://klse.i3investor.com/servlets/stk/rec/{}.jsp"
+    _HISTORICAL_PRICES_FILE = "KLSE_historical_prices.csv"
     _TICKER_FILE = "KLSE.csv"
 
     def start_requests(self):
@@ -39,9 +39,9 @@ class DividendHistorySpider(scrapy.Spider):
         amount = response.xpath('//*[@id="entitlementTable"]/tbody/tr/td[6]/text()').extract()
 
         dividends = [[code] + list(d) for d in zip(ann_dates, ex_dates, payment_dates, dividend_type, subject, amount)]
-        file_exists = os.path.isfile(self._DIVIDENDS_FILE)
+        file_exists = os.path.isfile(self._HISTORICAL_PRICES_FILE)
 
-        with open(self._DIVIDENDS_FILE, 'a') as f:
+        with open(self._HISTORICAL_PRICES_FILE, 'a') as f:
             writer = csv.writer(f)
             if not file_exists:
                 writer.writerow(['code', 'ann_date', 'ex_date', 'payment_date', 'dividend_type', 'subject', 'amount'])
