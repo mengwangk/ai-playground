@@ -8,12 +8,12 @@ import os
 import scrapy
 
 
-class DividendHistorySpider(scrapy.Spider):
+class DividendHistorySpiderI3Investor(scrapy.Spider):
     """ Dividend history scraper """
     name = "dividend_history_i3investor"
 
     _URL_BASE = "https://klse.i3investor.com/servlets/stk/annent/{}.jsp"
-    _DIVIDENDS_FILE = "KLSE_dividends.csv"
+    _DIVIDENDS_FILE = "KLSE_dividends_i3investor.csv"
     _TICKER_FILE = "KLSE.csv"
 
     def start_requests(self):
