@@ -9,11 +9,11 @@ import pandas as pd
 import scrapy
 
 
-class QuotesSpider(scrapy.Spider):
-    name = "quotes"
+class QuotesSpiderI3Investor(scrapy.Spider):
+    name = "quotes_i3investor"
 
     _URL_BASE = 'https://klse.i3investor.com/jsp/stocks.jsp?g=S&m=int&s=%s'
-    _TICKER_FILE = "KLSE.csv"
+    _TICKER_FILE = "KLSE_i3investor.csv"
 
     def _chunks(self, l, n):
         """Yield successive n-sized chunks from l."""

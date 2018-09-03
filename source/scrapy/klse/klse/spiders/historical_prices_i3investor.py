@@ -14,7 +14,7 @@ class HistoricalPricesScraper(scrapy.Spider):
 
     _URL_BASE = "https://klse.i3investor.com/servlets/stk/rec/{}.jsp"
     _HISTORICAL_PRICES_FILE = "KLSE_historical_prices.csv"
-    _TICKER_FILE = "KLSE.csv"
+    _TICKER_FILE = "KLSE_i3investor.csv"
 
     def start_requests(self):
         with open(self._TICKER_FILE, 'r') as f:
