@@ -8,9 +8,9 @@ import os
 import scrapy
 
 
-class HistoricalPricesScraper(scrapy.Spider):
+class HistoricalPricesScraperI3Investor(scrapy.Spider):
     """ Historical prices scraper """
-    name = "historical_prices"
+    name = "historical_prices_i3investor"
 
     _URL_BASE = "https://klse.i3investor.com/servlets/stk/rec/{}.jsp"
     _HISTORICAL_PRICES_FILE = "KLSE_historical_prices.csv"
