@@ -4,12 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/7123.csv" afterDir="false" />
+    <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/historical_prices_investing.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/historical_prices_investing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes_investing.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes_investing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -127,7 +123,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="203" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -624,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536476812365</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Initial commit">
+      <created>1536577825016</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1536577825016</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -676,7 +679,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43846154" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43846154" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43846154" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
       <window_info id="Structure" order="1" sideWeight="0.5029586" side_tool="true" weight="0.12332629" />
