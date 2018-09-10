@@ -78,4 +78,4 @@ class QuotesSpiderInvesting(scrapy.Spider):
         except Exception as e:
             print(e)
         finally:
-            self.driver.quit()
+            self.driver.close()
