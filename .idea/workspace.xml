@@ -6,17 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/6742.KL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/klse/6742.KL.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLSE_dividends_i3investor.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/klse/KLSE_dividends_i3investor.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLSE_financials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/klse/KLSE_financials.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLSE_lookup.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/klse/KLSE_lookup.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLS_clustered_equities.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/klse/KLS_clustered_equities.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLS_dividend_yields.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/klse/KLS_dividend_yields.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLS_selected_equities.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/klse/KLS_selected_equities.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLS_stock_financials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/klse/KLS_stock_financials.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/ticker.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/klse/ticker.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/ticker.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/klse/ticker.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/ytlpowr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/klse/ytlpowr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook/KLSE_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/KLSE_analysis.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,64 +18,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="KLS_dividend_yields.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/klse/KLS_dividend_yields.csv">
+      <file leaf-file-name="KLSE_dividends_investing.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31438" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KLS_selected_equities.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/klse/KLS_selected_equities.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="243">
+              <caret line="2000" column="6" selection-start-line="2000" selection-start-column="3" selection-end-line="2000" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KLS_stock_financials.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/klse/KLS_stock_financials.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="KLSE.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KLSE.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataset/KLSE.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="7123.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/7123.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ytlpowr.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/klse/ytlpowr.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="KLSE_dividends_i3investor.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/klse/KLSE_dividends_i3investor.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="KLSE_financials.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/klse/KLSE_financials.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="KLSE_investing.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/KLSE_investing.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="118" selection-start-line="24" selection-start-column="118" selection-end-line="24" selection-end-column="118" />
+            <state relative-caret-position="244">
+              <caret line="563" column="4" selection-start-line="563" selection-end-line="563" selection-end-column="4" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KLSE_lookup.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/klse/KLSE_lookup.csv">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -100,8 +48,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>iter</find>
-      <find>iteritems</find>
       <find>backtesting</find>
       <find>backtestingst</find>
       <find>average</find>
@@ -130,6 +76,8 @@
       <find>zelan</find>
       <find>poh kong</find>
       <find>ticker</find>
+      <find>myeg</find>
+      <find>-</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/backtesting</dir>
@@ -141,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/analysis/backtesting/strategy/__init__.py" />
         <option value="$PROJECT_DIR$/backtesting/broker/fillstrategy.py" />
         <option value="$PROJECT_DIR$/backtesting/broker/__init__.py" />
         <option value="$PROJECT_DIR$/backtesting/utils/csvutils.py" />
@@ -192,10 +139,11 @@
         <option value="$PROJECT_DIR$/source/scrapy/klse/main.py" />
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes_investing.py" />
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/historical_prices_investing.py" />
+        <option value="$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -218,12 +166,6 @@
               <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
               <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
-              <item name="klse" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -244,14 +186,16 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset/klse" />
+      <recent name="$PROJECT_DIR$/dataset/backup" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/technical/indicator" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dataset" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/source" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/technical/indicator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -699,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536579800656</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Initial commit">
+      <created>1536890239450</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1536890239450</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -744,7 +695,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49704143" visible="true" weight="0.25581396" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
@@ -821,9 +773,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/venv/myInvestor-toolkit/lib/python3.6/site-packages/yahoofinancials/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -1116,7 +1065,18 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset/KLSE.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="563" column="4" selection-start-line="563" selection-end-line="563" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="2000" column="6" selection-start-line="2000" selection-start-column="3" selection-end-line="2000" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
