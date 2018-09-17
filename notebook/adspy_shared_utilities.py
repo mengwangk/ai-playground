@@ -57,7 +57,7 @@ def plot_labelled_scatter(X, y, class_labels):
     y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
 
     marker_array = ['o', '^', '*']
-    color_array = ['#FFFF00', '#00AAFF', '#000000', '#FF00AA']
+    color_array = ['#FFFF00', '#00AAFF', '#000000', '#FF00AA', '#FFDDAA', '#CCDDAA', '#CCFFDD', '#AABBDD', '#00EEFF', '#445566']
     cmap_bold = ListedColormap(color_array)
     bnorm = BoundaryNorm(numpy.arange(0, num_labels + 1, 1), ncolors=num_labels)
     plt.figure()

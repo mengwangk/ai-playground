@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/KLSE_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/KLSE_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/KLSE_preprocess.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/KLSE_preprocess.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,16 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="KLSE_dividends_investing.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="2000" column="6" selection-start-line="2000" selection-start-column="3" selection-end-line="2000" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KLSE.csv" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KLSE.csv" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataset/KLSE.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="244">
@@ -48,7 +37,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>backtesting</find>
       <find>backtestingst</find>
       <find>average</find>
       <find>moving average</find>
@@ -78,6 +66,7 @@
       <find>ticker</find>
       <find>myeg</find>
       <find>-</find>
+      <find>9pa</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/backtesting</dir>
@@ -1064,17 +1053,17 @@
     <entry file="file://$PROJECT_DIR$/dataset/klse/KLSE_lookup.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLSE.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="563" column="4" selection-start-line="563" selection-end-line="563" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="2000" column="6" selection-start-line="2000" selection-start-column="3" selection-end-line="2000" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/KLSE.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="563" column="4" selection-start-line="563" selection-end-line="563" selection-end-column="4" />
         </state>
       </provider>
     </entry>
