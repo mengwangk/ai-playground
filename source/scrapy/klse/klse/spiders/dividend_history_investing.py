@@ -16,6 +16,7 @@ class DividendHistorySpiderI3Investor(scrapy.Spider):
     _URL_BASE = "{}-dividends"
     _DIVIDENDS_FILE = "KLSE_dividends_investing.csv"
     _TICKER_FILE = "KLSE_investing.csv"
+    _LOOKUP_FILE = "KLSE_lookup_investing.csv"
 
     def start_requests(self):
         with open(self._TICKER_FILE, 'r') as f:
@@ -47,3 +48,12 @@ class DividendHistorySpiderI3Investor(scrapy.Spider):
                 if not file_exists:
                     writer.writerow(['code', 'name', 'ex_dividend_date', 'dividend', 'payment_date', 'yield'])
                 writer.writerows(dividends)
+
+            ## Additionally, write the code and the URL to a file
+            file_exists = os.path.isfile(self._LOOKUP_FILE)
+            with open(self._LOOKUP_FILE, 'a') as f:
+                writer = csv.writer(f)
+                if not file_exists:
+                    writer.writerow(['code', 'name', 'url'])
+                writer.writerow([code[0], name[0], response.request.url])
+

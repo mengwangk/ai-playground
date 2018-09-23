@@ -1,0 +1,921 @@
+name,link,last,high,low,change,change_percent,volume
+Priceworth International,https://www.investing.com/equities/priceworth-international,0.045,0.055,0.045,-0.005,-10.00%,223.12M
+Sapura Energy,https://www.investing.com/equities/sapurakencana-petroleum-bhd,0.335,0.345,0.335,0.000,0.00%,53.62M
+Borneo Oil,https://www.investing.com/equities/borneo-oil-bhd,0.055,0.060,0.055,0.000,0.00%,50.93M
+MY EG Services,https://www.investing.com/equities/my-eg-services-bhd,1.630,1.700,1.620,-0.020,-1.21%,35.62M
+Tiger Synergy Bhd,https://www.investing.com/equities/tiger-synergy-bhd,0.070,0.075,0.065,-0.005,-6.67%,29.80M
+Nova MSC,https://www.investing.com/equities/nova-msc-bhd,0.160,0.160,0.145,+0.005,+3.23%,22.05M
+Frontken Corp,https://www.investing.com/equities/frontken-corporation-bhd,0.920,0.960,0.915,0.000,0.00%,20.90M
+Globaltec Formation,https://www.investing.com/equities/globaltec-formation-bhd,0.040,0.045,0.035,-0.005,-11.11%,19.77M
+AirAsia X,https://www.investing.com/equities/airasia-x-bhd,0.290,0.305,0.290,-0.010,-3.33%,19.08M
+Nexgram,https://www.investing.com/equities/nexgram-holdings-bhd,0.025,0.025,0.020,0.000,0.00%,15.68M
+Lay Hong,https://www.investing.com/equities/lay-hong-bhd,0.655,0.680,0.640,+0.010,+1.55%,15.34M
+KPJ Healthcare,https://www.investing.com/equities/kpj-healthcare-bhd,1.120,1.120,1.100,0.000,0.00%,13.07M
+DGB Asia,https://www.investing.com/equities/dgb-asia-bhd,0.170,0.175,0.165,+0.005,+3.03%,12.32M
+Vizione Holdings,https://www.investing.com/equities/astral-supreme-bhd,0.135,0.140,0.130,0.000,0.00%,12.29M
+Bumi Armada,https://www.investing.com/equities/bumi-armada-bhd,0.560,0.590,0.550,+0.005,+0.90%,11.65M
+KNM Group Bhd,https://www.investing.com/equities/knm-group-bhd,0.145,0.155,0.140,-0.010,-6.45%,11.19M
+XOX Bhd,https://www.investing.com/equities/xox-bhd,0.065,0.070,0.065,-0.005,-7.14%,10.65M
+Malaysian Resources,https://www.investing.com/equities/malaysian-resources-corporation,0.720,0.730,0.705,+0.005,+0.70%,9.96M
+Titijaya Land,https://www.investing.com/equities/titijaya-land-bhd,0.320,0.340,0.320,-0.005,-1.54%,9.53M
+DRB Hicom,https://www.investing.com/equities/drb---hicom-bhd,2.160,2.210,2.070,+0.090,+4.35%,9.40M
+Kelington Group,https://www.investing.com/equities/kelington-group-bhd,0.935,0.955,0.925,+0.010,+1.08%,9.28M
+Velesto Energy,https://www.investing.com/equities/umw-oil-and-gas-corporation,0.260,0.265,0.260,0.000,0.00%,9.00M
+Bumiputra Commerce,https://www.investing.com/equities/bumiputra---commerce-holdings-bhd,5.920,5.940,5.880,0.000,0.00%,8.95M
+Hibiscus Petroleum BHD,https://www.investing.com/equities/hibiscus-petroleum-bhd,0.980,0.990,0.975,-0.010,-1.01%,8.71M
+JAKS Resources,https://www.investing.com/equities/jaks-resources-bhd,0.830,0.870,0.825,-0.050,-5.68%,8.61M
+Airasia,https://www.investing.com/equities/airasia-bhd,3.230,3.250,3.150,+0.100,+3.19%,8.41M
+Tenaga Nasional,https://www.investing.com/equities/tenaga-nasional-bhd,15.80,15.90,15.74,+0.04,+0.25%,8.34M
+Asia Media,https://www.investing.com/equities/asia-media-group-bhd,0.145,0.145,0.130,+0.010,+7.41%,8.31M
+Dialog,https://www.investing.com/equities/dialog-group-bhd,3.400,3.410,3.360,0.000,0.00%,8.22M
+Supermax Corp,https://www.investing.com/equities/supermax-corporation-bhd,3.270,3.450,3.240,-0.090,-2.68%,8.21M
+MQ Tech,https://www.investing.com/equities/mq-technology-bhd,0.045,0.045,0.035,+0.005,+12.50%,8.06M
+Sime Darby,https://www.investing.com/equities/sime-darby-bhd,2.69,2.71,2.68,-0.01,-0.37%,7.99M
+Petronas Chemicals,https://www.investing.com/equities/petronas-chemicals-group-bhd,9.43,9.56,9.42,+0.01,+0.11%,7.79M
+EA,https://www.investing.com/equities/ea-holdings-bhd,0.020,0.020,0.020,0.000,0.00%,6.87M
+PUC,https://www.investing.com/equities/puc-founder-msc-bhd,0.150,0.155,0.150,0.000,0.00%,6.63M
+Appasia,https://www.investing.com/equities/appasia-bhd,0.165,0.180,0.145,-0.010,-5.71%,6.58M
+Sumatec Resources Bhd,https://www.investing.com/equities/sumatec-resources-bhd,0.030,0.035,0.030,0.000,0.00%,6.29M
+Globetronics Tech,https://www.investing.com/equities/globetronics-tech-bhd,2.600,2.790,2.600,-0.190,-6.81%,5.92M
+Telekom Malaysia,https://www.investing.com/equities/telekom-malaysia-bhd,3.19,3.20,3.08,+0.08,+2.57%,5.88M
+VS Industry Bhd,https://www.investing.com/equities/vs-industry-bhd,1.570,1.570,1.540,+0.040,+2.61%,5.88M
+Hartalega,https://www.investing.com/equities/hartalega-holdings-bhd,6.990,7.060,6.820,-0.040,-0.57%,5.21M
+Compugates,https://www.investing.com/equities/compugates-holdings-bhd,0.030,0.030,0.025,+0.005,+20.00%,5.20M
+Diversified Gateway Solutions,https://www.investing.com/equities/diversified-gateway-solutions-bhd,0.065,0.070,0.065,-0.005,-7.14%,5.20M
+Kronologi Asia,https://www.investing.com/equities/kronologi-asia-bhd,0.700,0.735,0.700,-0.025,-3.45%,4.98M
+Lion Industries Corp,https://www.investing.com/equities/lion-industries-corp,0.935,0.970,0.930,-0.035,-3.61%,4.96M
+Reach Energy,https://www.investing.com/equities/reach-energy-bhd,0.315,0.330,0.310,0.000,0.00%,4.96M
+Trive Property Group,https://www.investing.com/equities/eti-tech-corporation-bhd,0.020,0.025,0.020,0.000,0.00%,4.92M
+FoundPac,https://www.investing.com/equities/foundpac-group-bhd,0.285,0.295,0.285,-0.005,-1.72%,4.85M
+Pesona Metro Holdings Bhd,https://www.investing.com/equities/pesona-metro-holdings-bhd,0.320,0.330,0.315,-0.010,-3.03%,4.72M
+Hiap Teck Venture,https://www.investing.com/equities/hiap-teck-venture-bhd,0.400,0.405,0.395,0.000,0.00%,4.71M
+Gamuda,https://www.investing.com/equities/gamuda-bhd,3.650,3.690,3.540,+0.110,+3.11%,4.69M
+Sime Darby Plantation,https://www.investing.com/equities/sime-darby-plantation,5.300,5.300,5.170,+0.010,+0.19%,4.60M
+Genting Malaysia,https://www.investing.com/equities/genting-malaysia-bhd,5.040,5.060,4.990,+0.010,+0.20%,4.58M
+IHH Healthcare,https://www.investing.com/equities/ihh-healthcare-bhd,5.51,5.58,5.45,+0.02,+0.36%,4.55M
+Sino Hua An International,https://www.investing.com/equities/sino-hua-an-international,0.265,0.275,0.265,0.000,0.00%,4.52M
+Malayan Banking,https://www.investing.com/equities/malayan-banking-bhd,9.89,9.90,9.82,+0.01,+0.10%,4.51M
+K Star Sports,https://www.investing.com/equities/k-star-sports-ltd,0.110,0.110,0.110,0.000,0.00%,4.29M
+Public Bank,https://www.investing.com/equities/public-bank-bhd,25.00,25.04,24.96,+0.02,+0.08%,4.26M
+Silver Ridge,https://www.investing.com/equities/silver-ridge-holdings-bhd,0.250,0.255,0.240,+0.010,+4.17%,4.26M
+D.B.E. Gurney Res,https://www.investing.com/equities/d.b.e.-gurney-resources-bhd,0.035,0.040,0.035,0.000,0.00%,4.02M
+YTL Power Int,https://www.investing.com/equities/ytl-power-international-bhd,1.060,1.090,1.060,-0.020,-1.85%,3.96M
+Goodway Integrated,https://www.investing.com/equities/goodway-integrated-industries,0.235,0.235,0.210,+0.025,+11.90%,3.83M
+Econpile,https://www.investing.com/equities/econpile-holdings-bhd,0.745,0.750,0.725,0.000,0.00%,3.78M
+UCrest,https://www.investing.com/equities/palette-multimedia-bhd,0.310,0.315,0.305,+0.005,+1.64%,3.73M
+Genting,https://www.investing.com/equities/genting-bhd,8.20,8.28,8.16,+0.06,+0.74%,3.66M
+IJM Corp,https://www.investing.com/equities/ijm-corporation-bhd,1.800,1.840,1.790,-0.010,-0.55%,3.62M
+Ewein,https://www.investing.com/equities/ewein-bhd,0.705,0.725,0.700,-0.010,-1.40%,3.61M
+Revenue Group,https://www.investing.com/equities/revenue-group,1.130,1.140,1.110,+0.030,+2.73%,3.54M
+QES,https://www.investing.com/equities/qes,0.260,0.260,0.250,+0.005,+1.96%,3.46M
+Malaysia Airport,https://www.investing.com/equities/malaysia-airport-holdings-bhd,9.13,9.21,8.98,-0.11,-1.19%,3.41M
+Inari Amertron,https://www.investing.com/equities/inari-amertron-bhd,2.250,2.290,2.250,-0.030,-1.32%,3.39M
+Dnonce Tech,https://www.investing.com/equities/dnonce-tech-bhd,0.320,0.325,0.315,0.000,0.00%,3.34M
+Top Glove Corp,https://www.investing.com/equities/top-glove-corporation-bhd,10.84,11.00,10.74,-0.12,-1.09%,3.31M
+Cuscapi Berhad,https://www.investing.com/equities/cuscapi-berhad,0.290,0.295,0.285,0.000,0.00%,3.27M
+Icon Offshore,https://www.investing.com/equities/icon-offshore-bhd,0.130,0.135,0.130,-0.005,-3.70%,3.16M
+Alam Maritim Res,https://www.investing.com/equities/alam-maritim-resources-bhd,0.125,0.130,0.115,+0.010,+8.70%,3.07M
+Sinmah Capital,https://www.investing.com/equities/farms-best-bhd,0.195,0.210,0.195,-0.005,-2.50%,3.05M
+Orion lXL,https://www.investing.com/equities/orion-lxl-bhd,0.050,0.050,0.045,0.000,0.00%,3.03M
+Malaysia Steel Works KL Bhd,https://www.investing.com/equities/malaysia-steel-works-kl-bhd,0.605,0.620,0.600,-0.015,-2.42%,2.95M
+Malaysia Building,https://www.investing.com/equities/malaysia-building-society-bhd,1.030,1.040,1.020,+0.010,+0.98%,2.85M
+YTL Corp,https://www.investing.com/equities/ytl-corporation-bhd,1.230,1.260,1.220,-0.010,-0.81%,2.80M
+Westports,https://www.investing.com/equities/westports-holdings-bhd,3.800,3.860,3.710,+0.040,+1.06%,2.64M
+Brahims,https://www.investing.com/equities/brahims-holdings-bhd,0.300,0.315,0.285,+0.015,+5.26%,2.58M
+PDZ Holdings Bhd,https://www.investing.com/equities/pdz-holdings-bhd,0.045,0.045,0.040,0.000,0.00%,2.52M
+Eden Inc,https://www.investing.com/equities/eden-inc-bhd,0.205,0.205,0.200,0.000,0.00%,2.50M
+TA Enterprise,https://www.investing.com/equities/ta-enterprise-bhd,0.660,0.665,0.660,-0.005,-0.75%,2.50M
+Yong Tai,https://www.investing.com/equities/yong-tai-bhd,0.800,0.830,0.795,-0.020,-2.44%,2.50M
+7 Eleven,https://www.investing.com/equities/7-eleven-malaysia-holdings-bhd,1.350,1.350,1.280,+0.010,+0.75%,2.45M
+Axiata,https://www.investing.com/equities/axiata-group-bhd,4.53,4.54,4.47,-0.02,-0.44%,2.44M
+Perak Transit,https://www.investing.com/equities/perak-transit-bhd,0.275,0.275,0.270,0.000,0.00%,2.36M
+Maxis,https://www.investing.com/equities/maxis-bhd,5.76,5.80,5.74,-0.01,-0.17%,2.24M
+Kanger Intl,https://www.investing.com/equities/kanger-international-bhd,0.090,0.090,0.085,+0.005,+5.88%,2.21M
+Sunway,https://www.investing.com/equities/sunway-bhd,1.560,1.560,1.540,0.000,0.00%,2.18M
+Excel Force MSC,https://www.investing.com/equities/excel-force-msc-bhd,0.685,0.695,0.675,+0.005,+0.74%,2.16M
+Vivocom Intl Holdings Bhd,https://www.investing.com/equities/vivocom-intl-holdings-bhd,0.030,0.030,0.025,+0.005,+20.00%,2.12M
+Unisem M,https://www.investing.com/equities/unisem-m-bhd,2.970,2.980,2.920,+0.010,+0.34%,2.07M
+Sime Darby Property,https://www.investing.com/equities/sime-darby-property,1.200,1.200,1.190,+0.010,+0.84%,1.96M
+Advance Synergy,https://www.investing.com/equities/advance-synergy-bhd,0.140,0.140,0.140,-0.005,-3.45%,1.95M
+Mah Sing,https://www.investing.com/equities/mah-sing-group-bhd,1.180,1.180,1.160,+0.020,+1.72%,1.94M
+Comintel Corp,https://www.investing.com/equities/comintel-corporation-bhd,0.150,0.155,0.145,-0.010,-6.25%,1.91M
+AMMB,https://www.investing.com/equities/ammb-holdings-bhd,4.070,4.090,4.050,+0.010,+0.25%,1.89M
+Edaran Bhd,https://www.investing.com/equities/edaran-bhd,0.625,0.640,0.625,-0.005,-0.79%,1.89M
+Xinghe,https://www.investing.com/equities/xinghe-holdings-bhd,0.040,0.040,0.035,+0.005,+14.29%,1.88M
+Berjaya Corp,https://www.investing.com/equities/berjaya-corporation-bhd,0.280,0.280,0.275,0.000,0.00%,1.87M
+IOI Corp,https://www.investing.com/equities/ioi-corporation-bhd,4.430,4.510,4.410,-0.050,-1.12%,1.85M
+WCT,https://www.investing.com/equities/wct-holdings-bhd,0.840,0.845,0.830,-0.005,-0.59%,1.84M
+Dagang Nexchange,https://www.investing.com/equities/dagang-nexchange-bhd,0.375,0.385,0.375,-0.005,-1.32%,1.82M
+BCM Alliance,https://www.investing.com/equities/bcm-alliance-bhd,0.190,0.195,0.190,-0.005,-2.56%,1.72M
+Petronas Gas,https://www.investing.com/equities/petronas-gas-bhd,18.56,18.76,18.50,-0.04,-0.22%,1.71M
+Inix Tech,https://www.investing.com/equities/inix-technologies-holdings-bhd,0.085,0.090,0.085,0.000,0.00%,1.71M
+Key ASIC,https://www.investing.com/equities/key-asic-bhd,0.200,0.205,0.195,0.000,0.00%,1.69M
+Wah Seong Corporation Bhd,https://www.investing.com/equities/wah-seong-corporation-bhd,1.050,1.060,1.000,+0.020,+1.94%,1.69M
+Hong Leong Bank,https://www.investing.com/equities/hong-leong-bank-bhd,20.46,20.50,20.42,+0.04,+0.20%,1.64M
+iDimension Cons,https://www.investing.com/equities/idimension-consolidated-bhd,0.040,0.040,0.040,0.000,0.00%,1.63M
+Eduspec,https://www.investing.com/equities/eduspec-holdings-bhd,0.045,0.045,0.040,+0.005,+12.50%,1.62M
+Destini,https://www.investing.com/equities/destini-bhd,0.280,0.280,0.270,0.000,0.00%,1.60M
+Luster Industries Bhd,https://www.investing.com/equities/luster-industries-bhd,0.095,0.095,0.095,0.000,0.00%,1.60M
+DiGi.Com,https://www.investing.com/equities/digi.com-bhd,4.61,4.66,4.59,-0.03,-0.65%,1.58M
+Press Metal Bhd,https://www.investing.com/equities/press-metal-bhd,4.900,4.900,4.830,+0.040,+0.82%,1.58M
+Scomi Energy Services Bhd,https://www.investing.com/equities/scomi-energy-services-bhd,0.065,0.065,0.060,0.000,0.00%,1.55M
+Malakoff Corporation Bhd,https://www.investing.com/equities/malakoff-corporation-bhd,0.910,0.925,0.890,+0.010,+1.11%,1.53M
+Ekovest,https://www.investing.com/equities/ekovest-bhd,0.650,0.655,0.640,0.000,0.00%,1.50M
+Barakah Offshore Petroleum,https://www.investing.com/equities/barakah-offshore-petroleum-bhd,0.130,0.135,0.130,-0.005,-3.70%,1.50M
+Notion Vtec,https://www.investing.com/equities/notion-vtec-bhd,0.645,0.655,0.640,-0.010,-1.53%,1.47M
+GDB,https://www.investing.com/equities/gdb,0.355,0.365,0.350,+0.005,+1.43%,1.46M
+Euro,https://www.investing.com/equities/euro-holdings-bhd,0.165,0.170,0.165,0.000,0.00%,1.44M
+SKP Resources Bhd,https://www.investing.com/equities/skp-resources-bhd,1.310,1.310,1.290,0.000,0.00%,1.44M
+Serba Dinamik,https://www.investing.com/equities/serba-dinamik-holdings-bhd,3.790,3.830,3.780,+0.010,+0.26%,1.43M
+IGB REIT,https://www.investing.com/equities/igb-real-estate-investment-trust,1.720,1.730,1.720,0.000,0.00%,1.41M
+PeterLabs,https://www.investing.com/equities/peterlabs-holdings-bhd,0.295,0.310,0.295,0.000,0.00%,1.41M
+JHM Consolidation Bhd,https://www.investing.com/equities/jhm-consolidation-bhd,1.170,1.200,1.150,-0.010,-0.85%,1.37M
+NWP Bhd,https://www.investing.com/equities/nwp-holdings-bhd,0.100,0.105,0.090,+0.005,+5.26%,1.37M
+Evergreen Fibreboard,https://www.investing.com/equities/evergreen-fibreboard-bhd,0.535,0.550,0.535,-0.005,-0.93%,1.34M
+OPCOM,https://www.investing.com/equities/opcom-holdings-bhd,0.810,0.830,0.805,0.000,0.00%,1.34M
+NetX,https://www.investing.com/equities/netx-holdings-bhd,0.025,0.025,0.020,0.000,0.00%,1.34M
+OCK Group,https://www.investing.com/equities/ock-group-bhd,0.600,0.600,0.580,0.000,0.00%,1.34M
+Engtex,https://www.investing.com/equities/engtex-group-bhd,0.980,1.010,0.970,-0.040,-3.92%,1.33M
+Datasonic,https://www.investing.com/equities/datasonic-group-bhd,0.750,0.760,0.735,-0.005,-0.66%,1.29M
+Minho M Bhd,https://www.investing.com/equities/minho-m-bhd,0.550,0.575,0.525,+0.010,+1.85%,1.29M
+Uchi Technologies Bhd,https://www.investing.com/equities/uchi-technologies-bhd,3.050,3.060,3.010,-0.010,-0.33%,1.29M
+China Ouhua Winery,https://www.investing.com/equities/china-ouhua-winery-holdings,0.040,0.040,0.035,0.000,0.00%,1.26M
+Faber,https://www.investing.com/equities/faber-group-bhd,2.700,2.700,2.490,+0.210,+8.43%,1.26M
+Eversendai Corp,https://www.investing.com/equities/eversendai-corporation-bhd,0.690,0.690,0.665,+0.020,+2.99%,1.22M
+Chemical Co Malaysia,https://www.investing.com/equities/chemical-company-of-malaysia,1.970,1.980,1.880,+0.090,+4.79%,1.21M
+M K Land,https://www.investing.com/equities/m-k-land-holdings-bhd,0.210,0.220,0.210,-0.010,-4.55%,1.21M
+Ideal Jacobs Malaysia,https://www.investing.com/equities/ideal-jacobs-malaysia-corporation,0.275,0.275,0.260,0.000,0.00%,1.21M
+Tomypak Holdings Bhd,https://www.investing.com/equities/tomypak-holdings-bhd,0.740,0.740,0.680,+0.015,+2.07%,1.20M
+Radiant Globaltech,https://www.investing.com/equities/radiant-globaltech,0.290,0.295,0.290,-0.010,-3.33%,1.19M
+TDM,https://www.investing.com/equities/tdm-bhd,0.240,0.245,0.240,0.000,0.00%,1.18M
+Bioalpha,https://www.investing.com/equities/bioalpha-holdings-bhd,0.250,0.255,0.250,0.000,0.00%,1.17M
+MISC,https://www.investing.com/equities/misc-bhd,5.90,5.95,5.86,+0.02,+0.34%,1.15M
+Astro Malaysia,https://www.investing.com/equities/astro-malaysia-holdings-bhd,1.770,1.830,1.770,-0.030,-1.67%,1.14M
+QL Resources,https://www.investing.com/equities/ql-resources-bhd,6.000,6.030,5.990,0.000,0.00%,1.14M
+Asia Knight,https://www.investing.com/equities/asia-knight-bhd,0.155,0.160,0.155,-0.005,-3.13%,1.14M
+P.A. Resources Bhd,https://www.investing.com/equities/p.a.-resources-bhd,0.050,0.050,0.050,0.000,0.00%,1.14M
+Gas Malaysia,https://www.investing.com/equities/gas-malaysia-bhd,2.880,2.900,2.870,0.000,0.00%,1.13M
+Hiap Huat,https://www.investing.com/equities/hiap-huat-holdings-bhd,0.105,0.105,0.100,+0.005,+5.00%,1.12M
+Fajarbaru Builder,https://www.investing.com/equities/fajarbaru-builder-group-bhd,0.410,0.420,0.410,-0.005,-1.20%,1.11M
+Kuala Lumpur Kepong,https://www.investing.com/equities/kuala-lumpur-kepong-bhd,24.90,25.00,24.86,-0.04,-0.16%,1.10M
+Sunway Construction Group Bhd,https://www.investing.com/equities/sunway-construction-group-bhd,1.780,1.810,1.760,-0.030,-1.66%,1.10M
+Fintec Global,https://www.investing.com/equities/asia-bioenergy-technologies-bhd,0.055,0.060,0.055,-0.005,-8.33%,1.10M
+Asdion,https://www.investing.com/equities/asdion,0.210,0.230,0.205,-0.010,-4.55%,1.10M
+Felda Global Ventures,https://www.investing.com/equities/felda-global-ventures-holdings-bhd,1.510,1.520,1.500,0.000,0.00%,1.09M
+K N Kenanga,https://www.investing.com/equities/k-n-kenanga-holdings-bhd,0.720,0.725,0.695,0.000,0.00%,1.09M
+Weida M Bhd,https://www.investing.com/equities/weida-m-bhd,2.300,2.310,2.240,+0.140,+6.48%,1.08M
+Mi Equipment,https://www.investing.com/equities/mi-equipment,2.720,2.770,2.670,-0.010,-0.37%,1.08M
+Bursa Malaysia,https://www.investing.com/equities/bursa-malaysia-bhd,7.70,7.72,7.67,0.00,0.00%,1.07M
+RGB International Bhd,https://www.investing.com/equities/rgb-international-bhd,0.265,0.270,0.265,0.000,0.00%,1.06M
+Watta Holding Bhd,https://www.investing.com/equities/watta-holding-bhd,0.620,0.620,0.590,0.000,0.00%,1.04M
+Taliworks Corporation Bhd,https://www.investing.com/equities/taliworks-corporation-bhd,1.420,1.430,1.360,+0.010,+0.71%,1.04M
+SKH Consortium Bhd,https://www.investing.com/equities/skh-consortium-bhd,0.070,0.070,0.070,0.000,0.00%,1.04M
+UOA Development,https://www.investing.com/equities/uoa-development-bhd,2.360,2.370,2.360,+0.010,+0.43%,1.03M
+PBA Holdings Bhd,https://www.investing.com/equities/pba-holdings-bhd,1.280,1.300,1.260,0.000,0.00%,1.03M
+Iskandar Waterfront City,https://www.investing.com/equities/iskandar-waterfront-city-bhd,0.605,0.620,0.600,0.000,0.00%,1.02M
+Malayan Flour Mills,https://www.investing.com/equities/malayan-flour-mills-bhd,1.080,1.120,1.050,-0.030,-2.70%,1.01M
+CJ Century Logistics,https://www.investing.com/equities/century-logistics-holdings-bhd,0.615,0.625,0.605,-0.010,-1.60%,1.00M
+CCM Duopharma Biotech,https://www.investing.com/equities/ccm-duopharma-biotech-bhd,1.210,1.240,1.210,-0.030,-2.42%,998.90K
+Imaspro Corp,https://www.investing.com/equities/imaspro-corporation-bhd,2.170,2.170,2.170,-0.030,-1.36%,986.00K
+Salcon Bhd,https://www.investing.com/equities/salcon-bhd,0.250,0.255,0.250,-0.005,-1.96%,970.00K
+Toyo Ink Group Bhd,https://www.investing.com/equities/toyo-ink-group-bhd,0.725,0.740,0.655,+0.035,+5.07%,959.00K
+XiDeLang,https://www.investing.com/equities/xidelang-holdings-ltd,0.155,0.155,0.150,0.000,0.00%,935.30K
+Kossan Rubber Ind,https://www.investing.com/equities/kossan-rubber-industries-bhd,4.40,4.50,4.38,-0.05,-1.12%,922.50K
+Gabungan,https://www.investing.com/equities/gabungan-aqrs-bhd,1.110,1.130,1.090,-0.020,-1.77%,895.20K
+APFT,https://www.investing.com/equities/apft-bhd,0.025,0.030,0.025,0.000,0.00%,893.20K
+IRIS Corporation,https://www.investing.com/equities/iris-corporation-bhd,0.140,0.145,0.140,-0.005,-3.45%,891.50K
+SP Setia,https://www.investing.com/equities/sp-setia-bhd,2.850,2.850,2.780,+0.050,+1.79%,862.10K
+Prestariang Bhd,https://www.investing.com/equities/prestariang-bhd,1.000,1.030,1.000,0.000,0.00%,844.70K
+George Kent,https://www.investing.com/equities/george-kent-(malaysia)-bhd,1.280,1.290,1.260,+0.010,+0.79%,844.60K
+N2N Connect,https://www.investing.com/equities/n2n-connect-bhd,1.230,1.250,1.200,+0.030,+2.50%,843.20K
+Supercomnet Tech,https://www.investing.com/equities/supercomnet-technologies-bhd,0.570,0.585,0.570,-0.015,-2.56%,835.10K
+G Neptune,https://www.investing.com/equities/g-neptune-bhd,0.085,0.085,0.080,0.000,0.00%,826.00K
+UMW,https://www.investing.com/equities/umw-holdings-bhd,5.63,5.85,5.57,-0.05,-0.88%,825.50K
+Pan Malaysia,https://www.investing.com/equities/pan-malaysia-holdings-bhd,0.105,0.105,0.100,0.000,0.00%,801.10K
+Ahmad Zaki Res,https://www.investing.com/equities/ahmad-zaki-resources-bhd,0.410,0.410,0.400,+0.005,+1.23%,792.10K
+TFP Solutions,https://www.investing.com/equities/tfp-solutions-bhd,0.115,0.120,0.110,-0.010,-8.00%,782.30K
+Hengyuan Refining,https://www.investing.com/equities/shell-refining-company,6.620,6.620,6.500,0.000,0.00%,781.20K
+PPB,https://www.investing.com/equities/ppb-group-bhd,16.88,16.92,16.70,-0.02,-0.12%,778.10K
+RHB Bank,https://www.investing.com/equities/rhb-capital-bhd,5.38,5.39,5.33,0.00,0.00%,777.10K
+K-One Tech,https://www.investing.com/equities/k-one-technology-bhd,0.200,0.200,0.200,0.000,0.00%,771.50K
+HSS Engineers,https://www.investing.com/equities/hss-engineers-bhd,0.945,0.955,0.935,-0.005,-0.53%,759.30K
+Minda Global,https://www.investing.com/equities/masterskill-education-group,0.085,0.085,0.075,0.000,0.00%,751.00K
+Fitters Diversified,https://www.investing.com/equities/fitters-diversified-bhd,0.395,0.395,0.390,+0.005,+1.28%,746.00K
+T7 Global,https://www.investing.com/equities/tanjung-offshore-bhd,0.400,0.405,0.395,0.000,0.00%,733.70K
+Pansar Bhd,https://www.investing.com/equities/pansar-bhd,0.840,0.850,0.835,0.000,0.00%,719.10K
+IFCA MSC,https://www.investing.com/equities/ifca-msc-bhd,0.270,0.270,0.265,+0.005,+1.89%,715.00K
+Focus Dynamics,https://www.investing.com/equities/focus-dynamics-group-bhd,0.135,0.135,0.125,+0.005,+3.85%,705.70K
+Gadang,https://www.investing.com/equities/gadang-holdings-bhd,0.695,0.700,0.685,0.000,0.00%,701.50K
+POS Malaysia & Srvcs,https://www.investing.com/equities/pos-malaysia-services-holdings-bhd,3.600,3.650,3.510,+0.060,+1.69%,697.50K
+Sersol Bhd,https://www.investing.com/equities/sersol-bhd,0.115,0.125,0.115,0.000,0.00%,697.30K
+Padini,https://www.investing.com/equities/padini-holdings-bhd,5.820,5.860,5.800,+0.010,+0.17%,691.50K
+Magnum,https://www.investing.com/equities/magnum-bhd,1.940,1.960,1.930,-0.010,-0.51%,688.50K
+Karyon Industries,https://www.investing.com/equities/karyon-industries-bhd,0.175,0.180,0.175,-0.010,-5.41%,687.70K
+Mlabs Systems,https://www.investing.com/equities/mlabs-systems-bhd,0.050,0.050,0.050,-0.005,-9.09%,685.10K
+CSC Steel,https://www.investing.com/equities/csc-steel-holdings-bhd,1.150,1.180,1.140,-0.040,-3.36%,679.60K
+Sunzen Biotech,https://www.investing.com/equities/sunzen-biotech-bhd,0.220,0.220,0.220,0.000,0.00%,670.00K
+GD Express Carrier,https://www.investing.com/equities/gd-express-carrier-bhd,0.420,0.420,0.410,+0.005,+1.20%,666.30K
+Poh Huat Resources,https://www.investing.com/equities/poh-huat-resources-holdings,1.400,1.410,1.360,+0.010,+0.72%,665.80K
+Eversafe Rubber,https://www.investing.com/equities/eversafe-rubber-bhd,0.260,0.260,0.245,+0.015,+6.12%,653.50K
+Ann Joo Resources,https://www.investing.com/equities/ann-joo-resources-bhd,1.870,1.910,1.860,-0.060,-3.11%,645.40K
+AEON Co,https://www.investing.com/equities/aeon-co-(m)-bhd,1.970,2.030,1.940,-0.040,-1.99%,640.60K
+Aemulus Holdings Bhd,https://www.investing.com/equities/aemulus-holdings-bhd,0.345,0.350,0.345,-0.005,-1.43%,631.60K
+ATA IMS,https://www.investing.com/equities/denko-industrial-corporation,1.570,1.600,1.480,-0.020,-1.26%,630.10K
+London Biscuits,https://www.investing.com/equities/london-biscuits-bhd,0.570,0.580,0.570,-0.005,-0.87%,622.40K
+UEM Sunrise,https://www.investing.com/equities/uem-sunrise-bhd,0.845,0.850,0.835,-0.005,-0.59%,622.00K
+Comfort Gloves,https://www.investing.com/equities/integrated-rubber-corporation,1.040,1.050,1.020,+0.020,+1.96%,620.90K
+EA Technique M,https://www.investing.com/equities/ea-technique-m-bhd,0.365,0.380,0.365,-0.010,-2.67%,616.40K
+Yinson,https://www.investing.com/equities/yinson-holdings-bhd,4.520,4.580,4.500,-0.010,-0.22%,616.20K
+Smtrack,https://www.investing.com/equities/smtrack-bhd,0.110,0.110,0.100,+0.010,+10.00%,614.90K
+Dufu Tech Corp,https://www.investing.com/equities/dufu-tech-corp-bhd,2.300,2.360,2.280,-0.050,-2.13%,605.90K
+Ire Tex Corp,https://www.investing.com/equities/ire-tex-corporation-bhd,0.110,0.110,0.105,0.000,0.00%,580.00K
+Media Prima,https://www.investing.com/equities/media-prima-bhd,0.475,0.485,0.465,-0.015,-3.06%,579.20K
+Techfast,https://www.investing.com/equities/techfast-holdings-bhd,0.450,0.455,0.440,-0.005,-1.10%,578.00K
+VisDynamics,https://www.investing.com/equities/visdynamics-holdings-bhd,0.595,0.605,0.580,-0.010,-1.65%,570.40K
+CapitaLand Malaysia Mall,https://www.investing.com/equities/capitamalls-malaysia-trust,1.140,1.150,1.140,0.000,0.00%,568.60K
+Scomi Group Bhd,https://www.investing.com/equities/scomi-group-bhd,0.060,0.065,0.060,0.000,0.00%,568.50K
+Cahya Mata Sarawak,https://www.investing.com/equities/cahya-mata-sarawak-bhd,3.190,3.260,3.170,-0.060,-1.85%,562.10K
+Careplus Group,https://www.investing.com/equities/careplus-group-bhd,0.210,0.210,0.205,+0.005,+2.44%,557.30K
+Konsortium Transnasional,https://www.investing.com/equities/konsortium-transnasional-bhd,0.075,0.080,0.070,-0.005,-6.25%,551.00K
+Straits Inter Logistics,https://www.investing.com/equities/raya-international-bhd,0.235,0.245,0.235,-0.005,-2.08%,543.10K
+Protasco,https://www.investing.com/equities/protasco-bhd,0.390,0.400,0.390,-0.010,-2.50%,542.50K
+Kejuruteraan Asastera,https://www.investing.com/equities/kejuruteraan-asastera,0.270,0.270,0.265,0.000,0.00%,538.90K
+HUBLine,https://www.investing.com/equities/hubline-bhd,0.060,0.060,0.055,0.000,0.00%,527.10K
+Muhibbah Engineering,https://www.investing.com/equities/muhibbah-engineering-m-bhd,2.890,2.980,2.840,-0.060,-2.03%,521.40K
+Greenyield,https://www.investing.com/equities/greenyield-bhd,0.145,0.145,0.145,-0.005,-3.33%,519.30K
+Petronas Dagangan,https://www.investing.com/equities/petronas-dagangan-bhd,26.52,26.62,26.40,-0.08,-0.30%,518.40K
+Pentamaster Corp,https://www.investing.com/equities/pentamaster-corporation-bhd,3.540,3.580,3.490,-0.030,-0.84%,516.90K
+Thriven Global,https://www.investing.com/equities/mulpha-land-bhd,0.305,0.310,0.300,+0.010,+3.39%,510.70K
+MMAG Holdings,https://www.investing.com/equities/mmag-holdings-bhd,0.280,0.280,0.280,-0.005,-1.75%,508.10K
+HeveaBoard,https://www.investing.com/equities/heveaboard-bhd,0.900,0.905,0.895,0.000,0.00%,503.60K
+Salutica Bhd,https://www.investing.com/equities/salutica-bhd,0.565,0.580,0.555,+0.005,+0.89%,503.10K
+Mitrajaya,https://www.investing.com/equities/mitrajaya-holdings-bhd,0.430,0.445,0.430,0.000,0.00%,497.80K
+Privasia Technology Bhd,https://www.investing.com/equities/privasia-technology-bhd,0.090,0.090,0.090,0.000,0.00%,494.30K
+OSK,https://www.investing.com/equities/osk-holdings-bhd,0.985,1.000,0.985,-0.010,-1.01%,492.70K
+Sasbadi,https://www.investing.com/equities/sasbadi-holdings-bhd,0.305,0.310,0.305,-0.010,-3.17%,491.10K
+Tune Protect Group Bhd,https://www.investing.com/equities/tune-protect-group-bhd,0.800,0.805,0.795,+0.005,+0.63%,487.10K
+GSB,https://www.investing.com/equities/gsb-group-bhd,0.200,0.205,0.200,-0.010,-4.76%,483.40K
+Boustead Plantations,https://www.investing.com/equities/boustead-plantations-bhd,1.190,1.200,1.190,-0.010,-0.83%,474.60K
+Sinotop,https://www.investing.com/equities/sinotop-holdings-bhd,0.295,0.335,0.290,-0.045,-13.24%,469.60K
+Land General,https://www.investing.com/equities/land-general-bhd,0.195,0.195,0.190,+0.005,+2.63%,460.00K
+MMAG Pref,https://www.investing.com/equities/mmag-pref,0.125,0.125,0.125,0.000,0.00%,460.00K
+CAB Cakaran Corp,https://www.investing.com/equities/cab-cakaran-corporation-bhd,0.815,0.825,0.805,0.000,0.00%,457.90K
+Ranhill Holdings,https://www.investing.com/equities/symphony-house-bhd,0.770,0.770,0.755,+0.010,+1.32%,457.30K
+Dayang Enterprise,https://www.investing.com/equities/dayang-enterprise-holdings-bhd,0.695,0.705,0.690,+0.005,+0.72%,456.00K
+Dutaland,https://www.investing.com/equities/dutaland-bhd,0.555,0.555,0.550,+0.005,+0.91%,449.50K
+GFM Services,https://www.investing.com/equities/gfm-services,0.480,0.485,0.475,-0.005,-1.03%,449.20K
+Prinsiptek Corp,https://www.investing.com/equities/prinsiptek-corporation-bhd,0.130,0.130,0.125,0.000,0.00%,448.00K
+AFFIN,https://www.investing.com/equities/affin-holdings-bhd,2.400,2.430,2.330,+0.050,+2.13%,444.40K
+Efficient E Solutions,https://www.investing.com/equities/efficient-e-solutions-bhd,0.225,0.225,0.220,-0.010,-4.26%,444.00K
+Anzo Holdings,https://www.investing.com/equities/harvest-court-industries-bhd,0.050,0.050,0.045,+0.005,+11.11%,443.00K
+Borneo Aqua Harvest,https://www.investing.com/equities/borneo-aqua-harvest-bhd,1.140,1.150,1.130,-0.010,-0.87%,440.90K
+Global Oriental,https://www.investing.com/equities/global-oriental-bhd,0.225,0.225,0.220,-0.005,-2.17%,437.90K
+Alliance Financial,https://www.investing.com/equities/malaysian-plantations-bhd,4.080,4.100,4.070,0.000,0.00%,437.30K
+Malayan United Industries Bhd,https://www.investing.com/equities/malayan-united-industries-bhd,0.185,0.185,0.180,0.000,0.00%,436.50K
+Muda Holdings Bhd,https://www.investing.com/equities/muda-holdings-bhd,1.760,1.800,1.760,-0.020,-1.12%,435.40K
+Ni Hsin Resources,https://www.investing.com/equities/ni-hsin-resources-bhd,0.180,0.180,0.175,+0.005,+2.86%,434.80K
+SYF Resources,https://www.investing.com/equities/syf-resources-bhd,0.280,0.280,0.270,0.000,0.00%,430.60K
+Matang,https://www.investing.com/equities/matang-bhd,0.075,0.080,0.075,-0.005,-6.25%,430.60K
+Inta Bina Group,https://www.investing.com/equities/inta-bina-group-bhd,0.325,0.335,0.325,-0.010,-2.99%,430.60K
+Tatt Giap Group Bhd,https://www.investing.com/equities/tatt-giap-group-bhd,0.135,0.140,0.135,+0.005,+3.85%,428.90K
+Ideal United Bintang,https://www.investing.com/equities/ideal-united-bintang-bhd,1.600,1.650,1.580,-0.030,-1.84%,421.70K
+MRCB-Quill Unit,https://www.investing.com/equities/mrcb-quill-unit,1.110,1.120,1.110,-0.010,-0.89%,413.60K
+Star Media Group Bhd,https://www.investing.com/equities/star-media-group-bhd,0.925,0.935,0.925,-0.010,-1.07%,411.10K
+Eco World Intl,https://www.investing.com/equities/eco-world-international-bhd,1.080,1.090,1.080,0.000,0.00%,407.20K
+Daya Materials,https://www.investing.com/equities/daya-materials-bhd,0.025,0.025,0.020,0.000,0.00%,401.50K
+TA Global,https://www.investing.com/equities/ta-global-bhd,0.300,0.300,0.300,-0.005,-1.64%,399.20K
+ViTrox Corp,https://www.investing.com/equities/vitrox-corporation-bhd,7.950,7.950,7.740,+0.090,+1.15%,397.50K
+Hap Seng Consolidated,https://www.investing.com/equities/hap-seng-consolidated-bhd,9.85,9.89,9.75,0.00,0.00%,396.00K
+Kim Teck Cheong Consolidated Bhd,https://www.investing.com/equities/kim-teck-cheong-consolidated-bhd,0.170,0.170,0.165,0.000,0.00%,392.30K
+Advancecon Holdings,https://www.investing.com/equities/advancecon-holdings-bhd,0.400,0.400,0.395,+0.005,+1.27%,392.00K
+YNH Property,https://www.investing.com/equities/ynh-property-bhd,1.590,1.590,1.590,+0.090,+6.00%,382.10K
+OCR Bhd,https://www.investing.com/equities/oc-resources-bhd,0.0450,0.0500,0.0450,0.0000,0.00%,382.10K
+JCY Int,https://www.investing.com/equities/jcy-international-bhd,0.275,0.275,0.275,+0.005,+1.85%,380.80K
+Kumpulan Perangsang Selangor,https://www.investing.com/equities/kumpulan-perangsang-selangor,1.580,1.600,1.570,-0.020,-1.25%,379.60K
+CB Industrial Product,https://www.investing.com/equities/cb-industrial-product-holding,1.210,1.240,1.210,-0.030,-2.42%,375.80K
+Mieco Chipboard Bhd,https://www.investing.com/equities/mieco-chipboard-bhd,0.405,0.410,0.400,-0.005,-1.22%,371.10K
+Sedania Innovator Bhd,https://www.investing.com/equities/sedania-innovator-bhd,0.175,0.175,0.165,-0.005,-2.78%,370.10K
+YKGI Holdings Bhd,https://www.investing.com/equities/ykgi-holdings-bhd,0.200,0.200,0.195,0.000,0.00%,361.00K
+Nova Wellness,https://www.investing.com/equities/nova-wellness,0.580,0.580,0.565,-0.005,-0.85%,357.40K
+IOI Properties,https://www.investing.com/equities/ioi-properties-group-bhd,1.780,1.780,1.720,+0.010,+0.56%,356.30K
+Bio Osmo,https://www.investing.com/equities/bio-osmo-bhd,0.040,0.040,0.035,+0.005,+14.29%,355.00K
+LBS Bina,https://www.investing.com/equities/lbs-bina-group-bhd,0.880,0.880,0.860,+0.015,+1.73%,353.60K
+Benalec,https://www.investing.com/equities/benalec-holdings-bhd,0.250,0.250,0.250,0.000,0.00%,348.80K
+AHB,https://www.investing.com/equities/ahb-holdings-bhd,0.175,0.175,0.170,+0.005,+2.94%,347.90K
+SLP Resources Bhd,https://www.investing.com/equities/slp-resources-bhd,1.180,1.210,1.150,+0.040,+3.51%,347.20K
+Symphony Life,https://www.investing.com/equities/symphony-life-bhd,0.540,0.545,0.530,+0.005,+0.93%,342.80K
+KUB Malaysia,https://www.investing.com/equities/kub-malaysia-bhd,0.310,0.315,0.305,0.000,0.00%,341.80K
+Parkson,https://www.investing.com/equities/parkson-holdings-bhd,0.4200,0.4200,0.4100,+0.0050,+1.20%,338.70K
+Bina Puri,https://www.investing.com/equities/bina-puri-holdings-bhd,0.225,0.225,0.215,0.000,0.00%,337.10K
+M3 Tech Asia,https://www.investing.com/equities/m3-technologies-asia-bhd,0.070,0.070,0.060,+0.005,+7.69%,335.80K
+Southern Steel Bhd,https://www.investing.com/equities/southern-steel-bhd,1.480,1.500,1.450,-0.020,-1.33%,331.60K
+Petron Refining,https://www.investing.com/equities/petron-malaysia-refining-marketing,8.350,8.480,8.200,-0.130,-1.53%,331.20K
+Dataprep,https://www.investing.com/equities/dataprep-holdings-bhd,0.230,0.230,0.215,0.000,0.00%,331.00K
+Malton,https://www.investing.com/equities/malton-bhd,0.550,0.555,0.550,-0.005,-0.90%,330.00K
+Theta Edge,https://www.investing.com/equities/theta-edge-bhd,0.345,0.380,0.340,-0.010,-2.82%,321.40K
+AT Systematization,https://www.investing.com/equities/at-systematization-bhd,0.060,0.060,0.060,+0.000,+0.00%,320.00K
+JAG,https://www.investing.com/equities/jag-bhd,0.065,0.065,0.065,0.000,0.00%,316.80K
+WTK,https://www.investing.com/equities/wtk-holdings-bhd,0.590,0.590,0.590,0.000,0.00%,315.90K
+Redtone International,https://www.investing.com/equities/redtone-international-bhd,0.255,0.270,0.255,-0.015,-5.56%,314.50K
+Genting Plantations,https://www.investing.com/equities/genting-plantations-bhd,9.45,9.45,9.40,-0.02,-0.21%,313.30K
+GHL Systems,https://www.investing.com/equities/ghl-systems-bhd,1.600,1.600,1.600,0.000,0.00%,313.00K
+Sanbumi Holdings Bhd,https://www.investing.com/equities/sanbumi-holdings-bhd,0.205,0.205,0.200,0.000,0.00%,311.60K
+TRC Synergy,https://www.investing.com/equities/trc-synergy-bhd,0.450,0.450,0.450,0.000,0.00%,311.50K
+Minetech Resources Bhd,https://www.investing.com/equities/minetech-resources-bhd,0.070,0.070,0.070,0.000,0.00%,310.00K
+KIP REIT,https://www.investing.com/equities/kip-real-estate-investment-trust,0.845,0.855,0.845,-0.005,-0.59%,308.90K
+Melewar Industrial Group,https://www.investing.com/equities/melewar-industrial-group,0.150,0.160,0.150,-0.005,-3.23%,302.90K
+Asia Poly Pref,https://www.investing.com/equities/asia-poly-pref,0.040,0.040,0.040,-0.005,-11.11%,300.00K
+Rapid Synergy Bhd,https://www.investing.com/equities/rapid-synergy-bhd,5.980,5.990,5.940,-0.010,-0.17%,299.80K
+Chin Hin Bhd,https://www.investing.com/equities/chin-hin-group-bhd,0.765,0.765,0.755,0.000,0.00%,298.40K
+Karambunai Corp,https://www.investing.com/equities/karambunai-corp-bhd,0.080,0.080,0.075,0.000,0.00%,297.80K
+Vsolar Group,https://www.investing.com/equities/vsolar-group-bhd,0.095,0.095,0.095,0.000,0.00%,290.00K
+Nextgreen Global,https://www.investing.com/equities/bhs-industries-bhd,0.350,0.350,0.345,0.000,0.00%,282.20K
+Elsoft Research,https://www.investing.com/equities/elsoft-research-bhd,3.410,3.410,3.350,+0.050,+1.49%,281.80K
+Focus Lumber,https://www.investing.com/equities/focus-lumber-bhd,1.430,1.480,1.430,-0.050,-3.38%,281.10K
+Perisai Petroleum,https://www.investing.com/equities/perisai-petroleum-teknologi-bhd,0.035,0.035,0.030,0.000,0.00%,280.00K
+WZ Satu Bhd,https://www.investing.com/equities/wz-satu-bhd,0.320,0.325,0.305,-0.020,-5.88%,279.20K
+PESTECH Intl,https://www.investing.com/equities/pestech-international-bhd,1.490,1.500,1.460,0.000,0.00%,277.50K
+myNEWS,https://www.investing.com/equities/bison-consolidated-bhd,1.440,1.450,1.440,-0.010,-0.69%,275.00K
+WCE Holdings,https://www.investing.com/equities/kumpulan-europlus-bhd,0.725,0.745,0.720,-0.020,-2.68%,273.00K
+Matrix Concepts,https://www.investing.com/equities/matrix-concepts-holdings-bhd,2.080,2.080,2.050,+0.020,+0.97%,268.80K
+Permaju Industries Bhd,https://www.investing.com/equities/permaju-industries-bhd,0.225,0.230,0.220,0.000,0.00%,267.00K
+Naim,https://www.investing.com/equities/naim-holdings-bhd,0.550,0.565,0.545,-0.005,-0.90%,264.80K
+AYS Ventures,https://www.investing.com/equities/ays-ventures-bhd,0.410,0.410,0.385,+0.020,+5.13%,264.40K
+Ikhmas Jaya Group Bhd,https://www.investing.com/equities/ikhmas-jaya-group-bhd,0.255,0.260,0.250,-0.005,-1.92%,263.80K
+LNG Resources,https://www.investing.com/equities/lng-resources-bhd,0.140,0.140,0.140,0.000,0.00%,262.00K
+Eco World Develop,https://www.investing.com/equities/eco-world-develop-group,1.220,1.240,1.210,-0.020,-1.61%,261.80K
+HB Global,https://www.investing.com/equities/hb-global-ltd,0.100,0.100,0.095,0.000,0.00%,257.10K
+Key Alliance,https://www.investing.com/equities/key-alliance-group-bhd,0.055,0.055,0.050,0.000,0.00%,251.50K
+TechnoDex,https://www.investing.com/equities/technodex-bhd,0.115,0.115,0.110,0.000,0.00%,250.50K
+Marco,https://www.investing.com/equities/marco-holdings-bhd,0.135,0.140,0.135,0.000,0.00%,250.10K
+M Mode,https://www.investing.com/equities/m-mode-bhd,0.335,0.340,0.335,0.000,0.00%,250.00K
+Jaya Tiasa,https://www.investing.com/equities/jaya-tiasa-holdings-bhd,0.670,0.670,0.655,+0.010,+1.52%,249.90K
+Genetec Tech,https://www.investing.com/equities/genetec-technology-bhd,1.650,1.680,1.600,+0.020,+1.23%,246.50K
+Grand-Flo,https://www.investing.com/equities/grand-flo-bhd,0.205,0.205,0.200,0.000,0.00%,244.00K
+SCGM Bhd,https://www.investing.com/equities/scgm-bhd,1.350,1.360,1.340,0.000,0.00%,241.70K
+Eg Industries,https://www.investing.com/equities/eg-industries-bhd,0.505,0.515,0.505,-0.015,-2.88%,239.20K
+Samchem Holdings Bhd,https://www.investing.com/equities/samchem-holdings-bhd,0.905,0.930,0.905,-0.005,-0.55%,236.80K
+RCE Capital Berhad,https://www.investing.com/equities/rce-capital-berhad,1.630,1.640,1.620,+0.010,+0.62%,235.80K
+Progressive Impact Corporation Bhd,https://www.investing.com/equities/progressive-impact-corporation-bhd,0.130,0.130,0.125,0.000,0.00%,235.00K
+Karex,https://www.investing.com/equities/karex,0.695,0.705,0.695,-0.005,-0.71%,234.10K
+Superlon Holdings Bhd,https://www.investing.com/equities/superlon-holdings-bhd,1.210,1.220,1.170,+0.020,+1.68%,231.70K
+Three A Resources Bhd,https://www.investing.com/equities/three-a-resources-bhd,0.860,0.865,0.850,-0.005,-0.58%,230.20K
+Malaysian Bulk Carriers,https://www.investing.com/equities/malaysian-bulk-carriers-bhd,0.5050,0.5150,0.5000,0.0000,0.00%,227.80K
+KPS Consortium,https://www.investing.com/equities/kps-consortium-bhd,0.535,0.535,0.525,+0.010,+1.90%,222.40K
+Dancomech,https://www.investing.com/equities/dancomech-holdings-bhd,0.470,0.470,0.440,+0.015,+3.30%,221.80K
+YTL Land Develop,https://www.investing.com/equities/ytl-land-develop-bhd,0.415,0.430,0.410,-0.015,-3.49%,217.90K
+Fraser Neave,https://www.investing.com/equities/fraser-neave-holdings-bhd,37.680,38.440,35.000,-0.120,-0.32%,215.20K
+Ho Wah Genting,https://www.investing.com/equities/ho-wah-genting-bhd,0.135,0.140,0.135,-0.005,-3.57%,213.00K
+Systech,https://www.investing.com/equities/systech-bhd,0.295,0.305,0.295,-0.005,-1.67%,205.00K
+Scientex Bhd,https://www.investing.com/equities/scientex-bhd,8.300,8.330,8.300,-0.030,-0.36%,202.90K
+Only World,https://www.investing.com/equities/only-world-group-holdings-bhd,1.000,1.010,0.995,0.000,0.00%,201.00K
+Paramount Corp,https://www.investing.com/equities/paramount-corporation-bhd,2.120,2.130,2.110,-0.010,-0.47%,198.70K
+Lingkaran Trans Kota,https://www.investing.com/equities/lingkaran-trans-kota-holdings-bhd,5.230,5.240,5.130,+0.040,+0.77%,198.40K
+Emico,https://www.investing.com/equities/emico-holdings-bhd,0.190,0.190,0.180,-0.005,-2.56%,198.10K
+MNRB,https://www.investing.com/equities/mnrb-holdings-bhd,1.550,1.570,1.530,+0.010,+0.65%,198.10K
+Censof,https://www.investing.com/equities/censof-holdings-bhd,0.175,0.175,0.175,0.000,0.00%,196.90K
+Shin Yang Shipping Corporation Bhd,https://www.investing.com/equities/shin-yang-shipping-corporation-bhd,0.340,0.340,0.335,0.000,0.00%,192.30K
+TH Heavy Engineering Bhd,https://www.investing.com/equities/th-heavy-engineering-bhd,0.040,0.040,0.035,0.000,0.00%,192.10K
+Grand Hoover,https://www.investing.com/equities/grand-hoover-bhd,0.645,0.645,0.605,-0.025,-3.73%,189.00K
+Berjaya Sports Toto,https://www.investing.com/equities/berjaya-sports-toto-bhd,2.260,2.310,2.250,-0.010,-0.44%,188.90K
+IJM Plantations,https://www.investing.com/equities/ijm-plantations-bhd,2.410,2.430,2.410,0.000,0.00%,186.40K
+Tanco,https://www.investing.com/equities/tanco-holdings-bhd,0.075,0.075,0.075,+0.005,+7.14%,185.60K
+Tek Seng,https://www.investing.com/equities/tek-seng-holdings-bhd,0.255,0.255,0.250,+0.005,+2.00%,183.30K
+Hong Leong Financial,https://www.investing.com/equities/hong-leong-financial-group-bhd,19.40,19.60,19.30,0.00,0.00%,181.00K
+OpenSys M,https://www.investing.com/equities/opensys-m-bhd,0.305,0.310,0.305,-0.005,-1.61%,179.60K
+Acoustech,https://www.investing.com/equities/acoustech-bhd,0.360,0.360,0.320,+0.015,+4.35%,177.70K
+Carimin Petroleum,https://www.investing.com/equities/carimin-petroleum-bhd,0.215,0.215,0.215,0.000,0.00%,174.20K
+Coastal Contracts,https://www.investing.com/equities/coastal-contracts-bhd,0.930,0.940,0.930,-0.020,-2.11%,172.60K
+Caely,https://www.investing.com/equities/caely-holdings-bhd,1.200,1.200,1.160,0.000,0.00%,172.50K
+Bermaz Auto,https://www.investing.com/equities/berjaya-auto-bhd,2.140,2.150,2.130,+0.010,+0.47%,172.20K
+YTL Hospitality REIT,https://www.investing.com/equities/ytl-hospitality-reit,1.250,1.250,1.230,+0.020,+1.63%,170.90K
+Glomac,https://www.investing.com/equities/glomac-bhd,0.415,0.415,0.400,0.000,0.00%,170.40K
+Kerjaya Prospek,https://www.investing.com/equities/fututech-bhd,1.420,1.420,1.400,+0.010,+0.71%,170.00K
+Seacera Group Bhd,https://www.investing.com/equities/seacera-group-bhd,0.400,0.405,0.395,-0.005,-1.23%,170.00K
+Johore Tin,https://www.investing.com/equities/johore-tin-bhd,0.935,0.935,0.925,+0.010,+1.08%,169.00K
+EcoFirst Cons,https://www.investing.com/equities/ecofirst-consolidated-bhd,0.310,0.310,0.300,0.000,0.00%,168.70K
+Pelikan Int,https://www.investing.com/equities/pelikan-international-corp,0.565,0.565,0.550,-0.010,-1.74%,164.00K
+Zelan,https://www.investing.com/equities/zelan-bhd,0.065,0.065,0.060,0.000,0.00%,163.30K
+Lotte Chemical,https://www.investing.com/equities/lotte-chemical-titan,5.150,5.170,5.140,0.000,0.00%,163.30K
+AmanahRaya Real Estate,https://www.investing.com/equities/amanahraya-real-estate,0.860,0.875,0.860,-0.005,-0.58%,162.60K
+Boustead,https://www.investing.com/equities/boustead-holdings-bhd,1.960,1.970,1.960,0.000,0.00%,159.10K
+CCK Consolidated Holdings,https://www.investing.com/equities/cck-consolidated-holdings,0.855,0.855,0.850,0.000,0.00%,156.70K
+Ancom,https://www.investing.com/equities/ancom-bhd,0.610,0.620,0.610,-0.005,-0.81%,155.90K
+HLT Global,https://www.investing.com/equities/hlt-global-bhd,0.270,0.270,0.255,0.000,0.00%,150.10K
+Sanichi Techn,https://www.investing.com/equities/sanichi-technology-bhd,0.095,0.100,0.095,-0.010,-9.52%,150.00K
+SC Estate Builder,https://www.investing.com/equities/sc-estate-builder-bhd,0.020,0.020,0.020,0.000,0.00%,150.00K
+Berjaya Land,https://www.investing.com/equities/berjaya-land-bhd,0.225,0.225,0.220,0.000,0.00%,149.50K
+MMS Ventures Bhd,https://www.investing.com/equities/mms-ventures-bhd,1.3700,1.3800,1.3600,-0.0200,-1.44%,149.40K
+KSL,https://www.investing.com/equities/ksl-holdings-bhd,0.855,0.855,0.840,+0.010,+1.18%,148.60K
+Luxchem Corp,https://www.investing.com/equities/luxchem-corporation-bhd,0.630,0.630,0.620,0.000,0.00%,148.60K
+Pecca Group,https://www.investing.com/equities/pecca-group-bhd,0.8,0.8,0.8,-0.0,-3.61%,148.60K
+Kretam,https://www.investing.com/equities/kretam-holdings-bhd,0.400,0.405,0.400,0.000,0.00%,148.00K
+Naim Indah,https://www.investing.com/equities/naim-indah-corporation-bhd,0.025,0.025,0.025,0.000,0.00%,148.00K
+MAA,https://www.investing.com/equities/maa-group-bhd,0.535,0.545,0.535,-0.010,-1.83%,147.90K
+Yee Lee Corp,https://www.investing.com/equities/yee-lee-corporation-bhd,2.150,2.150,2.140,0.000,0.00%,146.20K
+Puncak Niaga,https://www.investing.com/equities/puncak-niaga-holdings-bhd,0.490,0.490,0.490,-0.005,-1.01%,141.20K
+Ivory Properties,https://www.investing.com/equities/ivory-properties-group-bhd,0.290,0.295,0.290,0.000,0.00%,139.60K
+Kimlun Corp,https://www.investing.com/equities/kimlun-corporation-bhd,1.260,1.270,1.250,-0.010,-0.79%,136.80K
+Olympia Industries Bhd,https://www.investing.com/equities/olympia-industries-bhd,0.110,0.110,0.105,0.000,0.00%,136.00K
+MKH,https://www.investing.com/equities/mkh-bhd,1.330,1.330,1.320,0.000,0.00%,135.60K
+KYM Bhd,https://www.investing.com/equities/kym-holdings-bhd,0.420,0.425,0.400,+0.010,+2.44%,135.50K
+Solution Engineering,https://www.investing.com/equities/solution-engineering-holdings-bhd,0.140,0.145,0.140,0.000,0.00%,134.00K
+Tambun Indah Land,https://www.investing.com/equities/tambun-indah-land-bhd,0.880,0.890,0.875,-0.010,-1.12%,133.70K
+Media Chinese Int,https://www.investing.com/equities/media-chinese-international-ltd,0.280,0.290,0.280,-0.010,-3.45%,133.50K
+Tiong Nam Logistics Holdings Bhd,https://www.investing.com/equities/tiong-nam-logistics-holdings-bhd,0.985,0.990,0.970,+0.005,+0.51%,132.80K
+Golden Pharos,https://www.investing.com/equities/golden-pharos-bhd,0.265,0.265,0.245,+0.010,+3.92%,131.20K
+Success Transformer Corp,https://www.investing.com/equities/success-transformer-corp,0.700,0.720,0.695,-0.015,-2.10%,130.60K
+Prg,https://www.investing.com/equities/prg-holdings-bhd,0.775,0.775,0.750,0.000,0.00%,129.00K
+Pantech Group Holdings Bhd,https://www.investing.com/equities/pantech-group-holdings-bhd,0.470,0.470,0.460,+0.010,+2.17%,127.90K
+Teo Seng Capital,https://www.investing.com/equities/teo-seng-capital-bhd,0.825,0.825,0.825,0.000,0.00%,127.80K
+Eastern & Oriental,https://www.investing.com/equities/eastern---oriental-bhd,1.440,1.440,1.400,+0.040,+2.86%,127.70K
+Petra Energy Bhd,https://www.investing.com/equities/petra-energy-bhd,0.505,0.515,0.500,-0.010,-1.94%,125.20K
+Favelle Favco,https://www.investing.com/equities/favelle-favco-bhd,2.340,2.340,2.250,+0.060,+2.63%,125.00K
+Pinehill Pacific,https://www.investing.com/equities/pinehill-pacific-bhd,0.170,0.175,0.160,-0.010,-5.56%,124.20K
+Malaysian Pacific Ind,https://www.investing.com/equities/malaysian-pacific-industries,12.360,12.660,12.340,-0.340,-2.68%,123.70K
+Daiman Develop,https://www.investing.com/equities/daiman-develop-bhd,2.850,2.850,2.830,+0.020,+0.71%,123.50K
+YSP Southeast Asia,https://www.investing.com/equities/ysp-southeast-asia-holding-bhd,3.010,3.010,2.980,-0.010,-0.33%,122.50K
+Malaysia Marine and Heavy Eng,https://www.investing.com/equities/malaysia-marine-heavy-engineering,0.635,0.650,0.635,0.000,0.00%,122.10K
+Guan Chong,https://www.investing.com/equities/guan-chong-bhd,2.200,2.230,2.160,-0.020,-0.90%,121.90K
+Hai O Enterprise,https://www.investing.com/equities/hai-o-enterprise-bhd,4.300,4.310,4.280,0.000,0.00%,120.50K
+Mikro MSC,https://www.investing.com/equities/mikro-msc-bhd,0.300,0.305,0.300,-0.010,-3.23%,120.30K
+PW Consolidated,https://www.investing.com/equities/pw-consolidated-bhd,0.820,0.820,0.800,+0.005,+0.61%,119.90K
+Lee Swee Kiat,https://www.investing.com/equities/lee-swee-kiat-group-bhd,1.040,1.040,1.030,+0.010,+0.97%,119.50K
+Microlink Solutions,https://www.investing.com/equities/microlink-solutions-bhd,0.520,0.520,0.470,0.000,0.00%,118.80K
+mTouche Tech,https://www.investing.com/equities/mtouche-technology-bhd,0.105,0.105,0.105,-0.005,-4.55%,117.80K
+Menang Corp,https://www.investing.com/equities/menang-corporation-(m)-bhd,0.420,0.450,0.420,-0.005,-1.18%,116.40K
+Marine General,https://www.investing.com/equities/silk-holdings-bhd,0.095,0.095,0.095,-0.005,-5.00%,116.10K
+Merge Energy,https://www.investing.com/equities/merge-energy-bhd,0.280,0.280,0.270,0.000,0.00%,116.00K
+Talam Transform,https://www.investing.com/equities/talam-transform-bhd,0.040,0.040,0.035,+0.005,+14.29%,115.30K
+Rev Asia,https://www.investing.com/equities/rev-asia-bhd,0.300,0.300,0.295,-0.010,-3.23%,115.00K
+Bonia Corp,https://www.investing.com/equities/bonia-corporation-bhd,0.405,0.415,0.405,0.000,0.00%,112.90K
+Lii Hen Industries,https://www.investing.com/equities/lii-hen-industries-bhd,2.890,2.920,2.880,-0.030,-1.03%,112.60K
+Spritzer,https://www.investing.com/equities/spritzer-bhd,2.340,2.350,2.340,-0.010,-0.43%,112.00K
+Hock Seng Lee,https://www.investing.com/equities/hock-seng-lee-bhd,1.380,1.390,1.370,0.000,0.00%,111.50K
+Komarkcorp Bhd,https://www.investing.com/equities/komarkcorp-bhd,0.150,0.150,0.145,0.000,0.00%,110.00K
+Khee San,https://www.investing.com/equities/khee-san-bhd,0.585,0.585,0.570,0.000,0.00%,109.00K
+Binasat Communications,https://www.investing.com/equities/binasat-communications,0.425,0.435,0.425,-0.005,-1.16%,109.00K
+Chin Well,https://www.investing.com/equities/chin-well-holdings-bhd,1.620,1.650,1.620,-0.030,-1.82%,108.00K
+Pelangi Publishing Group,https://www.investing.com/equities/pelangi-publishing-group,0.410,0.420,0.410,0.000,0.00%,105.20K
+Cypark Res Berhad,https://www.investing.com/equities/cypark-resources-berhad,2.390,2.390,2.380,0.000,0.00%,104.70K
+Rhone Ma,https://www.investing.com/equities/rhone-ma-holdings-bhd,0.800,0.800,0.790,0.000,0.00%,104.10K
+ELK-Desa Resources,https://www.investing.com/equities/elk-desa-resources-bhd,1.180,1.180,1.170,0.000,0.00%,104.00K
+Berjaya Food,https://www.investing.com/equities/berjaya-food-bhd,1.400,1.410,1.380,0.000,0.00%,103.00K
+Green Packet,https://www.investing.com/equities/green-packet-bhd,0.370,0.375,0.370,0.000,0.00%,102.60K
+BTM Resources,https://www.investing.com/equities/btm-resources-bhd,0.130,0.140,0.125,-0.005,-3.70%,102.10K
+Able,https://www.investing.com/equities/ablegroup-bhd,0.100,0.100,0.095,+0.005,+5.26%,100.50K
+Multi Sports,https://www.investing.com/equities/multi-sports-holdings-ltd,0.020,0.020,0.020,0.000,0.00%,100.00K
+Tomei Consolidated,https://www.investing.com/equities/tomei-consolidated-bhd,0.535,0.535,0.535,0.000,0.00%,100.00K
+Ancom Logistics,https://www.investing.com/equities/ancom-logistics-bhd,0.080,0.080,0.080,+0.000,+0.00%,100.00K
+MMC Corp,https://www.investing.com/equities/mmc-corporation-bhd,1.360,1.360,1.350,0.000,0.00%,98.90K
+Power Root,https://www.investing.com/equities/power-root-bhd,1.550,1.590,1.540,-0.030,-1.90%,98.70K
+Astino,https://www.investing.com/equities/astino-bhd,0.840,0.840,0.830,-0.010,-1.18%,98.10K
+Berjaya Assets,https://www.investing.com/equities/berjaya-assets-bhd,0.295,0.295,0.290,0.000,0.00%,97.40K
+YGL Convergence,https://www.investing.com/equities/ygl-convergence-bhd,0.130,0.130,0.130,0.000,0.00%,97.10K
+Kuchai Develop,https://www.investing.com/equities/kuchai-develop-bhd,1.950,1.960,1.900,-0.010,-0.51%,96.60K
+Formosa Prosonic,https://www.investing.com/equities/formosa-prosonic-industries,1.420,1.440,1.410,-0.010,-0.70%,95.60K
+Asian Pac,https://www.investing.com/equities/asian-pac-holdings-bhd,0.145,0.145,0.145,0.000,0.00%,95.00K
+United U Li Corporation,https://www.investing.com/equities/united-u-li-corporation,0.695,0.695,0.690,0.000,0.00%,94.50K
+Mexter Technology,https://www.investing.com/equities/mexter-technology-bhd,0.405,0.415,0.405,-0.005,-1.22%,93.10K
+PIE Industrial Bhd,https://www.investing.com/equities/pie-industrial-bhd,1.380,1.380,1.360,+0.010,+0.73%,91.30K
+Hovid,https://www.investing.com/equities/hovid-bhd,0.335,0.335,0.335,0.000,0.00%,88.00K
+D O Green Tech,https://www.investing.com/equities/d-o-green-technologies-bhd,0.730,0.730,0.720,0.000,0.00%,87.70K
+Ta Win Holdings Bhd,https://www.investing.com/equities/ta-win-holdings-bhd,0.575,0.580,0.555,+0.005,+0.88%,86.10K
+Public Packages Holdings,https://www.investing.com/equities/public-packages-holdings,0.585,0.590,0.585,0.000,0.00%,84.80K
+GPA,https://www.investing.com/equities/gpa-holdings-bhd,0.090,0.090,0.090,0.000,0.00%,84.00K
+Ta Ann,https://www.investing.com/equities/ta-ann-holdings-bhd,2.76,2.76,2.69,+0.01,+0.36%,83.70K
+EP Manufacturing,https://www.investing.com/equities/ep-manufacturing-bhd,0.465,0.465,0.450,+0.020,+4.49%,83.00K
+Meda Inc,https://www.investing.com/equities/meda-inc-bhd,0.365,0.365,0.345,-0.005,-1.35%,83.00K
+AmFIRST,https://www.investing.com/equities/amfirst,0.595,0.595,0.595,-0.005,-0.83%,82.50K
+Willowglen MSC,https://www.investing.com/equities/willowglen-msc-bhd,0.465,0.465,0.465,0.000,0.00%,82.00K
+Sunway Real Estate Invest Trust,https://www.investing.com/equities/sunway-real-estate-invest-trust,1.740,1.740,1.730,+0.010,+0.58%,80.30K
+British American Tobacco,https://www.investing.com/equities/british-american-tobacco?cid=41636,33.18,33.18,32.90,-0.12,-0.36%,76.00K
+Rimbunan Sawit,https://www.investing.com/equities/rimbunan-sawit-bhd,0.250,0.250,0.240,0.000,0.00%,76.00K
+I-Berhad,https://www.investing.com/equities/i-bhd,0.505,0.505,0.500,0.000,0.00%,76.00K
+Tropicana Corp,https://www.investing.com/equities/tropicana-corporation-bhd,0.855,0.855,0.840,+0.005,+0.59%,75.20K
+Yoong Onn Corp,https://www.investing.com/equities/yoong-onn-corporation-bhd,1.130,1.150,1.100,+0.010,+0.89%,74.10K
+Eupe Corp,https://www.investing.com/equities/eupe-corporation-bhd,0.735,0.735,0.720,+0.015,+2.08%,73.90K
+MPHB Capital,https://www.investing.com/equities/mphb-capital-bhd,1.230,1.250,1.210,0.000,0.00%,73.10K
+Yong Tai Pref,https://www.investing.com/equities/yong-tai-bhd-pref,0.690,0.690,0.680,-0.010,-1.43%,72.00K
+Carlsberg Brewery,https://www.investing.com/equities/carlsberg-brewery-malaysia-bhd,19.98,19.98,19.72,+0.30,+1.52%,71.60K
+ConnectCounty,https://www.investing.com/equities/connectcounty-holdings-bhd,0.140,0.140,0.140,+0.000,+0.00%,71.60K
+ZECON,https://www.investing.com/equities/zecon-bhd,0.345,0.350,0.345,-0.010,-2.82%,70.60K
+K Seng Seng Corp,https://www.investing.com/equities/k-seng-seng-corporation-bhd,0.390,0.390,0.370,+0.025,+6.85%,70.10K
+Poh Kong,https://www.investing.com/equities/poh-kong-holdings-bhd,0.485,0.490,0.480,-0.005,-1.02%,70.10K
+Wong Engineering Corp,https://www.investing.com/equities/wong-engineering-corp,0.900,0.905,0.890,-0.035,-3.74%,69.30K
+TMC Life Sciences Bhd,https://www.investing.com/equities/tmc-life-sciences-bhd,0.745,0.750,0.725,+0.010,+1.36%,68.80K
+ES Ceramics Technology Bhd,https://www.investing.com/equities/es-ceramics-technology-bhd,0.200,0.200,0.200,+0.005,+2.56%,65.00K
+Mwe,https://www.investing.com/equities/mwe-holdings-bhd,1.740,1.750,1.740,+0.010,+0.58%,64.30K
+Muar Ban Lee Group Bhd,https://www.investing.com/equities/muar-ban-lee-group-bhd,1.120,1.180,1.100,-0.050,-4.27%,64.10K
+Hup Seng Industries,https://www.investing.com/equities/hup-seng-industries-bhd,1.050,1.050,1.040,0.000,0.00%,63.70K
+Vertice,https://www.investing.com/equities/voir-holdings-bhd,0.900,0.900,0.880,0.000,0.00%,62.10K
+TAFI Industries,https://www.investing.com/equities/tafi-industries-bhd,0.360,0.360,0.345,+0.030,+9.09%,62.00K
+JF Tech,https://www.investing.com/equities/jf-tech,0.870,0.870,0.840,+0.015,+1.75%,61.60K
+Pimpinan Eshan,https://www.investing.com/equities/triplc-bhd,0.780,0.780,0.765,+0.015,+1.96%,60.90K
+Johan,https://www.investing.com/equities/johan-holdings-bhd,0.125,0.125,0.120,0.000,0.00%,60.00K
+SCH Group Bhd,https://www.investing.com/equities/sch-group-bhd,0.160,0.160,0.160,-0.005,-3.03%,60.00K
+Aeon Credit Service,https://www.investing.com/equities/aeon-credit-service-(m)-bhd,15.70,15.76,15.64,+0.02,+0.13%,59.50K
+Sarawak Oil Palms,https://www.investing.com/equities/sarawak-oil-palms-bhd,2.800,2.800,2.780,+0.030,+1.08%,58.30K
+Eonmetall,https://www.investing.com/equities/eonmetall-group-bhd,0.460,0.470,0.450,0.000,0.00%,57.50K
+Plenitude,https://www.investing.com/equities/plenitude-bhd,1.490,1.490,1.450,+0.050,+3.47%,56.90K
+Oka Corporation Bhd,https://www.investing.com/equities/oka-corporation-bhd,1.230,1.230,1.220,0.000,0.00%,56.80K
+Nylex Malaysia Bhd,https://www.investing.com/equities/nylex-malaysia-bhd,0.670,0.670,0.625,+0.040,+6.35%,56.60K
+Boilermech,https://www.investing.com/equities/boilermech-holdings-bhd,0.670,0.670,0.665,+0.005,+0.75%,56.50K
+PCCS,https://www.investing.com/equities/pccs-group-bhd,0.240,0.240,0.235,0.000,0.00%,56.50K
+Ge Shen Corp,https://www.investing.com/equities/ge-shen-corporation-bhd,0.980,1.000,0.980,-0.020,-2.00%,56.40K
+Ajiya,https://www.investing.com/equities/ajiya-bhd,0.595,0.595,0.590,0.000,0.00%,56.00K
+Red Sena Bhd,https://www.investing.com/equities/red-sena-bhd,0.480,0.480,0.480,0.000,0.00%,56.00K
+ABM Fujiya,https://www.investing.com/equities/abm-fujiya-bhd,0.500,0.540,0.500,-0.050,-9.09%,55.00K
+Hexza Corp,https://www.investing.com/equities/hexza-corporation-bhd,0.700,0.700,0.695,+0.005,+0.72%,55.00K
+Mulpha Int,https://www.investing.com/equities/mulpha-international-bhd,2.150,2.150,2.110,0.000,0.00%,54.90K
+Prestar Resources Bhd,https://www.investing.com/equities/prestar-resources-bhd,0.765,0.765,0.745,+0.015,+2.00%,54.70K
+Uzma Bhd,https://www.investing.com/equities/uzma-bhd,1.130,1.160,1.120,0.000,0.00%,52.60K
+Landmarks,https://www.investing.com/equities/landmarks-bhd,0.665,0.665,0.660,+0.010,+1.53%,52.00K
+Panasonic Manufacture,https://www.investing.com/equities/panasonic-manufacture-malaysia,38.460,38.760,38.260,-0.200,-0.52%,51.90K
+Mega First Corp,https://www.investing.com/equities/mega-first-corporation-bhd,3.460,3.470,3.440,-0.020,-0.57%,51.80K
+LBI Capital,https://www.investing.com/equities/lbi-capital-bhd,0.845,0.845,0.840,0.000,0.00%,51.30K
+Hume Industries,https://www.investing.com/equities/hume-industries-bhd,0.910,0.940,0.905,+0.005,+0.55%,50.70K
+TIME Dotcom,https://www.investing.com/equities/time-dotcom-bhd,8.18,8.22,8.06,-0.01,-0.12%,50.40K
+ECS ICT,https://www.investing.com/equities/ecs-ict-bhd,0.995,0.995,0.985,+0.005,+0.51%,50.10K
+Harbour Link,https://www.investing.com/equities/harbour-link-group-bhd,0.720,0.720,0.700,+0.015,+2.13%,50.10K
+SMRT,https://www.investing.com/equities/smrt-holdings-bhd,0.140,0.140,0.140,-0.005,-3.45%,49.60K
+AE Multi,https://www.investing.com/equities/ae-multi-holdings-bhd,0.120,0.120,0.120,0.000,0.00%,47.00K
+Kim Loong Resources,https://www.investing.com/equities/kim-loong-resources-bhd,1.320,1.330,1.310,0.000,0.00%,47.00K
+Heineken,https://www.investing.com/equities/guinness-anchor-bhd,21.000,21.100,21.000,-0.020,-0.10%,46.20K
+PMB Technology Bhd,https://www.investing.com/equities/pmb-technology-bhd,3.310,3.310,3.270,+0.030,+0.91%,46.00K
+HCK Capital,https://www.investing.com/equities/hck-capital-group-bhd,1.280,1.280,1.260,+0.020,+1.59%,45.20K
+Prolexus,https://www.investing.com/equities/prolexus-bhd,0.710,0.710,0.705,+0.005,+0.71%,44.40K
+Crest Builder,https://www.investing.com/equities/crest-builder-holdings-bhd,0.880,0.885,0.855,+0.010,+1.15%,44.10K
+Lafarge Malayan Cement,https://www.investing.com/equities/lafarge-malayan-cement-bhd,3.00,3.00,2.95,+0.02,+0.67%,43.80K
+Tong Herr Resources Bhd,https://www.investing.com/equities/tong-herr-resources-bhd,3.820,3.860,3.820,0.000,0.00%,43.80K
+G3 Global,https://www.investing.com/equities/yen-global-bhd,0.730,0.750,0.700,+0.035,+5.04%,43.00K
+Hua Yang,https://www.investing.com/equities/hua-yang-bhd,0.460,0.465,0.445,+0.005,+1.10%,42.50K
+Sycal Ventures,https://www.investing.com/equities/sycal-ventures-bhd,0.240,0.240,0.235,-0.005,-2.04%,42.00K
+Handal Resources,https://www.investing.com/equities/handal-resources-bhd,0.370,0.375,0.365,-0.005,-1.33%,41.90K
+Asia File Corp,https://www.investing.com/equities/asia-file-corporation-bhd,2.600,2.610,2.600,-0.020,-0.76%,41.40K
+JMR Conglomeration,https://www.investing.com/equities/jmr-conglomeration-bhd,1.070,1.070,1.060,+0.010,+0.94%,40.00K
+LFE Corp,https://www.investing.com/equities/lfe-corporation-bhd,0.120,0.120,0.120,0.000,0.00%,40.00K
+SWS Capital,https://www.investing.com/equities/sws-capital-bhd,0.770,0.770,0.745,0.000,0.00%,40.00K
+SIG Gases Bhd,https://www.investing.com/equities/sig-gases-bhd,0.760,0.780,0.760,-0.025,-3.18%,40.00K
+Brite Tech,https://www.investing.com/equities/brite-tech-bhd,0.240,0.250,0.240,-0.015,-5.88%,40.00K
+HeiTech Padu,https://www.investing.com/equities/heitech-padu-bhd,0.500,0.540,0.500,0.000,0.00%,39.50K
+Gunung Capital,https://www.investing.com/equities/gunung-capital-bhd,0.375,0.375,0.355,+0.025,+7.14%,39.00K
+Plastrade Tech,https://www.investing.com/equities/plastrade-technology-bhd,0.195,0.195,0.190,+0.005,+2.63%,39.00K
+Thong Guan Industries Bhd,https://www.investing.com/equities/thong-guan-industries-bhd,2.600,2.630,2.600,-0.050,-1.89%,38.40K
+Sarawak Plantation,https://www.investing.com/equities/sarawak-plantation-bhd,1.800,1.800,1.730,+0.050,+2.86%,36.60K
+Ajinomoto Malaysia,https://www.investing.com/equities/ajinomoto-(malaysia)-bhd,21.820,21.820,20.940,+0.820,+3.90%,35.60K
+Pharmaniaga Bhd,https://www.investing.com/equities/pharmaniaga-bhd,2.940,2.960,2.940,-0.010,-0.34%,35.30K
+EKA Noodles,https://www.investing.com/equities/eka-noodles-bhd,0.080,0.080,0.075,+0.005,+6.67%,35.10K
+Hil Industries,https://www.investing.com/equities/hil-industries-bhd,0.630,0.630,0.630,+0.010,+1.61%,35.10K
+Jerasia Capital,https://www.investing.com/equities/jerasia-capital-bhd,0.385,0.405,0.385,-0.035,-8.33%,35.00K
+YLI Holdings Bhd,https://www.investing.com/equities/yli-holdings-bhd,0.340,0.340,0.340,-0.010,-2.86%,35.00K
+SCC,https://www.investing.com/equities/scc-holdings-bhd,0.500,0.500,0.495,+0.005,+1.01%,35.00K
+MGB,https://www.investing.com/equities/ml-global-bhd,0.900,0.900,0.890,0.000,0.00%,33.90K
+Kobay Tech,https://www.investing.com/equities/kobay-tech-bhd,1.450,1.450,1.420,+0.020,+1.40%,33.60K
+Damansara Realty,https://www.investing.com/equities/damansara-realty-bhd,0.355,0.355,0.315,+0.040,+12.70%,33.20K
+Bintai Kinden Corp,https://www.investing.com/equities/bintai-kinden-corporation-bhd,0.155,0.155,0.155,0.000,0.00%,33.00K
+KKB Engineering Berhad,https://www.investing.com/equities/kkb-engineering-berhad,0.875,0.875,0.840,+0.005,+0.57%,32.80K
+Sentoria,https://www.investing.com/equities/sentoria-group-bhd,0.500,0.500,0.480,+0.005,+1.01%,31.90K
+Country Heights,https://www.investing.com/equities/country-heights-holdings-bhd,1.340,1.340,1.330,+0.020,+1.52%,31.70K
+Pasukhas Group,https://www.investing.com/equities/pasukhas-group-bhd,0.105,0.110,0.105,-0.010,-8.70%,31.50K
+Magni Tech Ind,https://www.investing.com/equities/magni-tech-industries-bhd,4.700,4.790,4.660,+0.040,+0.86%,31.20K
+Eksons Corp,https://www.investing.com/equities/eksons-corp-bhd,0.825,0.825,0.810,0.000,0.00%,31.00K
+Mudajaya,https://www.investing.com/equities/mudajaya-group-bhd,0.455,0.455,0.455,0.000,0.00%,30.00K
+Brem Holding,https://www.investing.com/equities/brem-holding-bhd,0.825,0.825,0.825,0.000,0.00%,30.00K
+GETS Global,https://www.investing.com/equities/kbes-bhd,0.165,0.165,0.165,-0.005,-2.94%,30.00K
+Signature Int,https://www.investing.com/equities/signature-international-bhd,0.490,0.490,0.490,0.000,0.00%,30.00K
+Kumpulan Powernet Bhd,https://www.investing.com/equities/kumpulan-powernet-bhd,0.535,0.535,0.515,+0.020,+3.88%,30.00K
+Mega Sun City,https://www.investing.com/equities/mega-sun-city-holdings-bhd,0.215,0.215,0.215,0.000,0.00%,30.00K
+Deleum,https://www.investing.com/equities/deleum-bhd,0.970,0.990,0.960,-0.015,-1.52%,29.50K
+Pavilion REIT,https://www.investing.com/equities/pavilion-real-estate-inv-trust,1.640,1.640,1.630,+0.010,+0.61%,29.10K
+GUH,https://www.investing.com/equities/guh-holdings-bhd,0.605,0.605,0.605,-0.025,-3.97%,29.10K
+Ho Hup Construction,https://www.investing.com/equities/ho-hup-construction-company,0.425,0.425,0.415,+0.005,+1.19%,26.50K
+Homeritz Corp,https://www.investing.com/equities/homeritz-corporation-bhd,0.730,0.730,0.725,0.000,0.00%,26.50K
+Oriental,https://www.investing.com/equities/oriental-holdings-bhd,6.320,6.320,6.280,+0.040,+0.64%,25.60K
+Oceancash Pacific,https://www.investing.com/equities/oceancash-pacific-bhd,0.555,0.555,0.540,-0.005,-0.89%,25.40K
+Al-Salam Real Estate,https://www.investing.com/equities/al-salam-real-estate-investment,0.875,0.875,0.830,+0.045,+5.42%,25.40K
+Bright Packaging,https://www.investing.com/equities/bright-packaging-industry-bhd,0.200,0.200,0.200,0.000,0.00%,25.00K
+Encorp,https://www.investing.com/equities/encorp-bhd,0.450,0.455,0.450,-0.030,-6.25%,25.00K
+Quality Concrete Holdings Bhd,https://www.investing.com/equities/quality-concrete-holdings-bhd,0.800,0.800,0.780,+0.095,+13.48%,24.50K
+Leon Fuat,https://www.investing.com/equities/leon-fuat-bhd,0.600,0.610,0.600,0.000,0.00%,24.30K
+Asia Poly,https://www.investing.com/equities/asia-poly-holdings-bhd,0.080,0.085,0.080,-0.005,-5.88%,24.30K
+Kumpulan Fima,https://www.investing.com/equities/kumpulan-fima-bhd,1.680,1.700,1.680,-0.020,-1.18%,24.20K
+Nestle,https://www.investing.com/equities/nestle-(malaysia)-bhd,146.800,146.800,146.600,+0.200,+0.14%,24.20K
+Jaycorp,https://www.investing.com/equities/jaycorp-bhd,0.910,0.910,0.910,0.000,0.00%,24.00K
+Solid Automotive,https://www.investing.com/equities/solid-automotive-bhd,0.310,0.315,0.300,-0.005,-1.59%,23.90K
+Insas,https://www.investing.com/equities/insas-bhd,0.840,0.845,0.835,-0.005,-0.59%,23.60K
+Ornapaper Bhd,https://www.investing.com/equities/ornapaper-bhd,1.110,1.120,1.110,0.000,0.00%,23.50K
+Hwa Tai Industries,https://www.investing.com/equities/hwa-tai-industries-bhd,0.330,0.330,0.330,-0.005,-1.49%,23.40K
+SBC Corp,https://www.investing.com/equities/sbc-corp-bhd,0.475,0.475,0.470,+0.005,+1.06%,23.00K
+TSH Resources,https://www.investing.com/equities/tsh-resources-bhd,1.170,1.200,1.160,+0.010,+0.86%,22.80K
+Kumpulan Jetson,https://www.investing.com/equities/kumpulan-jetson-bhd,0.210,0.210,0.200,+0.010,+5.00%,22.20K
+South Malaysia Ind,https://www.investing.com/equities/south-malaysia-industries-bhd,0.190,0.195,0.190,+0.005,+2.70%,22.00K
+Can One,https://www.investing.com/equities/can-one-bhd,2.300,2.300,2.300,0.000,0.00%,21.50K
+Hong Leong Ind,https://www.investing.com/equities/hong-leong-industries-bhd,10.980,11.040,10.980,-0.040,-0.36%,21.30K
+IQ,https://www.investing.com/equities/iq-group-holdings-bhd,1.370,1.390,1.370,-0.050,-3.52%,21.20K
+Amanah Harta Tanah,https://www.investing.com/equities/amanah-harta-tanah,0.770,0.770,0.770,+0.000,+0.00%,20.90K
+Aluminium Malaysia,https://www.investing.com/equities/aluminium-company-of-malaysia,0.700,0.725,0.700,-0.025,-3.45%,20.00K
+Chin Hin Property,https://www.investing.com/equities/boon-koon-group-bhd,0.450,0.450,0.450,+0.005,+1.12%,20.00K
+Master Pack,https://www.investing.com/equities/master-pack-group-bhd,0.615,0.630,0.615,0.000,0.00%,20.00K
+SHH Resources,https://www.investing.com/equities/shh-resources-holdings-bhd,0.750,0.755,0.745,+0.010,+1.35%,20.00K
+M N C Wireless,https://www.investing.com/equities/m-n-c-wireless-bhd,0.055,0.055,0.055,-0.005,-8.33%,20.00K
+BP Plastics,https://www.investing.com/equities/bp-plastics-holding-bhd,1.040,1.040,1.010,+0.030,+2.97%,19.80K
+Zhulian Corp,https://www.investing.com/equities/zhulian-corporation-bhd,1.410,1.420,1.410,-0.010,-0.70%,19.10K
+Ireka Corp,https://www.investing.com/equities/ireka-corporation-bhd,0.560,0.565,0.550,-0.010,-1.75%,19.00K
+Reliance Pacific,https://www.investing.com/equities/reliance-pacific-bhd,0.245,0.255,0.245,0.000,0.00%,19.00K
+Batu Kawan,https://www.investing.com/equities/batu-kawan-bhd,16.840,16.960,16.800,-0.120,-0.71%,18.50K
+Pan Malaysia Corp,https://www.investing.com/equities/pan-malaysia-corporation-bhd,0.155,0.155,0.155,0.000,0.00%,18.50K
+Kumpulan H L High Tech,https://www.investing.com/equities/kumpulan-h-l-high-tech,1.350,1.370,1.340,0.000,0.00%,18.20K
+Perusahaan Sadur Timah,https://www.investing.com/equities/perusahaan-sadur-timah,4.820,4.850,4.820,-0.030,-0.62%,17.80K
+Cycle Carriage Bintang,https://www.investing.com/equities/cycle-carriage-bintang-bhd,1.910,1.910,1.860,+0.020,+1.06%,17.00K
+Innoprise Plantations,https://www.investing.com/equities/innoprise-plantations-bhd,0.760,0.765,0.760,-0.010,-1.30%,17.00K
+Tadmax Resources Bhd,https://www.investing.com/equities/tadmax-resources-bhd,0.205,0.205,0.205,+0.000,+0.00%,17.00K
+White Horse Bhd,https://www.investing.com/equities/white-horse-bhd,1.700,1.700,1.680,0.000,0.00%,17.00K
+Hektar REIT,https://www.investing.com/equities/hektar-reit,1.22,1.23,1.22,-0.01,-0.81%,17.00K
+Dolphin International Bhd,https://www.investing.com/equities/dolphin-international-bhd,0.115,0.115,0.110,+0.010,+9.52%,16.80K
+Kim Hin Industry Bhd,https://www.investing.com/equities/kim-hin-industry-bhd,1.240,1.240,1.230,-0.010,-0.80%,16.70K
+ATTA Global Pref,https://www.investing.com/equities/atta-global-pref,0.165,0.165,0.165,0.000,0.00%,16.00K
+Kawan Food,https://www.investing.com/equities/kawan-food-bhd,2.200,2.200,2.200,-0.040,-1.79%,15.50K
+Scope Industries Bhd,https://www.investing.com/equities/scope-industries-bhd,0.140,0.145,0.140,-0.010,-6.67%,15.30K
+Sapura Resources,https://www.investing.com/equities/sapura-resources-bhd,0.780,0.780,0.780,+0.040,+5.41%,15.00K
+OCR,https://www.investing.com/equities/takaso-resources-bhd,0.380,0.380,0.380,-0.020,-5.00%,15.00K
+Lien Hoe Corp,https://www.investing.com/equities/lien-hoe-corporation-bhd,0.330,0.330,0.310,0.000,0.00%,14.00K
+KLCC Property,https://www.investing.com/equities/klcc-prop-reits---stapled-sec,7.76,7.77,7.69,-0.01,-0.13%,13.20K
+Pasdec,https://www.investing.com/equities/pasdec-holdings-bhd,0.435,0.435,0.410,+0.015,+3.57%,13.10K
+Selangor Properties,https://www.investing.com/equities/selangor-properties-bhd,4.080,4.080,4.050,-0.020,-0.49%,13.00K
+Apex Healthcare,https://www.investing.com/equities/apex-healthcare-bhd,7.640,7.640,7.600,0.000,0.00%,12.90K
+LTKM,https://www.investing.com/equities/ltkm-bhd,0.910,0.910,0.900,0.000,0.00%,12.50K
+FSBM,https://www.investing.com/equities/fsbm-holdings-bhd,0.220,0.220,0.220,-0.010,-4.35%,12.10K
+Chee Wah,https://www.investing.com/equities/chee-wah-corp-bhd,0.480,0.480,0.475,-0.020,-4.00%,12.00K
+MUI Properties,https://www.investing.com/equities/mui-properties-bhd,0.240,0.240,0.240,-0.010,-4.00%,12.00K
+Adventa,https://www.investing.com/equities/adventa-bhd,0.475,0.515,0.425,-0.030,-5.94%,11.90K
+TH Plantations,https://www.investing.com/equities/th-plantations-bhd,0.680,0.680,0.680,0.000,0.00%,11.80K
+Kian Joo Can Factory Bhd,https://www.investing.com/equities/kian-joo-can-factory-bhd,2.540,2.570,2.530,-0.010,-0.39%,11.30K
+Leweko Resources Bhd,https://www.investing.com/equities/leweko-resources-bhd,0.210,0.210,0.200,+0.010,+5.00%,11.00K
+Selangor Dredging,https://www.investing.com/equities/selangor-dredging-bhd,0.760,0.760,0.755,+0.005,+0.66%,10.50K
+Keck Seng Malaysia,https://www.investing.com/equities/keck-seng-malaysia-bhd,4.050,4.070,4.020,-0.010,-0.25%,10.40K
+Tex Cycle Technology M Bhd,https://www.investing.com/equities/tex-cycle-technology-m-bhd,0.600,0.610,0.600,-0.005,-0.83%,10.40K
+United Malacca,https://www.investing.com/equities/united-malacca-bhd,6.150,6.150,6.130,+0.020,+0.33%,10.30K
+Atrium,https://www.investing.com/equities/atrium,1.11,1.11,1.09,+0.01,+0.91%,10.30K
+Dutch Lady Milk,https://www.investing.com/equities/dutch-lady-milk-industries-bhd,65.52,65.90,65.50,-0.40,-0.61%,10.10K
+Cepatwawasan,https://www.investing.com/equities/cepatwawasan-group-bhd,0.695,0.695,0.670,+0.020,+2.96%,10.10K
+Utusan Melayu Malaysia Bhd,https://www.investing.com/equities/utusan-melayu-malaysia-bhd,0.170,0.180,0.170,0.000,0.00%,10.10K
+LB Aluminium Bhd,https://www.investing.com/equities/lb-aluminium-bhd,0.560,0.560,0.560,-0.015,-2.61%,10.00K
+Suiwah Corporation Bhd,https://www.investing.com/equities/suiwah-corporation-bhd,2.300,2.300,2.300,-0.040,-1.71%,10.00K
+Tasco Bhd,https://www.investing.com/equities/tasco-bhd,1.640,1.640,1.640,+0.050,+3.14%,10.00K
+EITA Resources,https://www.investing.com/equities/eita-resources-bhd,1.280,1.280,1.280,+0.010,+0.79%,10.00K
+Heng Huat Resources,https://www.investing.com/equities/heng-huat-resources-group-bhd,0.190,0.190,0.190,+0.000,+0.00%,10.00K
+Rexit,https://www.investing.com/equities/rexit-bhd,0.655,0.655,0.655,0.000,0.00%,10.00K
+NTPM,https://www.investing.com/equities/ntpm-holdings-bhd,0.550,0.550,0.550,+0.005,+0.92%,9.50K
+MESB Bhd,https://www.investing.com/equities/mesb-bhd,0.285,0.290,0.285,0.000,0.00%,9.10K
+Grand Central Enterprises,https://www.investing.com/equities/grand-central-enterprises-bhd,0.495,0.495,0.495,+0.005,+1.02%,9.10K
+Tri-Mode,https://www.investing.com/equities/tri-mode,0.465,0.465,0.465,+0.000,+0.00%,9.00K
+Wellcall Holdings Bhd,https://www.investing.com/equities/wellcall-holdings-bhd,1.260,1.260,1.250,-0.020,-1.56%,8.80K
+Fima Corp,https://www.investing.com/equities/fima-corporation-bhd,1.880,1.890,1.870,+0.020,+1.08%,8.50K
+Tan Chong Motor,https://www.investing.com/equities/tan-chong-motor-holdings-bhd,1.710,1.710,1.710,+0.000,+0.00%,8.40K
+Allianz Malaysia,https://www.investing.com/equities/allianz-malaysia-bhd,12.900,13.000,12.860,0.000,0.00%,8.30K
+KESM Industries,https://www.investing.com/equities/kesm-industries-bhd,17.280,17.300,17.100,-0.020,-0.12%,8.30K
+CN Asia Corp,https://www.investing.com/equities/cn-asia-corporation-bhd,0.510,0.510,0.450,-0.005,-0.97%,8.20K
+Aturmaju Resources,https://www.investing.com/equities/aturmaju-resources-bhd,0.300,0.300,0.285,+0.015,+5.26%,8.10K
+MHC Plantations,https://www.investing.com/equities/mhc-plantations-bhd,0.740,0.740,0.700,0.000,0.00%,8.10K
+Apex Equity,https://www.investing.com/equities/apex-equity-holdings-bhd,0.930,0.930,0.930,0.000,0.00%,8.00K
+S P Setia Pref,https://www.investing.com/equities/s-p-setia-bhd,0.970,0.970,0.970,-0.010,-1.02%,8.00K
+Sam Engineering Equip,https://www.investing.com/equities/sam-engineering-equipment,7.480,7.500,7.480,-0.060,-0.80%,7.80K
+United Plantations,https://www.investing.com/equities/united-plantations-bhd,26.700,26.700,26.700,+0.100,+0.38%,7.20K
+GuocoLand,https://www.investing.com/equities/guocoland-(malaysia)-bhd,0.855,0.855,0.845,-0.005,-0.58%,7.10K
+Southern Acids M Bhd,https://www.investing.com/equities/southern-acids-m-bhd,3.850,3.900,3.850,-0.050,-1.28%,7.00K
+Rohas Tecnic,https://www.investing.com/equities/tecnic-group-bhd,1.110,1.110,1.110,0.000,0.00%,7.00K
+SEG International Bhd,https://www.investing.com/equities/seg-international-bhd,0.635,0.635,0.635,-0.010,-1.55%,7.00K
+A Rank,https://www.investing.com/equities/a-rank-bhd,0.700,0.700,0.700,0.000,0.00%,6.70K
+Turbo Mech Bhd,https://www.investing.com/equities/turbo-mech-bhd,0.740,0.740,0.710,0.000,0.00%,6.50K
+Malaysia Smelting,https://www.investing.com/equities/malaysia-smelting-corp,0.775,0.775,0.750,+0.020,+2.65%,6.40K
+UOA REIT,https://www.investing.com/equities/uoa-reit,1.420,1.420,1.400,+0.020,+1.43%,6.20K
+Country View,https://www.investing.com/equities/country-view-bhd,1.380,1.380,1.380,-0.020,-1.43%,6.00K
+Inch Kenneth Kajang Rubber,https://www.investing.com/equities/inch-kenneth-kajang-rubber-plc,0.670,0.670,0.665,0.000,0.00%,6.00K
+Tien Wah Press Holdings,https://www.investing.com/equities/tien-wah-press-holdings,1.520,1.520,1.520,0.000,0.00%,6.00K
+Boustead Heavy Ind,https://www.investing.com/equities/boustead-heavy-industries,1.360,1.370,1.340,0.000,0.00%,5.90K
+MBM Resources,https://www.investing.com/equities/mbm-resources-bhd,2.310,2.310,2.260,+0.050,+2.21%,5.50K
+Mycron Steel Bhd,https://www.investing.com/equities/mycron-steel-bhd,0.380,0.380,0.380,0.000,0.00%,5.50K
+Sunsuria Bhd,https://www.investing.com/equities/sunsuria-bhd,0.920,0.920,0.900,+0.005,+0.55%,5.40K
+Dominant Enterprise,https://www.investing.com/equities/dominant-enterprise-bhd,1.300,1.330,1.290,-0.050,-3.70%,5.10K
+Hap Seng Plantations,https://www.investing.com/equities/hap-seng-plantations-holdings-bhd,2.190,2.190,2.190,0.000,0.00%,5.00K
+Analabs Resources,https://www.investing.com/equities/analabs-resources-bhd,2.560,2.560,2.560,+0.030,+1.19%,5.00K
+APB Resources,https://www.investing.com/equities/apb-resources-bhd,0.830,0.830,0.830,+0.000,+0.00%,5.00K
+DKSH Malaysia Berhad,https://www.investing.com/equities/dksh-holdings-malaysia-berhad,3.550,3.550,3.550,0.000,0.00%,5.00K
+Dolomite Corp,https://www.investing.com/equities/dolomite-corporation-bhd,0.140,0.140,0.140,0.000,0.00%,5.00K
+Freight Management,https://www.investing.com/equities/freight-management-holdings,1.070,1.070,1.070,0.000,0.00%,5.00K
+Golden Land,https://www.investing.com/equities/golden-land-bhd,0.450,0.450,0.450,0.000,0.00%,5.00K
+Ipmuda,https://www.investing.com/equities/ipmuda-bhd,0.700,0.700,0.700,+0.030,+4.48%,5.00K
+Pacific Orient,https://www.investing.com/equities/pacific-orient-bhd,1.040,1.040,1.030,0.000,0.00%,5.00K
+Caring Pharmacy,https://www.investing.com/equities/caring-pharmacy-group-bhd,1.640,1.650,1.640,-0.010,-0.61%,4.90K
+Amway,https://www.investing.com/equities/amway-(malaysia)-holdings-bhd,7.000,7.000,6.950,+0.050,+0.72%,4.50K
+Lambo,https://www.investing.com/equities/accsoft-technology-bhd,0.1400,0.1400,0.1400,0.0000,0.00%,4.30K
+Enra Group,https://www.investing.com/equities/perduren-(m)-bhd,2.050,2.050,1.900,0.000,0.00%,4.10K
+AWC,https://www.investing.com/equities/awc-bhd,0.755,0.760,0.755,-0.005,-0.66%,4.00K
+Scicom MSC Bhd,https://www.investing.com/equities/scicom-msc-bhd,1.870,1.870,1.840,+0.010,+0.54%,4.00K
+LPI Capital,https://www.investing.com/equities/lpi-capital-bhd,17.040,17.060,17.020,-0.020,-0.12%,3.80K
+Manulife,https://www.investing.com/equities/manulife-holdings-bhd,2.750,2.770,2.750,-0.020,-0.72%,3.80K
+Kia Lim Bhd,https://www.investing.com/equities/kia-lim-bhd,0.240,0.240,0.240,-0.010,-4.00%,3.80K
+Tasek Corporation Bhd,https://www.investing.com/equities/tasek-corporation-bhd,6.550,6.550,6.500,+0.050,+0.77%,3.30K
+Lysaght Galvanized Steel,https://www.investing.com/equities/lysaght-galvanized-steel,2.850,2.850,2.850,0.000,0.00%,3.10K
+Oriental Food Ind,https://www.investing.com/equities/oriental-food-industries-hold,0.835,0.835,0.825,+0.015,+1.83%,3.00K
+Syarikat Takaful,https://www.investing.com/equities/syarikat-takaful-malaysia-bhd,3.850,3.850,3.840,0.000,0.00%,3.00K
+UPA Corp,https://www.investing.com/equities/upa-corporation-bhd,2.370,2.380,2.370,0.000,0.00%,3.00K
+Cymao Holdings Bhd,https://www.investing.com/equities/cymao-holdings-bhd,0.360,0.360,0.360,-0.005,-1.37%,3.00K
+NPC Resources Bhd,https://www.investing.com/equities/npc-resources-bhd,1.800,1.800,1.800,-0.090,-4.76%,3.00K
+Suria Capital Holdings Bhd,https://www.investing.com/equities/suria-capital-holdings-bhd,1.610,1.610,1.550,+0.040,+2.55%,3.00K
+CNI,https://www.investing.com/equities/cni-holdings-bhd,0.075,0.075,0.070,0.000,0.00%,2.60K
+New Hoong Fatt,https://www.investing.com/equities/new-hoong-fatt-holdings-bhd,3.070,3.170,3.060,-0.110,-3.46%,2.60K
+Gw Plastics,https://www.investing.com/equities/gw-plastics-holdings-bhd,0.755,0.755,0.730,+0.015,+2.03%,2.10K
+Sin Heng Chan,https://www.investing.com/equities/sin-heng-chan-(malaya)-bhd,0.490,0.490,0.490,+0.070,+16.67%,2.10K
+Amalgamated Steel,https://www.investing.com/equities/amalgamated-industrial-steel,0.305,0.315,0.280,+0.030,+10.91%,2.00K
+APM Automotive,https://www.investing.com/equities/apm-automotive-holdings-bhd,3.520,3.520,3.520,0.000,0.00%,2.00K
+Asia Brands,https://www.investing.com/equities/asia-brands-bhd,0.680,0.680,0.680,-0.020,-2.86%,2.00K
+MB World Group,https://www.investing.com/equities/emas-kiara-industries-bhd,1.600,1.600,1.600,+0.010,+0.63%,2.00K
+Eng Kah Corp,https://www.investing.com/equities/eng-kah-corporation-bhd,1.000,1.000,1.000,-0.020,-1.96%,2.00K
+Hock Heng Stone,https://www.investing.com/equities/hock-heng-stone-industries-bhd,0.490,0.490,0.490,+0.030,+6.52%,2.00K
+SEAL Incorporated Bhd,https://www.investing.com/equities/seal-incorporated-bhd,0.380,0.380,0.380,0.000,0.00%,2.00K
+Atta Global Group,https://www.investing.com/equities/smpc-corporation-bhd,0.810,0.810,0.810,+0.010,+1.25%,2.00K
+Shangri La Hotels Malaysia,https://www.investing.com/equities/shangri-la-hotels-malaysia-bhd,5.830,5.830,5.830,+0.000,+0.00%,2.00K
+Berjaya Media,https://www.investing.com/equities/berjaya-media-bhd,0.210,0.210,0.210,+0.000,+0.00%,1.50K
+Ralco Corporation Bhd,https://www.investing.com/equities/ralco-corporation-bhd,0.400,0.400,0.400,+0.020,+5.26%,1.50K
+Texchem Resources Bhd,https://www.investing.com/equities/texchem-resources-bhd,0.830,0.835,0.830,0.000,0.00%,1.30K
+Chin Teck Plantations,https://www.investing.com/equities/chin-teck-plantations-bhd,7.350,7.350,7.350,+0.050,+0.68%,1.10K
+Mesiniaga,https://www.investing.com/equities/mesiniaga-bhd,1.050,1.050,1.050,-0.020,-1.87%,1.10K
+Amcorp Properties,https://www.investing.com/equities/amcorp-properties-bhd,0.675,0.675,0.675,+0.000,+0.00%,1.00K
+Kotra Industries,https://www.investing.com/equities/kotra-industries-bhd,1.700,1.700,1.700,-0.060,-3.41%,1.00K
+Malpac,https://www.investing.com/equities/malpac-holdings-bhd,1.030,1.030,1.030,+0.080,+8.42%,1.00K
+Paragon Union,https://www.investing.com/equities/paragon-union-bhd,0.260,0.260,0.260,-0.010,-3.70%,1.00K
+Riverview Rubber Estates,https://www.investing.com/equities/riverview-rubber-estates-bhd,3.650,3.650,3.650,+0.000,+0.00%,1.00K
+Teo Guan Lee Corp,https://www.investing.com/equities/teo-guan-lee-corporation-bhd,0.950,0.950,0.950,0.000,0.00%,1.00K
+Stone Master Corpoaration,https://www.investing.com/equities/stone-master-corpoaration,0.200,0.200,0.200,+0.020,+11.11%,1.00K
+Wang-Zheng Bhd,https://www.investing.com/equities/wang-zheng-bhd,1.280,1.280,1.280,0.000,0.00%,1.00K
+Insas Pref,https://www.investing.com/equities/insas-bhd-pref,0.965,0.965,0.965,+0.000,+0.00%,0.80K
+Bina Darulaman,https://www.investing.com/equities/bina-darulaman-bhd,0.400,0.400,0.400,-0.010,-2.44%,0.70K
+Far East,https://www.investing.com/equities/far-east-holdings-bhd,2.900,2.900,2.900,0.000,0.00%,0.70K
+Cocoaland,https://www.investing.com/equities/cocoaland-holdings-bhd,2.200,2.220,2.200,-0.020,-0.90%,0.60K
+Eastland Equity,https://www.investing.com/equities/eastland-equity-bhd,0.150,0.150,0.140,0.000,0.00%,0.60K
+Harrisons,https://www.investing.com/equities/harrisons-holdings-(malaysia),3.800,3.820,3.800,-0.020,-0.52%,0.60K
+Pensonic Holdings Bhd,https://www.investing.com/equities/pensonic-holdings-bhd,0.585,0.585,0.585,-0.005,-0.85%,0.60K
+BIMB,https://www.investing.com/equities/bimb-holdings-bhd,3.880,3.880,3.880,0.000,0.00%,0.40K
+UMS Holdings Bhd,https://www.investing.com/equities/ums-holdings-bhd,2.260,2.260,2.100,+0.160,+7.62%,0.40K
+FCW,https://www.investing.com/equities/fcw-holdings-bhd,0.810,0.810,0.810,0.000,0.00%,0.30K
+Apollo Food,https://www.investing.com/equities/apollo-food-holdings-bhd,4.250,4.250,4.250,0.000,0.00%,0.20K
+CI,https://www.investing.com/equities/ci-holdings-bhd,1.860,1.860,1.850,-0.140,-7.00%,0.20K
+Esthetics Int,https://www.investing.com/equities/esthetics-international-group,0.680,0.680,0.680,+0.080,+13.33%,0.10K
+Lebtech,https://www.investing.com/equities/lebtech-bhd,1.060,1.060,1.060,+0.000,+0.00%,0.10K
+Managepay Systems,https://www.investing.com/equities/managepay-systems-bhd,0.170,0.170,0.170,+0.005,+3.03%,0.10K
+OSK Ventures Intl,https://www.investing.com/equities/osk-ventures-international-bhd,0.510,0.510,0.510,-0.015,-2.86%,0.10K
+Astral Asia,https://www.investing.com/equities/astral-asia-bhd,0.170,0.170,0.170,0.000,0.00%,0
+Acme,https://www.investing.com/equities/acme-holdings-bhd,0.300,0.300,0.300,0.000,0.00%,0
+Amverton,https://www.investing.com/equities/a-m-realty-bhd,1.020,1.030,1.020,0.000,0.00%,0
+Advanced Packaging Tech,https://www.investing.com/equities/advanced-packaging-tech-(m),1.980,1.980,1.980,0.000,0.00%,0
+ARK Resources,https://www.investing.com/equities/ark-resources-bhd,0.310,0.310,0.310,+0.000,+0.00%,0
+Atlan,https://www.investing.com/equities/atlan-holdings-bhd,4.480,4.480,4.360,0.000,0.00%,0
+BCB,https://www.investing.com/equities/bcb-bhd,0.360,0.360,0.340,+0.000,+0.00%,0
+Bertam Alliance,https://www.investing.com/equities/bertam-alliance-bhd,0.295,0.295,0.295,+0.000,+0.00%,0
+BIG Industries,https://www.investing.com/equities/big-industries-bhd,0.300,0.330,0.295,+0.000,+0.00%,0
+BLD Plantation,https://www.investing.com/equities/bld-plantation-bhd,7.300,7.300,7.300,+0.000,+0.00%,0
+Box Pak,https://www.investing.com/equities/box-pak-(malaysia)-bhd,1.070,1.070,1.070,0.000,0.00%,0
+Bintulu Port,https://www.investing.com/equities/bintulu-port-holdings-bhd,5.410,5.410,5.410,0.000,0.00%,0
+BSL Corp,https://www.investing.com/equities/bsl-corp-bhd,0.410,0.410,0.400,+0.000,+0.00%,0
+Cheetah,https://www.investing.com/equities/cheetah-holdings-bhd,0.390,0.390,0.390,0.000,0.00%,0
+Computer Forms,https://www.investing.com/equities/computer-forms-(malaysia)-bhd,1.050,1.050,1.050,0.000,0.00%,0
+Choo Bee Metal Ind,https://www.investing.com/equities/choo-bee-metal-industries-bhd,1.840,1.850,1.830,0.000,0.00%,0
+Chuan Huat Res,https://www.investing.com/equities/chuan-huat-resources-bhd,0.385,0.390,0.385,0.000,0.00%,0
+China Stationery,https://www.investing.com/equities/china-stationery-ltd,0.010,0.020,0.010,0.000,0.00%,0
+Central Industrial,https://www.investing.com/equities/central-industrial-corp,1.380,1.400,1.380,0.000,0.00%,0
+CME,https://www.investing.com/equities/cme-group-bhd,0.040,0.040,0.040,0.000,0.00%,0
+Concrete Engineering,https://www.investing.com/equities/concrete-engineering-products,1.400,1.400,1.400,+0.000,+0.00%,0
+Complete Logistic Srvcs,https://www.investing.com/equities/complete-logistic-services-bhd,0.600,0.600,0.600,0.000,0.00%,0
+Crescendo Corp,https://www.investing.com/equities/crescendo-corporation-bhd,1.310,1.310,1.310,+0.000,+0.00%,0
+CAM Resources,https://www.investing.com/equities/cam-resources-bhd,0.270,0.280,0.270,0.000,0.00%,0
+Classic Scenic,https://www.investing.com/equities/classic-scenic-bhd,1.260,1.380,1.230,+0.000,+0.00%,0
+CYL Corp,https://www.investing.com/equities/cyl-corporation-bhd,0.580,0.580,0.570,0.000,0.00%,0
+DeGem,https://www.investing.com/equities/degem-bhd,1.100,1.100,1.100,+0.000,+0.00%,0
+DKLS Industries,https://www.investing.com/equities/dkls-industries-bhd,1.800,1.800,1.700,+0.000,+0.00%,0
+Daibochi,https://www.investing.com/equities/daibochi-plastic-packaging,2.030,2.030,1.950,0.000,0.00%,0
+DPS Resources,https://www.investing.com/equities/dps-resources-bhd,0.075,0.075,0.065,+0.000,+0.00%,0
+ECM Libra Financial,https://www.investing.com/equities/ecm-libra-financial-group-bhd,0.365,0.365,0.365,+0.000,+0.00%,0
+Eurospan,https://www.investing.com/equities/eurospan-holdings-bhd,0.700,0.700,0.700,0.000,0.00%,0
+FACB Industries,https://www.investing.com/equities/facb-industries-incorporated,1.330,1.330,1.260,0.000,0.00%,0
+Federal International,https://www.investing.com/equities/federal-furniture-holdings-m,0.400,0.400,0.375,+0.000,+0.00%,0
+Fiamma,https://www.investing.com/equities/fiamma-holdings-bhd,0.505,0.510,0.500,0.000,0.00%,0
+Fibon,https://www.investing.com/equities/fibon-bhd,0.500,0.500,0.500,0.000,0.00%,0
+Farlim,https://www.investing.com/equities/farlim-group-(malaysia)-bhd,0.355,0.355,0.355,0.000,0.00%,0
+Goh Ban Huat,https://www.investing.com/equities/goh-ban-huat-bhd,1.150,1.150,1.150,0.000,0.00%,0
+IGB,https://www.investing.com/equities/goldis-bhd,2.800,2.800,2.800,+0.000,+0.00%,0
+Gromutual,https://www.investing.com/equities/gromutual-bhd,0.360,0.360,0.360,0.000,0.00%,0
+Gopeng,https://www.investing.com/equities/gopeng-bhd,0.905,0.905,0.880,+0.000,+0.00%,0
+Harn Len Corp,https://www.investing.com/equities/harn-len-corporation-bhd,0.510,0.510,0.510,0.000,0.00%,0
+Halex,https://www.investing.com/equities/halex-holdings-bhd,0.840,0.840,0.840,+0.000,+0.00%,0
+Ibraco,https://www.investing.com/equities/ibraco-bhd,0.565,0.565,0.565,0.000,0.00%,0
+Integrated Logistics,https://www.investing.com/equities/integrated-logistics-bhd,0.580,0.580,0.570,+0.000,+0.00%,0
+Industronics,https://www.investing.com/equities/industronics-bhd,0.110,0.115,0.100,0.000,0.00%,0
+Jadi Imaging,https://www.investing.com/equities/jadi-imaging-holdings-bhd,0.045,0.045,0.040,0.000,0.00%,0
+Jiankun Int,https://www.investing.com/equities/jiankun-international-bhd,0.335,0.335,0.320,0.000,0.00%,0
+Jasa Kita,https://www.investing.com/equities/jasa-kita-bhd,0.125,0.125,0.125,0.000,0.00%,0
+JCBNext Berhad,https://www.investing.com/equities/jobstreet-corporation-bhd,1.600,1.600,1.590,+0.000,+0.00%,0
+Ken,https://www.investing.com/equities/ken-holdings-bhd,0.790,0.795,0.790,0.000,0.00%,0
+Kuantan Flour Mills,https://www.investing.com/equities/kuantan-flour-mills-bhd,0.125,0.125,0.125,0.000,0.00%,0
+Khind,https://www.investing.com/equities/khind-holdings-bhd,1.760,1.760,1.760,+0.000,+0.00%,0
+JKG Land,https://www.investing.com/equities/keladi-maju-bhd,0.085,0.085,0.085,0.000,0.00%,0
+Kluang Rubber,https://www.investing.com/equities/kluang-rubber-company-malaya,4.100,4.100,4.020,+0.000,+0.00%,0
+Kamdar,https://www.investing.com/equities/kamdar-group-(m)-bhd,0.375,0.375,0.375,+0.000,+0.00%,0
+Knusford,https://www.investing.com/equities/knusford-bhd,0.660,0.660,0.660,+0.000,+0.00%,0
+Kwantas Corp,https://www.investing.com/equities/kwantas-corporation-bhd,1.150,1.150,1.120,0.000,0.00%,0
+Sand Nisko,https://www.investing.com/equities/len-cheong-holding-bhd,0.270,0.270,0.270,+0.000,+0.00%,0
+Lion Forest Ind,https://www.investing.com/equities/lion-forest-industries-bhd,0.525,0.525,0.500,0.000,0.00%,0
+Latitude Tree,https://www.investing.com/equities/latitude-tree-holdings-bhd,3.550,3.570,3.550,0.000,0.00%,0
+Magna Prima,https://www.investing.com/equities/magna-prima-bhd,0.980,0.980,0.930,0.000,0.00%,0
+Maxwell Int,https://www.investing.com/equities/maxwell-international-holdings,0.010,0.015,0.005,0.000,0.00%,0
+MClean Technologies,https://www.investing.com/equities/mclean-technologies-bhd,0.115,0.115,0.115,0.000,0.00%,0
+Melati Ehsan,https://www.investing.com/equities/melati-ehsan-holdings-bhd,0.620,0.625,0.555,0.000,0.00%,0
+Malaysian Genomics,https://www.investing.com/equities/malaysian-genomics-resource,0.310,0.310,0.310,+0.000,+0.00%,0
+Milux Corp,https://www.investing.com/equities/milux-corporation-bhd,0.750,0.750,0.750,+0.000,+0.00%,0
+Mintye Industries,https://www.investing.com/equities/mintye-industries-bhd,0.950,0.950,0.950,+0.000,+0.00%,0
+Majuperak,https://www.investing.com/equities/majuperak-holdings-bhd,0.310,0.310,0.305,0.000,0.00%,0
+Malaysia Pacific Corp,https://www.investing.com/equities/malaysia-pacific-corporation,0.045,0.065,0.045,0.000,0.00%,0
+MSM Malaysia,https://www.investing.com/equities/msm-malaysia-holdings-bhd,3.530,3.530,3.530,0.000,0.00%,0
+MTD ACPI Engineering,https://www.investing.com/equities/mtd-acpi-engineering-bhd,0.200,0.200,0.195,+0.000,+0.00%,0
+Niche Capital Emas,https://www.investing.com/equities/niche-capital-emas-holdings,0.040,0.040,0.040,0.000,0.00%,0
+Negri Sembilan Oil Palms,https://www.investing.com/equities/negri-sembilan-oil-palms-bhd,3.600,3.600,3.600,0.000,0.00%,0
+Oriental Interest,https://www.investing.com/equities/oriental-interest-bhd,2.070,2.070,2.050,+0.000,+0.00%,0
+Omesti,https://www.investing.com/equities/omesti-bhd,0.400,0.405,0.395,0.000,0.00%,0
+Panpages,https://www.investing.com/equities/panpages-bhd,0.240,0.240,0.235,+0.000,+0.00%,0
+Paos,https://www.investing.com/equities/paos-holdings-bhd,0.395,0.395,0.350,+0.000,+0.00%,0
+Pintaras Jaya,https://www.investing.com/equities/pintaras-jaya-bhd,2.450,2.450,2.420,0.000,0.00%,0
+PLB Engineering,https://www.investing.com/equities/plb-engineering-bhd,1.680,1.680,1.670,+0.000,+0.00%,0
+PLS Plantations,https://www.investing.com/equities/pls-plantations-bhd,1.120,1.120,1.120,+0.000,+0.00%,0
+Rex Industry,https://www.investing.com/equities/rex-industry-bhd,0.405,0.415,0.405,0.000,0.00%,0
+Saudee,https://www.investing.com/equities/saudee-group-bhd,0.405,0.405,0.405,0.000,0.00%,0
+Sungei Bagan Rubber,https://www.investing.com/equities/sungei-bagan-rubber-malaya,3.250,3.250,3.150,+0.000,+0.00%,0
+SHL Consolidated,https://www.investing.com/equities/shl-consolidated-bhd,2.600,2.600,2.580,0.000,0.00%,0
+Sern Kou Resources,https://www.investing.com/equities/sern-kou-resources-bhd,0.600,0.600,0.585,+0.000,+0.00%,0
+AYER,https://www.investing.com/equities/tahps-group-bhd,5.400,5.600,5.300,+0.000,+0.00%,0
+TPC Plus,https://www.investing.com/equities/tpc-plus-bhd,0.355,0.355,0.350,0.000,0.00%,0
+TSR Capital,https://www.investing.com/equities/tsr-capital-bhd,0.395,0.400,0.395,0.000,0.00%,0
+Xian Leng,https://www.investing.com/equities/xian-leng-holdings-bhd,0.525,0.525,0.525,0.000,0.00%,0
+Xingquan Int Sports,https://www.investing.com/equities/xingquan-international-sports,0.055,0.065,0.035,0.000,0.00%,0
+Y&G Corp,https://www.investing.com/equities/y-g-corp-bhd,0.930,0.930,0.930,0.000,0.00%,0
+Amtel Holdings Bhd,https://www.investing.com/equities/amtel-holdings-bhd,0.645,0.645,0.640,+0.000,+0.00%,0
+Kinsteel Bhd,https://www.investing.com/equities/kinsteel-bhd,0.005,0.010,0.005,0.000,0.00%,0
+MCE Holdings,https://www.investing.com/equities/multi-code-electronics-industries,0.775,0.775,0.775,0.000,0.00%,0
+Mercury Industries Bhd,https://www.investing.com/equities/mercury-industries-bhd,1.100,1.120,1.100,0.000,0.00%,0
+Mentiga Corporation Bhd,https://www.investing.com/equities/mentiga-corporation-bhd,0.520,0.520,0.520,0.000,0.00%,0
+Multi Usage Holdings Bhd,https://www.investing.com/equities/multi-usage-holdings-bhd,0.450,0.450,0.450,0.000,0.00%,0
+Poly Glass Fibre M Bhd,https://www.investing.com/equities/poly-glass-fibre-m-bhd,0.445,0.450,0.435,+0.000,+0.00%,0
+PNE PCB Bhd,https://www.investing.com/equities/pne-pcb-bhd,0.520,0.520,0.480,0.000,0.00%,0
+Resintech Bhd,https://www.investing.com/equities/resintech-bhd,0.330,0.330,0.290,0.000,0.00%,0
+Rubberex Corporation M,https://www.investing.com/equities/rubberex-corporation-m,0.590,0.590,0.585,+0.000,+0.00%,0
+Sarawak Cable Bhd,https://www.investing.com/equities/sarawak-cable-bhd,0.390,0.395,0.390,0.000,0.00%,0
+Sapura Industrial Bhd,https://www.investing.com/equities/sapura-industrial-bhd,0.830,0.865,0.830,0.000,0.00%,0
+Sarawak Consolidated Industries,https://www.investing.com/equities/sarawak-consolidated-industries,0.595,0.595,0.560,0.000,0.00%,0
+Scanwolf Corporation Bhd,https://www.investing.com/equities/scanwolf-corporation-bhd,0.245,0.245,0.245,0.000,0.00%,0
+Sealink International Bhd,https://www.investing.com/equities/sealink-international-bhd,0.130,0.130,0.130,+0.000,+0.00%,0
+Subur Tiasa Holdings Bhd,https://www.investing.com/equities/subur-tiasa-holdings-bhd,0.830,0.840,0.830,0.000,0.00%,0
+Tekala,https://www.investing.com/equities/tekala-corporation-bhd,0.170,0.170,0.170,0.000,0.00%,0
+TAS Offshore Bhd,https://www.investing.com/equities/tas-offshore-bhd,0.275,0.275,0.275,+0.000,+0.00%,0
+Turiya Bhd,https://www.investing.com/equities/turiya-bhd,0.140,0.140,0.140,0.000,0.00%,0
+Timberwell Bhd,https://www.investing.com/equities/timberwell-bhd,0.635,0.635,0.580,0.000,0.00%,0
+UMS Neiken,https://www.investing.com/equities/ums-neiken-group-bhd,0.995,0.995,0.995,0.000,0.00%,0
+Versatile Creative Bhd,https://www.investing.com/equities/versatile-creative-bhd,0.420,0.420,0.365,+0.000,+0.00%,0
+Yi Lai,https://www.investing.com/equities/yi-lai-bhd,0.730,0.730,0.730,+0.000,+0.00%,0
+Xin Hwa Holdings Bhd,https://www.investing.com/equities/xin-hwa-holdings-bhd,0.850,0.850,0.845,+0.000,+0.00%,0
+Kein Hing International Bhd,https://www.investing.com/equities/kein-hing-international-bhd,0.600,0.600,0.600,+0.000,+0.00%,0
+Metronic Global Bhd,https://www.investing.com/equities/metronic-global-bhd,0.040,0.040,0.030,0.000,0.00%,0
+Nationwide Express,https://www.investing.com/equities/nationwide-express-courier-services,0.315,0.315,0.315,0.000,0.00%,0
+OCB Bhd,https://www.investing.com/equities/ocb-bhd,0.410,0.410,0.410,0.000,0.00%,0
+Oversea Enterprise Bhd,https://www.investing.com/equities/oversea-enterprise-bhd,0.190,0.190,0.165,+0.000,+0.00%,0
+Perak Corporation Bhd,https://www.investing.com/equities/perak-corporation-bhd,0.580,0.620,0.580,0.000,0.00%,0
+PJBumi Bhd,https://www.investing.com/equities/pjbumi-bhd,0.175,0.175,0.175,0.000,0.00%,0
+See Hup Consolidated Bhd,https://www.investing.com/equities/see-hup-consolidated-bhd,1.100,1.100,1.100,0.000,0.00%,0
+Seni Jaya Corporation Bhd,https://www.investing.com/equities/seni-jaya-corporation-bhd,0.860,0.860,0.620,+0.000,+0.00%,0
+Seremban Engineering Bhd,https://www.investing.com/equities/seremban-engineering-bhd,0.310,0.310,0.310,0.000,0.00%,0
+SKB Shutters Corporation Bhd,https://www.investing.com/equities/skb-shutters-corporation-bhd,0.570,0.570,0.550,+0.000,+0.00%,0
+Spring Gallery Bhd,https://www.investing.com/equities/spring-gallery-bhd,0.790,0.795,0.790,0.000,0.00%,0
+Teck Guan Perdana Bhd,https://www.investing.com/equities/teck-guan-perdana-bhd,0.910,0.915,0.910,0.000,0.00%,0
+Unimech Group Bhd,https://www.investing.com/equities/unimech-group-bhd,1.040,1.040,1.000,+0.000,+0.00%,0
+Warisan TC Holdings Bhd,https://www.investing.com/equities/warisan-tc-holdings-bhd,2.070,2.070,2.070,0.000,0.00%,0
+Widetech Malaysia Bhd,https://www.investing.com/equities/widetech-malaysia-bhd,0.590,0.590,0.590,0.000,0.00%,0
+Woodlandor Holdings Bhd,https://www.investing.com/equities/woodlandor-holdings-bhd,0.590,0.600,0.540,0.000,0.00%,0
+YFG Bhd,https://www.investing.com/equities/yfg-bhd,0.005,0.010,0.005,0.000,0.00%,0
+Sterling Progress,https://www.investing.com/equities/sterling-progress-bhd,0.200,0.200,0.200,+0.000,+0.00%,0
+LKL International Bhd,https://www.investing.com/equities/lkl-international-bhd,0.140,0.140,0.140,0.000,0.00%,0
+Amtek Bhd,https://www.investing.com/equities/amtek-holdings-bhd,0.360,0.360,0.280,+0.000,+0.00%,0
+Leader Steel Bhd,https://www.investing.com/equities/leader-steel-holdings-bhd,0.370,0.380,0.370,0.000,0.00%,0
+Metrod Bhd,https://www.investing.com/equities/metrod-holdings-bhd,1.750,1.750,1.750,+0.000,+0.00%,0
+SMISoration Bhd,https://www.investing.com/equities/smis-corporation-bhd,0.530,0.530,0.530,+0.000,+0.00%,0
+Transocean Bhd,https://www.investing.com/equities/transocean-holdings-bhd,0.570,0.570,0.570,0.000,0.00%,0
+Advance Info Marketing,https://www.investing.com/equities/advance-information-marketing-bhd,0.235,0.235,0.235,0.000,0.00%,0
+China Automobile Parts,https://www.investing.com/equities/china-automobile-parts-holdings-ltd,0.010,0.015,0.010,0.000,0.00%,0
+Digistar,https://www.investing.com/equities/digistar-corporation-bhd,0.080,0.080,0.075,0.000,0.00%,0
+Green Ocean,https://www.investing.com/equities/green-ocean-corporation-bhd,0.120,0.120,0.120,0.000,0.00%,0
+Innity Corporation,https://www.investing.com/equities/innity-corporation-bhd,0.630,0.630,0.570,+0.000,+0.00%,0
+Spring Gallery Pref,https://www.investing.com/equities/spring-gallery-bhd-pref,0.270,0.285,0.270,0.000,0.00%,0
+Ann Joo Resources Pref,https://www.investing.com/equities/ann-joo-resources-bhd-pref,0.710,0.710,0.710,0.000,0.00%,0
+Federal International,https://www.investing.com/equities/federal-furniture-holdings-m-bhd,0.070,0.070,0.070,0.000,0.00%,0
+Cabnet Holdings,https://www.investing.com/equities/cabnet-holdings-bhd,0.300,0.320,0.300,0.000,0.00%,0
+LBS Bina Pref,https://www.investing.com/equities/lbs-bina,1.000,1.000,1.000,0.000,0.00%,0
+Metro Healthcare,https://www.investing.com/equities/metro-healthcare,0.360,0.360,0.360,0.000,0.00%,0
+Tower Real Estate,https://www.investing.com/equities/tower-real-estate,0.960,0.960,0.960,0.000,0.00%,0
