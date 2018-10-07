@@ -4,19 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/dataset/KLSE_dividends_i3investor.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/KLSE_lookup_investing.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/KLSE.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/KLSE_investing.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/KLSE_selected.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/ohlc_investing.py" afterDir="false" />
+    <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/KLSE_pipelines.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/KLSE_preprocess.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history_investing.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history_investing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/KLSE_timeseries_5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/KLSE_timeseries_5.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,25 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KLSE_selected.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE_selected.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ohlc_investing.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/ohlc_investing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-              <folding>
-                <element signature="e#59#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -192,23 +164,6 @@
               <item name="scrapy" type="462c0819:PsiDirectoryNode" />
               <item name="klse" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="klse" type="462c0819:PsiDirectoryNode" />
-              <item name="klse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="klse" type="462c0819:PsiDirectoryNode" />
-              <item name="klse" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -230,8 +185,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source/scrapy/klse" />
       <recent name="$PROJECT_DIR$/dataset" />
+      <recent name="$PROJECT_DIR$/source/scrapy/klse" />
       <recent name="$PROJECT_DIR$/source/scrapy/klse/klse" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/source" />
@@ -696,7 +651,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536890239450</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Initial commit">
+      <created>1537712648117</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1537712648117</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -742,18 +704,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49704143" visible="true" weight="0.27906978" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.43846154" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.23333333" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
       <window_info id="Structure" order="1" sideWeight="0.5029586" side_tool="true" weight="0.12332629" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2628205" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31410256" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18076923" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -763,26 +723,27 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.43846154" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.23819591" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.46923077" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.1448718" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30897436" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2628205" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43846154" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -819,27 +780,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/historical_prices_i3investor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/myInvestor-toolkit/lib/python3.6/site-packages/selenium/webdriver/support/ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/myInvestor-toolkit/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="679" column="8" selection-start-line="679" selection-start-column="8" selection-end-line="679" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/yahoo_finance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -945,9 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="18" selection-end-line="106" />
-          <folding>
-            <element signature="e#59#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,16 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#1#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/7123.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9181">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1011,11 +938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fundamental/dividend_yield.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-85" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE_lookup_investing.csv">
@@ -1044,9 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="38" column="74" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="74" />
-          <folding>
-            <element signature="e#59#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,17 +1006,30 @@
     <entry file="file://$PROJECT_DIR$/dataset/KLSE_selected.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/ohlc_investing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-730">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5272.csv" />
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE_selected.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/ohlc_investing.py">
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5191.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/7123.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-          <folding>
-            <element signature="e#59#68#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/5191.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29" />
       </provider>
     </entry>
   </component>
