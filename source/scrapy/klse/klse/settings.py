@@ -9,6 +9,8 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
+import logging
+
 BOT_NAME = 'klse'
 
 SPIDER_MODULES = ['klse.spiders']
@@ -90,4 +92,6 @@ AUTOTHROTTLE_DEBUG = False
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 DOWNLOAD_DELAY = 3
+
+LOG_LEVEL = logging.INFO
 

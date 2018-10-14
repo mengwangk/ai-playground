@@ -88,9 +88,10 @@ class OhlcSpiderInvesting(scrapy.Spider):
                 writer = csv.writer(f)
                 if not file_exists:
                     writer.writerow(['date', 'price', 'open', 'high', 'low', 'volume', 'change_percent'])
+                prices = []
                 for row in prices_rows:
                     cols = row.find_elements_by_xpath(".//td")
-                    writer.writerow([
+                    prices.append([
                         cols[0].get_attribute("innerText"),
                         cols[1].get_attribute("innerText"),
                         cols[2].get_attribute("innerText"),
@@ -99,6 +100,7 @@ class OhlcSpiderInvesting(scrapy.Spider):
                         cols[5].get_attribute("innerText"),
                         cols[6].get_attribute("innerText")
                         ])
+                writer.writerows(prices)
         except Exception as e:
             print(e)
         finally:
