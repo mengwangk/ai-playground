@@ -6,10 +6,108 @@
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/bar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/csvfeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/dbfeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/googlefeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/membf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/ninjatraderfeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/quandlfeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/resampled.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/sqlitefeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/yahoofeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/bitcoincharts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/bitcoincharts/barfeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/barfeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/broker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/httpclient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/livebroker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/livefeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/wsclient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/broker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/broker/backtesting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/broker/fillstrategy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/broker/slippage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/dataseries/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/dataseries/aligned.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/dataseries/bards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/dataseries/resampled.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/dispatcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/dispatchprio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/eventprofiler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/feed/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/feed/csvfeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/feed/memfeed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/marketsession.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/observer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/worker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/xmlrpcserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/plotter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/resamplebase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/stratanalyzer/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/stratanalyzer/drawdown.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/stratanalyzer/returns.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/stratanalyzer/sharpe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/stratanalyzer/trades.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/strategy/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/strategy/position.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/talibext/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/talibext/indicator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/atr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/bollinger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/cross.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/cumret.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/highlow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/hurst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/linebreak.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/linreg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/ma.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/macd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/ratio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/roc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/rsi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/stats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/stoch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/technical/vwap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/tools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/tools/googlefinance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/tools/quandl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/tools/resample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/tools/yahoofinance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/twitter/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/twitter/feed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/utils/collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/utils/csvutils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/utils/dt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/utils/stats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/warninghelpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/websocket/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/websocket/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtesting/websocket/pusher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5161.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5161.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5272.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5272.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook/KLSE_dividends_trends_4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/KLSE_dividends_trends_4.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/5191.csv" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/5191.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/ohlc_investing.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/ohlc_investing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical/momentum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical/others.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical/trend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical/volatility.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical/volume.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical/wrapper.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +117,91 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="abc.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/abc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1450" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="source_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/source_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-252" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="105" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mixed_strategy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy/mixed_strategy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#26#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dividend_yield.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fundamental/dividend_yield.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_strategy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy/test_strategy.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trading_strategy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy/trading_strategy.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="trend_strategy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy/trend_strategy.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,8 +213,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>zhulian</find>
-      <find>maybank</find>
       <find>innity</find>
       <find>public</find>
       <find>list(</find>
@@ -61,6 +241,8 @@
       <find>ytl</find>
       <find>debug</find>
       <find>log</find>
+      <find>def _</find>
+      <find>is in</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/backtesting</dir>
@@ -72,7 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backtesting/bar.py" />
         <option value="$PROJECT_DIR$/backtesting/dataseries/bards.py" />
         <option value="$PROJECT_DIR$/backtesting/barfeed/membf.py" />
         <option value="$PROJECT_DIR$/backtesting/plotter.py" />
@@ -123,6 +304,7 @@
         <option value="$PROJECT_DIR$/source/scrapy/klse/main.py" />
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/settings.py" />
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/ohlc_investing.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -136,7 +318,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +329,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -684,11 +866,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49704143" visible="true" weight="0.21775898" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38076922" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1974359" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
       <window_info id="Structure" order="1" sideWeight="0.5029586" side_tool="true" weight="0.12332629" />
@@ -708,22 +891,22 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.23819591" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.46923077" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.1448718" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30897436" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2628205" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43846154" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -760,245 +943,275 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/['7123'].csv" />
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/7123.csv" />
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE.csv" />
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/6084.csv" />
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/7157.csv" />
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/8524.csv" />
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5161.csv" />
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5078.csv" />
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5010.csv" />
+    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/4502.csv" />
+    <entry file="file://$PROJECT_DIR$/backtesting/dispatchprio.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE_dividends_i3investor.csv" />
-    <entry file="file://$PROJECT_DIR$/dataset/klse/ticker.csv">
+    <entry file="file://$PROJECT_DIR$/backtesting/marketsession.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/klse/KLS_clustered_equities.csv">
+    <entry file="file://$PROJECT_DIR$/backtesting/observer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16347" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/klse/KLS_dividend_yields.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31438" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/klse/KLS_selected_equities.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/klse/KLS_stock_financials.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/klse/KLSE_financials.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/klse/ytlpowr.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/klse/KLSE_lookup.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes_i3investor.py">
+    <entry file="file://$PROJECT_DIR$/backtesting/strategy/position.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/__init__.py">
+    <entry file="file://$PROJECT_DIR$/backtesting/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="322">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLSE_category_1.csv">
+    <entry file="file://$PROJECT_DIR$/backtesting/eventprofiler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/myInvestor-toolkit/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="566" column="67" selection-start-line="566" selection-start-column="62" selection-end-line="566" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/strategy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/technical/bollinger.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLSE_category_2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLSE_category_0.csv">
+    <entry file="file://$PROJECT_DIR$/technical/utils.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLSE_investing.csv">
+    <entry file="file://$PROJECT_DIR$/fundamental/fundamental_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="422" column="6" selection-start-line="422" selection-end-line="422" selection-end-column="6" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#43#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLSE_lookup_investing.csv">
+    <entry file="file://$PROJECT_DIR$/backtesting/bitcoincharts/barfeed.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/bitcoincharts/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical/momentum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1916">
-          <caret line="73" column="92" selection-start-line="73" selection-start-column="92" selection-end-line="73" selection-end-column="92" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/dispatcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/technical/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/technical/cumret.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/technical/linebreak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-946">
+          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+          <folding>
+            <element signature="e#703#728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/technical/ratio.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/technical/macd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1153">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/technical/rsi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2061">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/websocket/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1908">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/barfeed/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/barfeed/quandlfeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/talibext/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/talibext/indicator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#703#715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtesting/resamplebase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/learn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/source/source_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myInvestor_toolkit.egg-info/requires.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical/others.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical/trend.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical/volatility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-844">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/source_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/mixed_strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#26#78#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fundamental/dividend_yield.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE_lookup_investing.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7109" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE_dividends_investing.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29984" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLSE_dividends_investing.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE_investing.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-786" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history_i3investor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="38" column="74" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLSE_dividends_i3investor.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="1045" column="4" selection-start-line="1045" selection-end-line="1045" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/klse/KLSE_dividends_i3investor.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216505" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="62" column="5" selection-start-line="62" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLSE.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10620">
-          <caret line="708" column="29" selection-start-line="708" selection-start-column="25" selection-end-line="708" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/KLSE_selected.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/7123.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/5191.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/dividend_history_investing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/historical_prices_i3investor.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/historical_prices_investing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-512">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/KLSE_selected.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5191.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="171" column="22" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/klse/spiders/ohlc_investing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="100" column="47" lean-forward="true" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#59#68#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5254.csv">
+    <entry file="file://$PROJECT_DIR$/strategy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/trading_strategy.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5272.csv">
+    <entry file="file://$PROJECT_DIR$/strategy/trend_strategy.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/6084.csv">
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="105" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/test_strategy.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/7157.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/8524.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5161.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5078.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5010.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/4502.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
