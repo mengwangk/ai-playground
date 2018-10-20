@@ -2,4 +2,4 @@
 
 ## Overview
 
-Libraries to get the datasets, clean and prepare the them for analysis.
+IPython notebooks, fundamental, technical, and deep learning strategies testing.

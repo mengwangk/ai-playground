@@ -5,7 +5,7 @@ Algorithmic trading testing.
 import pandas as pd
 
 import strategy
-from backtesting.barfeed import googlefeed
+from pyalgotrade.barfeed import googlefeed
 
 
 def show_clustered_equities(exchange):

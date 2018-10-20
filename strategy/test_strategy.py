@@ -3,7 +3,7 @@ Test strategy.
 
 """
 
-from backtesting.strategy import BacktestingStrategy
+from pyalgotrade.strategy import BacktestingStrategy
 
 
 class TestStrategy(BacktestingStrategy):

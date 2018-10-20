@@ -4,8 +4,8 @@
 """Trading strategies
 """
 
-from backtesting.strategy import BacktestingStrategy
-from backtesting.technical import ma
+from pyalgotrade.strategy import BacktestingStrategy
+from pyalgotrade.technical import ma
 
 
 class SmaTradingStrategy(BacktestingStrategy):

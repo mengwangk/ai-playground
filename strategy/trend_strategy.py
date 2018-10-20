@@ -3,8 +3,8 @@ Trend strategy.
 
 """
 
-from backtesting.strategy import BacktestingStrategy
-from backtesting.technical import ma
+from pyalgotrade.strategy import BacktestingStrategy
+from pyalgotrade.technical import ma
 
 
 class SMAStrategy(BacktestingStrategy):
