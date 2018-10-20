@@ -5,109 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/bar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/common.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/csvfeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/dbfeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/googlefeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/membf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/ninjatraderfeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/quandlfeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/resampled.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/sqlitefeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/barfeed/yahoofeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/bitcoincharts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/bitcoincharts/barfeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/barfeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/broker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/common.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/httpclient.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/livebroker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/livefeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/bitstamp/wsclient.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/broker/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/broker/backtesting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/broker/fillstrategy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/broker/slippage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/dataseries/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/dataseries/aligned.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/dataseries/bards.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/dataseries/resampled.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/dispatcher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/dispatchprio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/eventprofiler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/feed/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/feed/csvfeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/feed/memfeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/marketsession.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/observer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/local.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/worker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/optimizer/xmlrpcserver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/plotter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/resamplebase.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/stratanalyzer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/stratanalyzer/drawdown.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/stratanalyzer/returns.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/stratanalyzer/sharpe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/stratanalyzer/trades.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/strategy/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/strategy/position.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/talibext/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/talibext/indicator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/atr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/bollinger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/cross.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/cumret.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/highlow.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/hurst.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/linebreak.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/linreg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/ma.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/macd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/ratio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/roc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/rsi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/stats.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/stoch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/technical/vwap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/tools/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/tools/googlefinance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/tools/quandl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/tools/resample.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/tools/yahoofinance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/twitter/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/twitter/feed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/utils/collections.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/utils/csvutils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/utils/dt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/utils/stats.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/warninghelpers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/websocket/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/websocket/client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtesting/websocket/pusher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5161.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5161.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5272.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5272.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/KLSE_dividends_trends_4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/KLSE_dividends_trends_4.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/momentum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/others.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/trend.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/volatility.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/volume.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical/wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/KLSE_ohlc_3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/KLSE_ohlc_3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/mixed_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/mixed_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/test_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/test_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/trading_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/trading_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/trend_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/trend_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade.py" beforeDir="false" afterPath="$PROJECT_DIR$/trade.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,53 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="abc.py" pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/abc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1450" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="source_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/source_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-252" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="105" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mixed_strategy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategy/mixed_strategy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#26#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dividend_yield.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fundamental/dividend_yield.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategy/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -178,27 +35,92 @@
       </file>
       <file leaf-file-name="test_strategy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategy/test_strategy.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="60">
+                <caret line="4" selection-start-line="4" selection-end-line="4" />
+              </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stock.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1205">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#111#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trade.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trade.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notebook_1.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notebook/notebook_1.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KLSE_ohlc_3.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notebook/KLSE_ohlc_3.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="trading_strategy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategy/trading_strategy.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="trend_strategy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategy/trend_strategy.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mixed_strategy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy/mixed_strategy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#26#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -254,21 +176,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backtesting/dataseries/bards.py" />
         <option value="$PROJECT_DIR$/backtesting/barfeed/membf.py" />
         <option value="$PROJECT_DIR$/backtesting/plotter.py" />
         <option value="$PROJECT_DIR$/backtesting/tools/quandl.py" />
         <option value="$PROJECT_DIR$/backtesting/barfeed/csvfeed.py" />
         <option value="$PROJECT_DIR$/backtesting/stratanalyzer/drawdown.py" />
-        <option value="$PROJECT_DIR$/strategy/test_strategy.py" />
         <option value="$PROJECT_DIR$/backtesting/__init__.py" />
         <option value="$PROJECT_DIR$/strategy/sma_strategy.py" />
-        <option value="$PROJECT_DIR$/strategy/trend_strategy.py" />
-        <option value="$PROJECT_DIR$/strategy/mixed_strategy.py" />
         <option value="$PROJECT_DIR$/backtesting/technical/rsi.py" />
         <option value="$PROJECT_DIR$/stock.py" />
         <option value="$PROJECT_DIR$/strategy/__init__.py" />
-        <option value="$PROJECT_DIR$/strategy/trading_strategy.py" />
         <option value="$PROJECT_DIR$/backtesting/broker/backtesting.py" />
         <option value="$PROJECT_DIR$/dataset/6742.KL.csv" />
         <option value="$PROJECT_DIR$/source/i3investor.py" />
@@ -283,7 +200,6 @@
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/financials.py" />
         <option value="$PROJECT_DIR$/source/alpha_avantage.py" />
         <option value="$PROJECT_DIR$/source/yahoo_finance.py" />
-        <option value="$PROJECT_DIR$/trade.py" />
         <option value="$PROJECT_DIR$/source/__init__.py" />
         <option value="$PROJECT_DIR$/source/google_finance.py" />
         <option value="$PROJECT_DIR$/source/source_test.py" />
@@ -305,6 +221,12 @@
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/settings.py" />
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/ohlc_investing.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/strategy/mixed_strategy.py" />
+        <option value="$PROJECT_DIR$/strategy/test_strategy.py" />
+        <option value="$PROJECT_DIR$/strategy/trading_strategy.py" />
+        <option value="$PROJECT_DIR$/strategy/trend_strategy.py" />
+        <option value="$PROJECT_DIR$/trade.py" />
       </list>
     </option>
   </component>
@@ -324,6 +246,11 @@
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
               <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -373,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.trade">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myInvestor-toolkit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -479,9 +406,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.trade" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Unittests in source_test.py" />
-        <item itemvalue="Python.trade" />
         <item itemvalue="Python.stock" />
         <item itemvalue="Python tests.Unittests in fundamental_test.py" />
       </list>
@@ -943,10 +870,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/6084.csv" />
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/7157.csv" />
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/8524.csv" />
-    <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5161.csv" />
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5078.csv" />
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/5010.csv" />
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/4502.csv" />
@@ -1160,13 +1083,24 @@
         <state relative-caret-position="-252" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/mixed_strategy.py">
+    <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#26#78#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="22" column="105" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebook/notebook_1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebook/KLSE_ohlc_3.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -1189,27 +1123,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/trading_strategy.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/trend_strategy.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/strategy/mixed_strategy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="105" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#26#78#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/strategy/test_strategy.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/trading_strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/trend_strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="60">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1205">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#111#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
