@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# -*- coding: utf-8 -*-
+
 try:
     import setuptools
     from setuptools import setup, find_packages

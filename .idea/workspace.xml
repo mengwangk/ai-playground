@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/stock_history.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/test_strategy_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/5191.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/7123.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/7123.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/1562.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/1562.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/4502.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/4502.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5010.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5010.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5078.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5191.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5191.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5254.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5254.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/6009.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/6009.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/6084.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/6084.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/7157.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/7157.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/8524.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/8524.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/visualize_features.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/visualize_features.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_history.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade.py" beforeDir="false" afterPath="$PROJECT_DIR$/trade.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +32,92 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="6084.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/prices/6084.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="46" selection-start-column="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7123.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/prices/7123.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="7237.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/prices/7237.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="8524.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/prices/8524.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="46" selection-start-column="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stock.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#136#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trade.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trade.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#64#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alpha_avantage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/alpha_avantage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lotto.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lotto.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7157.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/prices/7157.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="46" selection-start-column="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,15 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backtesting/tools/quandl.py" />
-        <option value="$PROJECT_DIR$/backtesting/barfeed/csvfeed.py" />
-        <option value="$PROJECT_DIR$/backtesting/stratanalyzer/drawdown.py" />
-        <option value="$PROJECT_DIR$/backtesting/__init__.py" />
-        <option value="$PROJECT_DIR$/strategy/sma_strategy.py" />
-        <option value="$PROJECT_DIR$/backtesting/technical/rsi.py" />
-        <option value="$PROJECT_DIR$/stock.py" />
-        <option value="$PROJECT_DIR$/strategy/__init__.py" />
-        <option value="$PROJECT_DIR$/backtesting/broker/backtesting.py" />
         <option value="$PROJECT_DIR$/dataset/6742.KL.csv" />
         <option value="$PROJECT_DIR$/source/i3investor.py" />
         <option value="$PROJECT_DIR$/source/scrapy/klse/klse/spiders/quotes_spider.py" />
@@ -117,17 +206,26 @@
         <option value="$PROJECT_DIR$/strategy/test_strategy.py" />
         <option value="$PROJECT_DIR$/strategy/trading_strategy.py" />
         <option value="$PROJECT_DIR$/strategy/trend_strategy.py" />
-        <option value="$PROJECT_DIR$/trade.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/source/__init__.py" />
         <option value="$PROJECT_DIR$/strategy/test_strategy_2.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/stock_history.py" />
+        <option value="$PROJECT_DIR$/dataset/prices/1562.csv" />
+        <option value="$PROJECT_DIR$/dataset/prices/4502.csv" />
+        <option value="$PROJECT_DIR$/dataset/prices/5010.csv" />
+        <option value="$PROJECT_DIR$/dataset/prices/5254.csv" />
+        <option value="$PROJECT_DIR$/dataset/prices/6009.csv" />
+        <option value="$PROJECT_DIR$/dataset/prices/6084.csv" />
+        <option value="$PROJECT_DIR$/dataset/prices/7157.csv" />
+        <option value="$PROJECT_DIR$/dataset/prices/8524.csv" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/stock.py" />
+        <option value="$PROJECT_DIR$/trade.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="203" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -146,7 +244,7 @@
             <path>
               <item name="myInvestor-toolkit" type="b2602c69:ProjectViewProjectNode" />
               <item name="myInvestor-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,19 +267,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset/prices" />
+      <recent name="$PROJECT_DIR$/source/scrapy/klse" />
+      <recent name="$PROJECT_DIR$/dataset/klse" />
+      <recent name="$PROJECT_DIR$/dataset/backup" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dataset" />
       <recent name="$PROJECT_DIR$/source/scrapy/klse" />
       <recent name="$PROJECT_DIR$/source/scrapy/klse/klse" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/source" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source/scrapy/klse" />
-      <recent name="$PROJECT_DIR$/dataset/klse" />
-      <recent name="$PROJECT_DIR$/dataset/backup" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/technical/indicator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -702,7 +800,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49704143" visible="true" weight="0.21775898" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
@@ -727,22 +826,22 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.23819591" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.46923077" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.1448718" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30897436" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2628205" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43846154" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -779,31 +878,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backtesting/strategy/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/technical/bollinger.py" />
-    <entry file="file://$PROJECT_DIR$/technical/utils.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/bitcoincharts/barfeed.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/bitcoincharts/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/technical/momentum.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/dispatcher.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/technical/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/technical/cumret.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/technical/linebreak.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/technical/ratio.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/technical/macd.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/technical/rsi.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/websocket/client.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/barfeed/common.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/barfeed/quandlfeed.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/talibext/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/talibext/indicator.py" />
-    <entry file="file://$PROJECT_DIR$/backtesting/resamplebase.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/abc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/lib/learn/__init__.py" />
     <entry file="file://$PROJECT_DIR$/build/lib/source/source_test.py" />
     <entry file="file://$PROJECT_DIR$/myInvestor_toolkit.egg-info/requires.txt" />
     <entry file="file://$PROJECT_DIR$/technical/__init__.py" />
@@ -867,9 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#114#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,21 +958,10 @@
     <entry file="file://$PROJECT_DIR$/source/scrapy/klse/main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/5191.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/7123.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/strategy/trading_strategy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#74#126#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,9 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#26#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,50 +983,159 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#109#128#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="129" selection-start-line="22" selection-start-column="129" selection-end-line="22" selection-end-column="129" />
+    <entry file="file://$PROJECT_DIR$/notebook/visualize_features.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lotto.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/stock_history.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock.py">
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5191.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5078.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/1198.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#111#132#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/1562.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/3859.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/4502.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5010.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5109.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5161.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5176.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5180.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5191.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5236.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5254.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5272.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/5436.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/6009.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/6084.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/7123.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/7157.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/7237.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/prices/8524.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/alpha_avantage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="3" selection-end-column="3" />
+          <caret selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lotto.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#136#157#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trade.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#64#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

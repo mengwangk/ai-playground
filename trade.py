@@ -1,7 +1,10 @@
+# -*- coding: utf-8 -*-
+
 """
 Algorithmic trading testing.
 
 """
+
 import pandas as pd
 
 import strategy
