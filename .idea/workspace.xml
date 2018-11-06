@@ -5,6 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/1198.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/1198.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/1562.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/1562.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/3859.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/3859.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/4502.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/4502.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5010.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5010.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5109.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5109.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5161.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5161.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5176.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5176.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5180.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5180.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5191.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5191.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5236.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5236.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5254.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5254.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5272.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5272.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/5436.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5436.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/6009.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/6009.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/6084.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/6084.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/7123.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/7123.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/7157.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/7157.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/7237.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/7237.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/prices/8524.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/8524.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook/backtrader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/backtrader.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook/data_converted.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/data_converted.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,8 +144,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="203" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -693,7 +715,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="-1" y="23" width="1440" height="877" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49704143" visible="true" weight="0.21775898" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
