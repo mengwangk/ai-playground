@@ -22,6 +22,7 @@ sdist/
 var/
 wheels/
 .vscode/
+.idea/
 *.egg-info/
 .installed.cfg
 *.egg
