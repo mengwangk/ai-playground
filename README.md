@@ -1,4 +1,4 @@
-# myInvestor-toolkit
+# Trading Playground
 
 ## Overview
 
