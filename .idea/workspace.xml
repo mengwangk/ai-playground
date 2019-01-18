@@ -4,31 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/1198.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/1198.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/1562.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/1562.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/3859.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/3859.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/4502.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/4502.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5010.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5010.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5109.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5109.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5161.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5161.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5176.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5176.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5180.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5180.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5191.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5191.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5236.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5236.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5254.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5254.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5272.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5272.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/5436.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/5436.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/6009.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/6009.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/6084.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/6084.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/7123.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/7123.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/7157.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/7157.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/7237.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/7237.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/prices/8524.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/prices/8524.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/backtrader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/backtrader.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/data_converted.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/data_converted.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="2f3f1be0-294b-4637-a638-67d4acb967f2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,8 +120,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="203" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -154,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +141,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -715,18 +691,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49704143" visible="true" weight="0.21775898" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1974359" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1974359" />
       <window_info id="Structure" order="1" sideWeight="0.5029586" side_tool="true" weight="0.12332629" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2628205" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.18076923" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -740,22 +716,22 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882075" visible="true" weight="0.23819591" />
       <window_info id="Structure" order="1" sideWeight="0.5011792" side_tool="true" weight="0.15902779" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.46923077" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.1448718" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30897436" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2628205" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43846154" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32948717" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
